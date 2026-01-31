@@ -2,6 +2,9 @@
 
   <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mapping)/config/rviz_sim.rviz">
   </node> -->
+  <arg name="odom_topic" default="/ekf/ekf_odom"/>
+  <arg name="depth_topic" default="/camera/depth/image_rect_raw"/>
+
   <include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
 
   <group ns="drone0">
@@ -13,9 +16,9 @@
       <!-- camera parameters -->
       <rosparam command="load" file="$(find mapping)/config/D435.yaml" />
       <!-- remap topics -->
-      <remap from="~odom" to="/ekf/ekf_odom"/>
+      <remap from="~odom" to="$(arg odom_topic)"/>
       <!-- <remap from="~odom" to="/vins_estimator/imu_propagate"/> -->
-      <remap from="~depth" to="/camera/depth/image_rect_raw"/>
+      <remap from="~depth" to="$(arg depth_topic)"/>
       <!-- <remap from="~odom" to="/msckf_vio/odometry"/>
       <remap from="~depth" to="/camera/aligned_depth_to_infra1/image_raw"/> -->
       <remap from="~gridmap" to="gridmap"/>

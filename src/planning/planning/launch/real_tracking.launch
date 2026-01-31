@@ -1,0 +1,46 @@
+<launch>
+  <!-- Real deployment: external target odom in, cmd_vel out -->
+
+  <!-- Note: mapping/run.launch uses fixed namespace "drone0". Keep consistent here. -->
+  <arg name="with_mapping" default="true"/>
+  <arg name="uav_odom_topic" default="/ekf/ekf_odom"/>
+  <arg name="target_odom_topic" default="/target_odom"/>
+  <arg name="depth_topic" default="/camera/depth/image_rect_raw"/>
+
+  <!-- cmd_vel output (TwistStamped) -->
+  <arg name="cmd_vel_topic" default="/mavros/setpoint_velocity/cmd_vel"/>
+  <arg name="publish_unstamped" default="false"/>
+  <arg name="cmd_vel_unstamped_topic" default="/mavros/setpoint_velocity/cmd_vel_unstamped"/>
+
+  <!-- planner weights -->
+  <arg name="rhosVisibility_" default="10000.0"/>
+  <arg name="rhoTracking_" default="1000.0"/>
+
+  <group if="$(arg with_mapping)">
+    <include file="$(find mapping)/launch/run.launch">
+      <arg name="odom_topic" value="$(arg uav_odom_topic)"/>
+      <arg name="depth_topic" value="$(arg depth_topic)"/>
+    </include>
+  </group>
+
+  <group ns="drone0">
+    <!-- remap odom into drone0 namespace -->
+    <remap from="odom" to="$(arg uav_odom_topic)"/>
+
+    <include file="$(find planning)/launch/planning.launch">
+      <arg name="rhosVisibility_" value="$(arg rhosVisibility_)"/>
+      <arg name="rhoTracking_" value="$(arg rhoTracking_)"/>
+      <arg name="target_name_" value="$(arg target_odom_topic)"/>
+    </include>
+
+    <!-- Bridge: PositionCommand -> TwistStamped (linear velocity + yaw_rate as angular.z) -->
+    <node pkg="planning" type="position_cmd_to_twist.py" name="position_cmd_to_twist" output="screen">
+      <param name="position_cmd_topic" value="position_cmd"/>
+      <param name="cmd_vel_topic" value="$(arg cmd_vel_topic)"/>
+      <param name="publish_unstamped" value="$(arg publish_unstamped)"/>
+      <param name="cmd_vel_unstamped_topic" value="$(arg cmd_vel_unstamped_topic)"/>
+      <param name="frame_id" value="world"/>
+    </node>
+  </group>
+</launch>
+

@@ -1,7 +1,7 @@
 <launch>
   <arg name="init_x_" default="0"/>
   <arg name="init_y_" default="0"/>
-  <arg name="init_z_" default="2"/>
+  <arg name="init_z_" default="0.2"/>
 
   <node pkg="nodelet" type="nodelet" name="so3_quadrotor" args="load so3_quadrotor/Nodelet manager" output="screen">
     <rosparam file="$(find uav_simulator)/config/so3_quadrotor.yaml"/>
