@@ -1,10 +1,35 @@
 #include <traj_opt/traj_opt.h>
 
+#include <cmath>
 #include <random>
 #include <traj_opt/geoutils.hpp>
 #include <traj_opt/lbfgs_raw.hpp>
 
 namespace traj_opt {
+
+// SECTION planar (2D) embedding helpers
+// Keep internal 3D solver untouched; constrain solution to z=z0 with vz=az=0.
+static inline void enforcePlanarStateZ0(const double z0, Eigen::MatrixXd& statePVA) {
+  if (statePVA.rows() < 3 || statePVA.cols() < 1) {
+    return;
+  }
+  statePVA(2, 0) = z0;
+  if (statePVA.cols() >= 2) {
+    statePVA(2, 1) = 0.0;
+  }
+  if (statePVA.cols() >= 3) {
+    statePVA(2, 2) = 0.0;
+  }
+}
+
+static inline void enforcePlanarCfgVsZ0(const double z0, std::vector<Eigen::MatrixXd>& cfgVs) {
+  for (auto& V : cfgVs) {
+    if (V.rows() >= 3) {
+      V.row(2).setConstant(z0);
+    }
+  }
+}
+// !SECTION planar (2D) embedding helpers
 
 // SECTION  variables transformation and gradient transmission
 static double expC2(double t) {
@@ -194,6 +219,7 @@ bool TrajOpt::generate_traj(const Eigen::MatrixXd& iniState,
                             const std::vector<Eigen::MatrixXd>& hPolys,
                             Trajectory& traj) {
   cfgHs_ = hPolys;
+  const double z0 = iniState(2, 0);
   if (cfgHs_.size() == 1) {
     cfgHs_.push_back(cfgHs_[0]);
   }
@@ -201,6 +227,7 @@ bool TrajOpt::generate_traj(const Eigen::MatrixXd& iniState,
     ROS_ERROR("extractVs fail!");
     return false;
   }
+  enforcePlanarCfgVsZ0(z0, cfgVs_);
   N_ = 2 * cfgHs_.size();
 
   // NOTE: one corridor two pieces
@@ -219,6 +246,8 @@ bool TrajOpt::generate_traj(const Eigen::MatrixXd& iniState,
   // NOTE set boundary conditions
   Eigen::MatrixXd initS = iniState;
   Eigen::MatrixXd finalS = finState;
+  enforcePlanarStateZ0(z0, initS);
+  enforcePlanarStateZ0(z0, finalS);
   double tempNorm = initS.col(1).norm();
   initS.col(1) *= tempNorm > vmax_ ? (vmax_ / tempNorm) : 1.0;
   tempNorm = finalS.col(1).norm();
@@ -264,6 +293,17 @@ bool TrajOpt::generate_traj(const Eigen::MatrixXd& iniState,
   forwardP(p_, cfgVs_, P);
   jerkOpt_.generate(P, T);
   traj = jerkOpt_.getTraj();
+#ifndef NDEBUG
+  {
+    const double z_start = traj.getPos(0.0).z();
+    const double z_end = traj.getPos(traj.getTotalDuration()).z();
+    if (std::abs(z_start - z0) > 1e-6 || std::abs(z_end - z0) > 1e-6) {
+      ROS_WARN_STREAM("traj_opt_fake: planar z constraint violated: z0=" << z0
+                                                                         << " z_start=" << z_start
+                                                                         << " z_end=" << z_end);
+    }
+  }
+#endif
   delete[] x_;
   return true;
 }
