@@ -7,7 +7,12 @@
     </node>
     <node pkg="odom_visualization" name="odom_visualization" type="odom_visualization" output="screen">
       <remap from="~odom" to="odom" />
-      <param name="robot_scale" value="1.0"/>
+      <!-- car.dae is large; scale down -->
+      <param name="robot_scale" value="0.05"/>
+      <!-- Show car model instead of drone -->
+      <param name="mesh_resource" value="package://odom_visualization/meshes/car.dae"/>
+      <!-- If yaw looks off, tweak this (deg): common values 90 / -90 -->
+      <param name="mesh_yaw_offset_deg" value="180.0"/>
     </node>
     <node pkg="target_ekf" name="target_ekf_sim_node" type="target_ekf_sim_node" output="screen">
       <rosparam command="load" file="$(find target_ekf)/config/camera.yaml" />

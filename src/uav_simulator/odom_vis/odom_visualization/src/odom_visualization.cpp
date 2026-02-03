@@ -22,6 +22,7 @@ using namespace std;
 
 static string mesh_resource;
 static double color_r, color_g, color_b, color_a, cov_scale, scale;
+static double mesh_yaw_offset_deg = 0.0;
 bool cross_config = false;
 bool tf45 = false;
 bool cov_pos = false;
@@ -226,9 +227,14 @@ void odom_callback(const nav_msgs::Odometry::ConstPtr& msg) {
   meshROS.pose.position.y = pose(1);
   meshROS.pose.position.z = pose(2);
 
-  if (cross_config) {
+  {
     colvec ypr = R_to_ypr(quaternion_to_R(q));
-    ypr(0) += 45.0 * PI / 180.0;
+    // Apply mesh yaw offset to align model axis with odometry yaw.
+    ypr(0) += mesh_yaw_offset_deg * PI / 180.0;
+    if (cross_config) {
+      // Backward-compatible legacy 45deg adjustment.
+      ypr(0) += 45.0 * PI / 180.0;
+    }
     q = R_to_quaternion(ypr_to_R(ypr));
   }
 
@@ -535,9 +541,12 @@ void cmd_callback(const quadrotor_msgs::PositionCommand cmd) {
   meshROS.pose.position.y = cmd.position.y;
   meshROS.pose.position.z = cmd.position.z;
 
-  if (cross_config) {
+  {
     colvec ypr = R_to_ypr(quaternion_to_R(q));
-    ypr(0) += 45.0 * PI / 180.0;
+    ypr(0) += mesh_yaw_offset_deg * PI / 180.0;
+    if (cross_config) {
+      ypr(0) += 45.0 * PI / 180.0;
+    }
     q = R_to_quaternion(ypr_to_R(ypr));
   }
   meshROS.pose.orientation.w = q(0);
@@ -569,6 +578,10 @@ int main(int argc, char** argv) {
   n.param("origin", origin, false);
   n.param("robot_scale", scale, 2.0);
   n.param("frame_id", _frame_id, string("world"));
+
+  // Yaw offset (deg) to align mesh model forward axis with odom yaw.
+  // Example: set to 90 or -90 if the car model looks sideways.
+  n.param("mesh_yaw_offset_deg", mesh_yaw_offset_deg, 0.0);
 
   n.param("cross_config", cross_config, false);
   n.param("tf45", tf45, false);
