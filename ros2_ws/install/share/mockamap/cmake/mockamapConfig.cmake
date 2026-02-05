@@ -27,7 +27,7 @@ if(NOT "" STREQUAL "")
     set(_msg "${_msg} ()")
   endif()
   # optionally quiet the deprecation message
-  if(NOT mockamap_DEPRECATED_QUIET)
+  if(NOT ${mockamap_DEPRECATED_QUIET})
     message(DEPRECATION "${_msg}")
   endif()
 endif()

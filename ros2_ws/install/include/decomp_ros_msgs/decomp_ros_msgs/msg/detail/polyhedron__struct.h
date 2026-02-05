@@ -2,9 +2,6 @@
 // with input from decomp_ros_msgs:msg/Polyhedron.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "decomp_ros_msgs/msg/polyhedron.h"
-
-
 #ifndef DECOMP_ROS_MSGS__MSG__DETAIL__POLYHEDRON__STRUCT_H_
 #define DECOMP_ROS_MSGS__MSG__DETAIL__POLYHEDRON__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

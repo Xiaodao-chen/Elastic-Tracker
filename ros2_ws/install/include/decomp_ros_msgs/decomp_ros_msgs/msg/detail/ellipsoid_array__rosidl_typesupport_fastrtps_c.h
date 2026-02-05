@@ -9,23 +9,11 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "decomp_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
-#include "decomp_ros_msgs/msg/detail/ellipsoid_array__struct.h"
-#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
-bool cdr_serialize_decomp_ros_msgs__msg__EllipsoidArray(
-  const decomp_ros_msgs__msg__EllipsoidArray * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
-bool cdr_deserialize_decomp_ros_msgs__msg__EllipsoidArray(
-  eprosima::fastcdr::Cdr &,
-  decomp_ros_msgs__msg__EllipsoidArray * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
 size_t get_serialized_size_decomp_ros_msgs__msg__EllipsoidArray(
@@ -34,22 +22,6 @@ size_t get_serialized_size_decomp_ros_msgs__msg__EllipsoidArray(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
 size_t max_serialized_size_decomp_ros_msgs__msg__EllipsoidArray(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
-bool cdr_serialize_key_decomp_ros_msgs__msg__EllipsoidArray(
-  const decomp_ros_msgs__msg__EllipsoidArray * ros_message,
-  eprosima::fastcdr::Cdr & cdr);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
-size_t get_serialized_size_key_decomp_ros_msgs__msg__EllipsoidArray(
-  const void * untyped_ros_message,
-  size_t current_alignment);
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_decomp_ros_msgs
-size_t max_serialized_size_key_decomp_ros_msgs__msg__EllipsoidArray(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

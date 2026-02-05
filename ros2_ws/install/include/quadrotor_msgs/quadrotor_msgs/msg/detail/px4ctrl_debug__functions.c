@@ -264,7 +264,7 @@ quadrotor_msgs__msg__Px4ctrlDebug__copy(
 }
 
 quadrotor_msgs__msg__Px4ctrlDebug *
-quadrotor_msgs__msg__Px4ctrlDebug__create(void)
+quadrotor_msgs__msg__Px4ctrlDebug__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__Px4ctrlDebug * msg = (quadrotor_msgs__msg__Px4ctrlDebug *)allocator.allocate(sizeof(quadrotor_msgs__msg__Px4ctrlDebug), allocator.state);

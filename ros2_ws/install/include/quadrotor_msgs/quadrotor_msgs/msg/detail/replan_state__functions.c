@@ -184,7 +184,7 @@ quadrotor_msgs__msg__ReplanState__copy(
 }
 
 quadrotor_msgs__msg__ReplanState *
-quadrotor_msgs__msg__ReplanState__create(void)
+quadrotor_msgs__msg__ReplanState__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__ReplanState * msg = (quadrotor_msgs__msg__ReplanState *)allocator.allocate(sizeof(quadrotor_msgs__msg__ReplanState), allocator.state);

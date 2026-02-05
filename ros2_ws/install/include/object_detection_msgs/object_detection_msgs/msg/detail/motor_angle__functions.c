@@ -80,7 +80,7 @@ object_detection_msgs__msg__MotorAngle__copy(
 }
 
 object_detection_msgs__msg__MotorAngle *
-object_detection_msgs__msg__MotorAngle__create(void)
+object_detection_msgs__msg__MotorAngle__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   object_detection_msgs__msg__MotorAngle * msg = (object_detection_msgs__msg__MotorAngle *)allocator.allocate(sizeof(object_detection_msgs__msg__MotorAngle), allocator.state);

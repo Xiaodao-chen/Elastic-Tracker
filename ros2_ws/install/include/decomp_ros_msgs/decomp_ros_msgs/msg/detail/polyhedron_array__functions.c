@@ -93,7 +93,7 @@ decomp_ros_msgs__msg__PolyhedronArray__copy(
 }
 
 decomp_ros_msgs__msg__PolyhedronArray *
-decomp_ros_msgs__msg__PolyhedronArray__create(void)
+decomp_ros_msgs__msg__PolyhedronArray__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   decomp_ros_msgs__msg__PolyhedronArray * msg = (decomp_ros_msgs__msg__PolyhedronArray *)allocator.allocate(sizeof(decomp_ros_msgs__msg__PolyhedronArray), allocator.state);

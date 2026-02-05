@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/MotorAngle.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/motor_angle.hpp"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__MOTOR_ANGLE__BUILDER_HPP_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__MOTOR_ANGLE__BUILDER_HPP_
 

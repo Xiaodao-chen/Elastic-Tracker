@@ -149,7 +149,7 @@ quadrotor_msgs__msg__OccMap3d__copy(
 }
 
 quadrotor_msgs__msg__OccMap3d *
-quadrotor_msgs__msg__OccMap3d__create(void)
+quadrotor_msgs__msg__OccMap3d__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__OccMap3d * msg = (quadrotor_msgs__msg__OccMap3d *)allocator.allocate(sizeof(quadrotor_msgs__msg__OccMap3d), allocator.state);

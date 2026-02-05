@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/OccMap3d.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/occ_map3d.h"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__OCC_MAP3D__TYPE_SUPPORT_H_
 #define QUADROTOR_MSGS__MSG__DETAIL__OCC_MAP3D__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   quadrotor_msgs,
   msg,
   OccMap3d
-)(void);
+)();
 
 #ifdef __cplusplus
 }

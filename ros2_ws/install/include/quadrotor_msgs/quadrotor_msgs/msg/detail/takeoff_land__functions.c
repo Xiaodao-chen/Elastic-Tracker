@@ -57,7 +57,7 @@ quadrotor_msgs__msg__TakeoffLand__copy(
 }
 
 quadrotor_msgs__msg__TakeoffLand *
-quadrotor_msgs__msg__TakeoffLand__create(void)
+quadrotor_msgs__msg__TakeoffLand__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__TakeoffLand * msg = (quadrotor_msgs__msg__TakeoffLand *)allocator.allocate(sizeof(quadrotor_msgs__msg__TakeoffLand), allocator.state);

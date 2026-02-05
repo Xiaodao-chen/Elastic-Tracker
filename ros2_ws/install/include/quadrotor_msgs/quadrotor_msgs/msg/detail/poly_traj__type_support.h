@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/PolyTraj.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/poly_traj.h"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__POLY_TRAJ__TYPE_SUPPORT_H_
 #define QUADROTOR_MSGS__MSG__DETAIL__POLY_TRAJ__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   quadrotor_msgs,
   msg,
   PolyTraj
-)(void);
+)();
 
 #ifdef __cplusplus
 }

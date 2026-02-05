@@ -2,9 +2,6 @@
 // with input from decomp_ros_msgs:msg/PolyhedronArray.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "decomp_ros_msgs/msg/polyhedron_array.h"
-
-
 #ifndef DECOMP_ROS_MSGS__MSG__DETAIL__POLYHEDRON_ARRAY__FUNCTIONS_H_
 #define DECOMP_ROS_MSGS__MSG__DETAIL__POLYHEDRON_ARRAY__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "decomp_ros_msgs/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ decomp_ros_msgs__msg__PolyhedronArray__fini(decomp_ros_msgs__msg__PolyhedronArra
  */
 ROSIDL_GENERATOR_C_PUBLIC_decomp_ros_msgs
 decomp_ros_msgs__msg__PolyhedronArray *
-decomp_ros_msgs__msg__PolyhedronArray__create(void);
+decomp_ros_msgs__msg__PolyhedronArray__create();
 
 /// Destroy msg/PolyhedronArray message.
 /**
@@ -101,30 +92,6 @@ bool
 decomp_ros_msgs__msg__PolyhedronArray__copy(
   const decomp_ros_msgs__msg__PolyhedronArray * input,
   decomp_ros_msgs__msg__PolyhedronArray * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_decomp_ros_msgs
-const rosidl_type_hash_t *
-decomp_ros_msgs__msg__PolyhedronArray__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_decomp_ros_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-decomp_ros_msgs__msg__PolyhedronArray__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_decomp_ros_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-decomp_ros_msgs__msg__PolyhedronArray__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_decomp_ros_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-decomp_ros_msgs__msg__PolyhedronArray__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/PolyhedronArray messages.
 /**

@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/CarPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/car_position.hpp"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__CAR_POSITION__STRUCT_HPP_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__CAR_POSITION__STRUCT_HPP_
 

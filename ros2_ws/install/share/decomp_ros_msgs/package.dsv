@@ -4,9 +4,6 @@ source;share/decomp_ros_msgs/hook/cmake_prefix_path.sh
 source;share/decomp_ros_msgs/hook/ld_library_path_lib.ps1
 source;share/decomp_ros_msgs/hook/ld_library_path_lib.dsv
 source;share/decomp_ros_msgs/hook/ld_library_path_lib.sh
-source;share/decomp_ros_msgs/hook/pythonpath.ps1
-source;share/decomp_ros_msgs/hook/pythonpath.dsv
-source;share/decomp_ros_msgs/hook/pythonpath.sh
 source;share/decomp_ros_msgs/hook/ros_package_path.ps1
 source;share/decomp_ros_msgs/hook/ros_package_path.dsv
 source;share/decomp_ros_msgs/hook/ros_package_path.sh

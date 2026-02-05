@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/CarPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/car_position.h"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__CAR_POSITION__STRUCT_H_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__CAR_POSITION__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

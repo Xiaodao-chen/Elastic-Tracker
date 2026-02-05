@@ -96,7 +96,7 @@ object_detection_msgs__msg__CarPosition__copy(
 }
 
 object_detection_msgs__msg__CarPosition *
-object_detection_msgs__msg__CarPosition__create(void)
+object_detection_msgs__msg__CarPosition__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   object_detection_msgs__msg__CarPosition * msg = (object_detection_msgs__msg__CarPosition *)allocator.allocate(sizeof(object_detection_msgs__msg__CarPosition), allocator.state);

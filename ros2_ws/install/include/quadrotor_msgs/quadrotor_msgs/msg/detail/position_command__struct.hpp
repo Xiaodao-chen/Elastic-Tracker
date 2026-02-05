@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/PositionCommand.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/position_command.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__POSITION_COMMAND__STRUCT_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__POSITION_COMMAND__STRUCT_HPP_
 

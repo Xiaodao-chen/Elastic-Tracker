@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/BoundingBoxes.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/bounding_boxes.h"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__BOUNDING_BOXES__TYPE_SUPPORT_H_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__BOUNDING_BOXES__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   object_detection_msgs,
   msg,
   BoundingBoxes
-)(void);
+)();
 
 #ifdef __cplusplus
 }

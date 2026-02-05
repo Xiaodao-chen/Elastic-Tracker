@@ -210,7 +210,7 @@ quadrotor_msgs__msg__PositionCommand__copy(
 }
 
 quadrotor_msgs__msg__PositionCommand *
-quadrotor_msgs__msg__PositionCommand__create(void)
+quadrotor_msgs__msg__PositionCommand__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__PositionCommand * msg = (quadrotor_msgs__msg__PositionCommand *)allocator.allocate(sizeof(quadrotor_msgs__msg__PositionCommand), allocator.state);

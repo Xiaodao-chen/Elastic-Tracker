@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/ReplanState.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/replan_state.h"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__REPLAN_STATE__TYPE_SUPPORT_H_
 #define QUADROTOR_MSGS__MSG__DETAIL__REPLAN_STATE__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   quadrotor_msgs,
   msg,
   ReplanState
-)(void);
+)();
 
 #ifdef __cplusplus
 }

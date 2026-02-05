@@ -213,7 +213,7 @@ quadrotor_msgs__msg__PolyTraj__copy(
 }
 
 quadrotor_msgs__msg__PolyTraj *
-quadrotor_msgs__msg__PolyTraj__create(void)
+quadrotor_msgs__msg__PolyTraj__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__PolyTraj * msg = (quadrotor_msgs__msg__PolyTraj *)allocator.allocate(sizeof(quadrotor_msgs__msg__PolyTraj), allocator.state);

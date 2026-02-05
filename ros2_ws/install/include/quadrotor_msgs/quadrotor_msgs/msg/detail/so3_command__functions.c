@@ -159,7 +159,7 @@ quadrotor_msgs__msg__SO3Command__copy(
 }
 
 quadrotor_msgs__msg__SO3Command *
-quadrotor_msgs__msg__SO3Command__create(void)
+quadrotor_msgs__msg__SO3Command__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   quadrotor_msgs__msg__SO3Command * msg = (quadrotor_msgs__msg__SO3Command *)allocator.allocate(sizeof(quadrotor_msgs__msg__SO3Command), allocator.state);

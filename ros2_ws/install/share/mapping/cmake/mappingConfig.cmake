@@ -1,1 +1,1 @@
-/root/Elastic-Tracker/ros2_ws/build/mapping/ament_cmake_core/mappingConfig.cmake
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ws/build/mapping/ament_cmake_core/mappingConfig.cmake

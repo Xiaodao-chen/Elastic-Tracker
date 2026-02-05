@@ -120,7 +120,7 @@ object_detection_msgs__msg__BoundingBox__copy(
 }
 
 object_detection_msgs__msg__BoundingBox *
-object_detection_msgs__msg__BoundingBox__create(void)
+object_detection_msgs__msg__BoundingBox__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   object_detection_msgs__msg__BoundingBox * msg = (object_detection_msgs__msg__BoundingBox *)allocator.allocate(sizeof(object_detection_msgs__msg__BoundingBox), allocator.state);

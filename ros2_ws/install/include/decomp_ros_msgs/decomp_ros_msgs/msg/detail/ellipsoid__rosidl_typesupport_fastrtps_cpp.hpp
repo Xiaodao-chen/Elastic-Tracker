@@ -5,7 +5,6 @@
 #ifndef DECOMP_ROS_MSGS__MSG__DETAIL__ELLIPSOID__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
 #define DECOMP_ROS_MSGS__MSG__DETAIL__ELLIPSOID__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
 
-#include <cstddef>
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "decomp_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
@@ -55,25 +54,6 @@ get_serialized_size(
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_decomp_ros_msgs
 max_serialized_size_Ellipsoid(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_decomp_ros_msgs
-cdr_serialize_key(
-  const decomp_ros_msgs::msg::Ellipsoid & ros_message,
-  eprosima::fastcdr::Cdr &);
-
-size_t
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_decomp_ros_msgs
-get_serialized_size_key(
-  const decomp_ros_msgs::msg::Ellipsoid & ros_message,
-  size_t current_alignment);
-
-size_t
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_decomp_ros_msgs
-max_serialized_size_key_Ellipsoid(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

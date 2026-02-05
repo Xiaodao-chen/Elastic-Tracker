@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/CarPosition.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/car_position.h"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__CAR_POSITION__FUNCTIONS_H_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__CAR_POSITION__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "object_detection_msgs/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ object_detection_msgs__msg__CarPosition__fini(object_detection_msgs__msg__CarPos
  */
 ROSIDL_GENERATOR_C_PUBLIC_object_detection_msgs
 object_detection_msgs__msg__CarPosition *
-object_detection_msgs__msg__CarPosition__create(void);
+object_detection_msgs__msg__CarPosition__create();
 
 /// Destroy msg/CarPosition message.
 /**
@@ -101,30 +92,6 @@ bool
 object_detection_msgs__msg__CarPosition__copy(
   const object_detection_msgs__msg__CarPosition * input,
   object_detection_msgs__msg__CarPosition * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_object_detection_msgs
-const rosidl_type_hash_t *
-object_detection_msgs__msg__CarPosition__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_object_detection_msgs
-const rosidl_runtime_c__type_description__TypeDescription *
-object_detection_msgs__msg__CarPosition__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_object_detection_msgs
-const rosidl_runtime_c__type_description__TypeSource *
-object_detection_msgs__msg__CarPosition__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_object_detection_msgs
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-object_detection_msgs__msg__CarPosition__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/CarPosition messages.
 /**

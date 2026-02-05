@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/BoundingBox.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/bounding_box.h"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__BOUNDING_BOX__STRUCT_H_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__BOUNDING_BOX__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

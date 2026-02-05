@@ -4,9 +4,6 @@ source;share/mockamap/hook/cmake_prefix_path.sh
 source;share/mockamap/hook/ld_library_path_lib.ps1
 source;share/mockamap/hook/ld_library_path_lib.dsv
 source;share/mockamap/hook/ld_library_path_lib.sh
-source;share/mockamap/hook/pythonpath.ps1
-source;share/mockamap/hook/pythonpath.dsv
-source;share/mockamap/hook/pythonpath.sh
 source;share/mockamap/hook/ros_package_path.ps1
 source;share/mockamap/hook/ros_package_path.dsv
 source;share/mockamap/hook/ros_package_path.sh

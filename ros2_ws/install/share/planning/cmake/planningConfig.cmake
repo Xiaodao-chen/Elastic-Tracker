@@ -1,1 +1,1 @@
-/root/Elastic-Tracker/ros2_ws/build/planning/ament_cmake_core/planningConfig.cmake
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ws/build/planning/ament_cmake_core/planningConfig.cmake

@@ -43,7 +43,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -61,7 +60,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -79,7 +77,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -97,7 +94,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -115,7 +111,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -133,7 +128,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -151,7 +145,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -169,7 +162,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -187,7 +179,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -205,7 +196,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -223,7 +213,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -241,7 +230,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -259,7 +247,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -277,7 +264,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -295,7 +281,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -313,7 +298,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -331,7 +315,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -349,7 +332,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -367,7 +349,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -385,7 +366,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -403,7 +383,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -421,7 +400,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -439,7 +417,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -457,7 +434,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -475,7 +451,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Px
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -495,7 +470,6 @@ static const rosidl_typesupport_introspection_c__MessageMembers quadrotor_msgs__
   "Px4ctrlDebug",  // message name
   25,  // number of fields
   sizeof(quadrotor_msgs__msg__Px4ctrlDebug),
-  false,  // has_any_key_member_
   quadrotor_msgs__msg__Px4ctrlDebug__rosidl_typesupport_introspection_c__Px4ctrlDebug_message_member_array,  // message members
   quadrotor_msgs__msg__Px4ctrlDebug__rosidl_typesupport_introspection_c__Px4ctrlDebug_init_function,  // function to initialize message memory (memory has to be allocated)
   quadrotor_msgs__msg__Px4ctrlDebug__rosidl_typesupport_introspection_c__Px4ctrlDebug_fini_function  // function to terminate message instance (will not free memory)
@@ -507,9 +481,6 @@ static rosidl_message_type_support_t quadrotor_msgs__msg__Px4ctrlDebug__rosidl_t
   0,
   &quadrotor_msgs__msg__Px4ctrlDebug__rosidl_typesupport_introspection_c__Px4ctrlDebug_message_members,
   get_message_typesupport_handle_function,
-  &quadrotor_msgs__msg__Px4ctrlDebug__get_type_hash,
-  &quadrotor_msgs__msg__Px4ctrlDebug__get_type_description,
-  &quadrotor_msgs__msg__Px4ctrlDebug__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_quadrotor_msgs

@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/AuxCommand.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/aux_command.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__AUX_COMMAND__TRAITS_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__AUX_COMMAND__TRAITS_HPP_
 

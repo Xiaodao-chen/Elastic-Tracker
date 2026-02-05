@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/OccMap3d.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/occ_map3d.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__OCC_MAP3D__BUILDER_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__OCC_MAP3D__BUILDER_HPP_
 

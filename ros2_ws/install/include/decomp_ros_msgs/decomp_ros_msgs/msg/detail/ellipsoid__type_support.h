@@ -2,9 +2,6 @@
 // with input from decomp_ros_msgs:msg/Ellipsoid.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "decomp_ros_msgs/msg/ellipsoid.h"
-
-
 #ifndef DECOMP_ROS_MSGS__MSG__DETAIL__ELLIPSOID__TYPE_SUPPORT_H_
 #define DECOMP_ROS_MSGS__MSG__DETAIL__ELLIPSOID__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   decomp_ros_msgs,
   msg,
   Ellipsoid
-)(void);
+)();
 
 #ifdef __cplusplus
 }

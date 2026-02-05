@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/SO3Command.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/so3_command.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__SO3_COMMAND__BUILDER_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__SO3_COMMAND__BUILDER_HPP_
 

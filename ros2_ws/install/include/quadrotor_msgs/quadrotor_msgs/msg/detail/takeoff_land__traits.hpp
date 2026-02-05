@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/TakeoffLand.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/takeoff_land.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__TAKEOFF_LAND__TRAITS_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__TAKEOFF_LAND__TRAITS_HPP_
 

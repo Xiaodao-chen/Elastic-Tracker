@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/Px4ctrlDebug.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/px4ctrl_debug.h"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__PX4CTRL_DEBUG__TYPE_SUPPORT_H_
 #define QUADROTOR_MSGS__MSG__DETAIL__PX4CTRL_DEBUG__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   quadrotor_msgs,
   msg,
   Px4ctrlDebug
-)(void);
+)();
 
 #ifdef __cplusplus
 }

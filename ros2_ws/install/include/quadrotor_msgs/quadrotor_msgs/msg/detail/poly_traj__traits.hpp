@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/PolyTraj.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/poly_traj.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__POLY_TRAJ__TRAITS_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__POLY_TRAJ__TRAITS_HPP_
 

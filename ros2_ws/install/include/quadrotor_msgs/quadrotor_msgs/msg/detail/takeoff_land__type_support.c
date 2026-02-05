@@ -37,7 +37,6 @@ static rosidl_typesupport_introspection_c__MessageMember quadrotor_msgs__msg__Ta
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -57,7 +56,6 @@ static const rosidl_typesupport_introspection_c__MessageMembers quadrotor_msgs__
   "TakeoffLand",  // message name
   1,  // number of fields
   sizeof(quadrotor_msgs__msg__TakeoffLand),
-  false,  // has_any_key_member_
   quadrotor_msgs__msg__TakeoffLand__rosidl_typesupport_introspection_c__TakeoffLand_message_member_array,  // message members
   quadrotor_msgs__msg__TakeoffLand__rosidl_typesupport_introspection_c__TakeoffLand_init_function,  // function to initialize message memory (memory has to be allocated)
   quadrotor_msgs__msg__TakeoffLand__rosidl_typesupport_introspection_c__TakeoffLand_fini_function  // function to terminate message instance (will not free memory)
@@ -69,9 +67,6 @@ static rosidl_message_type_support_t quadrotor_msgs__msg__TakeoffLand__rosidl_ty
   0,
   &quadrotor_msgs__msg__TakeoffLand__rosidl_typesupport_introspection_c__TakeoffLand_message_members,
   get_message_typesupport_handle_function,
-  &quadrotor_msgs__msg__TakeoffLand__get_type_hash,
-  &quadrotor_msgs__msg__TakeoffLand__get_type_description,
-  &quadrotor_msgs__msg__TakeoffLand__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_quadrotor_msgs

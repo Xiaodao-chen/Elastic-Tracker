@@ -1,12 +1,6 @@
 source;share/mapping_core/hook/cmake_prefix_path.ps1
 source;share/mapping_core/hook/cmake_prefix_path.dsv
 source;share/mapping_core/hook/cmake_prefix_path.sh
-source;share/mapping_core/hook/ld_library_path_lib.ps1
-source;share/mapping_core/hook/ld_library_path_lib.dsv
-source;share/mapping_core/hook/ld_library_path_lib.sh
-source;share/mapping_core/hook/pythonpath.ps1
-source;share/mapping_core/hook/pythonpath.dsv
-source;share/mapping_core/hook/pythonpath.sh
 source;share/mapping_core/hook/ros_package_path.ps1
 source;share/mapping_core/hook/ros_package_path.dsv
 source;share/mapping_core/hook/ros_package_path.sh

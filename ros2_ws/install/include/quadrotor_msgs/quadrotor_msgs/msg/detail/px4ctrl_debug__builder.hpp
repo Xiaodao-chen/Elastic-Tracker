@@ -2,9 +2,6 @@
 // with input from quadrotor_msgs:msg/Px4ctrlDebug.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "quadrotor_msgs/msg/px4ctrl_debug.hpp"
-
-
 #ifndef QUADROTOR_MSGS__MSG__DETAIL__PX4CTRL_DEBUG__BUILDER_HPP_
 #define QUADROTOR_MSGS__MSG__DETAIL__PX4CTRL_DEBUG__BUILDER_HPP_
 

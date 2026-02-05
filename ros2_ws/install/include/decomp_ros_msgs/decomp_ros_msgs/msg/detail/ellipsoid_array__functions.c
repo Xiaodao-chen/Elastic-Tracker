@@ -93,7 +93,7 @@ decomp_ros_msgs__msg__EllipsoidArray__copy(
 }
 
 decomp_ros_msgs__msg__EllipsoidArray *
-decomp_ros_msgs__msg__EllipsoidArray__create(void)
+decomp_ros_msgs__msg__EllipsoidArray__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   decomp_ros_msgs__msg__EllipsoidArray * msg = (decomp_ros_msgs__msg__EllipsoidArray *)allocator.allocate(sizeof(decomp_ros_msgs__msg__EllipsoidArray), allocator.state);

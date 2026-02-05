@@ -1,1 +1,1 @@
-/root/Elastic-Tracker/ros2_ws/build/mapping/ament_cmake_environment_hooks/local_setup.sh
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ws/build/mapping/ament_cmake_environment_hooks/local_setup.sh

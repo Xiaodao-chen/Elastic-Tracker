@@ -2,9 +2,6 @@
 // with input from decomp_ros_msgs:msg/Polyhedron.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "decomp_ros_msgs/msg/polyhedron.hpp"
-
-
 #ifndef DECOMP_ROS_MSGS__MSG__DETAIL__POLYHEDRON__BUILDER_HPP_
 #define DECOMP_ROS_MSGS__MSG__DETAIL__POLYHEDRON__BUILDER_HPP_
 

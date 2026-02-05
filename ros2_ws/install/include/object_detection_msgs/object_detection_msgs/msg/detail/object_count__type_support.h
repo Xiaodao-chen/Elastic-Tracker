@@ -2,9 +2,6 @@
 // with input from object_detection_msgs:msg/ObjectCount.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "object_detection_msgs/msg/object_count.h"
-
-
 #ifndef OBJECT_DETECTION_MSGS__MSG__DETAIL__OBJECT_COUNT__TYPE_SUPPORT_H_
 #define OBJECT_DETECTION_MSGS__MSG__DETAIL__OBJECT_COUNT__TYPE_SUPPORT_H_
 
@@ -27,7 +24,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   object_detection_msgs,
   msg,
   ObjectCount
-)(void);
+)();
 
 #ifdef __cplusplus
 }

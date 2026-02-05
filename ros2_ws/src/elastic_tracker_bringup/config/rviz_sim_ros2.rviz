@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /drone01
-        - /drone0/PolyhedronArray1
+        - /drone01/UAV(vis)1
       Splitter Ratio: 0.5
     Tree Height: 650
   - Class: rviz_common/Views
@@ -63,22 +63,97 @@ Visualization Manager:
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: false
+      Update Interval: 0
+      Value: true
     - Class: rviz_common/Group
       Displays:
-        - Alpha: 0.2
-          BoundColor: 255; 0; 0
-          Class: decomp_rviz_plugins/PolyhedronArray
+        - Class: rviz_default_plugins/MarkerArray
           Enabled: true
-          MeshColor: 0; 170; 255
-          Name: PolyhedronArray
+          Name: UAV(vis)
           Queue Size: 10
-          Scale: 0.01
-          State: Both
-          Topic: /drone0/planning/polyhedra
-          Unreliable: false
+          Topic: /drone0/vis
           Value: true
-          VsColor: 0; 255; 0
-          VsScale: 1
+        - Class: rviz_default_plugins/Marker
+          Enabled: true
+          Name: UAV(mesh)
+          Queue Size: 10
+          Topic: /drone0/robot
+          Value: true
+        - Angle Tolerance: 0.1
+          Class: rviz_default_plugins/Odometry
+          Color: 255; 255; 255
+          Enabled: true
+          Keep: 100
+          Name: UAV(odom)
+          Position Tolerance: 0.1
+          Queue Size: 10
+          Shape:
+            Axes Length: 0.5
+            Axes Radius: 0.05
+            Covariance:
+              Orientation:
+                Alpha: 0.5
+                Color: 255; 255; 127
+                Scale: 1
+                Value: false
+              Position:
+                Alpha: 0.3
+                Color: 204; 51; 204
+                Scale: 1
+                Value: false
+              Value: false
+            Value: Axes
+          Topic: /drone0/odom
+          Value: true
+        - Angle Tolerance: 0.1
+          Class: rviz_default_plugins/Odometry
+          Color: 255; 0; 0
+          Enabled: true
+          Keep: 1
+          Name: target
+          Position Tolerance: 0.1
+          Queue Size: 10
+          Shape:
+            Axes Length: 0.8
+            Axes Radius: 0.08
+            Covariance:
+              Orientation:
+                Alpha: 0.5
+                Color: 255; 255; 127
+                Scale: 1
+                Value: false
+              Position:
+                Alpha: 0.3
+                Color: 204; 51; 204
+                Scale: 1
+                Value: false
+              Value: false
+            Value: Axes
+          Topic: /drone0/target
+          Value: true
+        - Buffer Length: 1
+          Class: rviz_default_plugins/Path
+          Color: 0; 255; 0
+          Enabled: true
+          Line Style: Lines
+          Line Width: 0.03
+          Name: path
+          Offset:
+            X: 0
+            Y: 0
+            Z: 0
+          Pose Style: None
+          Queue Size: 10
+          Topic: /drone0/path
+          Value: true
       Enabled: true
       Name: drone0
   Enabled: true
