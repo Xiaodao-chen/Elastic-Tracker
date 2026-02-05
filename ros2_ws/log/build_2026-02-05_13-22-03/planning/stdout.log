@@ -1,0 +1,3 @@
+[ 33%] Built target traj_server_node
+[ 50%] Building CXX object CMakeFiles/planning_component.dir/src/planning_component.cpp.o
+[ 66%] Linking CXX shared library libplanning_component.so

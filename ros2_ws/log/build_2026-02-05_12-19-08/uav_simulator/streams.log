@@ -1,0 +1,44 @@
+[0.008s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/uav_simulator': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/uav_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.039s] -- The C compiler identification is GNU 13.3.0
+[0.069s] -- The CXX compiler identification is GNU 13.3.0
+[0.079s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.199s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.279s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.378s] -- Configuring done (0.4s)
+[0.380s] -- Generating done (0.0s)
+[0.382s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/uav_simulator
+[0.386s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/uav_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/uav_simulator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.387s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/uav_simulator': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/uav_simulator -- -j28 -l28
+[0.409s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/uav_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/uav_simulator -- -j28 -l28
+[0.410s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/uav_simulator': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/uav_simulator
+[0.413s] -- Install configuration: "Release"
+[0.413s] -- Execute custom install script
+[0.414s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/launch/uav_simulator.launch.py
+[0.419s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/config/so3_controller.yaml
+[0.423s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/config/so3_quadrotor.yaml
+[0.428s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/uav_simulator
+[0.433s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/uav_simulator
+[0.438s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/environment/ament_prefix_path.sh
+[0.442s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/environment/ament_prefix_path.dsv
+[0.449s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/environment/path.sh
+[0.453s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/environment/path.dsv
+[0.458s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/local_setup.bash
+[0.463s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/local_setup.sh
+[0.467s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/local_setup.zsh
+[0.471s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/local_setup.dsv
+[0.475s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/package.dsv
+[0.479s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/uav_simulator
+[0.483s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/cmake/uav_simulatorConfig.cmake
+[0.487s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/cmake/uav_simulatorConfig-version.cmake
+[0.490s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/uav_simulator/package.xml
+[0.495s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/uav_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/uav_simulator

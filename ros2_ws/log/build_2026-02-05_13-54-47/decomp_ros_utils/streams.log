@@ -1,0 +1,172 @@
+[0.006s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils -- -j28 -l28
+[0.027s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.223s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.229s] -- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.303s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.304s] -- Found rviz_common: 14.1.19 (/opt/ros/jazzy/share/rviz_common/cmake)
+[0.316s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.321s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.409s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.421s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.428s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.499s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.504s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.510s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.547s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.548s] -- Found OGRE
+[0.548s] --   static     : OFF
+[0.548s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.548s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.548s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.548s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.548s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[0.548s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.548s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[0.548s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.548s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.548s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.548s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.549s] -- Could not find freeimage library
+[0.675s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.678s] -- Found OGRE
+[0.678s] --   static     : OFF
+[0.678s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.679s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.679s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.679s] -- Found decomp_ros_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_msgs/cmake)
+[0.689s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.756s] -- Configuring done (0.7s)
+[0.784s] -- Generating done (0.0s)
+[0.787s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils
+[0.817s] [  0%] Built target decomp_rviz_plugins_autogen_timestamp_deps
+[0.891s] [ 10%] Automatic MOC for target decomp_rviz_plugins
+[1.246s] [ 10%] Built target decomp_rviz_plugins_autogen
+[1.292s] [ 20%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o
+[3.732s] In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,
+[3.732s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+[3.732s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:10,
+[3.732s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2:
+[3.732s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[3.732s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[3.732s]       |                                                              ^
+[3.747s] In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:14,
+[3.747s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_polyhedron_array_display.cpp:10,
+[3.747s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:3:
+[3.747s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[3.747s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[3.747s]       |                                                              ^
+[3.747s] In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/mesh_visual.h:9,
+[3.747s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:16:
+[3.747s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[3.747s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[3.747s]       |                                                              ^
+[3.749s] In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/bound_visual.h:9,
+[3.749s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:17:
+[3.749s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[3.749s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[3.749s]       |                                                              ^
+[3.759s] In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/vector_visual.h:9,
+[3.759s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:18:
+[3.759s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[3.759s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[3.759s]       |                                                              ^
+[14.501s] [ 30%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o
+[14.502s] [ 50%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o
+[14.502s] [ 50%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o
+[14.502s] [ 60%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o
+[14.502s] [ 80%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o
+[14.502s] [ 80%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o
+[15.363s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:9,
+[15.363s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.cpp:1:
+[15.363s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[15.363s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[15.363s]       |                                                              ^
+[15.367s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:9,
+[15.367s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.cpp:1:
+[15.367s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[15.367s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[15.367s]       |                                                              ^
+[15.374s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:9,
+[15.374s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.cpp:1:
+[15.374s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[15.374s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[15.374s]       |                                                              ^
+[15.395s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,
+[15.395s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:
+[15.395s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[15.395s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[15.395s]       |                                                              ^
+[16.778s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:14,
+[16.778s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.cpp:1:
+[16.778s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[16.778s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[16.778s]       |                                                              ^
+[16.993s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,
+[16.993s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+[16.993s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+[16.993s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[16.993s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[16.993s]       |                                                              ^
+[16.998s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:4:
+[16.998s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[16.998s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[16.998s]       |                                                              ^
+[17.020s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:9,
+[17.020s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:16:
+[17.021s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[17.021s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[17.021s]       |                                                              ^
+[17.024s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:9,
+[17.024s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:17:
+[17.024s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[17.024s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[17.024s]       |                                                              ^
+[17.035s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:9,
+[17.035s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:18:
+[17.035s] /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+[17.035s]     2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+[17.035s]       |                                                              ^
+[27.551s] [ 90%] Linking CXX shared library libdecomp_rviz_plugins.so
+[27.857s] [100%] Built target decomp_rviz_plugins
+[27.864s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils -- -j28 -l28
+[27.865s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils
+[27.871s] -- Install configuration: "Release"
+[27.871s] -- Execute custom install script
+[27.871s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils//plugins_description.xml
+[27.871s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/lib/libdecomp_rviz_plugins.so
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_basis/data_type.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_basis/data_utils.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_geometry/ellipsoid.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_geometry/geometric_utils.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_geometry/polyhedron.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_ros_utils/data_ros_utils.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/decomp_base.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/ellipsoid_decomp.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/iterative_decomp.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/line_segment.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/seed_decomp.h
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/library_path.sh
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/library_path.dsv
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/decomp_ros_utils
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/decomp_ros_utils
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/ament_prefix_path.sh
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/ament_prefix_path.dsv
+[27.872s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/path.sh
+[27.873s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/path.dsv
+[27.873s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.bash
+[27.873s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.sh
+[27.873s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.zsh
+[27.873s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.dsv
+[27.873s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/package.dsv
+[27.879s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/decomp_ros_utils
+[27.879s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rviz_common__pluginlib__plugin/decomp_ros_utils
+[27.879s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.879s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[27.879s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.880s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig.cmake
+[27.881s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig-version.cmake
+[27.881s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/package.xml
+[27.882s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils

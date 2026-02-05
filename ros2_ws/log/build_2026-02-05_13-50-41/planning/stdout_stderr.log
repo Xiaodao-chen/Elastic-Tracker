@@ -1,0 +1,70 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found quadrotor_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/cmake)
+-- Found mapping_core: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/cmake)
+-- Found traj_opt_core: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake)
+-- Found decomp_ros_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_msgs/cmake)
+-- Found decomp_ros_utils: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/planning
+[ 33%] Built target traj_server_node
+[ 50%] Building CXX object CMakeFiles/planning_component.dir/src/planning_component.cpp.o
+[ 66%] Linking CXX shared library libplanning_component.so
+[ 66%] Built target planning_component
+[ 83%] Linking CXX executable planning_node
+[100%] Built target planning_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/lib/libplanning_component.so
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/lib/planning/planning_node
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/lib/planning/traj_server_node
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/env/env_ros2.hpp
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/prediction/prediction_ros2.hpp
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/visualization/visualization_ros2.hpp
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/wr_msg/wr_msg_ros2.hpp
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/planning
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/planning
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/path.sh
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/path.dsv
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.bash
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.sh
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.zsh
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/package.dsv
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/planning
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rclcpp_components/planning
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/cmake/planningConfig.cmake
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/cmake/planningConfig-version.cmake
+-- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/planning/package.xml

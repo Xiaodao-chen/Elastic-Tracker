@@ -1,0 +1,76 @@
+[0.007s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/planning -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.041s] -- The C compiler identification is GNU 13.3.0
+[0.072s] -- The CXX compiler identification is GNU 13.3.0
+[0.081s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.205s] -- Detecting CXX compiler ABI info - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.210s] -- Detecting CXX compile features
+[0.210s] -- Detecting CXX compile features - done
+[0.212s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.333s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.344s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.360s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.372s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.415s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.416s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.474s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.528s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.547s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.555s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.563s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.579s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.611s] -- Found quadrotor_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/cmake)
+[0.627s] -- Found mapping_core: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/cmake)
+[0.628s] -- Found traj_opt_core: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake)
+[0.688s] -- Configuring done (0.7s)
+[0.703s] -- Generating done (0.0s)
+[0.707s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/planning
+[0.720s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/planning -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.720s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/planning -- -j28 -l28
+[0.760s] [ 16%] Building CXX object CMakeFiles/planning_component.dir/src/planning_component.cpp.o
+[0.760s] [ 33%] Building CXX object CMakeFiles/traj_server_node.dir/src/traj_server_node_ros2.cpp.o
+[12.762s] [ 50%] Linking CXX executable traj_server_node
+[12.843s] [ 50%] Built target traj_server_node
+[17.813s] [ 66%] Linking CXX shared library libplanning_component.so
+[17.913s] [ 66%] Built target planning_component
+[17.924s] [ 83%] Building CXX object CMakeFiles/planning_node.dir/src/planning_main.cpp.o
+[19.301s] [100%] Linking CXX executable planning_node
+[19.364s] [100%] Built target planning_node
+[19.372s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/planning -- -j28 -l28
+[19.373s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/planning
+[19.378s] -- Install configuration: "Release"
+[19.378s] -- Execute custom install script
+[19.378s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/libplanning_component.so
+[19.383s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/planning/planning_node
+[19.387s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/planning/traj_server_node
+[19.391s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/env/env_ros2.hpp
+[19.395s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/prediction/prediction_ros2.hpp
+[19.399s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/visualization/visualization_ros2.hpp
+[19.404s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/wr_msg/wr_msg_ros2.hpp
+[19.411s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/planning
+[19.416s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/planning
+[19.420s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/ament_prefix_path.sh
+[19.425s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/ament_prefix_path.dsv
+[19.429s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/path.sh
+[19.435s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/path.dsv
+[19.439s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.bash
+[19.443s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.sh
+[19.447s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.zsh
+[19.451s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.dsv
+[19.454s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/package.dsv
+[19.459s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/planning
+[19.462s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rclcpp_components/planning
+[19.467s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/cmake/planningConfig.cmake
+[19.471s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/cmake/planningConfig-version.cmake
+[19.474s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/package.xml
+[19.479s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/planning

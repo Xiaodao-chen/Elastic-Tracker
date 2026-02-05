@@ -1,0 +1,1603 @@
+{
+  "packages": {
+    "mapping": {
+      "path": "mapping",
+      "package_xml": "src/mapping/package.xml",
+      "deps": [
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "depend",
+          "nodelet"
+        ],
+        [
+          "depend",
+          "quadrotor_msgs"
+        ],
+        [
+          "depend",
+          "cv_bridge"
+        ],
+        [
+          "depend",
+          "tf"
+        ],
+        [
+          "depend",
+          "pcl_ros"
+        ],
+        [
+          "depend",
+          "pcl_conversions"
+        ],
+        [
+          "depend",
+          "object_detection_msgs"
+        ],
+        [
+          "depend",
+          "pose_utils"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "quadrotor_msgs": {
+      "path": "quadrotor_msgs",
+      "package_xml": "src/quadrotor_msgs/package.xml",
+      "deps": [
+        [
+          "depend",
+          "geometry_msgs"
+        ],
+        [
+          "depend",
+          "nav_msgs"
+        ],
+        [
+          "build_depend",
+          "message_generation"
+        ],
+        [
+          "exec_depend",
+          "message_runtime"
+        ],
+        [
+          "build_export_depend",
+          "message_runtime"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "object_detection_msgs": {
+      "path": "detection/object_detection_msgs",
+      "package_xml": "src/detection/object_detection_msgs/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "message_generation"
+        ],
+        [
+          "build_depend",
+          "std_msgs"
+        ],
+        [
+          "exec_depend",
+          "message_generation"
+        ],
+        [
+          "exec_depend",
+          "message_runtime"
+        ],
+        [
+          "exec_depend",
+          "std_msgs"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "target_ekf": {
+      "path": "detection/target_ekf",
+      "package_xml": "src/detection/target_ekf/package.xml",
+      "deps": [
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "depend",
+          "object_detection_msgs"
+        ],
+        [
+          "depend",
+          "message_filters"
+        ],
+        [
+          "depend",
+          "nav_msgs"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "so3_quadrotor": {
+      "path": "uav_simulator/so3_quadrotor",
+      "package_xml": "src/uav_simulator/so3_quadrotor/package.xml",
+      "deps": [
+        [
+          "depend",
+          "quadrotor_msgs"
+        ],
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "depend",
+          "nodelet"
+        ],
+        [
+          "depend",
+          "tf"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "so3_controller": {
+      "path": "uav_simulator/so3_controller",
+      "package_xml": "src/uav_simulator/so3_controller/package.xml",
+      "deps": [
+        [
+          "depend",
+          "quadrotor_msgs"
+        ],
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "depend",
+          "nodelet"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "mockamap": {
+      "path": "uav_simulator/mockamap",
+      "package_xml": "src/uav_simulator/mockamap/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "roscpp"
+        ],
+        [
+          "build_depend",
+          "pcl_ros"
+        ],
+        [
+          "build_depend",
+          "pcl_conversions"
+        ],
+        [
+          "run_depend",
+          "roscpp"
+        ],
+        [
+          "run_depend",
+          "pcl_ros"
+        ],
+        [
+          "run_depend",
+          "pcl_conversions"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "uav_simulator": {
+      "path": "uav_simulator/uav_simulator",
+      "package_xml": "src/uav_simulator/uav_simulator/package.xml",
+      "deps": [
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "local_sensing_node": {
+      "path": "uav_simulator/local_sensing",
+      "package_xml": "src/uav_simulator/local_sensing/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "cmake_modules"
+        ],
+        [
+          "build_depend",
+          "roscpp"
+        ],
+        [
+          "build_depend",
+          "roslib"
+        ],
+        [
+          "build_depend",
+          "svo_msgs"
+        ],
+        [
+          "build_depend",
+          "cv_bridge"
+        ],
+        [
+          "build_depend",
+          "image_transport"
+        ],
+        [
+          "build_depend",
+          "vikit_ros"
+        ],
+        [
+          "build_depend",
+          "pcl_ros"
+        ],
+        [
+          "build_depend",
+          "dynamic_reconfigure"
+        ],
+        [
+          "run_depend",
+          "roscpp"
+        ],
+        [
+          "run_depend",
+          "roslib"
+        ],
+        [
+          "run_depend",
+          "svo_msgs"
+        ],
+        [
+          "run_depend",
+          "cv_bridge"
+        ],
+        [
+          "run_depend",
+          "image_transport"
+        ],
+        [
+          "run_depend",
+          "vikit_ros"
+        ],
+        [
+          "run_depend",
+          "pcl_ros"
+        ],
+        [
+          "run_depend",
+          "dynamic_reconfigure"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "odom_visualization": {
+      "path": "uav_simulator/odom_vis/odom_visualization",
+      "package_xml": "src/uav_simulator/odom_vis/odom_visualization/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "roscpp"
+        ],
+        [
+          "build_depend",
+          "sensor_msgs"
+        ],
+        [
+          "build_depend",
+          "nav_msgs"
+        ],
+        [
+          "build_depend",
+          "visualization_msgs"
+        ],
+        [
+          "build_depend",
+          "tf"
+        ],
+        [
+          "run_depend",
+          "roscpp"
+        ],
+        [
+          "run_depend",
+          "sensor_msgs"
+        ],
+        [
+          "run_depend",
+          "nav_msgs"
+        ],
+        [
+          "run_depend",
+          "visualization_msgs"
+        ],
+        [
+          "run_depend",
+          "tf"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "pose_utils": {
+      "path": "uav_simulator/odom_vis/pose_utils",
+      "package_xml": "src/uav_simulator/odom_vis/pose_utils/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "roscpp"
+        ],
+        [
+          "run_depend",
+          "roscpp"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "planning": {
+      "path": "planning/planning",
+      "package_xml": "src/planning/planning/package.xml",
+      "deps": [
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "depend",
+          "nodelet"
+        ],
+        [
+          "depend",
+          "quadrotor_msgs"
+        ],
+        [
+          "depend",
+          "mapping"
+        ],
+        [
+          "depend",
+          "traj_opt"
+        ],
+        [
+          "depend",
+          "decomp_ros_utils"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "traj_opt": {
+      "path": "planning/traj_opt",
+      "package_xml": "src/planning/traj_opt/package.xml",
+      "deps": [
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "decomp_ros_utils": {
+      "path": "planning/DecompROS/decomp_ros_utils",
+      "package_xml": "src/planning/DecompROS/decomp_ros_utils/package.xml",
+      "deps": [
+        [
+          "depend",
+          "roscpp"
+        ],
+        [
+          "depend",
+          "rviz"
+        ],
+        [
+          "depend",
+          "decomp_ros_msgs"
+        ],
+        [
+          "build_depend",
+          "catkin_simple"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "catkin_simple": {
+      "path": "planning/DecompROS/catkin_simple",
+      "package_xml": "src/planning/DecompROS/catkin_simple/package.xml",
+      "deps": [
+        [
+          "run_depend",
+          "catkin"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "decomp_ros_msgs": {
+      "path": "planning/DecompROS/decomp_ros_msgs",
+      "package_xml": "src/planning/DecompROS/decomp_ros_msgs/package.xml",
+      "deps": [
+        [
+          "depend",
+          "geometry_msgs"
+        ],
+        [
+          "depend",
+          "message_generation"
+        ],
+        [
+          "depend",
+          "message_runtime"
+        ],
+        [
+          "build_depend",
+          "catkin_simple"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "baz": {
+      "path": "planning/DecompROS/catkin_simple/test/scenarios/hello_world/baz",
+      "package_xml": "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/baz/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "boost-dev"
+        ],
+        [
+          "run_depend",
+          "boost"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ]
+      ]
+    },
+    "bar": {
+      "path": "planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar",
+      "package_xml": "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "boost-dev"
+        ],
+        [
+          "build_depend",
+          "message_generation"
+        ],
+        [
+          "build_depend",
+          "std_msgs"
+        ],
+        [
+          "run_depend",
+          "boost"
+        ],
+        [
+          "run_depend",
+          "message_runtime"
+        ],
+        [
+          "run_depend",
+          "std_msgs"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ],
+        [
+          "buildtool_depend",
+          "catkin_simple"
+        ]
+      ]
+    },
+    "foo": {
+      "path": "planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo",
+      "package_xml": "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo/package.xml",
+      "deps": [
+        [
+          "build_depend",
+          "bar"
+        ],
+        [
+          "build_depend",
+          "baz"
+        ],
+        [
+          "build_depend",
+          "boost-dev"
+        ],
+        [
+          "run_depend",
+          "bar"
+        ],
+        [
+          "run_depend",
+          "baz"
+        ],
+        [
+          "run_depend",
+          "boost"
+        ],
+        [
+          "buildtool_depend",
+          "catkin"
+        ],
+        [
+          "buildtool_depend",
+          "catkin_simple"
+        ]
+      ]
+    }
+  },
+  "build": {
+    "mapping": {
+      "cmake": "src/mapping/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "quadrotor_msgs",
+        "roscpp",
+        "nodelet",
+        "cv_bridge",
+        "tf",
+        "pcl_ros",
+        "pcl_conversions",
+        "pose_utils"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "${PROJECT_NAME}_vis_node",
+          "kind": "executable",
+          "srcs": [
+            "src/${PROJECT_NAME}_vis_node.cpp"
+          ],
+          "raw": "src/${PROJECT_NAME}_vis_node.cpp"
+        },
+        {
+          "name": "visualize_history_path",
+          "kind": "executable",
+          "srcs": [
+            "src/visualize_history_path.cpp"
+          ],
+          "raw": "src/visualize_history_path.cpp"
+        },
+        {
+          "name": "${PROJECT_NAME}",
+          "kind": "library",
+          "srcs": [
+            "src/${PROJECT_NAME}.cc"
+          ],
+          "raw": "src/${PROJECT_NAME}.cc"
+        },
+        {
+          "name": "${PROJECT_NAME}_nodelet",
+          "kind": "library",
+          "srcs": [
+            "src/${PROJECT_NAME}_nodelet.cpp"
+          ],
+          "raw": "src/${PROJECT_NAME}_nodelet.cpp"
+        }
+      ]
+    },
+    "quadrotor_msgs": {
+      "cmake": "src/quadrotor_msgs/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "nav_msgs",
+        "geometry_msgs",
+        "message_generation"
+      ],
+      "has_msgs": true,
+      "targets": []
+    },
+    "object_detection_msgs": {
+      "cmake": "src/detection/object_detection_msgs/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "xyz"
+      ],
+      "has_msgs": true,
+      "targets": [
+        {
+          "name": "${PROJECT_NAME}_node",
+          "kind": "executable",
+          "srcs": [
+            "src/object_detection_msgs_node.cpp"
+          ],
+          "raw": "src/object_detection_msgs_node.cpp"
+        },
+        {
+          "name": "${PROJECT_NAME}",
+          "kind": "library",
+          "srcs": [],
+          "raw": ""
+        }
+      ]
+    },
+    "target_ekf": {
+      "cmake": "src/detection/target_ekf/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "roscpp",
+        "object_detection_msgs",
+        "nav_msgs",
+        "message_filters",
+        "Eigen3",
+        "REQUIRED"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "target_ekf_node",
+          "kind": "executable",
+          "srcs": [
+            "src/target_ekf_node.cpp"
+          ],
+          "raw": "src/target_ekf_node.cpp"
+        },
+        {
+          "name": "target_ekf_sim_node",
+          "kind": "executable",
+          "srcs": [
+            "src/target_ekf_sim_node.cpp"
+          ],
+          "raw": "src/target_ekf_sim_node.cpp"
+        }
+      ]
+    },
+    "so3_quadrotor": {
+      "cmake": "src/uav_simulator/so3_quadrotor/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "quadrotor_msgs",
+        "roscpp",
+        "nodelet",
+        "tf"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "${PROJECT_NAME}_nodelet",
+          "kind": "library",
+          "srcs": [
+            "src/${PROJECT_NAME}_nodelet.cpp"
+          ],
+          "raw": "src/${PROJECT_NAME}_nodelet.cpp"
+        }
+      ]
+    },
+    "so3_controller": {
+      "cmake": "src/uav_simulator/so3_controller/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "quadrotor_msgs",
+        "roscpp",
+        "nodelet"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "${PROJECT_NAME}_nodelet",
+          "kind": "library",
+          "srcs": [
+            "src/${PROJECT_NAME}_nodelet.cpp"
+          ],
+          "raw": "src/${PROJECT_NAME}_nodelet.cpp"
+        }
+      ]
+    },
+    "mockamap": {
+      "cmake": "src/uav_simulator/mockamap/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "roscpp",
+        "pcl_ros",
+        "pcl_conversions"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "${PROJECT_NAME}_node",
+          "kind": "executable",
+          "srcs": [],
+          "raw": "${${PROJECT_NAME}_SRCS}"
+        }
+      ]
+    },
+    "uav_simulator": {
+      "cmake": "src/uav_simulator/uav_simulator/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [],
+      "has_msgs": false,
+      "targets": []
+    },
+    "local_sensing_node": {
+      "cmake": "src/uav_simulator/local_sensing/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "roscpp",
+        "roslib",
+        "cmake_modules",
+        "cv_bridge",
+        "image_transport",
+        "pcl_ros",
+        "sensor_msgs",
+        "geometry_msgs",
+        "nav_msgs",
+        "dynamic_reconfigure"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "pcl_render_node",
+          "kind": "executable",
+          "srcs": [
+            "src/pcl_render_node.cpp"
+          ],
+          "raw": "src/pcl_render_node.cpp"
+        },
+        {
+          "name": "pcl_render_node",
+          "kind": "executable",
+          "srcs": [
+            "src/pointcloud_render_node.cpp"
+          ],
+          "raw": "src/pointcloud_render_node.cpp"
+        }
+      ]
+    },
+    "odom_visualization": {
+      "cmake": "src/uav_simulator/odom_vis/odom_visualization/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "roscpp",
+        "sensor_msgs",
+        "nav_msgs",
+        "visualization_msgs",
+        "quadrotor_msgs",
+        "tf",
+        "pose_utils",
+        "Eigen3",
+        "REQUIRED"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "odom_visualization",
+          "kind": "executable",
+          "srcs": [
+            "src/odom_visualization.cpp"
+          ],
+          "raw": "src/odom_visualization.cpp"
+        },
+        {
+          "name": "odom_visualization_car",
+          "kind": "executable",
+          "srcs": [
+            "src/odom_visualization_car.cpp"
+          ],
+          "raw": "src/odom_visualization_car.cpp"
+        }
+      ]
+    },
+    "pose_utils": {
+      "cmake": "src/uav_simulator/odom_vis/pose_utils/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "roscpp"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "pose_utils",
+          "kind": "library",
+          "srcs": [
+            "src/pose_utils.cpp"
+          ],
+          "raw": "${ARMADILLO_LIBRARIES} src/pose_utils.cpp"
+        }
+      ]
+    },
+    "planning": {
+      "cmake": "src/planning/planning/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "quadrotor_msgs",
+        "traj_opt",
+        "mapping",
+        "roscpp",
+        "nodelet",
+        "decomp_ros_utils"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "traj_server",
+          "kind": "executable",
+          "srcs": [
+            "src/traj_server.cpp"
+          ],
+          "raw": "src/traj_server.cpp"
+        },
+        {
+          "name": "play_bag_node",
+          "kind": "executable",
+          "srcs": [
+            "src/play_bag_node.cpp"
+          ],
+          "raw": "src/play_bag_node.cpp"
+        },
+        {
+          "name": "test_node",
+          "kind": "executable",
+          "srcs": [
+            "src/test_node.cpp"
+          ],
+          "raw": "src/test_node.cpp"
+        },
+        {
+          "name": "${PROJECT_NAME}_nodelet",
+          "kind": "library",
+          "srcs": [
+            "src/${PROJECT_NAME}_nodelet.cpp"
+          ],
+          "raw": "src/${PROJECT_NAME}_nodelet.cpp"
+        }
+      ]
+    },
+    "traj_opt": {
+      "cmake": "src/planning/traj_opt/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [
+        "roscpp"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "${PROJECT_NAME}",
+          "kind": "library",
+          "srcs": [
+            "src/${PROJECT_NAME}.cc",
+            "src/${PROJECT_NAME}_fake.cc"
+          ],
+          "raw": "src/${PROJECT_NAME}.cc src/${PROJECT_NAME}_fake.cc"
+        }
+      ]
+    },
+    "decomp_ros_utils": {
+      "cmake": "src/planning/DecompROS/decomp_ros_utils/CMakeLists.txt",
+      "build_style": "catkin_simple",
+      "catkin_components": [
+        "rviz",
+        "roscpp"
+      ],
+      "has_msgs": false,
+      "targets": [
+        {
+          "name": "decomp_rviz_plugins",
+          "kind": "library",
+          "srcs": [],
+          "raw": "${SOURCE_FILES}"
+        },
+        {
+          "name": "decomp_rviz_plugins",
+          "kind": "cs_library",
+          "srcs": [],
+          "raw": "${SOURCE_FILES}"
+        }
+      ]
+    },
+    "catkin_simple": {
+      "cmake": "src/planning/DecompROS/catkin_simple/CMakeLists.txt",
+      "build_style": "catkin",
+      "catkin_components": [],
+      "has_msgs": false,
+      "targets": []
+    },
+    "decomp_ros_msgs": {
+      "cmake": "src/planning/DecompROS/decomp_ros_msgs/CMakeLists.txt",
+      "build_style": "catkin_simple",
+      "catkin_components": [],
+      "has_msgs": false,
+      "targets": []
+    }
+  },
+  "cpp_files": {
+    "count_cpp": 30,
+    "count_cc": 3,
+    "files": [
+      "src/detection/target_ekf/src/target_ekf_node.cpp",
+      "src/detection/target_ekf/src/target_ekf_sim_node.cpp",
+      "src/mapping/src/mapping.cc",
+      "src/mapping/src/mapping_nodelet.cpp",
+      "src/mapping/src/mapping_vis_node.cpp",
+      "src/mapping/src/visualize_history_path.cpp",
+      "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar/src/hello.cpp",
+      "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo/src/main.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp",
+      "src/planning/planning/src/planning_nodelet.cpp",
+      "src/planning/planning/src/play_bag_node.cpp",
+      "src/planning/planning/src/test_node.cpp",
+      "src/planning/planning/src/traj_server.cpp",
+      "src/planning/traj_opt/src/traj_opt.cc",
+      "src/planning/traj_opt/src/traj_opt_fake.cc",
+      "src/uav_simulator/local_sensing/src/empty.cpp",
+      "src/uav_simulator/local_sensing/src/euroc.cpp",
+      "src/uav_simulator/local_sensing/src/pcl_render_node.cpp",
+      "src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp",
+      "src/uav_simulator/mockamap/src/ces_randommap.cpp",
+      "src/uav_simulator/mockamap/src/maps.cpp",
+      "src/uav_simulator/mockamap/src/mockamap.cpp",
+      "src/uav_simulator/mockamap/src/perlinnoise.cpp",
+      "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization.cpp",
+      "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization_car.cpp",
+      "src/uav_simulator/odom_vis/pose_utils/src/pose_utils.cpp",
+      "src/uav_simulator/so3_controller/src/so3_controller_nodelet.cpp",
+      "src/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp"
+    ]
+  },
+  "includes_by_file": {
+    "src/detection/target_ekf/src/target_ekf_sim_node.cpp": [
+      "<message_filters/subscriber.h>",
+      "<message_filters/sync_policies/approximate_time.h>",
+      "<message_filters/sync_policies/exact_time.h>",
+      "<message_filters/time_synchronizer.h>",
+      "<nav_msgs/Odometry.h>",
+      "<ros/ros.h>",
+      "<target_ekf/target_ekf.hpp>"
+    ],
+    "src/detection/target_ekf/src/target_ekf_node.cpp": [
+      "<ros/ros.h>",
+      "<Eigen/Geometry>",
+      "<message_filters/subscriber.h>",
+      "<message_filters/sync_policies/approximate_time.h>",
+      "<message_filters/sync_policies/exact_time.h>",
+      "<message_filters/time_synchronizer.h>",
+      "<nav_msgs/Odometry.h>",
+      "<object_detection_msgs/BoundingBoxes.h>"
+    ],
+    "src/uav_simulator/local_sensing/src/pcl_render_node.cpp": [
+      "<fstream>",
+      "<iostream>",
+      "<vector>",
+      "<dynamic_reconfigure/server.h>",
+      "<geometry_msgs/PoseStamped.h>",
+      "<geometry_msgs/TransformStamped.h>",
+      "<image_transport/image_transport.h>",
+      "<message_filters/subscriber.h>",
+      "<message_filters/sync_policies/approximate_time.h>",
+      "<message_filters/sync_policies/exact_time.h>",
+      "<message_filters/synchronizer.h>",
+      "<nav_msgs/Odometry.h>",
+      "<nav_msgs/Path.h>",
+      "<ros/ros.h>",
+      "<sensor_msgs/Imu.h>",
+      "<sensor_msgs/PointCloud2.h>",
+      "<std_msgs/Bool.h>",
+      "<tf/transform_broadcaster.h>",
+      "\"tf/tf.h\"",
+      "\"tf/transform_datatypes.h\"",
+      "<pcl/io/pcd_io.h>",
+      "<pcl/io/ply_io.h>",
+      "<pcl/point_cloud.h>",
+      "<pcl/point_types.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "<cv_bridge/cv_bridge.h>",
+      "<Eigen/Eigen>",
+      "<opencv2/core/eigen.hpp>",
+      "<opencv2/opencv.hpp>",
+      "\"opencv2/highgui/highgui.hpp\"",
+      "\"depth_render.cuh\"",
+      "\"quadrotor_msgs/PositionCommand.h\""
+    ],
+    "src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp": [
+      "<nav_msgs/Odometry.h>",
+      "<nav_msgs/Path.h>",
+      "<pcl/filters/voxel_grid.h>",
+      "<pcl/kdtree/kdtree_flann.h>",
+      "<pcl/point_cloud.h>",
+      "<pcl/point_types.h>",
+      "<pcl/search/kdtree.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "<ros/ros.h>",
+      "<sensor_msgs/PointCloud2.h>",
+      "<sensor_msgs/Image.h>",
+      "<cv_bridge/cv_bridge.h>",
+      "<image_transport/image_transport.h>",
+      "<geometry_msgs/PoseStamped.h>",
+      "<Eigen/Dense>",
+      "<fstream>",
+      "<iostream>",
+      "<pcl/search/impl/kdtree.hpp>",
+      "<vector>",
+      "<opencv2/opencv.hpp>"
+    ],
+    "src/uav_simulator/local_sensing/src/empty.cpp": [
+      "\"empty.h\""
+    ],
+    "src/uav_simulator/local_sensing/src/euroc.cpp": [
+      "<iostream>",
+      "<fstream>",
+      "<vector>",
+      "<ros/ros.h>",
+      "<message_filters/subscriber.h>",
+      "<message_filters/synchronizer.h>",
+      "<message_filters/sync_policies/exact_time.h>",
+      "<message_filters/sync_policies/approximate_time.h>",
+      "<geometry_msgs/PoseStamped.h>",
+      "<geometry_msgs/TransformStamped.h>",
+      "<image_transport/image_transport.h>",
+      "<cv_bridge/cv_bridge.h>",
+      "<dynamic_reconfigure/server.h>",
+      "<cloud_banchmark/cloud_banchmarkConfig.h>",
+      "<pcl/io/pcd_io.h>",
+      "<pcl/io/ply_io.h>",
+      "<eigen3/Eigen/Dense>",
+      "\"opencv2/highgui/highgui.hpp\"",
+      "<opencv2/opencv.hpp>",
+      "<opencv2/core/eigen.hpp>",
+      "\"depth_render.cuh\""
+    ],
+    "src/uav_simulator/odom_vis/pose_utils/src/pose_utils.cpp": [
+      "\"pose_utils.h\""
+    ],
+    "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization.cpp": [
+      "<string.h>",
+      "<eigen3/Eigen/Eigen>",
+      "<eigen3/Eigen/StdVector>",
+      "<iostream>",
+      "\"armadillo\"",
+      "\"geometry_msgs/PoseStamped.h\"",
+      "\"geometry_msgs/PoseWithCovarianceStamped.h\"",
+      "\"nav_msgs/Odometry.h\"",
+      "\"nav_msgs/Path.h\"",
+      "\"pose_utils.h\"",
+      "\"quadrotor_msgs/PositionCommand.h\"",
+      "\"ros/ros.h\"",
+      "\"sensor_msgs/Range.h\"",
+      "\"tf/transform_broadcaster.h\"",
+      "\"visualization_msgs/Marker.h\"",
+      "\"visualization_msgs/MarkerArray.h\""
+    ],
+    "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization_car.cpp": [
+      "<string.h>",
+      "<eigen3/Eigen/Eigen>",
+      "<eigen3/Eigen/StdVector>",
+      "<iostream>",
+      "\"armadillo\"",
+      "\"geometry_msgs/PoseStamped.h\"",
+      "\"geometry_msgs/PoseWithCovarianceStamped.h\"",
+      "\"nav_msgs/Odometry.h\"",
+      "\"nav_msgs/Path.h\"",
+      "\"pose_utils.h\"",
+      "\"quadrotor_msgs/PositionCommand.h\"",
+      "\"ros/ros.h\"",
+      "\"sensor_msgs/Range.h\"",
+      "\"tf/transform_broadcaster.h\"",
+      "\"visualization_msgs/Marker.h\"",
+      "\"visualization_msgs/MarkerArray.h\""
+    ],
+    "src/uav_simulator/mockamap/src/mockamap.cpp": [
+      "<ros/ros.h>",
+      "<sensor_msgs/PointCloud2.h>",
+      "<algorithm>",
+      "<iostream>",
+      "<vector>",
+      "<pcl/kdtree/kdtree_flann.h>",
+      "<pcl/point_cloud.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "\"maps.hpp\""
+    ],
+    "src/uav_simulator/mockamap/src/ces_randommap.cpp": [
+      "<iostream>",
+      "<pcl/point_cloud.h>",
+      "<pcl/point_types.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "<pcl/filters/radius_outlier_removal.h>",
+      "<pcl/filters/voxel_grid.h>",
+      "<pcl/kdtree/kdtree_flann.h>",
+      "<pcl/point_cloud.h>",
+      "<pcl/point_types.h>",
+      "<pcl/search/impl/kdtree.hpp>",
+      "<pcl/search/kdtree.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "<geometry_msgs/PoseStamped.h>",
+      "<geometry_msgs/Vector3.h>",
+      "<nav_msgs/Odometry.h>",
+      "<ros/console.h>",
+      "<ros/ros.h>",
+      "<sensor_msgs/PointCloud2.h>",
+      "<Eigen/Eigen>",
+      "<Eigen/SVD>",
+      "<math.h>",
+      "<random>",
+      "<sys/time.h>",
+      "<time.h>",
+      "\"visualization_msgs/Marker.h\"",
+      "\"visualization_msgs/MarkerArray.h\"",
+      "\"maps.hpp\""
+    ],
+    "src/uav_simulator/mockamap/src/maps.cpp": [
+      "\"maps.hpp\"",
+      "<algorithm>",
+      "<iostream>",
+      "<random>",
+      "<vector>",
+      "<Eigen/Core>",
+      "\"perlinnoise.hpp\""
+    ],
+    "src/uav_simulator/mockamap/src/perlinnoise.cpp": [
+      "\"perlinnoise.hpp\"",
+      "<algorithm>",
+      "<cmath>",
+      "<numeric>",
+      "<random>"
+    ],
+    "src/uav_simulator/so3_controller/src/so3_controller_nodelet.cpp": [
+      "\"so3_controller/so3_controller.hpp\"",
+      "<quadrotor_msgs/PositionCommand.h>",
+      "<quadrotor_msgs/SO3Command.h>",
+      "<nav_msgs/Odometry.h>",
+      "<sensor_msgs/Imu.h>",
+      "<tf/transform_datatypes.h>",
+      "<nodelet/nodelet.h>",
+      "<ros/ros.h>",
+      "<pluginlib/class_list_macros.h>"
+    ],
+    "src/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp": [
+      "\"so3_quadrotor/quadrotor_dynamics.hpp\"",
+      "<quadrotor_msgs/SO3Command.h>",
+      "<nodelet/nodelet.h>",
+      "<ros/ros.h>",
+      "<nav_msgs/Odometry.h>",
+      "<sensor_msgs/Imu.h>",
+      "<visualization_msgs/MarkerArray.h>",
+      "<tf/transform_broadcaster.h>",
+      "<pluginlib/class_list_macros.h>"
+    ],
+    "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo/src/main.cpp": [
+      "<bar/hello.h>",
+      "<baz/world.h>"
+    ],
+    "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar/src/hello.cpp": [
+      "<bar/hello.h>",
+      "<bar/HeaderString.h>",
+      "<iostream>",
+      "<boost/thread.hpp>"
+    ],
+    "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp": [
+      "\"ellipsoid_array_visual.h\""
+    ],
+    "src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp": [
+      "\"mesh_visual.h\""
+    ],
+    "src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp": [
+      "\"polyhedron_array_display.h\"",
+      "<pluginlib/class_list_macros.h>"
+    ],
+    "src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp": [
+      "\"vector_visual.h\""
+    ],
+    "src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp": [
+      "\"bound_visual.h\""
+    ],
+    "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp": [
+      "<tf/transform_listener.h>",
+      "\"ellipsoid_array_display.h\"",
+      "<pluginlib/class_list_macros.h>"
+    ],
+    "src/planning/planning/src/test_node.cpp": [
+      "<quadrotor_msgs/OccMap3d.h>",
+      "<prediction/prediction.hpp>",
+      "<visualization/visualization.hpp>"
+    ],
+    "src/planning/planning/src/traj_server.cpp": [
+      "<nav_msgs/Odometry.h>",
+      "<quadrotor_msgs/PolyTraj.h>",
+      "<quadrotor_msgs/PositionCommand.h>",
+      "<ros/ros.h>",
+      "<std_msgs/Empty.h>",
+      "<visualization_msgs/Marker.h>",
+      "<traj_opt/poly_traj_utils.hpp>"
+    ],
+    "src/planning/planning/src/play_bag_node.cpp": [
+      "<mapping/mapping.h>",
+      "<quadrotor_msgs/OccMap3d.h>",
+      "<quadrotor_msgs/ReplanState.h>",
+      "<ros/package.h>",
+      "<ros/ros.h>",
+      "<sensor_msgs/PointCloud2.h>",
+      "<wr_msg/wr_msg.hpp>"
+    ],
+    "src/planning/planning/src/planning_nodelet.cpp": [
+      "<geometry_msgs/PoseStamped.h>",
+      "<mapping/mapping.h>",
+      "<nav_msgs/Odometry.h>",
+      "<nodelet/nodelet.h>",
+      "<quadrotor_msgs/OccMap3d.h>",
+      "<quadrotor_msgs/PolyTraj.h>",
+      "<quadrotor_msgs/ReplanState.h>",
+      "<ros/package.h>",
+      "<ros/ros.h>",
+      "<std_msgs/Empty.h>",
+      "<traj_opt/traj_opt.h>",
+      "<Eigen/Core>",
+      "<atomic>",
+      "<env/env.hpp>",
+      "<prediction/prediction.hpp>",
+      "<thread>",
+      "<visualization/visualization.hpp>",
+      "<wr_msg/wr_msg.hpp>",
+      "<pluginlib/class_list_macros.h>"
+    ],
+    "src/mapping/src/visualize_history_path.cpp": [
+      "<Eigen/Geometry>",
+      "\"geometry_msgs/PoseStamped.h\"",
+      "\"nav_msgs/Odometry.h\"",
+      "\"nav_msgs/Path.h\"",
+      "\"quadrotor_msgs/PositionCommand.h\"",
+      "\"ros/ros.h\"",
+      "\"visualization_msgs/Marker.h\""
+    ],
+    "src/mapping/src/mapping_vis_node.cpp": [
+      "<mapping/mapping.h>",
+      "<quadrotor_msgs/OccMap3d.h>",
+      "<ros/ros.h>",
+      "<sensor_msgs/PointCloud2.h>"
+    ],
+    "src/mapping/src/mapping_nodelet.cpp": [
+      "<cv_bridge/cv_bridge.h>",
+      "<geometry_msgs/PointStamped.h>",
+      "<geometry_msgs/PoseStamped.h>",
+      "<mapping/mapping.h>",
+      "<message_filters/subscriber.h>",
+      "<message_filters/sync_policies/approximate_time.h>",
+      "<message_filters/sync_policies/exact_time.h>",
+      "<message_filters/time_synchronizer.h>",
+      "<nav_msgs/Odometry.h>",
+      "<nodelet/nodelet.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "<quadrotor_msgs/OccMap3d.h>",
+      "<ros/ros.h>",
+      "<std_msgs/Int16MultiArray.h>",
+      "<atomic>",
+      "<thread>",
+      "<pluginlib/class_list_macros.h>"
+    ],
+    "src/planning/traj_opt/src/traj_opt_fake.cc": [
+      "<traj_opt/traj_opt.h>",
+      "<cmath>",
+      "<random>",
+      "<traj_opt/geoutils.hpp>",
+      "<traj_opt/lbfgs_raw.hpp>"
+    ],
+    "src/planning/traj_opt/src/traj_opt.cc": [
+      "<traj_opt/traj_opt.h>",
+      "<cmath>",
+      "<random>",
+      "<traj_opt/geoutils.hpp>",
+      "<traj_opt/lbfgs_raw.hpp>"
+    ],
+    "src/mapping/src/mapping.cc": [
+      "<mapping/mapping.h>",
+      "<pcl_conversions/pcl_conversions.h>",
+      "<iostream>"
+    ]
+  },
+  "inferred_deps_by_file": {
+    "src/detection/target_ekf/src/target_ekf_sim_node.cpp": [
+      "message_filters",
+      "nav_msgs",
+      "roscpp"
+    ],
+    "src/detection/target_ekf/src/target_ekf_node.cpp": [
+      "Eigen3",
+      "message_filters",
+      "nav_msgs",
+      "object_detection_msgs",
+      "roscpp"
+    ],
+    "src/uav_simulator/local_sensing/src/pcl_render_node.cpp": [
+      "Eigen3",
+      "OpenCV",
+      "cv_bridge",
+      "geometry_msgs",
+      "image_transport",
+      "message_filters",
+      "nav_msgs",
+      "pcl_conversions",
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs",
+      "tf"
+    ],
+    "src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp": [
+      "Eigen3",
+      "OpenCV",
+      "cv_bridge",
+      "geometry_msgs",
+      "image_transport",
+      "nav_msgs",
+      "pcl_conversions",
+      "roscpp",
+      "sensor_msgs"
+    ],
+    "src/uav_simulator/local_sensing/src/empty.cpp": [],
+    "src/uav_simulator/local_sensing/src/euroc.cpp": [
+      "Eigen3",
+      "OpenCV",
+      "cv_bridge",
+      "geometry_msgs",
+      "image_transport",
+      "message_filters",
+      "roscpp"
+    ],
+    "src/uav_simulator/odom_vis/pose_utils/src/pose_utils.cpp": [],
+    "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization.cpp": [
+      "Eigen3",
+      "geometry_msgs",
+      "nav_msgs",
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs",
+      "tf",
+      "visualization_msgs"
+    ],
+    "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization_car.cpp": [
+      "Eigen3",
+      "geometry_msgs",
+      "nav_msgs",
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs",
+      "tf",
+      "visualization_msgs"
+    ],
+    "src/uav_simulator/mockamap/src/mockamap.cpp": [
+      "pcl_conversions",
+      "roscpp",
+      "sensor_msgs"
+    ],
+    "src/uav_simulator/mockamap/src/ces_randommap.cpp": [
+      "Eigen3",
+      "geometry_msgs",
+      "nav_msgs",
+      "pcl_conversions",
+      "roscpp",
+      "sensor_msgs",
+      "visualization_msgs"
+    ],
+    "src/uav_simulator/mockamap/src/maps.cpp": [
+      "Eigen3"
+    ],
+    "src/uav_simulator/mockamap/src/perlinnoise.cpp": [],
+    "src/uav_simulator/so3_controller/src/so3_controller_nodelet.cpp": [
+      "nav_msgs",
+      "nodelet",
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs",
+      "tf"
+    ],
+    "src/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp": [
+      "nav_msgs",
+      "nodelet",
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs",
+      "tf",
+      "visualization_msgs"
+    ],
+    "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo/src/main.cpp": [],
+    "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar/src/hello.cpp": [],
+    "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp": [],
+    "src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp": [],
+    "src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp": [],
+    "src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp": [],
+    "src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp": [],
+    "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp": [
+      "tf"
+    ],
+    "src/planning/planning/src/test_node.cpp": [
+      "quadrotor_msgs"
+    ],
+    "src/planning/planning/src/traj_server.cpp": [
+      "nav_msgs",
+      "quadrotor_msgs",
+      "roscpp",
+      "visualization_msgs"
+    ],
+    "src/planning/planning/src/play_bag_node.cpp": [
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs"
+    ],
+    "src/planning/planning/src/planning_nodelet.cpp": [
+      "Eigen3",
+      "geometry_msgs",
+      "nav_msgs",
+      "nodelet",
+      "quadrotor_msgs",
+      "roscpp"
+    ],
+    "src/mapping/src/visualize_history_path.cpp": [
+      "Eigen3",
+      "geometry_msgs",
+      "nav_msgs",
+      "quadrotor_msgs",
+      "roscpp",
+      "visualization_msgs"
+    ],
+    "src/mapping/src/mapping_vis_node.cpp": [
+      "quadrotor_msgs",
+      "roscpp",
+      "sensor_msgs"
+    ],
+    "src/mapping/src/mapping_nodelet.cpp": [
+      "cv_bridge",
+      "geometry_msgs",
+      "message_filters",
+      "nav_msgs",
+      "nodelet",
+      "pcl_conversions",
+      "quadrotor_msgs",
+      "roscpp"
+    ],
+    "src/planning/traj_opt/src/traj_opt_fake.cc": [],
+    "src/planning/traj_opt/src/traj_opt.cc": [],
+    "src/mapping/src/mapping.cc": [
+      "pcl_conversions"
+    ]
+  },
+  "file_to_package": {
+    "src/detection/target_ekf/src/target_ekf_sim_node.cpp": "target_ekf",
+    "src/detection/target_ekf/src/target_ekf_node.cpp": "target_ekf",
+    "src/uav_simulator/local_sensing/src/pcl_render_node.cpp": "local_sensing_node",
+    "src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp": "local_sensing_node",
+    "src/uav_simulator/local_sensing/src/empty.cpp": "local_sensing_node",
+    "src/uav_simulator/local_sensing/src/euroc.cpp": "local_sensing_node",
+    "src/uav_simulator/odom_vis/pose_utils/src/pose_utils.cpp": "pose_utils",
+    "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization.cpp": "odom_visualization",
+    "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization_car.cpp": "odom_visualization",
+    "src/uav_simulator/mockamap/src/mockamap.cpp": "mockamap",
+    "src/uav_simulator/mockamap/src/ces_randommap.cpp": "mockamap",
+    "src/uav_simulator/mockamap/src/maps.cpp": "mockamap",
+    "src/uav_simulator/mockamap/src/perlinnoise.cpp": "mockamap",
+    "src/uav_simulator/so3_controller/src/so3_controller_nodelet.cpp": "so3_controller",
+    "src/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp": "so3_quadrotor",
+    "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo/src/main.cpp": "foo",
+    "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar/src/hello.cpp": "bar",
+    "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp": "decomp_ros_utils",
+    "src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp": "decomp_ros_utils",
+    "src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp": "decomp_ros_utils",
+    "src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp": "decomp_ros_utils",
+    "src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp": "decomp_ros_utils",
+    "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp": "decomp_ros_utils",
+    "src/planning/planning/src/test_node.cpp": "planning",
+    "src/planning/planning/src/traj_server.cpp": "planning",
+    "src/planning/planning/src/play_bag_node.cpp": "planning",
+    "src/planning/planning/src/planning_nodelet.cpp": "planning",
+    "src/mapping/src/visualize_history_path.cpp": "mapping",
+    "src/mapping/src/mapping_vis_node.cpp": "mapping",
+    "src/mapping/src/mapping_nodelet.cpp": "mapping",
+    "src/planning/traj_opt/src/traj_opt_fake.cc": "traj_opt",
+    "src/planning/traj_opt/src/traj_opt.cc": "traj_opt",
+    "src/mapping/src/mapping.cc": "mapping"
+  },
+  "package_to_cpp": {
+    "target_ekf": [
+      "src/detection/target_ekf/src/target_ekf_node.cpp",
+      "src/detection/target_ekf/src/target_ekf_sim_node.cpp"
+    ],
+    "local_sensing_node": [
+      "src/uav_simulator/local_sensing/src/empty.cpp",
+      "src/uav_simulator/local_sensing/src/euroc.cpp",
+      "src/uav_simulator/local_sensing/src/pcl_render_node.cpp",
+      "src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp"
+    ],
+    "pose_utils": [
+      "src/uav_simulator/odom_vis/pose_utils/src/pose_utils.cpp"
+    ],
+    "odom_visualization": [
+      "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization.cpp",
+      "src/uav_simulator/odom_vis/odom_visualization/src/odom_visualization_car.cpp"
+    ],
+    "mockamap": [
+      "src/uav_simulator/mockamap/src/ces_randommap.cpp",
+      "src/uav_simulator/mockamap/src/maps.cpp",
+      "src/uav_simulator/mockamap/src/mockamap.cpp",
+      "src/uav_simulator/mockamap/src/perlinnoise.cpp"
+    ],
+    "so3_controller": [
+      "src/uav_simulator/so3_controller/src/so3_controller_nodelet.cpp"
+    ],
+    "so3_quadrotor": [
+      "src/uav_simulator/so3_quadrotor/src/so3_quadrotor_nodelet.cpp"
+    ],
+    "foo": [
+      "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/foo/src/main.cpp"
+    ],
+    "bar": [
+      "src/planning/DecompROS/catkin_simple/test/scenarios/hello_world/bar/src/hello.cpp"
+    ],
+    "decomp_ros_utils": [
+      "src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp",
+      "src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp"
+    ],
+    "planning": [
+      "src/planning/planning/src/planning_nodelet.cpp",
+      "src/planning/planning/src/play_bag_node.cpp",
+      "src/planning/planning/src/test_node.cpp",
+      "src/planning/planning/src/traj_server.cpp"
+    ],
+    "mapping": [
+      "src/mapping/src/mapping.cc",
+      "src/mapping/src/mapping_nodelet.cpp",
+      "src/mapping/src/mapping_vis_node.cpp",
+      "src/mapping/src/visualize_history_path.cpp"
+    ],
+    "traj_opt": [
+      "src/planning/traj_opt/src/traj_opt.cc",
+      "src/planning/traj_opt/src/traj_opt_fake.cc"
+    ]
+  }
+}

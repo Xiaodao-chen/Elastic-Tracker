@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    use_global_map: true
+    x_length: 100.0
+    y_length: 100.0
+    z_length: 10.0
+    resolution: 0.15
+    inflate_size: 2
+

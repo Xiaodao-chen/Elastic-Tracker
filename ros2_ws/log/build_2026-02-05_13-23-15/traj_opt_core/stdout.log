@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/traj_opt_core
+[ 33%] Building CXX object CMakeFiles/traj_opt_core.dir/src/traj_opt.cc.o
+[ 66%] Building CXX object CMakeFiles/traj_opt_core.dir/src/traj_opt_fake.cc.o
+[100%] Linking CXX shared library libtraj_opt_core.so
+[100%] Built target traj_opt_core
+-- Install configuration: "Release"
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt_core
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt_core/logging.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/root_finder.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/minco.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/poly_traj_utils.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/sdlp.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/quickhull.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/lbfgs_raw.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/geoutils.hpp
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/traj_opt.h
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/lib/libtraj_opt_core.so
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/library_path.sh
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/library_path.dsv
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/traj_opt_core
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/traj_opt_core
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/ament_prefix_path.sh
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/path.sh
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/path.dsv
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.bash
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.sh
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.zsh
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.dsv
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.dsv
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/traj_opt_core
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/traj_opt_coreConfig.cmake
+-- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/traj_opt_coreConfig-version.cmake
+-- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.xml

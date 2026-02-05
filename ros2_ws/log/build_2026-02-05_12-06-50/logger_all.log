@@ -1,0 +1,1040 @@
+[0.047s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--symlink-install', '--event-handlers', 'console_direct+', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']
+[0.047s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4496d7f890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4496f464b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4496f464b0>>)
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.066s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Elastic-Tracker/ros2_ws'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/elastic_tracker_bringup' with type 'ros.ament_cmake' and name 'elastic_tracker_bringup'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping' with type 'ros.ament_cmake' and name 'mapping'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping_core' with type 'ros.catkin' and name 'mapping_core'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mockamap' with type 'ros.catkin' and name 'mockamap'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection_msgs' with type 'ros.catkin' and name 'object_detection_msgs'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_visualization' with type 'ros.catkin' and name 'odom_visualization'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planning' with type 'ros.ament_cmake' and name 'planning'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_utils' with type 'ros.catkin' and name 'pose_utils'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadrotor_msgs' with type 'ros.catkin' and name 'quadrotor_msgs'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/so3_controller' with type 'ros.ament_cmake' and name 'so3_controller'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'ros'
+[0.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/so3_quadrotor' with type 'ros.ament_cmake' and name 'so3_quadrotor'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'ros'
+[0.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_ekf' with type 'ros.catkin' and name 'target_ekf'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'ros'
+[0.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traj_opt_core' with type 'ros.catkin' and name 'traj_opt_core'
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'cmake_target' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mapping_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.097s] DEBUG:colcon.colcon_core.verb:Building package 'mapping_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/mapping_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/mapping_core', 'symlink_install': True, 'test_result_base': None}
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'cmake_target' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'cmake_clean_cache' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'cmake_clean_first' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'cmake_force_configure' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'ament_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'catkin_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'mockamap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.097s] DEBUG:colcon.colcon_core.verb:Building package 'mockamap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/mockamap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/mockamap', 'symlink_install': True, 'test_result_base': None}
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'cmake_target' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'object_detection_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.097s] DEBUG:colcon.colcon_core.verb:Building package 'object_detection_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/object_detection_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'cmake_target' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'pose_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.097s] DEBUG:colcon.colcon_core.verb:Building package 'pose_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/pose_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/pose_utils', 'symlink_install': True, 'test_result_base': None}
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_target' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.097s] Level 5:colcon.colcon_core.verb:set package 'quadrotor_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.097s] DEBUG:colcon.colcon_core.verb:Building package 'quadrotor_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/quadrotor_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'traj_opt_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'traj_opt_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/traj_opt_core', 'symlink_install': True, 'test_result_base': None}
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/mapping', 'symlink_install': True, 'test_result_base': None}
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'odom_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'odom_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/odom_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/odom_visualization', 'symlink_install': True, 'test_result_base': None}
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/planning', 'symlink_install': True, 'test_result_base': None}
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'so3_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/so3_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/so3_controller', 'symlink_install': True, 'test_result_base': None}
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'so3_quadrotor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'so3_quadrotor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/so3_quadrotor', 'symlink_install': True, 'test_result_base': None}
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'cmake_target' from command line to 'None'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'target_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.099s] DEBUG:colcon.colcon_core.verb:Building package 'target_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/target_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/target_ekf', 'symlink_install': True, 'test_result_base': None}
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION']'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_target' from command line to 'None'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.099s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.099s] DEBUG:colcon.colcon_core.verb:Building package 'elastic_tracker_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPython3_FIND_VIRTUALENV=STANDARD', '-DPython3_FIND_STRATEGY=LOCATION'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.099s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.100s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/quadrotor_msgs' with build type 'catkin'
+[0.100s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/quadrotor_msgs'
+[0.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/planning' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/so3_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/mapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/planning' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/traj_opt_core' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/target_ekf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/so3_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/odom_visualization' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/mapping' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/pose_utils' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/mockamap' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/mapping_core' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.103s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/mapping_core' with build type 'catkin'
+[0.103s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/mapping_core'
+[0.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.104s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/pose_utils' with build type 'catkin'
+[0.104s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/pose_utils'
+[0.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.106s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/traj_opt_core' with build type 'catkin'
+[0.106s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/traj_opt_core'
+[0.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.106s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.107s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/mockamap' with build type 'catkin'
+[0.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/mockamap'
+[0.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.108s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/object_detection_msgs' with build type 'catkin'
+[0.108s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/object_detection_msgs'
+[0.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.108s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/quadrotor_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mapping_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/mapping_core -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/pose_utils -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/traj_opt_core -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mockamap': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/mockamap -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/object_detection_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/traj_opt_core -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/traj_opt_core -- -j28 -l28
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mapping_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/mapping_core -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mapping_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/mapping_core -- -j28 -l28
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/pose_utils -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/pose_utils -- -j28 -l28
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mapping_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/mapping_core -- -j28 -l28
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mapping_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/mapping_core
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mapping_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/mapping_core
+[1.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_core', 'ros_package_path')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/ros_package_path.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/ros_package_path.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/ros_package_path.sh'
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_core', 'pkg_config_path')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/pkg_config_path.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/pkg_config_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/pkg_config_path.sh'
+[1.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_core', 'pkg_config_path_multiarch')
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/pkg_config_path_multiarch.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/pkg_config_path_multiarch.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/pkg_config_path_multiarch.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping_core)
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[1.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_core', 'cmake_prefix_path')
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/cmake_prefix_path.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/cmake_prefix_path.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/hook/cmake_prefix_path.sh'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/mapping_core.pc'
+[1.414s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[1.414s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/package.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/package.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/package.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/package.bash'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/package.zsh'
+[1.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/mapping_core)
+[2.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/object_detection_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[2.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/object_detection_msgs -- -j28 -l28
+[2.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/quadrotor_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs -- -j28 -l28
+[2.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/pose_utils -- -j28 -l28
+[2.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/pose_utils
+[2.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_utils', 'ros_package_path')
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/ros_package_path.ps1'
+[2.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/pose_utils
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/ros_package_path.dsv'
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/ros_package_path.sh'
+[2.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_utils', 'pkg_config_path')
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/pkg_config_path.ps1'
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/pkg_config_path.dsv'
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/pkg_config_path.sh'
+[2.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_utils', 'pkg_config_path_multiarch')
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/pkg_config_path_multiarch.ps1'
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/pkg_config_path_multiarch.dsv'
+[2.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/pkg_config_path_multiarch.sh'
+[2.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_utils)
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[2.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_utils', 'cmake_prefix_path')
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/cmake_prefix_path.ps1'
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/cmake_prefix_path.dsv'
+[2.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/hook/cmake_prefix_path.sh'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/pose_utils.pc'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[2.920s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[2.920s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.ps1'
+[2.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.dsv'
+[2.921s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.sh'
+[2.921s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.bash'
+[2.921s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.zsh'
+[2.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/pose_utils)
+[3.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mockamap' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/mockamap -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[3.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mockamap': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/mockamap -- -j28 -l28
+[3.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/object_detection_msgs -- -j28 -l28
+[3.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/object_detection_msgs
+[3.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/object_detection_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/object_detection_msgs
+[3.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'ros_package_path')
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/ros_package_path.ps1'
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/ros_package_path.dsv'
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/ros_package_path.sh'
+[3.893s] Level 1:colcon.colcon_ros.task.catkin:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[3.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'catkin_pythonpath')
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/catkin_pythonpath.ps1'
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/catkin_pythonpath.dsv'
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/catkin_pythonpath.sh'
+[3.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'pkg_config_path')
+[3.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pkg_config_path.ps1'
+[3.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pkg_config_path.dsv'
+[3.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pkg_config_path.sh'
+[3.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'pkg_config_path_multiarch')
+[3.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pkg_config_path_multiarch.ps1'
+[3.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pkg_config_path_multiarch.dsv'
+[3.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pkg_config_path_multiarch.sh'
+[3.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(object_detection_msgs)
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[3.895s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[3.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'cmake_prefix_path')
+[3.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/cmake_prefix_path.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/cmake_prefix_path.dsv'
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/cmake_prefix_path.sh'
+[3.896s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[3.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'ld_library_path_lib')
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/ld_library_path_lib.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/ld_library_path_lib.dsv'
+[3.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/ld_library_path_lib.sh'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/object_detection_msgs.pc'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[3.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('object_detection_msgs', 'pythonpath')
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pythonpath.ps1'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pythonpath.dsv'
+[3.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/hook/pythonpath.sh'
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/package.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/package.dsv'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/package.sh'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/package.bash'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/package.zsh'
+[3.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/object_detection_msgs)
+[3.899s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/target_ekf' with build type 'catkin'
+[3.899s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/target_ekf'
+[3.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/target_ekf -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[4.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/target_ekf -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[4.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/target_ekf -- -j28 -l28
+[4.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs -- -j28 -l28
+[4.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs
+[4.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/quadrotor_msgs
+[4.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'ros_package_path')
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/ros_package_path.ps1'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/ros_package_path.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/ros_package_path.sh'
+[4.818s] Level 1:colcon.colcon_ros.task.catkin:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[4.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'catkin_pythonpath')
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/catkin_pythonpath.ps1'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/catkin_pythonpath.dsv'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/catkin_pythonpath.sh'
+[4.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'pkg_config_path')
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pkg_config_path.ps1'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pkg_config_path.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pkg_config_path.sh'
+[4.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'pkg_config_path_multiarch')
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pkg_config_path_multiarch.ps1'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pkg_config_path_multiarch.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pkg_config_path_multiarch.sh'
+[4.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quadrotor_msgs)
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[4.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'cmake_prefix_path')
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/cmake_prefix_path.ps1'
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/cmake_prefix_path.dsv'
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/cmake_prefix_path.sh'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[4.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'ld_library_path_lib')
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/ld_library_path_lib.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/ld_library_path_lib.dsv'
+[4.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/ld_library_path_lib.sh'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/quadrotor_msgs.pc'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[4.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('quadrotor_msgs', 'pythonpath')
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pythonpath.ps1'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pythonpath.dsv'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/hook/pythonpath.sh'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[4.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/package.ps1'
+[4.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/package.dsv'
+[4.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/package.sh'
+[4.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/package.bash'
+[4.824s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/package.zsh'
+[4.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/quadrotor_msgs)
+[4.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/mapping' with build type 'ament_cmake'
+[4.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/mapping'
+[4.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.826s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/odom_visualization' with build type 'catkin'
+[4.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/odom_visualization'
+[4.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/so3_controller' with build type 'ament_cmake'
+[4.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/so3_controller'
+[4.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/so3_quadrotor' with build type 'ament_cmake'
+[4.828s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/so3_quadrotor'
+[4.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/mapping -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[4.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/odom_visualization': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/odom_visualization -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[4.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_controller -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[4.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_quadrotor -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[5.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_controller -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[5.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_controller -- -j28 -l28
+[5.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/odom_visualization' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/odom_visualization -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[5.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/odom_visualization': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/odom_visualization -- -j28 -l28
+[5.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_quadrotor -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[5.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor -- -j28 -l28
+[7.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/mapping -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[7.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/mapping -- -j28 -l28
+[8.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mockamap' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/mockamap -- -j28 -l28
+[8.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mockamap': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/mockamap
+[8.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mockamap' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/mockamap
+[8.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('mockamap', 'ros_package_path')
+[8.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/ros_package_path.ps1'
+[8.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/ros_package_path.dsv'
+[8.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/ros_package_path.sh'
+[8.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('mockamap', 'pkg_config_path')
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pkg_config_path.ps1'
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pkg_config_path.dsv'
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pkg_config_path.sh'
+[8.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('mockamap', 'pkg_config_path_multiarch')
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pkg_config_path_multiarch.ps1'
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pkg_config_path_multiarch.dsv'
+[8.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pkg_config_path_multiarch.sh'
+[8.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mockamap)
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[8.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('mockamap', 'cmake_prefix_path')
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/cmake_prefix_path.ps1'
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/cmake_prefix_path.dsv'
+[8.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/cmake_prefix_path.sh'
+[8.134s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[8.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('mockamap', 'ld_library_path_lib')
+[8.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/ld_library_path_lib.ps1'
+[8.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/ld_library_path_lib.dsv'
+[8.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/ld_library_path_lib.sh'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/mockamap.pc'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[8.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('mockamap', 'pythonpath')
+[8.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pythonpath.ps1'
+[8.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pythonpath.dsv'
+[8.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/hook/pythonpath.sh'
+[8.136s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/package.ps1'
+[8.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/package.dsv'
+[8.137s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/package.sh'
+[8.137s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/package.bash'
+[8.137s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mockamap/package.zsh'
+[8.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/mockamap)
+[9.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/traj_opt_core -- -j28 -l28
+[9.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/traj_opt_core
+[9.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/traj_opt_core
+[9.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('traj_opt_core', 'ros_package_path')
+[9.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/ros_package_path.ps1'
+[9.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/ros_package_path.dsv'
+[9.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/ros_package_path.sh'
+[9.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('traj_opt_core', 'pkg_config_path')
+[9.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pkg_config_path.ps1'
+[9.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pkg_config_path.dsv'
+[9.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pkg_config_path.sh'
+[9.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('traj_opt_core', 'pkg_config_path_multiarch')
+[9.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pkg_config_path_multiarch.ps1'
+[9.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pkg_config_path_multiarch.dsv'
+[9.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pkg_config_path_multiarch.sh'
+[9.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traj_opt_core)
+[9.219s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[9.219s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[9.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('traj_opt_core', 'cmake_prefix_path')
+[9.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/cmake_prefix_path.ps1'
+[9.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/cmake_prefix_path.dsv'
+[9.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/cmake_prefix_path.sh'
+[9.220s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[9.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('traj_opt_core', 'ld_library_path_lib')
+[9.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/ld_library_path_lib.ps1'
+[9.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/ld_library_path_lib.dsv'
+[9.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/ld_library_path_lib.sh'
+[9.221s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[9.221s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/traj_opt_core.pc'
+[9.221s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[9.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('traj_opt_core', 'pythonpath')
+[9.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pythonpath.ps1'
+[9.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pythonpath.dsv'
+[9.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/hook/pythonpath.sh'
+[9.221s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[9.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.ps1'
+[9.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.dsv'
+[9.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.sh'
+[9.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.bash'
+[9.223s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.zsh'
+[9.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/traj_opt_core)
+[9.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/planning' with build type 'ament_cmake'
+[9.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/planning'
+[9.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/planning -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[9.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/planning -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[9.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/planning -- -j28 -l28
+[16.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/odom_visualization' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/odom_visualization -- -j28 -l28
+[16.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/odom_visualization': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/odom_visualization
+[16.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/odom_visualization' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/odom_visualization
+[16.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_visualization', 'ros_package_path')
+[16.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/ros_package_path.ps1'
+[16.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/ros_package_path.dsv'
+[16.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/ros_package_path.sh'
+[16.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_visualization', 'pkg_config_path')
+[16.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pkg_config_path.ps1'
+[16.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pkg_config_path.dsv'
+[16.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pkg_config_path.sh'
+[16.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_visualization', 'pkg_config_path_multiarch')
+[16.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pkg_config_path_multiarch.ps1'
+[16.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pkg_config_path_multiarch.dsv'
+[16.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pkg_config_path_multiarch.sh'
+[16.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_visualization)
+[16.176s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[16.176s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[16.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_visualization', 'cmake_prefix_path')
+[16.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/cmake_prefix_path.ps1'
+[16.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/cmake_prefix_path.dsv'
+[16.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/cmake_prefix_path.sh'
+[16.178s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[16.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_visualization', 'ld_library_path_lib')
+[16.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/ld_library_path_lib.ps1'
+[16.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/ld_library_path_lib.dsv'
+[16.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/ld_library_path_lib.sh'
+[16.178s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[16.178s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/odom_visualization.pc'
+[16.178s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[16.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_visualization', 'pythonpath')
+[16.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pythonpath.ps1'
+[16.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pythonpath.dsv'
+[16.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/hook/pythonpath.sh'
+[16.179s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[16.179s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/package.ps1'
+[16.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/package.dsv'
+[16.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/package.sh'
+[16.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/package.bash'
+[16.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/odom_visualization/package.zsh'
+[16.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/odom_visualization)
+[18.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor -- -j28 -l28
+[18.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor
+[18.642s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(so3_quadrotor)
+[18.643s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[18.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor
+[18.643s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[18.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_quadrotor', 'cmake_prefix_path')
+[18.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/cmake_prefix_path.ps1'
+[18.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/cmake_prefix_path.dsv'
+[18.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/cmake_prefix_path.sh'
+[18.645s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[18.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_quadrotor', 'ld_library_path_lib')
+[18.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/ld_library_path_lib.ps1'
+[18.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/ld_library_path_lib.dsv'
+[18.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/ld_library_path_lib.sh'
+[18.645s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[18.645s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/so3_quadrotor.pc'
+[18.645s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[18.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_quadrotor', 'pythonpath')
+[18.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/pythonpath.ps1'
+[18.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/pythonpath.dsv'
+[18.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/pythonpath.sh'
+[18.646s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[18.646s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.ps1'
+[18.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.dsv'
+[18.647s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.sh'
+[18.647s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.bash'
+[18.647s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.zsh'
+[18.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/so3_quadrotor)
+[18.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(so3_quadrotor)
+[18.647s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[18.648s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[18.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_quadrotor', 'cmake_prefix_path')
+[18.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/cmake_prefix_path.ps1'
+[18.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/cmake_prefix_path.dsv'
+[18.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/cmake_prefix_path.sh'
+[18.649s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[18.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_quadrotor', 'ld_library_path_lib')
+[18.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/ld_library_path_lib.ps1'
+[18.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/ld_library_path_lib.dsv'
+[18.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/ld_library_path_lib.sh'
+[18.649s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[18.649s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/so3_quadrotor.pc'
+[18.649s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[18.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_quadrotor', 'pythonpath')
+[18.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/pythonpath.ps1'
+[18.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/pythonpath.dsv'
+[18.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/hook/pythonpath.sh'
+[18.650s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[18.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.ps1'
+[18.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.dsv'
+[18.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.sh'
+[18.651s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.bash'
+[18.651s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.zsh'
+[18.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/so3_quadrotor)
+[19.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_controller -- -j28 -l28
+[19.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_controller
+[19.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(so3_controller)
+[19.120s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[19.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_controller
+[19.120s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[19.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_controller', 'cmake_prefix_path')
+[19.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/cmake_prefix_path.ps1'
+[19.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/cmake_prefix_path.dsv'
+[19.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/cmake_prefix_path.sh'
+[19.122s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[19.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_controller', 'ld_library_path_lib')
+[19.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/ld_library_path_lib.ps1'
+[19.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/ld_library_path_lib.dsv'
+[19.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/ld_library_path_lib.sh'
+[19.122s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[19.122s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/so3_controller.pc'
+[19.122s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[19.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_controller', 'pythonpath')
+[19.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/pythonpath.ps1'
+[19.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/pythonpath.dsv'
+[19.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/pythonpath.sh'
+[19.123s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[19.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.ps1'
+[19.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.dsv'
+[19.124s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.sh'
+[19.124s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.bash'
+[19.124s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.zsh'
+[19.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/so3_controller)
+[19.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(so3_controller)
+[19.124s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[19.124s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[19.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_controller', 'cmake_prefix_path')
+[19.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/cmake_prefix_path.ps1'
+[19.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/cmake_prefix_path.dsv'
+[19.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/cmake_prefix_path.sh'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[19.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_controller', 'ld_library_path_lib')
+[19.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/ld_library_path_lib.ps1'
+[19.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/ld_library_path_lib.dsv'
+[19.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/ld_library_path_lib.sh'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/so3_controller.pc'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[19.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('so3_controller', 'pythonpath')
+[19.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/pythonpath.ps1'
+[19.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/pythonpath.dsv'
+[19.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/hook/pythonpath.sh'
+[19.127s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[19.127s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.ps1'
+[19.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.dsv'
+[19.127s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.sh'
+[19.128s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.bash'
+[19.128s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.zsh'
+[19.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/so3_controller)
+[19.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/target_ekf -- -j28 -l28
+[19.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/target_ekf
+[19.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/target_ekf
+[19.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_ekf', 'ros_package_path')
+[19.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/ros_package_path.ps1'
+[19.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/ros_package_path.dsv'
+[19.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/ros_package_path.sh'
+[19.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_ekf', 'pkg_config_path')
+[19.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pkg_config_path.ps1'
+[19.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pkg_config_path.dsv'
+[19.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pkg_config_path.sh'
+[19.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_ekf', 'pkg_config_path_multiarch')
+[19.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pkg_config_path_multiarch.ps1'
+[19.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pkg_config_path_multiarch.dsv'
+[19.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pkg_config_path_multiarch.sh'
+[19.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_ekf)
+[19.839s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[19.839s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[19.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_ekf', 'cmake_prefix_path')
+[19.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/cmake_prefix_path.ps1'
+[19.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/cmake_prefix_path.dsv'
+[19.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/cmake_prefix_path.sh'
+[19.840s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[19.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_ekf', 'ld_library_path_lib')
+[19.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/ld_library_path_lib.ps1'
+[19.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/ld_library_path_lib.dsv'
+[19.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/ld_library_path_lib.sh'
+[19.841s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[19.841s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/target_ekf.pc'
+[19.841s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[19.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_ekf', 'pythonpath')
+[19.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pythonpath.ps1'
+[19.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pythonpath.dsv'
+[19.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/hook/pythonpath.sh'
+[19.842s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[19.842s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.ps1'
+[19.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.dsv'
+[19.843s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.sh'
+[19.843s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.bash'
+[19.843s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.zsh'
+[19.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/target_ekf)
+[26.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/mapping -- -j28 -l28
+[26.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/mapping': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/mapping
+[26.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[26.449s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[26.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/mapping
+[26.449s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[26.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[26.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/cmake_prefix_path.ps1'
+[26.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/cmake_prefix_path.dsv'
+[26.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/cmake_prefix_path.sh'
+[26.451s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[26.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ld_library_path_lib')
+[26.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/ld_library_path_lib.ps1'
+[26.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/ld_library_path_lib.dsv'
+[26.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/ld_library_path_lib.sh'
+[26.452s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[26.452s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/mapping.pc'
+[26.452s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[26.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'pythonpath')
+[26.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/pythonpath.ps1'
+[26.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/pythonpath.dsv'
+[26.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/pythonpath.sh'
+[26.453s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[26.453s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.ps1'
+[26.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.dsv'
+[26.453s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.sh'
+[26.453s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.bash'
+[26.453s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.zsh'
+[26.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/mapping)
+[26.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[26.454s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[26.454s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[26.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[26.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/cmake_prefix_path.ps1'
+[26.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/cmake_prefix_path.dsv'
+[26.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/cmake_prefix_path.sh'
+[26.455s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[26.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'ld_library_path_lib')
+[26.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/ld_library_path_lib.ps1'
+[26.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/ld_library_path_lib.dsv'
+[26.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/ld_library_path_lib.sh'
+[26.456s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[26.456s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/mapping.pc'
+[26.456s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[26.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'pythonpath')
+[26.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/pythonpath.ps1'
+[26.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/pythonpath.dsv'
+[26.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/mapping/hook/pythonpath.sh'
+[26.457s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[26.457s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.ps1'
+[26.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.dsv'
+[26.457s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.sh'
+[26.457s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.bash'
+[26.457s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/mapping/package.zsh'
+[26.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/mapping)
+[28.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/planning -- -j28 -l28
+[28.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/planning': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/planning
+[28.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
+[28.703s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[28.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/planning
+[28.703s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[28.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'cmake_prefix_path')
+[28.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/cmake_prefix_path.ps1'
+[28.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/cmake_prefix_path.dsv'
+[28.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/cmake_prefix_path.sh'
+[28.705s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[28.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'ld_library_path_lib')
+[28.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/ld_library_path_lib.ps1'
+[28.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/ld_library_path_lib.dsv'
+[28.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/ld_library_path_lib.sh'
+[28.705s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[28.705s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/planning.pc'
+[28.706s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[28.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'pythonpath')
+[28.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/pythonpath.ps1'
+[28.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/pythonpath.dsv'
+[28.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/pythonpath.sh'
+[28.706s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[28.706s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.ps1'
+[28.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.dsv'
+[28.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.sh'
+[28.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.bash'
+[28.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.zsh'
+[28.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/planning)
+[28.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
+[28.708s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[28.708s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[28.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'cmake_prefix_path')
+[28.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/cmake_prefix_path.ps1'
+[28.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/cmake_prefix_path.dsv'
+[28.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/cmake_prefix_path.sh'
+[28.709s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[28.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'ld_library_path_lib')
+[28.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/ld_library_path_lib.ps1'
+[28.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/ld_library_path_lib.dsv'
+[28.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/ld_library_path_lib.sh'
+[28.710s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[28.710s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/planning.pc'
+[28.710s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[28.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'pythonpath')
+[28.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/pythonpath.ps1'
+[28.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/pythonpath.dsv'
+[28.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/planning/hook/pythonpath.sh'
+[28.710s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[28.710s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.ps1'
+[28.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.dsv'
+[28.711s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.sh'
+[28.711s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.bash'
+[28.711s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/planning/package.zsh'
+[28.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/planning)
+[28.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup' with build type 'ament_cmake'
+[28.712s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup'
+[28.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup': AMENT_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[29.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup' returned '0': AMENT_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[29.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup': AMENT_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup -- -j28 -l28
+[29.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup' returned '0': AMENT_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup -- -j28 -l28
+[29.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup': AMENT_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup
+[29.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(elastic_tracker_bringup)
+[29.223s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[29.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup' returned '0': AMENT_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup
+[29.224s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[29.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'cmake_prefix_path')
+[29.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.ps1'
+[29.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.dsv'
+[29.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.sh'
+[29.226s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[29.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'ld_library_path_lib')
+[29.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.ps1'
+[29.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.dsv'
+[29.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.sh'
+[29.226s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[29.226s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/elastic_tracker_bringup.pc'
+[29.226s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[29.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'pythonpath')
+[29.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.ps1'
+[29.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.dsv'
+[29.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.sh'
+[29.227s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[29.227s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.ps1'
+[29.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.dsv'
+[29.228s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.sh'
+[29.228s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.bash'
+[29.228s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.zsh'
+[29.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/elastic_tracker_bringup)
+[29.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(elastic_tracker_bringup)
+[29.228s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[29.229s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[29.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'cmake_prefix_path')
+[29.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.ps1'
+[29.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.dsv'
+[29.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.sh'
+[29.230s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[29.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'ld_library_path_lib')
+[29.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.ps1'
+[29.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.dsv'
+[29.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.sh'
+[29.231s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[29.231s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/elastic_tracker_bringup.pc'
+[29.231s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[29.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'pythonpath')
+[29.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.ps1'
+[29.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.dsv'
+[29.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.sh'
+[29.232s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[29.232s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.ps1'
+[29.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.dsv'
+[29.233s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.sh'
+[29.233s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.bash'
+[29.233s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.zsh'
+[29.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/elastic_tracker_bringup)
+[29.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.234s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[29.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.237s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.237s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.237s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[29.237s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.237s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.ps1'
+[29.237s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Elastic-Tracker/ros2_ws/install/_local_setup_util_ps1.py'
+[29.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.ps1'
+[29.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.sh'
+[29.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Elastic-Tracker/ros2_ws/install/_local_setup_util_sh.py'
+[29.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.sh'
+[29.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.bash'
+[29.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.bash'
+[29.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.zsh'
+[29.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.zsh'

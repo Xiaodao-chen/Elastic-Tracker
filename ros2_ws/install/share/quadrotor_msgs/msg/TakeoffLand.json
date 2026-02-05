@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "quadrotor_msgs/msg/TakeoffLand",
+      "fields": [
+        {
+          "name": "takeoff_land_cmd",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "quadrotor_msgs/msg/TakeoffLand",
+      "hash_string": "RIHS01_1f3287fc6803f3e5afddd8374f1e104e5ded2d041f27049f1af915f9ada784bd"
+    }
+  ]
+}

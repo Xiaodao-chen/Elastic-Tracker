@@ -1,0 +1,67 @@
+[0.006s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_msgs': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/decomp_ros_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.038s] -- The C compiler identification is GNU 13.3.0
+[0.067s] -- The CXX compiler identification is GNU 13.3.0
+[0.076s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.134s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.139s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.199s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.200s] -- Detecting CXX compile features
+[0.200s] -- Detecting CXX compile features - done
+[0.201s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.275s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.322s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.324s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.362s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.364s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.379s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.496s] CMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.497s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.497s]   decomp_ros_msgs --arguments-file
+[0.497s]   /root/Elastic-Tracker/ros2_ws/build/decomp_ros_msgs/rosidl_adapter__arguments__decomp_ros_msgs.json
+[0.497s]   --output-dir
+[0.497s]   /root/Elastic-Tracker/ros2_ws/build/decomp_ros_msgs/rosidl_adapter/decomp_ros_msgs
+[0.497s]   --output-file
+[0.497s]   /root/Elastic-Tracker/ros2_ws/build/decomp_ros_msgs/rosidl_adapter/decomp_ros_msgs.idls)
+[0.497s]   returned error code 1:
+[0.497s] 
+[0.497s]   Error processing 'float64[9] E' of 'decomp_ros_msgs/Ellipsoid': ''E' is an
+[0.497s]   invalid field name.  It should have the pattern
+[0.497s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.497s] 
+[0.497s]   Traceback (most recent call last):
+[0.497s] 
+[0.497s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.497s]     File "<frozen runpy>", line 88, in _run_code
+[0.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.497s]       sys.exit(main())
+[0.497s]                ^^^^^^
+[0.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.497s]       abs_idl_file = convert_to_idl(
+[0.497s]                      ^^^^^^^^^^^^^^^
+[0.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.497s]       return convert_msg_to_idl(
+[0.497s]              ^^^^^^^^^^^^^^^^^^^
+[0.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.497s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.497s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.497s]       fields.append(Field(
+[0.497s]                     ^^^^^^
+[0.497s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 355, in __init__
+[0.497s]       raise NameError(
+[0.498s] 
+[0.498s]   NameError: 'E' is an invalid field name.  It should have the pattern
+[0.498s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.498s] 
+[0.498s] Call Stack (most recent call first):
+[0.498s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.498s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[0.498s] 
+[0.498s] 
+[0.498s] -- Configuring incomplete, errors occurred!
+[0.505s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_msgs' returned '1': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/decomp_ros_msgs -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install

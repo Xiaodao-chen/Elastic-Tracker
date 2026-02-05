@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>planning</name>
+  <version>0.0.1</version>
+  <description>Planning node/component (ROS2 port; replacement for ROS1 planning nodelet). Minimal ROS2 skeleton for now.</description>
+
+  <maintainer email="noreply@example.com">Elastic-Tracker</maintainer>
+  <license>GPL-3.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>quadrotor_msgs</depend>
+
+  <!-- keep these deps for follow-up full port -->
+  <depend>mapping_core</depend>
+  <depend>traj_opt_core</depend>
+  <depend>decomp_ros_msgs</depend>
+  <depend>decomp_ros_utils</depend>
+
+  <build_depend>eigen</build_depend>
+  <exec_depend>eigen</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

@@ -1,0 +1,1 @@
+/root/Elastic-Tracker/ros2_ws/src/so3_quadrotor/include/so3_quadrotor/quadrotor_dynamics.hpp

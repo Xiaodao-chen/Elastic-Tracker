@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found quadrotor_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/cmake)
+-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/so3_controller
+[ 25%] Building CXX object CMakeFiles/so3_controller_component.dir/src/so3_controller_component.cpp.o
+[ 50%] Linking CXX shared library libso3_controller_component.so
+[ 50%] Built target so3_controller_component
+[ 75%] Building CXX object CMakeFiles/so3_controller_node.dir/src/so3_controller_main.cpp.o
+[100%] Linking CXX executable so3_controller_node
+[100%] Built target so3_controller_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/libso3_controller_component.so
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/so3_controller/so3_controller_node
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/so3_controller/so3_controller.hpp
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/so3_controller
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/so3_controller
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/ament_prefix_path.sh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/path.sh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/path.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.bash
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.sh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.zsh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/so3_controller
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rclcpp_components/so3_controller
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/cmake/so3_controllerConfig.cmake
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/cmake/so3_controllerConfig-version.cmake
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.xml

@@ -1,0 +1,7 @@
+/usr/bin/ld: /root/Elastic-Tracker/ros2_ws/install/lib/libtraj_opt_core.a(traj_opt.cc.o): warning: relocation against `_ZNKSt5ctypeIcE8do_widenEc' in read-only section `.text._ZN9quickhull9QuickHullIdE24createConvexHalfEdgeMeshEv[_ZN9quickhull9QuickHullIdE24createConvexHalfEdgeMeshEv]'
+/usr/bin/ld: /root/Elastic-Tracker/ros2_ws/install/lib/libtraj_opt_core.a(traj_opt.cc.o): relocation R_X86_64_PC32 against symbol `_ZSt4cout@@GLIBCXX_3.4' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/planning_component.dir/build.make:377: libplanning_component.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/planning_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

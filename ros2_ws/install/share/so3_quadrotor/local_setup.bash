@@ -1,0 +1,1 @@
+/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor/ament_cmake_environment_hooks/local_setup.bash

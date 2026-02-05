@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>traj_opt_core</name>
+  <version>0.0.1</version>
+  <description>Trajectory optimization core library (ROS-independent). Extracted from Elastic-Tracker ROS1 code.</description>
+
+  <maintainer email="noreply@example.com">Elastic-Tracker</maintainer>
+  <license>GPL-3.0-or-later</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>eigen3_cmake_module</depend>
+  <depend>Eigen3</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+</package>
+

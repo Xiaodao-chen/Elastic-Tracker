@@ -1,0 +1,47 @@
+[0.006s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/traj_opt_core -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.014s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.175s] -- Configuring done (0.2s)
+[0.178s] -- Generating done (0.0s)
+[0.179s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/traj_opt_core
+[0.182s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/traj_opt_core -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.183s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/traj_opt_core -- -j28 -l28
+[0.221s] [ 33%] Building CXX object CMakeFiles/traj_opt_core.dir/src/traj_opt.cc.o
+[0.222s] [ 66%] Building CXX object CMakeFiles/traj_opt_core.dir/src/traj_opt_fake.cc.o
+[8.790s] [100%] Linking CXX shared library libtraj_opt_core.so
+[8.832s] [100%] Built target traj_opt_core
+[8.840s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/traj_opt_core -- -j28 -l28
+[8.847s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/traj_opt_core
+[8.851s] -- Install configuration: "Release"
+[8.851s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include
+[8.851s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt_core
+[8.852s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt_core/logging.hpp
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/root_finder.hpp
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/minco.hpp
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/poly_traj_utils.hpp
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/sdlp.hpp
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/quickhull.hpp
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/lbfgs_raw.hpp
+[8.852s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/geoutils.hpp
+[8.852s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/include/traj_opt/traj_opt.h
+[8.852s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/lib/libtraj_opt_core.so
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/library_path.sh
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/library_path.dsv
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/traj_opt_core
+[8.852s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/traj_opt_core
+[8.852s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/ament_prefix_path.sh
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/ament_prefix_path.dsv
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/path.sh
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/environment/path.dsv
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.bash
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.sh
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.zsh
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/local_setup.dsv
+[8.853s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.dsv
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/traj_opt_core
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/ament_cmake_export_libraries-extras.cmake
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/traj_opt_coreConfig.cmake
+[8.853s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake/traj_opt_coreConfig-version.cmake
+[8.853s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/package.xml
+[8.854s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/traj_opt_core' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/traj_opt_core

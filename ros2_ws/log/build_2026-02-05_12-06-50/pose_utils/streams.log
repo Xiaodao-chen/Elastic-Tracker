@@ -1,0 +1,58 @@
+[0.008s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/pose_utils -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.043s] -- The C compiler identification is GNU 13.3.0
+[0.074s] -- The CXX compiler identification is GNU 13.3.0
+[0.085s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.310s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.367s] -- Found Armadillo: /usr/include (found version "12.6.7") 
+[0.418s] -- Configuring done (0.4s)
+[0.422s] -- Generating done (0.0s)
+[0.422s] CMake Warning:
+[0.422s]   Manually-specified variables were not used by the project:
+[0.422s] 
+[0.422s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.422s]     CATKIN_SYMLINK_INSTALL
+[0.422s] 
+[0.422s] 
+[0.423s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/pose_utils
+[0.429s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/pose_utils -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.429s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/pose_utils -- -j28 -l28
+[0.459s] [ 50%] Building CXX object CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o
+[2.720s] [100%] Linking CXX static library libpose_utils.a
+[2.754s] [100%] Built target pose_utils
+[2.761s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/pose_utils -- -j28 -l28
+[2.762s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/pose_utils
+[2.767s] -- Install configuration: "Release"
+[2.767s] -- Up-to-date: /root/Elastic-Tracker/ros2_ws/install/include
+[2.767s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/include/pose_utils
+[2.767s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/include/pose_utils/pose_utils.h
+[2.767s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/lib/libpose_utils.a
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/environment/library_path.sh
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/environment/library_path.dsv
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/pose_utils
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/pose_utils
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/environment/ament_prefix_path.sh
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/environment/ament_prefix_path.dsv
+[2.768s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/environment/path.sh
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/environment/path.dsv
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/local_setup.bash
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/local_setup.sh
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/local_setup.zsh
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/local_setup.dsv
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.dsv
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/pose_utils
+[2.769s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.770s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[2.811s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/cmake/pose_utilsConfig.cmake
+[2.811s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+[2.811s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/pose_utils/package.xml
+[2.811s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/pose_utils' returned '0': CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/pose_utils

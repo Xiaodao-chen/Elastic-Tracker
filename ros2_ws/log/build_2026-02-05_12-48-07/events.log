@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (-) JobUnselected: {'identifier': 'decomp_ros_msgs'}
+[0.000172] (-) JobUnselected: {'identifier': 'elastic_tracker_bringup'}
+[0.000295] (-) JobUnselected: {'identifier': 'local_sensing_node'}
+[0.000355] (-) JobUnselected: {'identifier': 'mapping'}
+[0.000421] (-) JobUnselected: {'identifier': 'mapping_core'}
+[0.000465] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000491] (-) JobUnselected: {'identifier': 'object_detection_msgs'}
+[0.000499] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000520] (-) JobUnselected: {'identifier': 'planning'}
+[0.000538] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000572] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000595] (-) JobUnselected: {'identifier': 'so3_controller'}
+[0.000603] (-) JobUnselected: {'identifier': 'so3_quadrotor'}
+[0.000613] (-) JobUnselected: {'identifier': 'target_ekf'}
+[0.000619] (-) JobUnselected: {'identifier': 'traj_opt_core'}
+[0.000626] (-) JobUnselected: {'identifier': 'uav_simulator'}
+[0.000647] (decomp_ros_utils) JobQueued: {'identifier': 'decomp_ros_utils', 'dependencies': OrderedDict({'decomp_ros_msgs': '/root/Elastic-Tracker/ros2_ws/install'})}
+[0.000674] (decomp_ros_utils) JobStarted: {'identifier': 'decomp_ros_utils'}
+[0.007625] (decomp_ros_utils) JobProgress: {'identifier': 'decomp_ros_utils', 'progress': 'cmake'}
+[0.008133] (decomp_ros_utils) Command: {'cmd': ['/usr/bin/cmake', '/root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install'], 'cwd': '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', 'env': OrderedDict({'VSCODE_CWD': '/root', 'HISTTIMEFORMAT': '%F %T', 'CONDA_PROMPT_MODIFIER': '(base)', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'MAIL': '/var/mail/root', 'USER': 'root', 'SSH_CLIENT': '10.212.136.46 57968 2222', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'MLP_DEVINSTANCE_ID': 'di-20251111164107-cg5rl', 'MLP_TLS_INSECURE_SKIP_VERIFY': 'false', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'ROS_PACKAGE_PATH': '/root/Elastic-Tracker/ros2_ws/install/share:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/share:/root/Elastic-Tracker/ros2_ws/install/target_ekf/share:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/share:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/share:/root/Elastic-Tracker/ros2_ws/install/pose_utils/share:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/share:/root/Elastic-Tracker/ros2_ws/install/mockamap/share:/root/Elastic-Tracker/ros2_ws/install/mapping_core/share', 'SHLVL': '1', 'BROWSER': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/Elastic-Tracker/ros2_ws', 'MLP_INNER_JWT_PUBLIC_KEY_BASE64': 'LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUE3MFlhR2V3QzMrc0tmZVIrU2tRbwppdGtjZHJsNUozQ3NneXNGMmI1MkxGbU5sU2JvOUVlUDduWFhGZXhxZ1JLRC9uVDNGOWhNZUJvUlV4T3J4NWxaCk5NNHU4QWUzMnJSNFNaQ2dHT0tpSUtSbG5DK2hsWkZYM2JOMHE0TlFCaE9wRTA1ell6NDYxd0pCR1dUUXEvRisKMzBuVFE1L1pEV0dFS2YyVEVwQnQ2K0lQd2YvVklZbFFsVEV6aEhidUtEZEptdHRSa3BBbVlPS05tUkdDZjF5Vwo1N2NGSkNvNGhqdWJrVmRPTFpSV2pOazNDUW1OWnRLZUFhVnIrQVNOelo4dUZZUGdYTlFKQXpTWExET2QzTXo2CnAvbm1PZlRuaFhmMUt6SVl0VzRmYVlmR25YeGV4VVhOUCtrYlltckVlUVVzSUxpKzEvUEozb2pqdDVZK2crdW8KMlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-204f8120-b8f8-4ffc-a1ca-819dc882fba7.sock', 'MIN_DRIVER_VERSION': '570.169', 'MLP_CONSOLE_HOST': 'ml-console.ml-platform-cn-beijing.ivolces.com', 'CODE_SERVER_HASHED_PASSWORD': 'bcd63695fdf106487c792a7c13783426913b865e8441b86c398e863ba458b8fd', 'ZSH': '/root/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NODE_OPTIONS': '--max-old-space-size=38336', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'MLP_TRACKING_ENDPOINT': '100.96.4.125:80', '_CE_M': '', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'FORCE_COLOR': '0', 'CLOUD_PROVIDER': 'volcengine', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/pkgconfig', 'ROS_VERSION': '2', 'ISAACLAB_PATH': '/workspace/isaaclab', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/resources/helpers/rg', 'MLP_INNER_CONTAINER': 'true', '_CE_CONDA': '', 'MLP_ACCOUNT_ID': '2101412100', 'ISAACSIM_VERSION': '', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'VSCODE_AGENT_FOLDER': '/root/.cursor-server', 'VK_DRIVER_FILES': '/etc/vulkan/icd.d/nvidia_icd.json', 'MLP_REGION': 'cn-beijing', 'CURSOR_AGENT': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'DEBIAN_FRONTEND': 'noninteractive', 'OMNI_KIT_ALLOW_ROOT': '1', 'AMENT_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/mapping:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'PROMPT_COMMAND': 'history -a', 'ACCEPT_EULA': 'Y', 'CODE_SERVER_BIND_PORT': '10000', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'OMNI_SERVER': 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'DOCKER_USER_HOME': '/root', 'PWD': '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', 'MLP_IS_STRESS': 'false', 'ISAACSIM_ROOT_PATH': '/isaac-sim', 'SSH_CONNECTION': '10.212.136.46 57968 10.4.3.170 2222', 'MLP_IS_CANARY': 'false', 'PYTHONPATH': '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'GPU-99bc2d9e-c5a5-9c8b-e8c1-891cfe0b73ac', 'COLCON': '1', 'PRIVACY_CONSENT': 'Y', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core'}), 'shell': False}
+[0.017397] (decomp_ros_utils) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099813] (-) TimerEvent: {}
+[0.127701] (decomp_ros_utils) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.131289] (decomp_ros_utils) StdoutLine: {'line': b'-- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)\n'}
+[0.140088] (decomp_ros_utils) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.140469] (decomp_ros_utils) StdoutLine: {'line': b'-- Found rviz_common: 14.1.19 (/opt/ros/jazzy/share/rviz_common/cmake)\n'}
+[0.152190] (decomp_ros_utils) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.156337] (decomp_ros_utils) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.161712] (decomp_ros_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167098] (decomp_ros_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199876] (-) TimerEvent: {}
+[0.217135] (decomp_ros_utils) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.217862] (decomp_ros_utils) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.226456] (decomp_ros_utils) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.232048] (decomp_ros_utils) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.242649] (decomp_ros_utils) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.248048] (decomp_ros_utils) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[0.254569] (decomp_ros_utils) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.290918] (decomp_ros_utils) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.291714] (decomp_ros_utils) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.291766] (decomp_ros_utils) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.291829] (decomp_ros_utils) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.291866] (decomp_ros_utils) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.291914] (decomp_ros_utils) StdoutLine: {'line': b'--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.291973] (decomp_ros_utils) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.292003] (decomp_ros_utils) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib\n'}
+[0.292034] (decomp_ros_utils) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.292070] (decomp_ros_utils) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.292101] (decomp_ros_utils) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.292127] (decomp_ros_utils) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.292156] (decomp_ros_utils) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.292192] (decomp_ros_utils) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.292464] (decomp_ros_utils) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[0.299939] (-) TimerEvent: {}
+[0.400010] (-) TimerEvent: {}
+[0.418850] (decomp_ros_utils) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[0.422519] (decomp_ros_utils) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.422565] (decomp_ros_utils) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.422595] (decomp_ros_utils) StdoutLine: {'line': b'--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.422658] (decomp_ros_utils) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.422692] (decomp_ros_utils) StdoutLine: {'line': b'--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.422721] (decomp_ros_utils) StdoutLine: {'line': b'-- Found decomp_ros_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_msgs/cmake)\n'}
+[0.432479] (decomp_ros_utils) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.500078] (-) TimerEvent: {}
+[0.500973] (decomp_ros_utils) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.526332] (decomp_ros_utils) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.529428] (decomp_ros_utils) StdoutLine: {'line': b'-- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils\n'}
+[0.538539] (decomp_ros_utils) CommandEnded: {'returncode': 0}
+[0.538905] (decomp_ros_utils) JobProgress: {'identifier': 'decomp_ros_utils', 'progress': 'build'}
+[0.539489] (decomp_ros_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', '--', '-j28', '-l28'], 'cwd': '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', 'env': OrderedDict({'VSCODE_CWD': '/root', 'HISTTIMEFORMAT': '%F %T', 'CONDA_PROMPT_MODIFIER': '(base)', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'MAIL': '/var/mail/root', 'USER': 'root', 'SSH_CLIENT': '10.212.136.46 57968 2222', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'MLP_DEVINSTANCE_ID': 'di-20251111164107-cg5rl', 'MLP_TLS_INSECURE_SKIP_VERIFY': 'false', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'ROS_PACKAGE_PATH': '/root/Elastic-Tracker/ros2_ws/install/share:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/share:/root/Elastic-Tracker/ros2_ws/install/target_ekf/share:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/share:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/share:/root/Elastic-Tracker/ros2_ws/install/pose_utils/share:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/share:/root/Elastic-Tracker/ros2_ws/install/mockamap/share:/root/Elastic-Tracker/ros2_ws/install/mapping_core/share', 'SHLVL': '1', 'BROWSER': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/Elastic-Tracker/ros2_ws', 'MLP_INNER_JWT_PUBLIC_KEY_BASE64': 'LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUE3MFlhR2V3QzMrc0tmZVIrU2tRbwppdGtjZHJsNUozQ3NneXNGMmI1MkxGbU5sU2JvOUVlUDduWFhGZXhxZ1JLRC9uVDNGOWhNZUJvUlV4T3J4NWxaCk5NNHU4QWUzMnJSNFNaQ2dHT0tpSUtSbG5DK2hsWkZYM2JOMHE0TlFCaE9wRTA1ell6NDYxd0pCR1dUUXEvRisKMzBuVFE1L1pEV0dFS2YyVEVwQnQ2K0lQd2YvVklZbFFsVEV6aEhidUtEZEptdHRSa3BBbVlPS05tUkdDZjF5Vwo1N2NGSkNvNGhqdWJrVmRPTFpSV2pOazNDUW1OWnRLZUFhVnIrQVNOelo4dUZZUGdYTlFKQXpTWExET2QzTXo2CnAvbm1PZlRuaFhmMUt6SVl0VzRmYVlmR25YeGV4VVhOUCtrYlltckVlUVVzSUxpKzEvUEozb2pqdDVZK2crdW8KMlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-204f8120-b8f8-4ffc-a1ca-819dc882fba7.sock', 'MIN_DRIVER_VERSION': '570.169', 'MLP_CONSOLE_HOST': 'ml-console.ml-platform-cn-beijing.ivolces.com', 'CODE_SERVER_HASHED_PASSWORD': 'bcd63695fdf106487c792a7c13783426913b865e8441b86c398e863ba458b8fd', 'ZSH': '/root/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NODE_OPTIONS': '--max-old-space-size=38336', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'MLP_TRACKING_ENDPOINT': '100.96.4.125:80', '_CE_M': '', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'FORCE_COLOR': '0', 'CLOUD_PROVIDER': 'volcengine', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/pkgconfig', 'ROS_VERSION': '2', 'ISAACLAB_PATH': '/workspace/isaaclab', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/resources/helpers/rg', 'MLP_INNER_CONTAINER': 'true', '_CE_CONDA': '', 'MLP_ACCOUNT_ID': '2101412100', 'ISAACSIM_VERSION': '', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'VSCODE_AGENT_FOLDER': '/root/.cursor-server', 'VK_DRIVER_FILES': '/etc/vulkan/icd.d/nvidia_icd.json', 'MLP_REGION': 'cn-beijing', 'CURSOR_AGENT': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'DEBIAN_FRONTEND': 'noninteractive', 'OMNI_KIT_ALLOW_ROOT': '1', 'AMENT_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/mapping:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'PROMPT_COMMAND': 'history -a', 'ACCEPT_EULA': 'Y', 'CODE_SERVER_BIND_PORT': '10000', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'OMNI_SERVER': 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'DOCKER_USER_HOME': '/root', 'PWD': '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', 'MLP_IS_STRESS': 'false', 'ISAACSIM_ROOT_PATH': '/isaac-sim', 'SSH_CONNECTION': '10.212.136.46 57968 10.4.3.170 2222', 'MLP_IS_CANARY': 'false', 'PYTHONPATH': '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'GPU-99bc2d9e-c5a5-9c8b-e8c1-891cfe0b73ac', 'COLCON': '1', 'PRIVACY_CONSENT': 'Y', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core'}), 'shell': False}
+[0.573634] (decomp_ros_utils) StdoutLine: {'line': b'[  0%] Built target decomp_rviz_plugins_autogen_timestamp_deps\n'}
+[0.600140] (-) TimerEvent: {}
+[0.614033] (decomp_ros_utils) StdoutLine: {'line': b'[ 10%] Automatic MOC for target decomp_rviz_plugins\n'}
+[0.700201] (-) TimerEvent: {}
+[0.800281] (-) TimerEvent: {}
+[0.900358] (-) TimerEvent: {}
+[0.969228] (decomp_ros_utils) StdoutLine: {'line': b'[ 10%] Built target decomp_rviz_plugins_autogen\n'}
+[0.995467] (decomp_ros_utils) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o\n'}
+[0.996351] (decomp_ros_utils) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o\n'}
+[0.996493] (decomp_ros_utils) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o\n'}
+[0.996938] (decomp_ros_utils) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o\n'}
+[0.997133] (decomp_ros_utils) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o\n'}
+[0.997263] (decomp_ros_utils) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o\n'}
+[0.997510] (decomp_ros_utils) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o\n'}
+[1.000427] (-) TimerEvent: {}
+[1.100515] (-) TimerEvent: {}
+[1.200600] (-) TimerEvent: {}
+[1.300751] (-) TimerEvent: {}
+[1.400903] (-) TimerEvent: {}
+[1.500993] (-) TimerEvent: {}
+[1.601080] (-) TimerEvent: {}
+[1.701172] (-) TimerEvent: {}
+[1.801258] (-) TimerEvent: {}
+[1.858466] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:9,\n'}
+[1.858694] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.cpp:1:\n'}
+[1.858781] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[1.858838] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[1.858890] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[1.859862] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:9,\n'}
+[1.859930] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.cpp:1:\n'}
+[1.859974] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[1.860019] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[1.860059] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[1.894188] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:9,\n'}
+[1.894329] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.cpp:1:\n'}
+[1.894373] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[1.894419] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[1.894462] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[1.901325] (-) TimerEvent: {}
+[1.927335] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,\n'}
+[1.927406] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:\n'}
+[1.927445] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[1.927501] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[1.927539] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[2.001394] (-) TimerEvent: {}
+[2.101480] (-) TimerEvent: {}
+[2.201601] (-) TimerEvent: {}
+[2.301743] (-) TimerEvent: {}
+[2.401825] (-) TimerEvent: {}
+[2.501904] (-) TimerEvent: {}
+[2.601992] (-) TimerEvent: {}
+[2.702083] (-) TimerEvent: {}
+[2.802156] (-) TimerEvent: {}
+[2.902245] (-) TimerEvent: {}
+[3.002333] (-) TimerEvent: {}
+[3.102413] (-) TimerEvent: {}
+[3.202494] (-) TimerEvent: {}
+[3.302579] (-) TimerEvent: {}
+[3.402660] (-) TimerEvent: {}
+[3.433783] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,\n'}
+[3.433950] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.h:12,\n'}
+[3.434002] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:\n'}
+[3.434048] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.434107] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.434152] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.438366] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:4:\n'}
+[3.438424] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.438463] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.438500] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.502724] (-) TimerEvent: {}
+[3.602809] (-) TimerEvent: {}
+[3.663200] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:14,\n'}
+[3.663291] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.cpp:1:\n'}
+[3.663338] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.663384] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.663428] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.670486] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,\n'}
+[3.670558] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_display.h:12,\n'}
+[3.670605] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:10,\n'}
+[3.670646] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2:\n'}
+[3.670687] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.670729] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.670775] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.688289] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:14,\n'}
+[3.688351] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_polyhedron_array_display.cpp:10,\n'}
+[3.688392] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:3:\n'}
+[3.688431] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.688474] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.688514] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.688553] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/mesh_visual.h:9,\n'}
+[3.688595] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:16:\n'}
+[3.688634] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.688672] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.688710] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.692142] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/bound_visual.h:9,\n'}
+[3.692201] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:17:\n'}
+[3.692238] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.692272] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.692307] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.702869] (-) TimerEvent: {}
+[3.703485] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/vector_visual.h:9,\n'}
+[3.703540] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:18:\n'}
+[3.703577] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.703614] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.703649] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.802935] (-) TimerEvent: {}
+[3.903023] (-) TimerEvent: {}
+[3.950869] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:9,\n'}
+[3.951005] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:16:\n'}
+[3.951059] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.951125] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.951188] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.954877] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:9,\n'}
+[3.954942] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:17:\n'}
+[3.954983] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.955026] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.955065] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[3.967174] (decomp_ros_utils) StderrLine: {'line': b'In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:9,\n'}
+[3.967247] (decomp_ros_utils) StderrLine: {'line': b'                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:18:\n'}
+[3.967287] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: \xe2\x80\x98#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h\xe2\x80\x99\n'}
+[3.967330] (decomp_ros_utils) StderrLine: {'line': b'    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")\n'}
+[3.967370] (decomp_ros_utils) StderrLine: {'line': b'      |                                                              ^\n'}
+[4.003084] (-) TimerEvent: {}
+[4.103158] (-) TimerEvent: {}
+[4.203243] (-) TimerEvent: {}
+[4.303334] (-) TimerEvent: {}
+[4.403434] (-) TimerEvent: {}
+[4.503517] (-) TimerEvent: {}
+[4.603601] (-) TimerEvent: {}
+[4.703679] (-) TimerEvent: {}
+[4.803758] (-) TimerEvent: {}
+[4.903858] (-) TimerEvent: {}
+[5.003971] (-) TimerEvent: {}
+[5.104067] (-) TimerEvent: {}
+[5.204141] (-) TimerEvent: {}
+[5.304175] (-) TimerEvent: {}
+[5.404249] (-) TimerEvent: {}
+[5.504322] (-) TimerEvent: {}
+[5.604394] (-) TimerEvent: {}
+[5.704472] (-) TimerEvent: {}
+[5.804562] (-) TimerEvent: {}
+[5.904655] (-) TimerEvent: {}
+[6.004757] (-) TimerEvent: {}
+[6.104847] (-) TimerEvent: {}
+[6.204945] (-) TimerEvent: {}
+[6.305059] (-) TimerEvent: {}
+[6.405177] (-) TimerEvent: {}
+[6.505276] (-) TimerEvent: {}
+[6.605363] (-) TimerEvent: {}
+[6.705452] (-) TimerEvent: {}
+[6.805545] (-) TimerEvent: {}
+[6.905627] (-) TimerEvent: {}
+[7.005732] (-) TimerEvent: {}
+[7.105864] (-) TimerEvent: {}
+[7.205980] (-) TimerEvent: {}
+[7.306070] (-) TimerEvent: {}
+[7.406180] (-) TimerEvent: {}
+[7.506278] (-) TimerEvent: {}
+[7.606356] (-) TimerEvent: {}
+[7.706431] (-) TimerEvent: {}
+[7.806508] (-) TimerEvent: {}
+[7.906602] (-) TimerEvent: {}
+[8.006704] (-) TimerEvent: {}
+[8.106783] (-) TimerEvent: {}
+[8.206867] (-) TimerEvent: {}
+[8.306954] (-) TimerEvent: {}
+[8.407045] (-) TimerEvent: {}
+[8.507155] (-) TimerEvent: {}
+[8.607267] (-) TimerEvent: {}
+[8.707354] (-) TimerEvent: {}
+[8.807465] (-) TimerEvent: {}
+[8.907597] (-) TimerEvent: {}
+[9.007729] (-) TimerEvent: {}
+[9.107854] (-) TimerEvent: {}
+[9.207964] (-) TimerEvent: {}
+[9.308082] (-) TimerEvent: {}
+[9.408215] (-) TimerEvent: {}
+[9.508344] (-) TimerEvent: {}
+[9.608461] (-) TimerEvent: {}
+[9.708616] (-) TimerEvent: {}
+[9.808796] (-) TimerEvent: {}
+[9.908918] (-) TimerEvent: {}
+[10.009007] (-) TimerEvent: {}
+[10.109077] (-) TimerEvent: {}
+[10.209170] (-) TimerEvent: {}
+[10.309255] (-) TimerEvent: {}
+[10.409334] (-) TimerEvent: {}
+[10.509419] (-) TimerEvent: {}
+[10.609504] (-) TimerEvent: {}
+[10.709583] (-) TimerEvent: {}
+[10.809668] (-) TimerEvent: {}
+[10.909760] (-) TimerEvent: {}
+[11.009851] (-) TimerEvent: {}
+[11.109932] (-) TimerEvent: {}
+[11.210010] (-) TimerEvent: {}
+[11.310093] (-) TimerEvent: {}
+[11.410169] (-) TimerEvent: {}
+[11.510242] (-) TimerEvent: {}
+[11.610315] (-) TimerEvent: {}
+[11.710385] (-) TimerEvent: {}
+[11.810461] (-) TimerEvent: {}
+[11.910540] (-) TimerEvent: {}
+[12.010624] (-) TimerEvent: {}
+[12.110705] (-) TimerEvent: {}
+[12.210788] (-) TimerEvent: {}
+[12.310876] (-) TimerEvent: {}
+[12.410967] (-) TimerEvent: {}
+[12.511048] (-) TimerEvent: {}
+[12.611134] (-) TimerEvent: {}
+[12.711232] (-) TimerEvent: {}
+[12.811313] (-) TimerEvent: {}
+[12.911401] (-) TimerEvent: {}
+[13.011495] (-) TimerEvent: {}
+[13.111579] (-) TimerEvent: {}
+[13.211661] (-) TimerEvent: {}
+[13.311742] (-) TimerEvent: {}
+[13.411815] (-) TimerEvent: {}
+[13.511891] (-) TimerEvent: {}
+[13.611966] (-) TimerEvent: {}
+[13.712044] (-) TimerEvent: {}
+[13.812119] (-) TimerEvent: {}
+[13.912197] (-) TimerEvent: {}
+[14.012278] (-) TimerEvent: {}
+[14.112357] (-) TimerEvent: {}
+[14.212441] (-) TimerEvent: {}
+[14.312530] (-) TimerEvent: {}
+[14.412618] (-) TimerEvent: {}
+[14.512694] (-) TimerEvent: {}
+[14.612771] (-) TimerEvent: {}
+[14.712850] (-) TimerEvent: {}
+[14.812933] (-) TimerEvent: {}
+[14.913029] (-) TimerEvent: {}
+[15.013123] (-) TimerEvent: {}
+[15.113175] (-) TimerEvent: {}
+[15.213253] (-) TimerEvent: {}
+[15.313328] (-) TimerEvent: {}
+[15.407880] (decomp_ros_utils) StdoutLine: {'line': b'[ 90%] Linking CXX shared library libdecomp_rviz_plugins.so\n'}
+[15.413395] (-) TimerEvent: {}
+[15.513477] (-) TimerEvent: {}
+[15.613558] (-) TimerEvent: {}
+[15.706637] (decomp_ros_utils) StdoutLine: {'line': b'[100%] Built target decomp_rviz_plugins\n'}
+[15.713619] (-) TimerEvent: {}
+[15.714513] (decomp_ros_utils) CommandEnded: {'returncode': 0}
+[15.714977] (decomp_ros_utils) JobProgress: {'identifier': 'decomp_ros_utils', 'progress': 'install'}
+[15.720877] (decomp_ros_utils) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils'], 'cwd': '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', 'env': OrderedDict({'VSCODE_CWD': '/root', 'HISTTIMEFORMAT': '%F %T', 'CONDA_PROMPT_MODIFIER': '(base)', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'MAIL': '/var/mail/root', 'USER': 'root', 'SSH_CLIENT': '10.212.136.46 57968 2222', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'MLP_DEVINSTANCE_ID': 'di-20251111164107-cg5rl', 'MLP_TLS_INSECURE_SKIP_VERIFY': 'false', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'ROS_PACKAGE_PATH': '/root/Elastic-Tracker/ros2_ws/install/share:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/share:/root/Elastic-Tracker/ros2_ws/install/target_ekf/share:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/share:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/share:/root/Elastic-Tracker/ros2_ws/install/pose_utils/share:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/share:/root/Elastic-Tracker/ros2_ws/install/mockamap/share:/root/Elastic-Tracker/ros2_ws/install/mapping_core/share', 'SHLVL': '1', 'BROWSER': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/Elastic-Tracker/ros2_ws', 'MLP_INNER_JWT_PUBLIC_KEY_BASE64': 'LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUE3MFlhR2V3QzMrc0tmZVIrU2tRbwppdGtjZHJsNUozQ3NneXNGMmI1MkxGbU5sU2JvOUVlUDduWFhGZXhxZ1JLRC9uVDNGOWhNZUJvUlV4T3J4NWxaCk5NNHU4QWUzMnJSNFNaQ2dHT0tpSUtSbG5DK2hsWkZYM2JOMHE0TlFCaE9wRTA1ell6NDYxd0pCR1dUUXEvRisKMzBuVFE1L1pEV0dFS2YyVEVwQnQ2K0lQd2YvVklZbFFsVEV6aEhidUtEZEptdHRSa3BBbVlPS05tUkdDZjF5Vwo1N2NGSkNvNGhqdWJrVmRPTFpSV2pOazNDUW1OWnRLZUFhVnIrQVNOelo4dUZZUGdYTlFKQXpTWExET2QzTXo2CnAvbm1PZlRuaFhmMUt6SVl0VzRmYVlmR25YeGV4VVhOUCtrYlltckVlUVVzSUxpKzEvUEozb2pqdDVZK2crdW8KMlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-204f8120-b8f8-4ffc-a1ca-819dc882fba7.sock', 'MIN_DRIVER_VERSION': '570.169', 'MLP_CONSOLE_HOST': 'ml-console.ml-platform-cn-beijing.ivolces.com', 'CODE_SERVER_HASHED_PASSWORD': 'bcd63695fdf106487c792a7c13783426913b865e8441b86c398e863ba458b8fd', 'ZSH': '/root/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NODE_OPTIONS': '--max-old-space-size=38336', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'MLP_TRACKING_ENDPOINT': '100.96.4.125:80', '_CE_M': '', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'FORCE_COLOR': '0', 'CLOUD_PROVIDER': 'volcengine', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/pkgconfig', 'ROS_VERSION': '2', 'ISAACLAB_PATH': '/workspace/isaaclab', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/resources/helpers/rg', 'MLP_INNER_CONTAINER': 'true', '_CE_CONDA': '', 'MLP_ACCOUNT_ID': '2101412100', 'ISAACSIM_VERSION': '', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'VSCODE_AGENT_FOLDER': '/root/.cursor-server', 'VK_DRIVER_FILES': '/etc/vulkan/icd.d/nvidia_icd.json', 'MLP_REGION': 'cn-beijing', 'CURSOR_AGENT': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'DEBIAN_FRONTEND': 'noninteractive', 'OMNI_KIT_ALLOW_ROOT': '1', 'AMENT_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/mapping:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'PROMPT_COMMAND': 'history -a', 'ACCEPT_EULA': 'Y', 'CODE_SERVER_BIND_PORT': '10000', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'OMNI_SERVER': 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'DOCKER_USER_HOME': '/root', 'PWD': '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils', 'MLP_IS_STRESS': 'false', 'ISAACSIM_ROOT_PATH': '/isaac-sim', 'SSH_CONNECTION': '10.212.136.46 57968 10.4.3.170 2222', 'MLP_IS_CANARY': 'false', 'PYTHONPATH': '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'GPU-99bc2d9e-c5a5-9c8b-e8c1-891cfe0b73ac', 'COLCON': '1', 'PRIVACY_CONSENT': 'Y', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core'}), 'shell': False}
+[15.726724] (decomp_ros_utils) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.727049] (decomp_ros_utils) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.727166] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils//plugins_description.xml\n'}
+[15.731318] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/libdecomp_rviz_plugins.so\n'}
+[15.737745] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_basis/data_type.h\n'}
+[15.741771] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_basis/data_utils.h\n'}
+[15.747443] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_geometry/ellipsoid.h\n'}
+[15.751179] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_geometry/geometric_utils.h\n'}
+[15.754530] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_geometry/polyhedron.h\n'}
+[15.759361] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_ros_utils/data_ros_utils.h\n'}
+[15.763179] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/decomp_base.h\n'}
+[15.767457] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/ellipsoid_decomp.h\n'}
+[15.771035] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/iterative_decomp.h\n'}
+[15.775213] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/line_segment.h\n'}
+[15.779225] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/decomp_util/seed_decomp.h\n'}
+[15.782804] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/decomp_ros_utils\n'}
+[15.786858] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/decomp_ros_utils\n'}
+[15.790791] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/ament_prefix_path.sh\n'}
+[15.794076] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/ament_prefix_path.dsv\n'}
+[15.797844] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/path.sh\n'}
+[15.801135] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/environment/path.dsv\n'}
+[15.805067] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.bash\n'}
+[15.809548] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.sh\n'}
+[15.812844] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.zsh\n'}
+[15.813677] (-) TimerEvent: {}
+[15.816746] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/local_setup.dsv\n'}
+[15.822022] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/package.dsv\n'}
+[15.825927] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/decomp_ros_utils\n'}
+[15.829983] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rviz__pluginlib__plugin/decomp_ros_utils\n'}
+[15.833542] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig.cmake\n'}
+[15.837430] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig-version.cmake\n'}
+[15.842350] (decomp_ros_utils) StdoutLine: {'line': b'-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_utils/package.xml\n'}
+[15.847185] (decomp_ros_utils) CommandEnded: {'returncode': 0}
+[15.860722] (decomp_ros_utils) JobEnded: {'identifier': 'decomp_ros_utils', 'rc': 0}
+[15.861123] (-) EventReactorShutdown: {}

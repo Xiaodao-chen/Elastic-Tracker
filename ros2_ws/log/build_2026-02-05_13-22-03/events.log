@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (-) JobUnselected: {'identifier': 'decomp_ros_msgs'}
+[0.000180] (-) JobUnselected: {'identifier': 'decomp_ros_utils'}
+[0.000305] (-) JobUnselected: {'identifier': 'elastic_tracker_bringup'}
+[0.000365] (-) JobUnselected: {'identifier': 'local_sensing_node'}
+[0.000430] (-) JobUnselected: {'identifier': 'mapping'}
+[0.000474] (-) JobUnselected: {'identifier': 'mapping_core'}
+[0.000500] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000525] (-) JobUnselected: {'identifier': 'object_detection_msgs'}
+[0.000566] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000582] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000590] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000597] (-) JobUnselected: {'identifier': 'so3_controller'}
+[0.000613] (-) JobUnselected: {'identifier': 'so3_quadrotor'}
+[0.000620] (-) JobUnselected: {'identifier': 'target_ekf'}
+[0.000628] (-) JobUnselected: {'identifier': 'traj_opt'}
+[0.000635] (-) JobUnselected: {'identifier': 'traj_opt_core'}
+[0.000641] (-) JobUnselected: {'identifier': 'uav_simulator'}
+[0.000705] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict({'decomp_ros_msgs': '/root/Elastic-Tracker/ros2_ws/install', 'mapping_core': '/root/Elastic-Tracker/ros2_ws/install', 'quadrotor_msgs': '/root/Elastic-Tracker/ros2_ws/install', 'traj_opt_core': '/root/Elastic-Tracker/ros2_ws/install', 'decomp_ros_utils': '/root/Elastic-Tracker/ros2_ws/install'})}
+[0.000734] (planning) JobStarted: {'identifier': 'planning'}
+[0.012601] (planning) JobProgress: {'identifier': 'planning', 'progress': 'cmake'}
+[0.013000] (planning) JobProgress: {'identifier': 'planning', 'progress': 'build'}
+[0.014406] (planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Elastic-Tracker/ros2_ws/build/planning', '--', '-j28', '-l28'], 'cwd': '/root/Elastic-Tracker/ros2_ws/build/planning', 'env': OrderedDict({'VSCODE_CWD': '/root', 'HISTTIMEFORMAT': '%F %T', 'CONDA_PROMPT_MODIFIER': '(base)', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'MAIL': '/var/mail/root', 'USER': 'root', 'SSH_CLIENT': '10.212.136.46 57968 2222', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'MLP_DEVINSTANCE_ID': 'di-20251111164107-cg5rl', 'MLP_TLS_INSECURE_SKIP_VERIFY': 'false', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'ROS_PACKAGE_PATH': '/root/Elastic-Tracker/ros2_ws/install/share:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/share:/root/Elastic-Tracker/ros2_ws/install/target_ekf/share:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/share:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/share:/root/Elastic-Tracker/ros2_ws/install/pose_utils/share:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/share:/root/Elastic-Tracker/ros2_ws/install/mockamap/share:/root/Elastic-Tracker/ros2_ws/install/mapping_core/share', 'SHLVL': '1', 'BROWSER': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/root/Elastic-Tracker/ros2_ws', 'MLP_INNER_JWT_PUBLIC_KEY_BASE64': 'LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUE3MFlhR2V3QzMrc0tmZVIrU2tRbwppdGtjZHJsNUozQ3NneXNGMmI1MkxGbU5sU2JvOUVlUDduWFhGZXhxZ1JLRC9uVDNGOWhNZUJvUlV4T3J4NWxaCk5NNHU4QWUzMnJSNFNaQ2dHT0tpSUtSbG5DK2hsWkZYM2JOMHE0TlFCaE9wRTA1ell6NDYxd0pCR1dUUXEvRisKMzBuVFE1L1pEV0dFS2YyVEVwQnQ2K0lQd2YvVklZbFFsVEV6aEhidUtEZEptdHRSa3BBbVlPS05tUkdDZjF5Vwo1N2NGSkNvNGhqdWJrVmRPTFpSV2pOazNDUW1OWnRLZUFhVnIrQVNOelo4dUZZUGdYTlFKQXpTWExET2QzTXo2CnAvbm1PZlRuaFhmMUt6SVl0VzRmYVlmR25YeGV4VVhOUCtrYlltckVlUVVzSUxpKzEvUEozb2pqdDVZK2crdW8KMlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-204f8120-b8f8-4ffc-a1ca-819dc882fba7.sock', 'MIN_DRIVER_VERSION': '570.169', 'MLP_CONSOLE_HOST': 'ml-console.ml-platform-cn-beijing.ivolces.com', 'CODE_SERVER_HASHED_PASSWORD': 'bcd63695fdf106487c792a7c13783426913b865e8441b86c398e863ba458b8fd', 'ZSH': '/root/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'NODE_OPTIONS': '--max-old-space-size=38336', 'PAGER': 'more', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'MLP_TRACKING_ENDPOINT': '100.96.4.125:80', '_CE_M': '', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', 'FORCE_COLOR': '0', 'CLOUD_PROVIDER': 'volcengine', '_': '/usr/bin/colcon', 'VSCODE_HANDLES_SIGPIPE': 'true', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/target_ekf/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/odom_visualization/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/pose_utils/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mockamap/lib/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/mapping_core/lib/pkgconfig', 'ROS_VERSION': '2', 'ISAACLAB_PATH': '/workspace/isaaclab', 'TERM': 'dumb', 'EVERYSPHERE_RIPGREP_PATH': '/root/.cursor-server/bin/linux-x64/2ca326e0d1ce10956aea33d54c0e2d8c13c58a30/resources/helpers/rg', 'MLP_INNER_CONTAINER': 'true', '_CE_CONDA': '', 'MLP_ACCOUNT_ID': '2101412100', 'ISAACSIM_VERSION': '', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'VSCODE_AGENT_FOLDER': '/root/.cursor-server', 'VK_DRIVER_FILES': '/etc/vulkan/icd.d/nvidia_icd.json', 'MLP_REGION': 'cn-beijing', 'CURSOR_AGENT': '1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'DEBIAN_FRONTEND': 'noninteractive', 'OMNI_KIT_ALLOW_ROOT': '1', 'AMENT_PREFIX_PATH': '/root/Elastic-Tracker/ros2_ws/install:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/mapping:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'PROMPT_COMMAND': 'history -a', 'ACCEPT_EULA': 'Y', 'CODE_SERVER_BIND_PORT': '10000', 'DOCKER_HOST': 'unix:///var/run/docker.sock', 'OMNI_SERVER': 'https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'DOCKER_USER_HOME': '/root', 'PWD': '/root/Elastic-Tracker/ros2_ws/build/planning', 'MLP_IS_STRESS': 'false', 'ISAACSIM_ROOT_PATH': '/isaac-sim', 'SSH_CONNECTION': '10.212.136.46 57968 10.4.3.170 2222', 'MLP_IS_CANARY': 'false', 'PYTHONPATH': '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'GPU-99bc2d9e-c5a5-9c8b-e8c1-891cfe0b73ac', 'COLCON': '1', 'PRIVACY_CONSENT': 'Y', '_ZO_DOCTOR': '0', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core'}), 'shell': False}
+[0.065621] (planning) StdoutLine: {'line': b'[ 33%] Built target traj_server_node\n'}
+[0.066971] (planning) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/planning_component.dir/src/planning_component.cpp.o\n'}
+[0.099801] (-) TimerEvent: {}
+[0.199912] (-) TimerEvent: {}
+[0.300050] (-) TimerEvent: {}
+[0.400210] (-) TimerEvent: {}
+[0.500386] (-) TimerEvent: {}
+[0.600545] (-) TimerEvent: {}
+[0.700693] (-) TimerEvent: {}
+[0.800824] (-) TimerEvent: {}
+[0.900954] (-) TimerEvent: {}
+[1.001069] (-) TimerEvent: {}
+[1.101218] (-) TimerEvent: {}
+[1.201362] (-) TimerEvent: {}
+[1.301488] (-) TimerEvent: {}
+[1.401609] (-) TimerEvent: {}
+[1.501743] (-) TimerEvent: {}
+[1.601907] (-) TimerEvent: {}
+[1.702057] (-) TimerEvent: {}
+[1.802204] (-) TimerEvent: {}
+[1.902349] (-) TimerEvent: {}
+[2.002495] (-) TimerEvent: {}
+[2.102637] (-) TimerEvent: {}
+[2.202771] (-) TimerEvent: {}
+[2.302900] (-) TimerEvent: {}
+[2.403026] (-) TimerEvent: {}
+[2.503173] (-) TimerEvent: {}
+[2.603306] (-) TimerEvent: {}
+[2.703416] (-) TimerEvent: {}
+[2.803560] (-) TimerEvent: {}
+[2.903682] (-) TimerEvent: {}
+[3.003761] (-) TimerEvent: {}
+[3.103835] (-) TimerEvent: {}
+[3.203957] (-) TimerEvent: {}
+[3.304093] (-) TimerEvent: {}
+[3.404227] (-) TimerEvent: {}
+[3.504373] (-) TimerEvent: {}
+[3.604532] (-) TimerEvent: {}
+[3.704688] (-) TimerEvent: {}
+[3.804850] (-) TimerEvent: {}
+[3.905014] (-) TimerEvent: {}
+[4.005165] (-) TimerEvent: {}
+[4.105331] (-) TimerEvent: {}
+[4.205495] (-) TimerEvent: {}
+[4.305637] (-) TimerEvent: {}
+[4.405776] (-) TimerEvent: {}
+[4.505918] (-) TimerEvent: {}
+[4.606059] (-) TimerEvent: {}
+[4.706175] (-) TimerEvent: {}
+[4.806274] (-) TimerEvent: {}
+[4.906380] (-) TimerEvent: {}
+[5.006487] (-) TimerEvent: {}
+[5.106594] (-) TimerEvent: {}
+[5.206711] (-) TimerEvent: {}
+[5.306798] (-) TimerEvent: {}
+[5.406888] (-) TimerEvent: {}
+[5.506993] (-) TimerEvent: {}
+[5.607129] (-) TimerEvent: {}
+[5.707294] (-) TimerEvent: {}
+[5.807467] (-) TimerEvent: {}
+[5.907624] (-) TimerEvent: {}
+[6.007789] (-) TimerEvent: {}
+[6.107963] (-) TimerEvent: {}
+[6.208124] (-) TimerEvent: {}
+[6.308270] (-) TimerEvent: {}
+[6.408429] (-) TimerEvent: {}
+[6.508605] (-) TimerEvent: {}
+[6.608766] (-) TimerEvent: {}
+[6.708904] (-) TimerEvent: {}
+[6.809061] (-) TimerEvent: {}
+[6.909227] (-) TimerEvent: {}
+[7.009367] (-) TimerEvent: {}
+[7.109497] (-) TimerEvent: {}
+[7.209655] (-) TimerEvent: {}
+[7.309828] (-) TimerEvent: {}
+[7.409987] (-) TimerEvent: {}
+[7.510115] (-) TimerEvent: {}
+[7.610261] (-) TimerEvent: {}
+[7.710419] (-) TimerEvent: {}
+[7.810589] (-) TimerEvent: {}
+[7.910760] (-) TimerEvent: {}
+[8.010913] (-) TimerEvent: {}
+[8.111074] (-) TimerEvent: {}
+[8.211214] (-) TimerEvent: {}
+[8.311323] (-) TimerEvent: {}
+[8.411468] (-) TimerEvent: {}
+[8.511625] (-) TimerEvent: {}
+[8.611760] (-) TimerEvent: {}
+[8.711890] (-) TimerEvent: {}
+[8.812029] (-) TimerEvent: {}
+[8.912166] (-) TimerEvent: {}
+[9.012302] (-) TimerEvent: {}
+[9.112464] (-) TimerEvent: {}
+[9.212611] (-) TimerEvent: {}
+[9.312733] (-) TimerEvent: {}
+[9.412855] (-) TimerEvent: {}
+[9.513007] (-) TimerEvent: {}
+[9.613146] (-) TimerEvent: {}
+[9.713278] (-) TimerEvent: {}
+[9.813426] (-) TimerEvent: {}
+[9.913568] (-) TimerEvent: {}
+[10.013687] (-) TimerEvent: {}
+[10.113805] (-) TimerEvent: {}
+[10.213936] (-) TimerEvent: {}
+[10.314084] (-) TimerEvent: {}
+[10.414235] (-) TimerEvent: {}
+[10.514371] (-) TimerEvent: {}
+[10.614473] (-) TimerEvent: {}
+[10.714578] (-) TimerEvent: {}
+[10.814731] (-) TimerEvent: {}
+[10.914898] (-) TimerEvent: {}
+[11.015049] (-) TimerEvent: {}
+[11.115163] (-) TimerEvent: {}
+[11.215284] (-) TimerEvent: {}
+[11.315442] (-) TimerEvent: {}
+[11.415582] (-) TimerEvent: {}
+[11.515689] (-) TimerEvent: {}
+[11.615811] (-) TimerEvent: {}
+[11.715935] (-) TimerEvent: {}
+[11.816055] (-) TimerEvent: {}
+[11.916182] (-) TimerEvent: {}
+[12.016311] (-) TimerEvent: {}
+[12.116413] (-) TimerEvent: {}
+[12.216532] (-) TimerEvent: {}
+[12.316660] (-) TimerEvent: {}
+[12.416775] (-) TimerEvent: {}
+[12.516902] (-) TimerEvent: {}
+[12.616993] (-) TimerEvent: {}
+[12.717092] (-) TimerEvent: {}
+[12.817195] (-) TimerEvent: {}
+[12.917302] (-) TimerEvent: {}
+[13.017410] (-) TimerEvent: {}
+[13.117505] (-) TimerEvent: {}
+[13.217601] (-) TimerEvent: {}
+[13.317691] (-) TimerEvent: {}
+[13.417787] (-) TimerEvent: {}
+[13.517896] (-) TimerEvent: {}
+[13.617993] (-) TimerEvent: {}
+[13.718079] (-) TimerEvent: {}
+[13.818181] (-) TimerEvent: {}
+[13.918274] (-) TimerEvent: {}
+[14.018363] (-) TimerEvent: {}
+[14.118442] (-) TimerEvent: {}
+[14.218540] (-) TimerEvent: {}
+[14.318636] (-) TimerEvent: {}
+[14.418729] (-) TimerEvent: {}
+[14.518822] (-) TimerEvent: {}
+[14.618928] (-) TimerEvent: {}
+[14.719058] (-) TimerEvent: {}
+[14.819203] (-) TimerEvent: {}
+[14.919353] (-) TimerEvent: {}
+[15.019473] (-) TimerEvent: {}
+[15.119590] (-) TimerEvent: {}
+[15.219694] (-) TimerEvent: {}
+[15.319778] (-) TimerEvent: {}
+[15.419901] (-) TimerEvent: {}
+[15.520012] (-) TimerEvent: {}
+[15.620108] (-) TimerEvent: {}
+[15.720212] (-) TimerEvent: {}
+[15.820320] (-) TimerEvent: {}
+[15.920431] (-) TimerEvent: {}
+[16.020533] (-) TimerEvent: {}
+[16.120625] (-) TimerEvent: {}
+[16.220713] (-) TimerEvent: {}
+[16.320795] (-) TimerEvent: {}
+[16.420889] (-) TimerEvent: {}
+[16.520982] (-) TimerEvent: {}
+[16.621086] (-) TimerEvent: {}
+[16.721180] (-) TimerEvent: {}
+[16.821271] (-) TimerEvent: {}
+[16.921371] (-) TimerEvent: {}
+[17.021478] (-) TimerEvent: {}
+[17.121602] (-) TimerEvent: {}
+[17.221734] (-) TimerEvent: {}
+[17.321795] (-) TimerEvent: {}
+[17.421894] (-) TimerEvent: {}
+[17.521993] (-) TimerEvent: {}
+[17.622086] (-) TimerEvent: {}
+[17.722208] (-) TimerEvent: {}
+[17.822352] (-) TimerEvent: {}
+[17.922478] (-) TimerEvent: {}
+[18.022583] (-) TimerEvent: {}
+[18.122679] (-) TimerEvent: {}
+[18.222800] (-) TimerEvent: {}
+[18.322923] (-) TimerEvent: {}
+[18.423049] (-) TimerEvent: {}
+[18.523173] (-) TimerEvent: {}
+[18.623291] (-) TimerEvent: {}
+[18.723407] (-) TimerEvent: {}
+[18.823534] (-) TimerEvent: {}
+[18.923654] (-) TimerEvent: {}
+[19.023771] (-) TimerEvent: {}
+[19.123904] (-) TimerEvent: {}
+[19.224046] (-) TimerEvent: {}
+[19.324168] (-) TimerEvent: {}
+[19.424287] (-) TimerEvent: {}
+[19.524419] (-) TimerEvent: {}
+[19.624548] (-) TimerEvent: {}
+[19.724663] (-) TimerEvent: {}
+[19.824770] (-) TimerEvent: {}
+[19.924876] (-) TimerEvent: {}
+[20.024967] (-) TimerEvent: {}
+[20.125064] (-) TimerEvent: {}
+[20.225163] (-) TimerEvent: {}
+[20.325250] (-) TimerEvent: {}
+[20.425335] (-) TimerEvent: {}
+[20.525421] (-) TimerEvent: {}
+[20.625500] (-) TimerEvent: {}
+[20.725766] (-) TimerEvent: {}
+[20.825988] (-) TimerEvent: {}
+[20.926157] (-) TimerEvent: {}
+[21.026310] (-) TimerEvent: {}
+[21.126452] (-) TimerEvent: {}
+[21.226580] (-) TimerEvent: {}
+[21.326689] (-) TimerEvent: {}
+[21.426795] (-) TimerEvent: {}
+[21.526892] (-) TimerEvent: {}
+[21.626971] (-) TimerEvent: {}
+[21.727051] (-) TimerEvent: {}
+[21.827152] (-) TimerEvent: {}
+[21.927259] (-) TimerEvent: {}
+[22.027360] (-) TimerEvent: {}
+[22.127455] (-) TimerEvent: {}
+[22.227540] (-) TimerEvent: {}
+[22.327611] (-) TimerEvent: {}
+[22.427690] (-) TimerEvent: {}
+[22.527774] (-) TimerEvent: {}
+[22.627858] (-) TimerEvent: {}
+[22.705293] (planning) StdoutLine: {'line': b'[ 66%] Linking CXX shared library libplanning_component.so\n'}
+[22.727922] (-) TimerEvent: {}
+[22.828004] (-) TimerEvent: {}
+[22.832698] (planning) StderrLine: {'line': b"/usr/bin/ld: /root/Elastic-Tracker/ros2_ws/install/lib/libtraj_opt_core.a(traj_opt.cc.o): warning: relocation against `_ZNKSt5ctypeIcE8do_widenEc' in read-only section `.text._ZN9quickhull9QuickHullIdE24createConvexHalfEdgeMeshEv[_ZN9quickhull9QuickHullIdE24createConvexHalfEdgeMeshEv]'\n"}
+[22.844038] (planning) StderrLine: {'line': b"/usr/bin/ld: /root/Elastic-Tracker/ros2_ws/install/lib/libtraj_opt_core.a(traj_opt.cc.o): relocation R_X86_64_PC32 against symbol `_ZSt4cout@@GLIBCXX_3.4' can not be used when making a shared object; recompile with -fPIC\n"}
+[22.844105] (planning) StderrLine: {'line': b'/usr/bin/ld: final link failed: bad value\n'}
+[22.847696] (planning) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[22.849009] (planning) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/planning_component.dir/build.make:377: libplanning_component.so] Error 1\n'}
+[22.849339] (planning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/planning_component.dir/all] Error 2\n'}
+[22.849634] (planning) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.851819] (planning) CommandEnded: {'returncode': 2}
+[22.861049] (planning) JobEnded: {'identifier': 'planning', 'rc': 2}
+[22.871246] (-) EventReactorShutdown: {}

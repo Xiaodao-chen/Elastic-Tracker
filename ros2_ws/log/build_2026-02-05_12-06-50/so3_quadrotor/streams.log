@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_quadrotor -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.041s] -- The C compiler identification is GNU 13.3.0
+[0.071s] -- The CXX compiler identification is GNU 13.3.0
+[0.080s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.207s] -- Detecting CXX compile features
+[0.207s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.339s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.367s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.469s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.480s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.533s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.554s] -- Found quadrotor_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/cmake)
+[0.605s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.620s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.637s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.639s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.746s] -- Configuring done (0.7s)
+[0.761s] -- Generating done (0.0s)
+[0.765s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor
+[0.775s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_quadrotor -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.775s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor -- -j28 -l28
+[0.809s] [ 25%] Building CXX object CMakeFiles/so3_quadrotor_component.dir/src/so3_quadrotor_component.cpp.o
+[12.130s] [ 50%] Linking CXX shared library libso3_quadrotor_component.so
+[12.222s] [ 50%] Built target so3_quadrotor_component
+[12.235s] [ 75%] Building CXX object CMakeFiles/so3_quadrotor_node.dir/src/so3_quadrotor_main.cpp.o
+[13.646s] [100%] Linking CXX executable so3_quadrotor_node
+[13.717s] [100%] Built target so3_quadrotor_node
+[13.725s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor -- -j28 -l28
+[13.725s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor
+[13.730s] -- Install configuration: "Release"
+[13.730s] -- Execute custom install script
+[13.730s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/libso3_quadrotor_component.so
+[13.736s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/so3_quadrotor/so3_quadrotor_node
+[13.741s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/so3_quadrotor/geometry_utils.hpp
+[13.747s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/so3_quadrotor/quadrotor_dynamics.hpp
+[13.751s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/so3_quadrotor
+[13.755s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/so3_quadrotor
+[13.759s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/environment/ament_prefix_path.sh
+[13.762s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/environment/ament_prefix_path.dsv
+[13.766s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/environment/path.sh
+[13.769s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/environment/path.dsv
+[13.772s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/local_setup.bash
+[13.776s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/local_setup.sh
+[13.780s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/local_setup.zsh
+[13.784s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/local_setup.dsv
+[13.787s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.dsv
+[13.790s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/so3_quadrotor
+[13.796s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rclcpp_components/so3_quadrotor
+[13.801s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/cmake/so3_quadrotorConfig.cmake
+[13.804s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/cmake/so3_quadrotorConfig-version.cmake
+[13.809s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_quadrotor/package.xml
+[13.814s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_quadrotor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_quadrotor

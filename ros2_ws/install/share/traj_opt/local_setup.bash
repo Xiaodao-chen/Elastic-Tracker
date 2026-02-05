@@ -1,0 +1,1 @@
+/root/Elastic-Tracker/ros2_ws/build/traj_opt/ament_cmake_environment_hooks/local_setup.bash

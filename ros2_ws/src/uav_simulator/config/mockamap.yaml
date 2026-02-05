@@ -1,0 +1,17 @@
+mockamap:
+  ros__parameters:
+    seed: 510
+    update_freq: 1.0
+    resolution: 0.1
+    x_length: 42
+    y_length: 40
+    z_length: 5
+    ground: 0
+    ceil: 0
+    type: 2
+    width_min: 0.5
+    width_max: 1.5
+    height_min: 3.5
+    height_max: 4.5
+    obstacle_number: 120
+

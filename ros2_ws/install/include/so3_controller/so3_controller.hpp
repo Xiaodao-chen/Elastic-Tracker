@@ -1,0 +1,1 @@
+/root/Elastic-Tracker/ros2_ws/src/so3_controller/include/so3_controller/so3_controller.hpp

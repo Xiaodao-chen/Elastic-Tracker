@@ -1,0 +1,78 @@
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:4:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:14,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.cpp:1:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_visual.h:14,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:10,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:14,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_polyhedron_array_display.cpp:10,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:3:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/mesh_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:16:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/bound_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:17:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/vector_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/polyhedron_array_display.h:18:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:16:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:17:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^
+In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:9,
+                 from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:18:
+/opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h:2:62: note: ‘#pragma message: /opt/ros/jazzy/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h is deprecated, migrate to Ogre.h’
+    2 | #pragma message( __FILE__ " is deprecated, migrate to Ogre.h")
+      |                                                              ^

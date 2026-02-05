@@ -1,0 +1,129 @@
+[0.012s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.079s] -- The CXX compiler identification is GNU 13.3.0
+[0.089s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.231s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.310s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.361s] -- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.376s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.376s] -- Found rviz_common: 14.1.19 (/opt/ros/jazzy/share/rviz_common/cmake)
+[0.393s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.479s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.514s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.517s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.526s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.527s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.532s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.577s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.578s] -- Found OGRE
+[0.578s] --   static     : OFF
+[0.578s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.578s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.578s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.578s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.578s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[0.578s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.579s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[0.579s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.579s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.579s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.579s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.579s] -- Could not find freeimage library
+[0.591s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[0.596s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.672s] -- Found X11: /usr/include   
+[0.672s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.730s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.730s] -- Looking for gethostbyname
+[0.782s] -- Looking for gethostbyname - found
+[0.782s] -- Looking for connect
+[0.834s] -- Looking for connect - found
+[0.834s] -- Looking for remove
+[0.888s] -- Looking for remove - found
+[0.888s] -- Looking for shmat
+[0.939s] -- Looking for shmat - found
+[0.939s] -- Looking for IceConnectionNumber in ICE
+[0.999s] -- Looking for IceConnectionNumber in ICE - found
+[1.101s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.105s] -- Found decomp_ros_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/decomp_ros_msgs/cmake)
+[1.115s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.180s] -- Configuring done (1.2s)
+[1.208s] -- Generating done (0.0s)
+[1.212s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils
+[1.227s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[1.228s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils -- -j28 -l28
+[1.267s] [  0%] Built target decomp_rviz_plugins_autogen_timestamp_deps
+[1.281s] [ 10%] Automatic MOC for target decomp_rviz_plugins
+[1.678s] [ 10%] Built target decomp_rviz_plugins_autogen
+[1.706s] [ 20%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o
+[1.707s] [ 30%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o
+[1.708s] [ 50%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o
+[1.708s] [ 50%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o
+[1.708s] [ 60%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o
+[1.709s] [ 70%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o
+[1.710s] [ 80%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o
+[1.909s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.cpp:1:
+[1.909s] /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/bound_visual.h:6:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[1.909s]     6 | #include <OGRE/OgreQuaternion.h>
+[1.910s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[1.910s] compilation terminated.
+[1.912s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:96: CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o] Error 1
+[1.912s] gmake[2]: *** Waiting for unfinished jobs....
+[1.915s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.cpp:1:
+[1.915s] /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/mesh_visual.h:6:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[1.915s]     6 | #include <OGRE/OgreQuaternion.h>
+[1.915s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[1.915s] compilation terminated.
+[1.917s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.cpp:1:
+[1.917s] /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/vector_visual.h:6:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[1.917s]     6 | #include <OGRE/OgreQuaternion.h>
+[1.917s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[1.917s] compilation terminated.
+[1.918s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:110: CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o] Error 1
+[1.920s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:124: CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o] Error 1
+[1.933s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:
+[1.933s] /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:11:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[1.933s]    11 | #include <OGRE/OgreQuaternion.h>
+[1.933s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[1.933s] compilation terminated.
+[1.935s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:138: CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o] Error 1
+[2.085s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.cpp:1:
+[2.085s] /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/polyhedron_array_display.h:13:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[2.085s]    13 | #include <OGRE/OgreQuaternion.h>
+[2.085s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[2.085s] compilation terminated.
+[2.089s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:166: CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o] Error 1
+[2.135s] In file included from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+[2.135s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:10,
+[2.135s]                  from /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2:
+[2.135s] /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/decomp_ros_utils/src/ellipsoid_array_visual.h:11:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[2.135s]    11 | #include <OGRE/OgreQuaternion.h>
+[2.135s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[2.135s] compilation terminated.
+[2.140s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:82: CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o] Error 1
+[2.149s] In file included from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+[2.149s]                  from /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+[2.149s] /root/Elastic-Tracker/ros2_ws/src/decomp_ros_utils/src/ellipsoid_array_visual.h:11:10: fatal error: OGRE/OgreQuaternion.h: No such file or directory
+[2.149s]    11 | #include <OGRE/OgreQuaternion.h>
+[2.149s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[2.150s] compilation terminated.
+[2.154s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:152: CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o] Error 1
+[2.154s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/decomp_rviz_plugins.dir/all] Error 2
+[2.155s] gmake: *** [Makefile:146: all] Error 2
+[2.157s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/decomp_ros_utils -- -j28 -l28

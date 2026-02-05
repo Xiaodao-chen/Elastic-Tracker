@@ -1,0 +1,348 @@
+[0.045s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--symlink-install', '--event-handlers', 'console_direct+', '--packages-select', 'elastic_tracker_bringup']
+[0.045s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=True, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=28, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['elastic_tracker_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6bf356f6e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6bf356f110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6bf356f110>>)
+[0.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.064s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Elastic-Tracker/ros2_ws'
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extension 'ignore'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extension 'ignore_ament_install'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extensions ['colcon_pkg']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extension 'colcon_pkg'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extensions ['colcon_meta']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extension 'colcon_meta'
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extensions ['ros']
+[0.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_msgs) by extension 'ros'
+[0.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/decomp_ros_msgs' with type 'ros.catkin' and name 'decomp_ros_msgs'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/decomp_ros_utils) by extension 'ros'
+[0.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/decomp_ros_utils' with type 'ros.ament_cmake' and name 'decomp_ros_utils'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/elastic_tracker_bringup) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'src/elastic_tracker_bringup' with type 'ros.ament_cmake' and name 'elastic_tracker_bringup'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/local_sensing_node) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'src/local_sensing_node' with type 'ros.ament_cmake' and name 'local_sensing_node'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping' with type 'ros.ament_cmake' and name 'mapping'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_core) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping_core' with type 'ros.catkin' and name 'mapping_core'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/mockamap) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mockamap' with type 'ros.catkin' and name 'mockamap'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/object_detection_msgs) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/object_detection_msgs' with type 'ros.catkin' and name 'object_detection_msgs'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_visualization) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_visualization' with type 'ros.catkin' and name 'odom_visualization'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/planning) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/planning' with type 'ros.ament_cmake' and name 'planning'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'ignore_ament_install'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['colcon_pkg']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'colcon_pkg'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['colcon_meta']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'colcon_meta'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extensions ['ros']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/pose_utils) by extension 'ros'
+[0.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pose_utils' with type 'ros.catkin' and name 'pose_utils'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'ignore'
+[0.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/quadrotor_msgs) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quadrotor_msgs' with type 'ros.catkin' and name 'quadrotor_msgs'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_controller) by extension 'ros'
+[0.085s] DEBUG:colcon.colcon_core.package_identification:Package 'src/so3_controller' with type 'ros.ament_cmake' and name 'so3_controller'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/so3_quadrotor) by extension 'ros'
+[0.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/so3_quadrotor' with type 'ros.ament_cmake' and name 'so3_quadrotor'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'ignore_ament_install'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['colcon_pkg']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'colcon_pkg'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['colcon_meta']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'colcon_meta'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extensions ['ros']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/target_ekf) by extension 'ros'
+[0.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/target_ekf' with type 'ros.catkin' and name 'target_ekf'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/traj_opt_core) by extension 'ros'
+[0.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traj_opt_core' with type 'ros.catkin' and name 'traj_opt_core'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/uav_simulator) by extension 'ros'
+[0.087s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uav_simulator' with type 'ros.ament_cmake' and name 'uav_simulator'
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.087s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'decomp_ros_msgs' in 'src/decomp_ros_msgs'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'local_sensing_node' in 'src/local_sensing_node'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mapping_core' in 'src/mapping_core'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mockamap' in 'src/mockamap'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'object_detection_msgs' in 'src/object_detection_msgs'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_utils' in 'src/pose_utils'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quadrotor_msgs' in 'src/quadrotor_msgs'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'traj_opt_core' in 'src/traj_opt_core'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'decomp_ros_utils' in 'src/decomp_ros_utils'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mapping' in 'src/mapping'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odom_visualization' in 'src/odom_visualization'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'planning' in 'src/planning'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'so3_controller' in 'src/so3_controller'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'so3_quadrotor' in 'src/so3_quadrotor'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'target_ekf' in 'src/target_ekf'
+[0.097s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'uav_simulator' in 'src/uav_simulator'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_target' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.098s] Level 5:colcon.colcon_core.verb:set package 'elastic_tracker_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.098s] DEBUG:colcon.colcon_core.verb:Building package 'elastic_tracker_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Elastic-Tracker/ros2_ws/install', 'merge_install': True, 'path': '/root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.098s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.099s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup' with build type 'ament_cmake'
+[0.099s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup'
+[0.100s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.100s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.100s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/planning' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/so3_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Elastic-Tracker/ros2_ws/install/mapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/planning' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/traj_opt_core' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/target_ekf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/so3_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/odom_visualization' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/mapping' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/pose_utils' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/mockamap' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Elastic-Tracker/ros2_ws/install/mapping_core' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup -- -j28 -l28
+[0.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup -- -j28 -l28
+[0.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup
+[0.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(elastic_tracker_bringup)
+[0.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/root/Elastic-Tracker/ros2_ws/install/elastic_tracker_bringup:/root/Elastic-Tracker/ros2_ws/install/planning:/root/Elastic-Tracker/ros2_ws/install/traj_opt_core:/root/Elastic-Tracker/ros2_ws/install/target_ekf:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor:/root/Elastic-Tracker/ros2_ws/install/so3_controller:/root/Elastic-Tracker/ros2_ws/install/odom_visualization:/root/Elastic-Tracker/ros2_ws/install/mapping:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs:/root/Elastic-Tracker/ros2_ws/install/pose_utils:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs:/root/Elastic-Tracker/ros2_ws/install/mockamap:/root/Elastic-Tracker/ros2_ws/install/mapping_core CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/root/Elastic-Tracker/ros2_ws/install/planning/lib:/root/Elastic-Tracker/ros2_ws/install/so3_quadrotor/lib:/root/Elastic-Tracker/ros2_ws/install/so3_controller/lib:/root/Elastic-Tracker/ros2_ws/install/mapping/lib:/root/Elastic-Tracker/ros2_ws/install/quadrotor_msgs/lib:/root/Elastic-Tracker/ros2_ws/install/object_detection_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup
+[0.173s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[0.173s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[0.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'cmake_prefix_path')
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.ps1'
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.dsv'
+[0.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.sh'
+[0.176s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[0.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'ld_library_path_lib')
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.ps1'
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.dsv'
+[0.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.sh'
+[0.177s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[0.177s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/elastic_tracker_bringup.pc'
+[0.177s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[0.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'pythonpath')
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.ps1'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.dsv'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.sh'
+[0.178s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[0.178s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.ps1'
+[0.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.dsv'
+[0.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.sh'
+[0.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.bash'
+[0.180s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.zsh'
+[0.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/elastic_tracker_bringup)
+[0.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(elastic_tracker_bringup)
+[0.181s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake module files
+[0.181s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install' for CMake config files
+[0.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'cmake_prefix_path')
+[0.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.ps1'
+[0.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.dsv'
+[0.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/cmake_prefix_path.sh'
+[0.183s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib'
+[0.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'ld_library_path_lib')
+[0.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.ps1'
+[0.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.dsv'
+[0.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/ld_library_path_lib.sh'
+[0.183s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[0.183s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig/elastic_tracker_bringup.pc'
+[0.184s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages'
+[0.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('elastic_tracker_bringup', 'pythonpath')
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.ps1'
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.dsv'
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/hook/pythonpath.sh'
+[0.184s] Level 1:colcon.colcon_core.environment:checking '/root/Elastic-Tracker/ros2_ws/install/bin'
+[0.184s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.ps1'
+[0.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.dsv'
+[0.185s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.sh'
+[0.185s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.bash'
+[0.185s] INFO:colcon.colcon_core.shell:Creating package script '/root/Elastic-Tracker/ros2_ws/install/share/elastic_tracker_bringup/package.zsh'
+[0.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Elastic-Tracker/ros2_ws/install/share/colcon-core/packages/elastic_tracker_bringup)
+[0.185s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.186s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.186s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.190s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.190s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[0.190s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.ps1'
+[0.190s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Elastic-Tracker/ros2_ws/install/_local_setup_util_ps1.py'
+[0.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.ps1'
+[0.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.sh'
+[0.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Elastic-Tracker/ros2_ws/install/_local_setup_util_sh.py'
+[0.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.sh'
+[0.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.bash'
+[0.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.bash'
+[0.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Elastic-Tracker/ros2_ws/install/local_setup.zsh'
+[0.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Elastic-Tracker/ros2_ws/install/setup.zsh'

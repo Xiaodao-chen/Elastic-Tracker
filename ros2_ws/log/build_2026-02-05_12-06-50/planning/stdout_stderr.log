@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found quadrotor_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/cmake)
+-- Found mapping_core: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/mapping_core/cmake)
+-- Found traj_opt_core: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/traj_opt_core/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/planning
+[ 16%] Building CXX object CMakeFiles/planning_component.dir/src/planning_component.cpp.o
+[ 33%] Building CXX object CMakeFiles/traj_server_node.dir/src/traj_server_node_ros2.cpp.o
+[ 50%] Linking CXX executable traj_server_node
+[ 50%] Built target traj_server_node
+[ 66%] Linking CXX shared library libplanning_component.so
+[ 66%] Built target planning_component
+[ 83%] Building CXX object CMakeFiles/planning_node.dir/src/planning_main.cpp.o
+[100%] Linking CXX executable planning_node
+[100%] Built target planning_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/libplanning_component.so
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/planning/planning_node
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/lib/planning/traj_server_node
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/env/env_ros2.hpp
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/prediction/prediction_ros2.hpp
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/visualization/visualization_ros2.hpp
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/include/wr_msg/wr_msg_ros2.hpp
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/planning
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/planning
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/ament_prefix_path.sh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/ament_prefix_path.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/path.sh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/environment/path.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.bash
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.sh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.zsh
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/local_setup.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/package.dsv
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/planning
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rclcpp_components/planning
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/cmake/planningConfig.cmake
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/cmake/planningConfig-version.cmake
+-- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/planning/package.xml

@@ -1,0 +1,54 @@
+[0.006s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.014s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.133s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.146s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.151s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.196s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.269s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.284s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.317s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.330s] -- Found quadrotor_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/quadrotor_msgs/cmake)
+[0.346s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.347s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.349s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.350s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.451s] -- Configuring done (0.4s)
+[0.465s] -- Generating done (0.0s)
+[0.469s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/so3_controller
+[0.476s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/so3_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.476s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_controller -- -j28 -l28
+[0.528s] [ 25%] Building CXX object CMakeFiles/so3_controller_component.dir/src/so3_controller_component.cpp.o
+[11.492s] [ 50%] Linking CXX shared library libso3_controller_component.so
+[11.593s] [ 50%] Built target so3_controller_component
+[11.614s] [ 75%] Building CXX object CMakeFiles/so3_controller_node.dir/src/so3_controller_main.cpp.o
+[13.487s] [100%] Linking CXX executable so3_controller_node
+[13.564s] [100%] Built target so3_controller_node
+[13.573s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/so3_controller -- -j28 -l28
+[13.574s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_controller
+[13.579s] -- Install configuration: "Release"
+[13.579s] -- Execute custom install script
+[13.579s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/lib/libso3_controller_component.so
+[13.579s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/lib/so3_controller/so3_controller_node
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/include/so3_controller/so3_controller.hpp
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/so3_controller
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/so3_controller
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/ament_prefix_path.sh
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/ament_prefix_path.dsv
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/path.sh
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/environment/path.dsv
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.bash
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.sh
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.zsh
+[13.580s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/local_setup.dsv
+[13.581s] -- Symlinking: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.dsv
+[13.587s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/so3_controller
+[13.587s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/rclcpp_components/so3_controller
+[13.587s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/cmake/so3_controllerConfig.cmake
+[13.587s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/cmake/so3_controllerConfig-version.cmake
+[13.587s] -- Up-to-date symlink: /root/Elastic-Tracker/ros2_ws/install/share/so3_controller/package.xml
+[13.589s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/so3_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy:/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/so3_controller

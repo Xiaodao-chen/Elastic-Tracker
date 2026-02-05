@@ -1,0 +1,16 @@
+msg/AuxCommand.idl
+msg/AuxCommand.msg
+msg/OccMap3d.idl
+msg/OccMap3d.msg
+msg/PolyTraj.idl
+msg/PolyTraj.msg
+msg/PositionCommand.idl
+msg/PositionCommand.msg
+msg/Px4ctrlDebug.idl
+msg/Px4ctrlDebug.msg
+msg/ReplanState.idl
+msg/ReplanState.msg
+msg/SO3Command.idl
+msg/SO3Command.msg
+msg/TakeoffLand.idl
+msg/TakeoffLand.msg

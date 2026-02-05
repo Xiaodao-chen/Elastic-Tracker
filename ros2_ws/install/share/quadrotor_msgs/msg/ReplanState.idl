@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadrotor_msgs/msg/ReplanState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "nav_msgs/msg/Odometry.idl"
+#include "quadrotor_msgs/msg/OccMap3d.idl"
+#include "std_msgs/msg/Header.idl"
+
+module quadrotor_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "all information for a replan")
+    struct ReplanState {
+      std_msgs::msg::Header header;
+
+      int16 state;
+
+      sequence<double> ini_state;
+
+      nav_msgs::msg::Odometry target;
+
+      quadrotor_msgs::msg::OccMap3d occmap;
+
+      @verbatim (language="comment", text=
+        "other temporal variables")
+      sequence<double> path;
+
+      builtin_interfaces::msg::Time replan_stamp;
+    };
+  };
+};

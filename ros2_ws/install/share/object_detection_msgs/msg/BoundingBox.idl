@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from object_detection_msgs/msg/BoundingBox.msg
+// generated code does not contain a copyright notice
+
+
+module object_detection_msgs {
+  module msg {
+    struct BoundingBox {
+      double probability;
+
+      int64 xmin;
+
+      int64 ymin;
+
+      int64 xmax;
+
+      int64 ymax;
+
+      int16 id;
+
+      string class_name;
+    };
+  };
+};

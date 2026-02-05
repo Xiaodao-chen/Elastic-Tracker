@@ -1,0 +1,71 @@
+[0.005s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/target_ekf -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.037s] -- The C compiler identification is GNU 13.3.0
+[0.067s] -- The CXX compiler identification is GNU 13.3.0
+[0.075s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.130s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.266s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.313s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.332s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.388s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.389s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.428s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.440s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.491s] -- Found message_filters: 4.11.10 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.501s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.526s] -- Found object_detection_msgs: 0.0.1 (/root/Elastic-Tracker/ros2_ws/install/share/object_detection_msgs/cmake)
+[0.590s] -- Configuring done (0.6s)
+[0.600s] -- Generating done (0.0s)
+[0.601s] CMake Warning:
+[0.601s]   Manually-specified variables were not used by the project:
+[0.601s] 
+[0.601s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.601s]     CATKIN_SYMLINK_INSTALL
+[0.601s] 
+[0.601s] 
+[0.603s] -- Build files have been written to: /root/Elastic-Tracker/ros2_ws/build/target_ekf
+[0.610s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /root/Elastic-Tracker/ros2_ws/src/target_ekf -DCMAKE_BUILD_TYPE=Release -DPython3_EXECUTABLE=/usr/bin/python3 -DPython3_FIND_VIRTUALENV=STANDARD -DPython3_FIND_STRATEGY=LOCATION -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/Elastic-Tracker/ros2_ws/install
+[0.611s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/target_ekf -- -j28 -l28
+[0.643s] [ 25%] Building CXX object CMakeFiles/target_ekf_sim_node.dir/src/target_ekf_sim_node.cpp.o
+[0.644s] [ 50%] Building CXX object CMakeFiles/target_ekf_node.dir/src/target_ekf_node.cpp.o
+[12.940s] [ 75%] Linking CXX executable target_ekf_sim_node
+[13.028s] [ 75%] Built target target_ekf_sim_node
+[15.836s] [100%] Linking CXX executable target_ekf_node
+[15.921s] [100%] Built target target_ekf_node
+[15.926s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /root/Elastic-Tracker/ros2_ws/build/target_ekf -- -j28 -l28
+[15.927s] Invoking command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/target_ekf
+[15.932s] -- Install configuration: "Release"
+[15.933s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/lib/target_ekf/target_ekf_node
+[15.934s] -- Set non-toolchain portion of runtime path of "/root/Elastic-Tracker/ros2_ws/install/lib/target_ekf/target_ekf_node" to ""
+[15.934s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/lib/target_ekf/target_ekf_sim_node
+[15.935s] -- Set non-toolchain portion of runtime path of "/root/Elastic-Tracker/ros2_ws/install/lib/target_ekf/target_ekf_sim_node" to ""
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/config
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/config/camera.yaml
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/target_ekf
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/target_ekf
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/environment/ament_prefix_path.sh
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/environment/ament_prefix_path.dsv
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/environment/path.sh
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/environment/path.dsv
+[15.935s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/local_setup.bash
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/local_setup.sh
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/local_setup.zsh
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/local_setup.dsv
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.dsv
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/ament_index/resource_index/packages/target_ekf
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/cmake/target_ekfConfig.cmake
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/cmake/target_ekfConfig-version.cmake
+[15.936s] -- Installing: /root/Elastic-Tracker/ros2_ws/install/share/target_ekf/package.xml
+[15.937s] Invoked command in '/root/Elastic-Tracker/ros2_ws/build/target_ekf' returned '0': CMAKE_PREFIX_PATH=/root/Elastic-Tracker/ros2_ws/install:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) HISTTIMEFORMAT=%F %T LD_LIBRARY_PATH=/root/Elastic-Tracker/ros2_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/root/Elastic-Tracker/ros2_ws/install/lib/x86_64-linux-gnu/pkgconfig:/root/Elastic-Tracker/ros2_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/root/Elastic-Tracker/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/root/Elastic-Tracker/ros2_ws/install/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /root/Elastic-Tracker/ros2_ws/build/target_ekf
