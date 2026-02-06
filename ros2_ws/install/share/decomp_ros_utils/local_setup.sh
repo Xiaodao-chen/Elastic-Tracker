@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/build/decomp_ros_utils/ament_cmake_environment_hooks/local_setup.sh

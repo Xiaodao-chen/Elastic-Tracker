@@ -1,0 +1,12 @@
+<library path="decomp_rviz_plugins">
+  <class name="decomp_rviz_plugins/EllipsoidArray"
+    type="decomp_rviz_plugins::EllipsoidArrayDisplay"
+    base_class_type="rviz_common::Display">
+    <description>Visualize decomp_ros_msgs/msg/EllipsoidArray msg.</description>
+  </class>
+  <class name="decomp_rviz_plugins/PolyhedronArray"
+    type="decomp_rviz_plugins::PolyhedronArrayDisplay"
+    base_class_type="rviz_common::Display">
+    <description>Visualize decomp_ros_msgs/msg/PolyhedronArray msg.</description>
+  </class>
+</library>

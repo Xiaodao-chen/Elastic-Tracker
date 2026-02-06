@@ -1,0 +1,1 @@
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/odom_visualization/ament_cmake_environment_hooks/local_setup.bash

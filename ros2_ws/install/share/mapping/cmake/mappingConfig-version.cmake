@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/build/mapping/ament_cmake_core/mappingConfig-version.cmake

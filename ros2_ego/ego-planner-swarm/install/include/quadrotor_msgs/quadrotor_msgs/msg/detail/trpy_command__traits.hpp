@@ -1,0 +1,1 @@
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/detail/trpy_command__traits.hpp

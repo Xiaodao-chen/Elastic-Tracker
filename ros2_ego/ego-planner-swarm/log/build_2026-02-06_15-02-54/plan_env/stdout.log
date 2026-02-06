@@ -1,0 +1,35 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/grid_map.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/obj_generator.dir/src/obj_generator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/raycast.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/obj_predictor.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable obj_generator[0m
+[ 83%] Built target obj_generator
+[100%] [32m[1mLinking CXX shared library libplan_env.so[0m
+[100%] Built target plan_env
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libplan_env.so
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/plan_env/obj_generator
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/linear_obj_model.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/raycast.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/environment/library_path.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/environment/library_path.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/package_run_dependencies/plan_env
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/parent_prefix_path/plan_env
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/environment/ament_prefix_path.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/environment/ament_prefix_path.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/environment/path.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/environment/path.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/local_setup.bash
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/local_setup.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/local_setup.zsh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/local_setup.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/package.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/packages/plan_env
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/cmake/plan_envConfig.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/cmake/plan_envConfig-version.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/package.xml

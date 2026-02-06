@@ -1,0 +1,58 @@
+[0.019s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt -- -j32 -l32
+[0.049s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.191s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.257s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.262s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.277s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.378s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.382s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.419s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.558s] -- Configuring done
+[0.577s] -- Generating done
+[0.580s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt
+[0.610s] Consolidate compiler generated dependencies of target traj_opt
+[0.637s] [ 33%] Building CXX object CMakeFiles/traj_opt.dir/src/traj_opt.cc.o
+[0.639s] [ 66%] Building CXX object CMakeFiles/traj_opt.dir/src/traj_opt_fake.cc.o
+[18.607s] [100%] Linking CXX shared library libtraj_opt.so
+[18.824s] [100%] Built target traj_opt
+[18.833s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt -- -j32 -l32
+[18.834s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt
+[18.840s] -- Install configuration: "Release"
+[18.843s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.so
+[18.848s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.so" to ""
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/minco.hpp
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/root_finder.hpp
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/poly_traj_utils.hpp
+[18.849s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/geoutils.hpp
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/lbfgs_raw.hpp
+[18.849s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/sdlp.hpp
+[18.849s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/traj_opt.h
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/quickhull.hpp
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/library_path.sh
+[18.850s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/library_path.dsv
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/ament_index/resource_index/package_run_dependencies/traj_opt
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/ament_index/resource_index/parent_prefix_path/traj_opt
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/ament_prefix_path.sh
+[18.850s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/ament_prefix_path.dsv
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/path.sh
+[18.850s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/path.dsv
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.bash
+[18.850s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.sh
+[18.851s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.zsh
+[18.851s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.dsv
+[18.851s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/package.dsv
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/ament_index/resource_index/packages/traj_opt
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optTargetsExport.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optTargetsExport-release.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_targets-extras.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_libraries-extras.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optConfig.cmake
+[18.852s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optConfig-version.cmake
+[18.853s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/package.xml
+[18.853s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt

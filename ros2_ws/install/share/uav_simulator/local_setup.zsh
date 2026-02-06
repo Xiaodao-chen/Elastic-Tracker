@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/build/uav_simulator/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,75 @@
+# Tracker FSM Configuration for Simulation
+/**:
+  ros__parameters:
+    # Planning parameters
+    plan_hz: 10
+    tracking_dur: 7.5
+    tracking_dist: 1.5
+    tolerance_d: 0.3
+    fake: false
+    debug: false
+
+    # Trajectory optimization parameters
+    vmax: 2.0
+    amax: 6.0
+    rhoT: 0.1
+    rhoP: 1.0
+    rhoV: 1.0
+    rhoA: 1.0
+    rhoTracking: 1.0
+    rhosVisibility: 1.0
+    theta_clearance: 0.1
+    K: 1
+
+    # Path planning parameters
+    clearance_d: 0.2
+    tracking_dt: 0.1
+    grid_step: 0.1
+    obs_size: 0.3
+
+    # Prediction parameters
+    predict_time: 1.0
+
+    # Camera parameters (for mapping and EKF)
+    cam_width: 640
+    cam_height: 480
+    cam_fx: 387.229248046875
+    cam_fy: 387.229248046875
+    cam_cx: 321.04638671875
+    cam_cy: 243.44969177246094
+    depth_scaling_factor: 1000.0
+
+    cam2body_R: [0.0, 0.0, 1.0,
+                 -1.0, 0.0, 0.0,
+                 0.0, -1.0, 0.0]
+    cam2body_p: [0.0, 0.0, 0.05]
+
+    # Mapping parameters
+    resolution: 0.15
+    local_x: 10.0
+    local_y: 10.0
+    local_z: 5.0
+    inflate_size: 2
+    down_sample_factor: 1
+
+    # Depth filter parameters
+    depth_filter_tolerance: 0.1
+    depth_filter_mindist: 0.1
+    depth_filter_margin: 2
+
+    # Raycasting log-odds parameters (integer values)
+    # These are log-odds values, NOT probabilities
+    p_min: -199
+    p_max: 220
+    p_hit: 62
+    p_mis: 62
+    p_occ: 139
+    p_def: -199
+
+    # EKF parameters
+    ekf_rate: 30
+    check_fov: false
+
+    # Feature flags
+    use_global_map: false
+    use_mask: false

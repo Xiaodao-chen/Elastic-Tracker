@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/src/so3_quadrotor/include/so3_quadrotor/geometry_utils.hpp

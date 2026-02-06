@@ -1,0 +1,56 @@
+# Tracker FSM Configuration for Navigation Simulation (fake mode)
+/**:
+  ros__parameters:
+    # Planning parameters (matched to ROS1 fake_car_target.launch)
+    plan_hz: 20
+    tracking_dur: 7.5
+    tracking_dist: 2.0
+    tolerance_d: 0.5
+    fake: true
+    debug: false
+
+    # Trajectory optimization parameters (matched to ROS1)
+    vmax: 1.5
+    amax: 2.5
+    rhoT: 100.0
+    rhoP: 10000.0
+    rhoV: 1000.0
+    rhoA: 1000.0
+    rhoTracking: 1000.0
+    rhosVisibility: 10000.0
+    theta_clearance: 0.8
+    K: 8
+
+    # Path planning parameters
+    clearance_d: 0.2
+    tracking_dt: 0.1
+    grid_step: 0.1
+    obs_size: 0.3
+
+    # Prediction parameters
+    predict_time: 1.0
+
+    # Camera parameters (for mapping and EKF)
+    cam_width: 640
+    cam_height: 480
+    cam_fx: 387.229248046875
+    cam_fy: 387.229248046875
+    cam_cx: 321.04638671875
+    cam_cy: 243.44969177246094
+    depth_scaling_factor: 1000.0
+
+    cam2body_R: [0.0, 0.0, 1.0,
+                 -1.0, 0.0, 0.0,
+                 0.0, -1.0, 0.0]
+    cam2body_p: [0.0, 0.0, 0.05]
+
+    # Mapping parameters (global map mode for target)
+    resolution: 0.15
+    inflate_size: 2
+    x_length: 42.0
+    y_length: 40.0
+    z_length: 5.0
+
+    # Feature flags
+    use_global_map: true
+    use_mask: false

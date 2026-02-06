@@ -1,0 +1,7 @@
+/usr/bin/ld: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.a(traj_opt.cc.o): warning: relocation against `_ZTIN6rclcpp22ParameterTypeExceptionE' in read-only section `.text.unlikely'
+/usr/bin/ld: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.a(traj_opt.cc.o): relocation R_X86_64_PC32 against symbol `_ZSt4cout@@GLIBCXX_3.4' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tracker_fsm_lib.dir/build.make:436：libtracker_fsm_lib.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/tracker_fsm_lib.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

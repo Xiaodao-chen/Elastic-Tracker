@@ -1,0 +1,135 @@
+[0.008s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils': CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.440s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.480s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.484s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.493s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.561s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.580s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.587s] -- Looking for pthread.h
+[0.646s] -- Looking for pthread.h - found
+[0.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.707s] -- Found Threads: TRUE  
+[0.752s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[0.790s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.801s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.803s] -- Found OGRE
+[0.803s] --   static     : OFF
+[0.803s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.803s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.803s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.803s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.803s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.804s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.804s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.804s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.804s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.804s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.804s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.807s] -- Could not find freeimage library
+[0.823s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.828s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.928s] -- Found X11: /usr/include   
+[0.929s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.063s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.064s] -- Looking for gethostbyname
+[1.138s] -- Looking for gethostbyname - found
+[1.138s] -- Looking for connect
+[1.200s] -- Looking for connect - found
+[1.200s] -- Looking for remove
+[1.285s] -- Looking for remove - found
+[1.285s] -- Looking for shmat
+[1.379s] -- Looking for shmat - found
+[1.379s] -- Looking for IceConnectionNumber in ICE
+[1.464s] -- Looking for IceConnectionNumber in ICE - found
+[1.529s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.621s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.621s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.760s] -- Found decomp_ros_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake)
+[1.775s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.851s] -- Configuring done
+[1.964s] -- Generating done
+[1.971s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils
+[1.979s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils' returned '0': CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils
+[1.981s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils': CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils -- -j32 -l32
+[2.020s] [ 11%] Automatic MOC for target decomp_rviz_plugins
+[2.462s] [ 11%] Built target decomp_rviz_plugins_autogen
+[2.482s] [ 22%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o
+[2.485s] [ 33%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o
+[2.485s] [ 44%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o
+[2.486s] [ 55%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o
+[2.487s] [ 66%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o
+[2.487s] [ 77%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o
+[2.490s] [ 88%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o
+[2.494s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp:1:
+[2.494s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/bound_visual.h:4:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.494s]     4 | #include <decomp_basis/data_type.h>
+[2.494s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.494s] compilation terminated.
+[2.494s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:4,
+[2.494s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp:1:
+[2.494s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/polyhedron.h:9:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.495s]     9 | #include <decomp_basis/data_type.h>
+[2.495s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.495s] compilation terminated.
+[2.495s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:90：CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o] 错误 1
+[2.495s] gmake[2]: *** 正在等待未完成的任务....
+[2.495s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:104：CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o] 错误 1
+[2.497s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp:1:
+[2.497s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/vector_visual.h:4:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.497s]     4 | #include <decomp_basis/data_type.h>
+[2.497s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.497s] compilation terminated.
+[2.497s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:118：CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o] 错误 1
+[2.578s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:5,
+[2.578s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:
+[2.578s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/ellipsoid.h:10:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.578s]    10 | #include <decomp_basis/data_type.h>
+[2.578s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.578s] compilation terminated.
+[2.579s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:132：CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o] 错误 1
+[2.791s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:4,
+[2.791s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:15,
+[2.791s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp:1:
+[2.791s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/polyhedron.h:9:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.791s]     9 | #include <decomp_basis/data_type.h>
+[2.791s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.791s] compilation terminated.
+[2.793s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:160：CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o] 错误 1
+[2.808s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:5,
+[2.808s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+[2.808s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:10,
+[2.808s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2:
+[2.808s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/ellipsoid.h:10:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.808s]    10 | #include <decomp_basis/data_type.h>
+[2.808s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.808s] compilation terminated.
+[2.808s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:5,
+[2.808s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+[2.808s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+[2.808s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/ellipsoid.h:10:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+[2.808s]    10 | #include <decomp_basis/data_type.h>
+[2.808s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.808s] compilation terminated.
+[2.810s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:76：CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o] 错误 1
+[2.810s] gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:146：CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o] 错误 1
+[2.811s] gmake[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/decomp_rviz_plugins.dir/all] 错误 2
+[2.811s] gmake: *** [Makefile:146：all] 错误 2
+[2.813s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils' returned '2': CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils -- -j32 -l32

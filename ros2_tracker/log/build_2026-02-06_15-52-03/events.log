@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000067] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000147] (-) JobUnselected: {'identifier': 'decomp_ros_msgs'}
+[0.000277] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000347] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000412] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000444] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000463] (-) JobUnselected: {'identifier': 'object_detection_msgs'}
+[0.000482] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000574] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000584] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000598] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000612] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000621] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000631] (-) JobUnselected: {'identifier': 'traj_opt'}
+[0.000640] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000691] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000704] (decomp_ros_utils) JobQueued: {'identifier': 'decomp_ros_utils', 'dependencies': OrderedDict([('decomp_ros_msgs', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs')])}
+[0.000722] (decomp_ros_utils) JobStarted: {'identifier': 'decomp_ros_utils'}
+[0.007557] (decomp_ros_utils) JobProgress: {'identifier': 'decomp_ros_utils', 'progress': 'cmake'}
+[0.008057] (decomp_ros_utils) JobProgress: {'identifier': 'decomp_ros_utils', 'progress': 'build'}
+[0.008514] (decomp_ros_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils', '--', '-j32', '-l32'], 'cwd': '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/light-sz02-liangpan'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'light-sz02-liangpan'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CI', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/light-sz02-liangpan'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/light-sz02-liangpan/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'exfxcxdxbxbxbxbxbxbxbx'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e8989475-2.4.-main.sock'), ('ZSH', '/home/light-sz02-liangpan/.oh-my-zsh'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3377'), ('SYSTEMD_EXEC_PID', '4393'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'light-sz02-liangpan'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:21779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'light-sz02-liangpan'), ('TERM', 'dumb'), ('EVERYSPHERE_RIPGREP_PATH', '/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin'), ('SESSION_MANAGER', 'local/lenovo-ThinkStation-P3-Tower:@/tmp/.ICE-unix/4368,unix/lenovo-ThinkStation-P3-Tower:/tmp/.ICE-unix/4368'), ('INVOCATION_ID', 'c6ddd75bb2714341ab396edc26517749'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=31;40:cd=31;40:su=31;40:sg=31;40:tw=31;40:ow=31;40:'), ('CURSOR_TRACE_ID', '4e6fb605996342ef892fd6e0ca6a45aa'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/light-sz02-liangpan/.config/Cursor/CachedData/618c607a249dd7fd2ffc662c6531143833bebd40'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('CMAKE_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/opt/ros/humble'), ('VSCODE_PID', '7452')]), 'shell': False}
+[0.044704] (decomp_ros_utils) StdoutLine: {'line': b'[ 11%] Automatic MOC for target decomp_rviz_plugins\n'}
+[0.099893] (-) TimerEvent: {}
+[0.200022] (-) TimerEvent: {}
+[0.300194] (-) TimerEvent: {}
+[0.400363] (-) TimerEvent: {}
+[0.415825] (decomp_ros_utils) StdoutLine: {'line': b'[ 11%] Built target decomp_rviz_plugins_autogen\n'}
+[0.437055] (decomp_ros_utils) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o\n'}
+[0.437500] (decomp_ros_utils) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o\n'}
+[0.438466] (decomp_ros_utils) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o\n'}
+[0.438949] (decomp_ros_utils) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o\n'}
+[0.439831] (decomp_ros_utils) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o\n'}
+[0.440053] (decomp_ros_utils) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o\n'}
+[0.440289] (decomp_ros_utils) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o\n'}
+[0.500470] (-) TimerEvent: {}
+[0.600694] (-) TimerEvent: {}
+[0.670945] (decomp_ros_utils) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp:1:\n'}
+[0.671150] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10: fatal error: rviz_rendering/objects/mesh_shape.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.671223] (decomp_ros_utils) StderrLine: {'line': b'   11 | #include <rviz_rendering/objects/mesh_shape.hpp>\n'}
+[0.671285] (decomp_ros_utils) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[0.671345] (decomp_ros_utils) StderrLine: {'line': b'compilation terminated.\n'}
+[0.672372] (decomp_ros_utils) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:104\xef\xbc\x9aCMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.672499] (decomp_ros_utils) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.700879] (-) TimerEvent: {}
+[0.801189] (-) TimerEvent: {}
+[0.886025] (decomp_ros_utils) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:15,\n'}
+[0.886230] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_polyhedron_array_display.cpp:10,\n'}
+[0.886302] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:3:\n'}
+[0.886367] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10: fatal error: rviz_rendering/objects/mesh_shape.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.886432] (decomp_ros_utils) StderrLine: {'line': b'   11 | #include <rviz_rendering/objects/mesh_shape.hpp>\n'}
+[0.886494] (decomp_ros_utils) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[0.886554] (decomp_ros_utils) StderrLine: {'line': b'compilation terminated.\n'}
+[0.889601] (decomp_ros_utils) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:76\xef\xbc\x9aCMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.901356] (-) TimerEvent: {}
+[0.901841] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:42:69: error: macro "RVIZ_COMMON_LOG_DEBUG" passed 3 arguments, but takes just 1\n'}
+[0.902015] (decomp_ros_utils) StderrLine: {'line': b'   42 |               msg->header.frame_id.c_str(), qPrintable(fixed_frame_));\n'}
+[0.902085] (decomp_ros_utils) StderrLine: {'line': b'      |                                                                     ^\n'}
+[0.902148] (decomp_ros_utils) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rviz_common/rviz_common/factory/pluginlib_factory.hpp:48,\n'}
+[0.902208] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/rviz_common/rviz_common/transformation/transformation_manager.hpp:44,\n'}
+[0.902268] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:47,\n'}
+[0.902327] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3,\n'}
+[0.902386] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:\n'}
+[0.902445] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/humble/include/rviz_common/rviz_common/logging.hpp:62: note: macro "RVIZ_COMMON_LOG_DEBUG" defined here\n'}
+[0.902503] (decomp_ros_utils) StderrLine: {'line': b'   62 | #define RVIZ_COMMON_LOG_DEBUG(msg) do { \\\n'}
+[0.902562] (decomp_ros_utils) StderrLine: {'line': b'      | \n'}
+[0.924638] (decomp_ros_utils) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:15,\n'}
+[0.924820] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp:1:\n'}
+[0.924897] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10: fatal error: rviz_rendering/objects/mesh_shape.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.924960] (decomp_ros_utils) StderrLine: {'line': b'   11 | #include <rviz_rendering/objects/mesh_shape.hpp>\n'}
+[0.925019] (decomp_ros_utils) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[0.925077] (decomp_ros_utils) StderrLine: {'line': b'compilation terminated.\n'}
+[0.927134] (decomp_ros_utils) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:160\xef\xbc\x9aCMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.001476] (-) TimerEvent: {}
+[1.101651] (-) TimerEvent: {}
+[1.201851] (-) TimerEvent: {}
+[1.302130] (-) TimerEvent: {}
+[1.402312] (-) TimerEvent: {}
+[1.502590] (-) TimerEvent: {}
+[1.602861] (-) TimerEvent: {}
+[1.703174] (-) TimerEvent: {}
+[1.803387] (-) TimerEvent: {}
+[1.903599] (-) TimerEvent: {}
+[2.003793] (-) TimerEvent: {}
+[2.104052] (-) TimerEvent: {}
+[2.204299] (-) TimerEvent: {}
+[2.304605] (-) TimerEvent: {}
+[2.404909] (-) TimerEvent: {}
+[2.505210] (-) TimerEvent: {}
+[2.605519] (-) TimerEvent: {}
+[2.705829] (-) TimerEvent: {}
+[2.806080] (-) TimerEvent: {}
+[2.906387] (-) TimerEvent: {}
+[3.006694] (-) TimerEvent: {}
+[3.107001] (-) TimerEvent: {}
+[3.207356] (-) TimerEvent: {}
+[3.307577] (-) TimerEvent: {}
+[3.407855] (-) TimerEvent: {}
+[3.508140] (-) TimerEvent: {}
+[3.608446] (-) TimerEvent: {}
+[3.655664] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp: In member function \xe2\x80\x98void decomp_rviz_plugins::EllipsoidArrayDisplay::processMessage(const ConstSharedPtr&)\xe2\x80\x99:\n'}
+[3.655834] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:41:5: error: \xe2\x80\x98RVIZ_COMMON_LOG_DEBUG\xe2\x80\x99 was not declared in this scope\n'}
+[3.655885] (decomp_ros_utils) StderrLine: {'line': b'   41 |     RVIZ_COMMON_LOG_DEBUG("Error transforming from frame \'%s\' to frame \'%s\'",\n'}
+[3.655928] (decomp_ros_utils) StderrLine: {'line': b'      |     ^~~~~~~~~~~~~~~~~~~~~\n'}
+[3.708534] (-) TimerEvent: {}
+[3.808723] (-) TimerEvent: {}
+[3.908895] (-) TimerEvent: {}
+[4.009089] (-) TimerEvent: {}
+[4.109268] (-) TimerEvent: {}
+[4.209431] (-) TimerEvent: {}
+[4.269219] (decomp_ros_utils) StderrLine: {'line': b'In file included from /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57,\n'}
+[4.269413] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55,\n'}
+[4.269458] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52,\n'}
+[4.269496] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38,\n'}
+[4.269532] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/rviz_common/rviz_common/factory/pluginlib_factory.hpp:42,\n'}
+[4.269564] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/rviz_common/rviz_common/transformation/transformation_manager.hpp:44,\n'}
+[4.269597] (decomp_ros_utils) StderrLine: {'line': b'                 from /opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:47,\n'}
+[4.269630] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3,\n'}
+[4.269662] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:\n'}
+[4.269694] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98B* class_loader::impl::MetaObject<C, B>::create() const [with C = decomp_rviz_plugins::EllipsoidArrayDisplay; B = rviz_common::Display]\xe2\x80\x99:\n'}
+[4.269740] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:   required from here\n'}
+[4.269772] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12: error: invalid new-expression of abstract class type \xe2\x80\x98decomp_rviz_plugins::EllipsoidArrayDisplay\xe2\x80\x99\n'}
+[4.269805] (decomp_ros_utils) StderrLine: {'line': b'  218 |     return new C;\n'}
+[4.269836] (decomp_ros_utils) StderrLine: {'line': b'      |            ^~~~~\n'}
+[4.269868] (decomp_ros_utils) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:\n'}
+[4.269899] (decomp_ros_utils) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:18:7: note:   because the following virtual functions are pure within \xe2\x80\x98decomp_rviz_plugins::EllipsoidArrayDisplay\xe2\x80\x99:\n'}
+[4.269934] (decomp_ros_utils) StderrLine: {'line': b'   18 | class EllipsoidArrayDisplay\n'}
+[4.269965] (decomp_ros_utils) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~\n'}
+[4.269996] (decomp_ros_utils) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:11,\n'}
+[4.270027] (decomp_ros_utils) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:\n'}
+[4.270057] (decomp_ros_utils) StderrLine: {'line': b'/opt/ros/humble/include/rviz_common/rviz_common/message_filter_display.hpp:232:16: note:     \xe2\x80\x98void rviz_common::MessageFilterDisplay<MessageType>::processMessage(typename MessageType::ConstSharedPtr) [with MessageType = decomp_ros_msgs::msg::EllipsoidArray_<std::allocator<void> >; typename MessageType::ConstSharedPtr = std::shared_ptr<const decomp_ros_msgs::msg::EllipsoidArray_<std::allocator<void> > >]\xe2\x80\x99\n'}
+[4.270092] (decomp_ros_utils) StderrLine: {'line': b'  232 |   virtual void processMessage(typename MessageType::ConstSharedPtr msg) = 0;\n'}
+[4.270123] (decomp_ros_utils) StderrLine: {'line': b'      |                ^~~~~~~~~~~~~~\n'}
+[4.309546] (-) TimerEvent: {}
+[4.409708] (-) TimerEvent: {}
+[4.509896] (-) TimerEvent: {}
+[4.610072] (-) TimerEvent: {}
+[4.710232] (-) TimerEvent: {}
+[4.810420] (-) TimerEvent: {}
+[4.910595] (-) TimerEvent: {}
+[5.010788] (-) TimerEvent: {}
+[5.110965] (-) TimerEvent: {}
+[5.211152] (-) TimerEvent: {}
+[5.311322] (-) TimerEvent: {}
+[5.411479] (-) TimerEvent: {}
+[5.511633] (-) TimerEvent: {}
+[5.611788] (-) TimerEvent: {}
+[5.711943] (-) TimerEvent: {}
+[5.812133] (-) TimerEvent: {}
+[5.865163] (decomp_ros_utils) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:146\xef\xbc\x9aCMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.865483] (decomp_ros_utils) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138\xef\xbc\x9aCMakeFiles/decomp_rviz_plugins.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.865940] (decomp_ros_utils) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.867241] (decomp_ros_utils) CommandEnded: {'returncode': 2}
+[5.873987] (decomp_ros_utils) JobEnded: {'identifier': 'decomp_ros_utils', 'rc': 2}
+[5.884271] (-) EventReactorShutdown: {}

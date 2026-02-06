@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/build/so3_quadrotor/ament_cmake_core/so3_quadrotorConfig.cmake

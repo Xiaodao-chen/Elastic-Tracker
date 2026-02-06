@@ -1,0 +1,220 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] [32mBuilding CXX object CMakeFiles/traj_utils_lib.dir/src/planning_visualization.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/traj_utils_lib.dir/src/polynomial_traj.cpp.o[0m
+[  8%] Built target ament_cmake_python_symlink_traj_utils
+[  8%] Built target traj_utils__cpp
+[ 10%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_c.dir/rosidl_generator_c/traj_utils/msg/detail/bspline__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_c.dir/rosidl_generator_c/traj_utils/msg/detail/data_disp__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_c.dir/rosidl_generator_c/traj_utils/msg/detail/multi_bsplines__functions.c.o[0m
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library libtraj_utils__rosidl_generator_c.so[0m
+[ 22%] Built target traj_utils__rosidl_generator_c
+running egg_info
+creating traj_utils.egg-info
+writing traj_utils.egg-info/PKG-INFO
+writing dependency_links to traj_utils.egg-info/dependency_links.txt
+writing top-level names to traj_utils.egg-info/top_level.txt
+writing manifest file 'traj_utils.egg-info/SOURCES.txt'
+reading manifest file 'traj_utils.egg-info/SOURCES.txt'
+writing manifest file 'traj_utils.egg-info/SOURCES.txt'
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 28%] Built target ament_cmake_python_build_traj_utils_egg
+[ 34%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/data_disp__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/multi_bsplines__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/bspline__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traj_utils/msg/data_disp__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traj_utils/msg/bspline__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traj_utils/msg/multi_bsplines__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/dds_fastrtps/bspline__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/dds_fastrtps/data_disp__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/dds_fastrtps/multi_bsplines__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/traj_utils/msg/data_disp__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/traj_utils/msg/bspline__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/traj_utils/msg/multi_bsplines__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_cpp.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traj_utils/msg/detail/data_disp__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traj_utils/msg/detail/bspline__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traj_utils/msg/detail/bspline__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traj_utils/msg/detail/data_disp__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traj_utils/msg/detail/multi_bsplines__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traj_utils/msg/detail/multi_bsplines__type_support.c.o[0m
+[ 68%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_c.so[0m
+[ 70%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] [32m[1mLinking C shared library libtraj_utils__rosidl_typesupport_introspection_c.so[0m
+[ 74%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 74%] Built target traj_utils__rosidl_typesupport_cpp
+[ 74%] Built target traj_utils__rosidl_typesupport_c
+[ 74%] Built target traj_utils__rosidl_typesupport_introspection_c
+[ 74%] Built target traj_utils__rosidl_typesupport_introspection_cpp
+[ 74%] Built target traj_utils__rosidl_typesupport_fastrtps_cpp
+[ 76%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target traj_utils__rosidl_typesupport_fastrtps_c
+[ 76%] Built target traj_utils
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target traj_utils__py
+[ 80%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_py.dir/rosidl_generator_py/traj_utils/msg/_bspline_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_py.dir/rosidl_generator_py/traj_utils/msg/_data_disp_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_py.dir/rosidl_generator_py/traj_utils/msg/_multi_bsplines_s.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/libtraj_utils__rosidl_generator_py.so[0m
+[ 86%] Built target traj_utils__rosidl_generator_py
+[ 88%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] Built target traj_utils__rosidl_typesupport_c__pyext
+[ 98%] Built target traj_utils__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target traj_utils__rosidl_typesupport_introspection_c__pyext
+[100%] [32m[1mLinking CXX shared library libtraj_utils_lib.so[0m
+[100%] Built target traj_utils_lib
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/rosidl_interfaces/traj_utils
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/bspline.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/data_disp.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__functions.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__struct.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__type_support.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__functions.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__struct.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__functions.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/multi_bsplines.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/library_path.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/library_path.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/bspline.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/data_disp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__builder.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__traits.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__type_support.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__builder.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__struct.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__traits.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__builder.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__traits.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/multi_bsplines.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/pythonpath.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/pythonpath.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/__init__.py
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/libtraj_utils__rosidl_generator_py.so
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline_s.c
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp_s.c
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines_s.c
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/msg/Bspline.idl
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/msg/DataDisp.idl
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/msg/MultiBsplines.idl
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/msg/Bspline.msg
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/msg/DataDisp.msg
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/msg/MultiBsplines.msg
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils_lib.so
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/plan_container.hpp
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/planning_visualization.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/polynomial_traj.h
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/package_run_dependencies/traj_utils
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/parent_prefix_path/traj_utils
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/ament_prefix_path.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/ament_prefix_path.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/path.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/environment/path.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/local_setup.bash
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/local_setup.sh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/local_setup.zsh
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/local_setup.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/package.dsv
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/packages/traj_utils
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utilsConfig.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utilsConfig-version.cmake
+-- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/package.xml
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_generator_c.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_generator_c.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_c.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_c.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_typesupport_cpp.so" to ""
+Listing '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils'...
+Compiling '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/__init__.py'...
+Listing '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg'...
+Compiling '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py'...
+Compiling '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py'...
+Compiling '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py'...
+Compiling '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py'...
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_generator_py.so
+-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/libtraj_utils__rosidl_generator_py.so" to ""
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cppExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport.cmake
+-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport-release.cmake

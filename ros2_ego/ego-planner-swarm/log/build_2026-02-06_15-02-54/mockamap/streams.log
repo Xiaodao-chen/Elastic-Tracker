@@ -1,0 +1,111 @@
+[0.022s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/mockamap -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install
+[0.036s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.270s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.325s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.530s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.555s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.619s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.749s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.890s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.899s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.975s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.109s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.670s] -- Checking for module 'eigen3'
+[1.755s] --   Found eigen3, version 3.4.0
+[1.946s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.946s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.013s] -- Checking for module 'flann'
+[2.031s] --   Found flann, version 1.9.1
+[2.081s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.081s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[4.846s] -- Checking for module 'libusb-1.0'
+[4.858s] --   Found libusb-1.0, version 1.0.25
+[4.888s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.889s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.937s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.113s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.120s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.127s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.295s] -- Found Qhull version 8.0.2
+[5.456s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.616s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.617s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.618s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.618s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.619s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.620s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.620s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.621s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.621s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.622s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.623s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.624s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.625s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.625s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.626s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.627s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.628s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.629s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.630s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.631s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.631s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.632s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.632s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.633s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.634s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.668s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.670s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.670s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.781s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.801s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[5.827s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time 
+[5.829s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.923s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.924s] -- Configured cppcheck include dirs: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/mockamap/include/mockamap
+[5.924s] -- Configured cppcheck exclude dirs and/or files: 
+[5.925s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.925s] -- Added test 'lint_cmake' to check CMake code style
+[5.926s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.927s] -- Added test 'uncrustify' to check C / C++ code style
+[5.927s] -- Configured uncrustify additional arguments: 
+[5.928s] -- Added test 'xmllint' to check XML markup files
+[5.931s] -- Configuring done
+[6.413s] -- Generating done
+[6.426s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap
+[6.444s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/mockamap -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install
+[6.448s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap -- -j32 -l32
+[6.586s] [ 20%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/ces_randommap.cpp.o[0m
+[6.587s] [ 40%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/maps.cpp.o[0m
+[6.588s] [ 60%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/mockamap.cpp.o[0m
+[6.590s] [ 80%] [32mBuilding CXX object CMakeFiles/mockamap_node.dir/src/perlinnoise.cpp.o[0m
+[17.337s] [100%] [32m[1mLinking CXX executable mockamap_node[0m
+[18.139s] [100%] Built target mockamap_node
+[18.148s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap -- -j32 -l32
+[18.150s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap
+[18.156s] -- Install configuration: "Release"
+[18.157s] -- Execute custom install script
+[18.158s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/mockamap/mockamap_node
+[18.165s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/launch/maze2d.launch.py
+[18.172s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/launch/maze3d.launch.py
+[18.179s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/launch/mockamap.launch.py
+[18.186s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/launch/perlin3d.launch.py
+[18.195s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/launch/post2d.launch.py
+[18.202s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/config/rviz.rviz
+[18.210s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/package_run_dependencies/mockamap
+[18.216s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/parent_prefix_path/mockamap
+[18.223s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/environment/ament_prefix_path.sh
+[18.270s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/environment/ament_prefix_path.dsv
+[18.279s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/environment/path.sh
+[18.286s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/environment/path.dsv
+[18.293s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/local_setup.bash
+[18.300s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/local_setup.sh
+[18.307s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/local_setup.zsh
+[18.314s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/local_setup.dsv
+[18.321s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/package.dsv
+[18.328s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/packages/mockamap
+[18.336s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.346s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/cmake/mockamapConfig.cmake
+[18.353s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/cmake/mockamapConfig-version.cmake
+[18.362s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/mockamap/package.xml
+[18.371s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/mockamap

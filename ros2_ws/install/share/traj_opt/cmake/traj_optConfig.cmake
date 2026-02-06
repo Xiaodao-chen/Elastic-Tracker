@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/build/traj_opt/ament_cmake_core/traj_optConfig.cmake

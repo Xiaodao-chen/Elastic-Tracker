@@ -1,0 +1,587 @@
+[0.016s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.365s] -- Detecting CXX compile features
+[0.366s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.494s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.564s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.604s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.615s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.676s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.678s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.696s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.703s] -- Looking for pthread.h
+[0.789s] -- Looking for pthread.h - found
+[0.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.876s] -- Found Threads: TRUE  
+[0.925s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.938s] -- Found quadrotor_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/quadrotor_msgs/cmake)
+[0.974s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.006s] -- Found plan_env: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/plan_env/cmake)
+[1.008s] -- Found path_searching: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/path_searching/cmake)
+[1.010s] -- Found bspline_opt: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/bspline_opt/cmake)
+[1.012s] -- Found traj_utils: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/traj_utils/cmake)
+[1.029s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.051s] -- Checking for module 'eigen3'
+[1.058s] --   Found eigen3, version 3.4.0
+[1.080s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.080s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.098s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.107s] -- Checking for module 'flann'
+[1.115s] --   Found flann, version 1.9.1
+[1.148s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.148s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.181s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.185s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.386s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.386s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.387s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.397s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.412s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.424s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.496s] -- Found X11: /usr/include   
+[1.497s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.599s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.599s] -- Looking for gethostbyname
+[1.702s] -- Looking for gethostbyname - found
+[1.702s] -- Looking for connect
+[1.800s] -- Looking for connect - found
+[1.800s] -- Looking for remove
+[1.851s] -- Looking for remove - found
+[1.851s] -- Looking for shmat
+[1.926s] -- Looking for shmat - found
+[1.926s] -- Looking for IceConnectionNumber in ICE
+[2.036s] -- Looking for IceConnectionNumber in ICE - found
+[2.113s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.116s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.120s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.122s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.132s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.136s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.139s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.144s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.234s] -- Checking for module 'libusb-1.0'
+[2.252s] --   Found libusb-1.0, version 1.0.25
+[2.300s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.302s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.302s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.372s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.372s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.372s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.507s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.511s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.516s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.628s] -- Found Qhull version 8.0.2
+[2.745s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.859s] -- looking for PCL_COMMON
+[2.860s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.860s] -- looking for PCL_KDTREE
+[2.860s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.861s] -- looking for PCL_OCTREE
+[2.861s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.861s] -- looking for PCL_SEARCH
+[2.862s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.862s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.862s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.862s] -- looking for PCL_FILTERS
+[2.863s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.863s] -- looking for PCL_2D
+[2.863s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.863s] -- looking for PCL_GEOMETRY
+[2.863s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.863s] -- looking for PCL_IO
+[2.864s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.864s] -- looking for PCL_FEATURES
+[2.864s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.865s] -- looking for PCL_ML
+[2.865s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.865s] -- looking for PCL_SEGMENTATION
+[2.866s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.866s] -- looking for PCL_VISUALIZATION
+[2.866s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.866s] -- looking for PCL_SURFACE
+[2.867s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.867s] -- looking for PCL_REGISTRATION
+[2.867s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.868s] -- looking for PCL_KEYPOINTS
+[2.868s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.868s] -- looking for PCL_TRACKING
+[2.869s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.869s] -- looking for PCL_RECOGNITION
+[2.869s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.870s] -- looking for PCL_STEREO
+[2.870s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.870s] -- looking for PCL_APPS
+[2.871s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.871s] -- looking for PCL_IN_HAND_SCANNER
+[2.871s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.871s] -- looking for PCL_MODELER
+[2.871s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.871s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.872s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.872s] -- looking for PCL_OUTOFCORE
+[2.872s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.872s] -- looking for PCL_PEOPLE
+[2.873s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.873s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.875s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.900s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.979s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.979s] -- Configured cppcheck include dirs: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include
+[2.979s] -- Configured cppcheck exclude dirs and/or files: 
+[2.979s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.980s] -- Added test 'lint_cmake' to check CMake code style
+[2.980s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.981s] -- Added test 'uncrustify' to check C / C++ code style
+[2.981s] -- Configured uncrustify additional arguments: 
+[2.981s] -- Added test 'xmllint' to check XML markup files
+[2.983s] -- Configuring done
+[3.274s] -- Generating done
+[3.287s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner
+[3.299s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install
+[3.302s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner -- -j32 -l32
+[3.346s] [ 16%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o[0m
+[3.346s] [ 33%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o[0m
+[3.346s] [ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o[0m
+[3.347s] [ 66%] [32mBuilding CXX object CMakeFiles/traj_server.dir/src/traj_server.cpp.o[0m
+[5.662s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/traj_server.cpp:27:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktraj_utils::msg::Bspline_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.662s]    27 | void bsplineCallback(traj_utils::msg::Bspline::ConstPtr msg[01;35m[K)[m[K
+[5.662s]       |                                                            [01;35m[K^[m[K
+[5.662s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/bspline.hpp:7[m[K,
+[5.662s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/traj_server.cpp:3[m[K:
+[5.662s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp:182:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.662s]   182 |     [01;36m[KConstPtr[m[K;
+[5.662s]       |     [01;36m[K^~~~~~~~[m[K
+[7.093s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.093s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.093s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.093s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.093s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.093s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[7.093s]       |                                                                               [01;35m[K^[m[K
+[7.093s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[7.093s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[7.093s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:6[m[K,
+[7.093s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.094s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.094s]   174 |     [01;36m[KConstPtr[m[K;
+[7.094s]       |     [01;36m[K^~~~~~~~[m[K
+[7.094s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.094s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.094s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[7.094s]       |                                                                               [01;35m[K^[m[K
+[7.094s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[7.094s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[7.094s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.095s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.095s]   116 |     [01;36m[KConstPtr[m[K;
+[7.095s]       |     [01;36m[K^~~~~~~~[m[K
+[7.095s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.095s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.095s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.095s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.095s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:209:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.095s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.095s]       |                                                                       [01;35m[K^[m[K
+[7.095s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[7.095s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[7.095s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.095s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.095s]   147 |     [01;36m[KConstPtr[m[K;
+[7.095s]       |     [01;36m[K^~~~~~~~[m[K
+[7.095s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.096s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.096s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.096s]       |                                                                                                                     [01;35m[K^[m[K
+[7.096s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[7.096s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:6[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.096s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.096s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.096s]   174 |     [01;36m[KConstPtr[m[K;
+[7.096s]       |     [01;36m[K^~~~~~~~[m[K
+[7.096s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.097s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.097s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.097s]       |                                                                                                                     [01;35m[K^[m[K
+[7.097s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.097s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.097s]   147 |     [01;36m[KConstPtr[m[K;
+[7.097s]       |     [01;36m[K^~~~~~~~[m[K
+[7.097s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.097s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.097s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:211:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.097s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[7.098s]       |                                                                        [01;35m[K^[m[K
+[7.098s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[7.098s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[7.098s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:18[m[K,
+[7.098s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.098s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.098s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.098s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.098s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.098s]   195 |     [01;36m[KConstPtr[m[K;
+[7.098s]       |     [01;36m[K^~~~~~~~[m[K
+[7.118s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.118s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.119s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.119s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[7.119s]       |                                                                               [01;35m[K^[m[K
+[7.119s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[7.119s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:6[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.119s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.119s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.120s]   174 |     [01;36m[KConstPtr[m[K;
+[7.120s]       |     [01;36m[K^~~~~~~~[m[K
+[7.120s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.120s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.120s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[7.120s]       |                                                                               [01;35m[K^[m[K
+[7.120s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:7[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.120s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.120s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.120s]   116 |     [01;36m[KConstPtr[m[K;
+[7.120s]       |     [01;36m[K^~~~~~~~[m[K
+[7.121s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.121s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:209:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.121s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.121s]       |                                                                       [01;35m[K^[m[K
+[7.121s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:10[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.121s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.121s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.121s]   147 |     [01;36m[KConstPtr[m[K;
+[7.121s]       |     [01;36m[K^~~~~~~~[m[K
+[7.121s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.122s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.122s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.122s]       |                                                                                                                     [01;35m[K^[m[K
+[7.122s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[7.122s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:6[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.122s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.122s]   174 |     [01;36m[KConstPtr[m[K;
+[7.122s]       |     [01;36m[K^~~~~~~~[m[K
+[7.122s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.122s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.123s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.123s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.123s]       |                                                                                                                     [01;35m[K^[m[K
+[7.123s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:10[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.123s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.123s]   147 |     [01;36m[KConstPtr[m[K;
+[7.123s]       |     [01;36m[K^~~~~~~~[m[K
+[7.123s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.123s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.124s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:211:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.124s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[7.124s]       |                                                                        [01;35m[K^[m[K
+[7.124s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[7.124s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[7.124s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:18[m[K,
+[7.124s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.124s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.124s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.124s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.124s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.124s]   195 |     [01;36m[KConstPtr[m[K;
+[7.124s]       |     [01;36m[K^~~~~~~~[m[K
+[7.129s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.129s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.130s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.130s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[7.130s]       |                                                                               [01;35m[K^[m[K
+[7.130s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[7.130s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:6[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.130s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.130s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.130s]   174 |     [01;36m[KConstPtr[m[K;
+[7.130s]       |     [01;36m[K^~~~~~~~[m[K
+[7.131s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.131s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:208:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.131s]   208 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[7.131s]       |                                                                               [01;35m[K^[m[K
+[7.131s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[7.131s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.131s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.131s]   116 |     [01;36m[KConstPtr[m[K;
+[7.131s]       |     [01;36m[K^~~~~~~~[m[K
+[7.131s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.131s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.132s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:209:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.132s]   209 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.132s]       |                                                                       [01;35m[K^[m[K
+[7.132s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[7.132s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[7.132s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.132s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.132s]   147 |     [01;36m[KConstPtr[m[K;
+[7.132s]       |     [01;36m[K^~~~~~~~[m[K
+[7.132s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.132s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.132s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.132s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.132s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.132s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.132s]       |                                                                                                                     [01;35m[K^[m[K
+[7.132s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[7.132s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:6[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.133s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:174:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.133s]   174 |     [01;36m[KConstPtr[m[K;
+[7.133s]       |     [01;36m[K^~~~~~~~[m[K
+[7.133s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.133s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:210:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.133s]   210 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[7.133s]       |                                                                                                                     [01;35m[K^[m[K
+[7.133s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[7.133s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.134s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.134s]   147 |     [01;36m[KConstPtr[m[K;
+[7.134s]       |     [01;36m[K^~~~~~~~[m[K
+[7.134s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.134s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:211:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.134s]   211 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[7.134s]       |                                                                        [01;35m[K^[m[K
+[7.134s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[7.134s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:18[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.134s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.134s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:195:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.135s]   195 |     [01;36m[KConstPtr[m[K;
+[7.135s]       |     [01;36m[K^~~~~~~~[m[K
+[7.413s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[7.413s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.414s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.414s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.414s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[7.414s]       |                                                                           [01;35m[K^[m[K
+[7.414s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[7.414s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[7.414s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[7.414s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.414s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.414s]   116 |     [01;36m[KConstPtr[m[K;
+[7.414s]       |     [01;36m[K^~~~~~~~[m[K
+[7.478s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[7.478s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.479s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.479s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.479s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[7.479s]       |                                                                             [01;35m[K^[m[K
+[7.479s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[7.479s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:2[m[K:
+[7.479s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.479s]   365 |     [01;36m[KConstPtr[m[K;
+[7.479s]       |     [01;36m[K^~~~~~~~[m[K
+[7.483s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[7.483s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.483s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[7.483s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[7.483s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.483s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[7.483s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[7.735s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[7.735s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.735s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.735s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.735s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[7.735s]       |                                                                           [01;35m[K^[m[K
+[7.735s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:23[m[K,
+[7.735s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[7.735s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[7.735s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.735s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.735s]   116 |     [01;36m[KConstPtr[m[K;
+[7.735s]       |     [01;36m[K^~~~~~~~[m[K
+[7.783s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[7.783s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.783s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.784s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.784s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[7.784s]       |                                                                           [01;35m[K^[m[K
+[7.784s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[7.784s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:7[m[K,
+[7.784s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.784s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.784s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.784s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.784s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.784s]   116 |     [01;36m[KConstPtr[m[K;
+[7.784s]       |     [01;36m[K^~~~~~~~[m[K
+[7.801s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[7.801s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.801s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.801s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.801s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[7.801s]       |                                                                             [01;35m[K^[m[K
+[7.801s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[7.801s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:13[m[K,
+[7.801s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.802s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.802s]   365 |     [01;36m[KConstPtr[m[K;
+[7.802s]       |     [01;36m[K^~~~~~~~[m[K
+[7.806s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[7.806s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[7.806s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[7.806s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[7.806s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.806s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[7.806s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[7.852s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[7.852s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.852s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.852s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.852s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[7.852s]       |                                                                             [01;35m[K^[m[K
+[7.852s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[7.852s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/plan_env/grid_map.h:14[m[K,
+[7.852s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/path_searching/dyn_a_star.h:7[m[K,
+[7.852s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[7.852s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.853s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.853s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:365:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.853s]   365 |     [01;36m[KConstPtr[m[K;
+[7.853s]       |     [01;36m[K^~~~~~~~[m[K
+[7.857s] In file included from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[7.857s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[7.857s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[7.857s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[7.857s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.857s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[7.857s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[8.016s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)[m[K’:
+[8.016s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:228:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.017s]   228 |   void EGOReplanFSM::triggerCallback([01;35m[Kconst std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg[m[K)
+[8.017s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[14.886s] [ 83%] [32m[1mLinking CXX executable traj_server[0m
+[15.505s] [ 83%] Built target traj_server
+[31.468s] [100%] [32m[1mLinking CXX executable ego_planner_node[0m
+[32.784s] [100%] Built target ego_planner_node
+[32.898s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner -- -j32 -l32
+[32.905s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner
+[32.921s] -- Install configuration: "Release"
+[32.922s] -- Execute custom install script
+[32.922s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/ego_planner/ego_planner_node
+[32.933s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/ego_planner/traj_server
+[32.944s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/advanced_param.launch.py
+[32.957s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/default.rviz
+[32.968s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/run_in_sim.launch.py
+[32.977s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/rviz.launch.py
+[32.990s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/simulator.launch.py
+[33.004s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/single_run_in_sim.launch.py
+[33.015s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/swarm.launch.py
+[33.024s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/launch/swarm_large.launch.py
+[33.041s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/package_run_dependencies/ego_planner
+[33.058s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/parent_prefix_path/ego_planner
+[33.074s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/environment/ament_prefix_path.sh
+[33.088s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/environment/ament_prefix_path.dsv
+[33.100s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/environment/path.sh
+[33.107s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/environment/path.dsv
+[33.118s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/local_setup.bash
+[33.132s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/local_setup.sh
+[33.146s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/local_setup.zsh
+[33.158s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/local_setup.dsv
+[33.170s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/package.dsv
+[33.182s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/packages/ego_planner
+[33.194s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/cmake/ego_plannerConfig.cmake
+[33.208s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/cmake/ego_plannerConfig-version.cmake
+[33.221s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ego_planner/package.xml
+[33.237s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/ego_planner

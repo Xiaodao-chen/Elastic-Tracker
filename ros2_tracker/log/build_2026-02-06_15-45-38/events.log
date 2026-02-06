@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000064] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000140] (-) JobUnselected: {'identifier': 'decomp_ros_msgs'}
+[0.000265] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000331] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000396] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000421] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000460] (-) JobUnselected: {'identifier': 'object_detection_msgs'}
+[0.000527] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000536] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000549] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000563] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000572] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000580] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000588] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000597] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000607] (traj_opt) JobQueued: {'identifier': 'traj_opt', 'dependencies': OrderedDict()}
+[0.000618] (traj_opt) JobStarted: {'identifier': 'traj_opt'}
+[0.004727] (traj_opt) JobProgress: {'identifier': 'traj_opt', 'progress': 'cmake'}
+[0.005122] (traj_opt) JobProgress: {'identifier': 'traj_opt', 'progress': 'build'}
+[0.005523] (traj_opt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt', '--', '-j32', '-l32'], 'cwd': '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/light-sz02-liangpan'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'light-sz02-liangpan'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CI', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/light-sz02-liangpan'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/light-sz02-liangpan/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'exfxcxdxbxbxbxbxbxbxbx'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e8989475-2.4.-main.sock'), ('ZSH', '/home/light-sz02-liangpan/.oh-my-zsh'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3377'), ('SYSTEMD_EXEC_PID', '4393'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'light-sz02-liangpan'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:21779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'light-sz02-liangpan'), ('TERM', 'dumb'), ('EVERYSPHERE_RIPGREP_PATH', '/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin'), ('SESSION_MANAGER', 'local/lenovo-ThinkStation-P3-Tower:@/tmp/.ICE-unix/4368,unix/lenovo-ThinkStation-P3-Tower:/tmp/.ICE-unix/4368'), ('INVOCATION_ID', 'c6ddd75bb2714341ab396edc26517749'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=31;40:cd=31;40:su=31;40:sg=31;40:tw=31;40:ow=31;40:'), ('CURSOR_TRACE_ID', '4e6fb605996342ef892fd6e0ca6a45aa'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/light-sz02-liangpan/.config/Cursor/CachedData/618c607a249dd7fd2ffc662c6531143833bebd40'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('VSCODE_PID', '7452'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.046136] (traj_opt) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target traj_opt\n'}
+[0.057244] (traj_opt) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/traj_opt.dir/src/traj_opt.cc.o\n'}
+[0.057444] (traj_opt) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/traj_opt.dir/src/traj_opt_fake.cc.o\n'}
+[0.099905] (-) TimerEvent: {}
+[0.200059] (-) TimerEvent: {}
+[0.300302] (-) TimerEvent: {}
+[0.400483] (-) TimerEvent: {}
+[0.500668] (-) TimerEvent: {}
+[0.600930] (-) TimerEvent: {}
+[0.701201] (-) TimerEvent: {}
+[0.801465] (-) TimerEvent: {}
+[0.901697] (-) TimerEvent: {}
+[1.001864] (-) TimerEvent: {}
+[1.102037] (-) TimerEvent: {}
+[1.202200] (-) TimerEvent: {}
+[1.302366] (-) TimerEvent: {}
+[1.402540] (-) TimerEvent: {}
+[1.502789] (-) TimerEvent: {}
+[1.603023] (-) TimerEvent: {}
+[1.703186] (-) TimerEvent: {}
+[1.803434] (-) TimerEvent: {}
+[1.903693] (-) TimerEvent: {}
+[2.003900] (-) TimerEvent: {}
+[2.104164] (-) TimerEvent: {}
+[2.204426] (-) TimerEvent: {}
+[2.304600] (-) TimerEvent: {}
+[2.404787] (-) TimerEvent: {}
+[2.504970] (-) TimerEvent: {}
+[2.605138] (-) TimerEvent: {}
+[2.705432] (-) TimerEvent: {}
+[2.805570] (-) TimerEvent: {}
+[2.905799] (-) TimerEvent: {}
+[3.005995] (-) TimerEvent: {}
+[3.106168] (-) TimerEvent: {}
+[3.206342] (-) TimerEvent: {}
+[3.306611] (-) TimerEvent: {}
+[3.406888] (-) TimerEvent: {}
+[3.507147] (-) TimerEvent: {}
+[3.607399] (-) TimerEvent: {}
+[3.707592] (-) TimerEvent: {}
+[3.807757] (-) TimerEvent: {}
+[3.907949] (-) TimerEvent: {}
+[4.008139] (-) TimerEvent: {}
+[4.108304] (-) TimerEvent: {}
+[4.208491] (-) TimerEvent: {}
+[4.308657] (-) TimerEvent: {}
+[4.408850] (-) TimerEvent: {}
+[4.509004] (-) TimerEvent: {}
+[4.609168] (-) TimerEvent: {}
+[4.709348] (-) TimerEvent: {}
+[4.809519] (-) TimerEvent: {}
+[4.909678] (-) TimerEvent: {}
+[5.009841] (-) TimerEvent: {}
+[5.109995] (-) TimerEvent: {}
+[5.210155] (-) TimerEvent: {}
+[5.310427] (-) TimerEvent: {}
+[5.410623] (-) TimerEvent: {}
+[5.510820] (-) TimerEvent: {}
+[5.611009] (-) TimerEvent: {}
+[5.711198] (-) TimerEvent: {}
+[5.811404] (-) TimerEvent: {}
+[5.911653] (-) TimerEvent: {}
+[6.011846] (-) TimerEvent: {}
+[6.112035] (-) TimerEvent: {}
+[6.212290] (-) TimerEvent: {}
+[6.312559] (-) TimerEvent: {}
+[6.412879] (-) TimerEvent: {}
+[6.513168] (-) TimerEvent: {}
+[6.613338] (-) TimerEvent: {}
+[6.713614] (-) TimerEvent: {}
+[6.813841] (-) TimerEvent: {}
+[6.914125] (-) TimerEvent: {}
+[7.014323] (-) TimerEvent: {}
+[7.114596] (-) TimerEvent: {}
+[7.214773] (-) TimerEvent: {}
+[7.314945] (-) TimerEvent: {}
+[7.415124] (-) TimerEvent: {}
+[7.515292] (-) TimerEvent: {}
+[7.615452] (-) TimerEvent: {}
+[7.715622] (-) TimerEvent: {}
+[7.815900] (-) TimerEvent: {}
+[7.916151] (-) TimerEvent: {}
+[8.016420] (-) TimerEvent: {}
+[8.116644] (-) TimerEvent: {}
+[8.216908] (-) TimerEvent: {}
+[8.317175] (-) TimerEvent: {}
+[8.417346] (-) TimerEvent: {}
+[8.517540] (-) TimerEvent: {}
+[8.617701] (-) TimerEvent: {}
+[8.717869] (-) TimerEvent: {}
+[8.818044] (-) TimerEvent: {}
+[8.918234] (-) TimerEvent: {}
+[9.018461] (-) TimerEvent: {}
+[9.118717] (-) TimerEvent: {}
+[9.218897] (-) TimerEvent: {}
+[9.319200] (-) TimerEvent: {}
+[9.419432] (-) TimerEvent: {}
+[9.519622] (-) TimerEvent: {}
+[9.619921] (-) TimerEvent: {}
+[9.720225] (-) TimerEvent: {}
+[9.820533] (-) TimerEvent: {}
+[9.920871] (-) TimerEvent: {}
+[10.021099] (-) TimerEvent: {}
+[10.121310] (-) TimerEvent: {}
+[10.221547] (-) TimerEvent: {}
+[10.321687] (-) TimerEvent: {}
+[10.421825] (-) TimerEvent: {}
+[10.521970] (-) TimerEvent: {}
+[10.622153] (-) TimerEvent: {}
+[10.722377] (-) TimerEvent: {}
+[10.822649] (-) TimerEvent: {}
+[10.922942] (-) TimerEvent: {}
+[11.023245] (-) TimerEvent: {}
+[11.123507] (-) TimerEvent: {}
+[11.223807] (-) TimerEvent: {}
+[11.324087] (-) TimerEvent: {}
+[11.424341] (-) TimerEvent: {}
+[11.524574] (-) TimerEvent: {}
+[11.624833] (-) TimerEvent: {}
+[11.725134] (-) TimerEvent: {}
+[11.825401] (-) TimerEvent: {}
+[11.925697] (-) TimerEvent: {}
+[12.025886] (-) TimerEvent: {}
+[12.126067] (-) TimerEvent: {}
+[12.226349] (-) TimerEvent: {}
+[12.326658] (-) TimerEvent: {}
+[12.427024] (-) TimerEvent: {}
+[12.527287] (-) TimerEvent: {}
+[12.627563] (-) TimerEvent: {}
+[12.727756] (-) TimerEvent: {}
+[12.827942] (-) TimerEvent: {}
+[12.928157] (-) TimerEvent: {}
+[13.028372] (-) TimerEvent: {}
+[13.128548] (-) TimerEvent: {}
+[13.228860] (-) TimerEvent: {}
+[13.329140] (-) TimerEvent: {}
+[13.429417] (-) TimerEvent: {}
+[13.502174] (traj_opt) StdoutLine: {'line': b'[100%] Linking CXX static library libtraj_opt.a\n'}
+[13.529555] (-) TimerEvent: {}
+[13.535423] (traj_opt) StdoutLine: {'line': b'[100%] Built target traj_opt\n'}
+[13.543062] (traj_opt) CommandEnded: {'returncode': 0}
+[13.544054] (traj_opt) JobProgress: {'identifier': 'traj_opt', 'progress': 'install'}
+[13.549236] (traj_opt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt'], 'cwd': '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/light-sz02-liangpan'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'light-sz02-liangpan'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('CI', '1'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('LESS', '-R'), ('HOME', '/home/light-sz02-liangpan'), ('CHROME_DESKTOP', 'cursor.desktop'), ('OLDPWD', '/home/light-sz02-liangpan/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'exfxcxdxbxbxbxbxbxbxbx'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e8989475-2.4.-main.sock'), ('ZSH', '/home/light-sz02-liangpan/.oh-my-zsh'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3377'), ('SYSTEMD_EXEC_PID', '4393'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'light-sz02-liangpan'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:21779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'light-sz02-liangpan'), ('TERM', 'dumb'), ('EVERYSPHERE_RIPGREP_PATH', '/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin'), ('SESSION_MANAGER', 'local/lenovo-ThinkStation-P3-Tower:@/tmp/.ICE-unix/4368,unix/lenovo-ThinkStation-P3-Tower:/tmp/.ICE-unix/4368'), ('INVOCATION_ID', 'c6ddd75bb2714341ab396edc26517749'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=31;40:cd=31;40:su=31;40:sg=31;40:tw=31;40:ow=31;40:'), ('CURSOR_TRACE_ID', '4e6fb605996342ef892fd6e0ca6a45aa'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/traj_opt'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/light-sz02-liangpan/.config/Cursor/CachedData/618c607a249dd7fd2ffc662c6531143833bebd40'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('_ZO_DOCTOR', '0'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('VSCODE_PID', '7452'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.553858] (traj_opt) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[13.553955] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.a\n'}
+[13.557036] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include\n'}
+[13.557148] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt\n'}
+[13.557192] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/minco.hpp\n'}
+[13.557234] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/root_finder.hpp\n'}
+[13.557310] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/poly_traj_utils.hpp\n'}
+[13.557463] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/geoutils.hpp\n'}
+[13.557574] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/lbfgs_raw.hpp\n'}
+[13.557843] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/sdlp.hpp\n'}
+[13.557971] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/traj_opt.h\n'}
+[13.558036] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/include/traj_opt/quickhull.hpp\n'}
+[13.558344] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/library_path.sh\n'}
+[13.558443] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/library_path.dsv\n'}
+[13.558591] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/ament_index/resource_index/package_run_dependencies/traj_opt\n'}
+[13.558699] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/ament_index/resource_index/parent_prefix_path/traj_opt\n'}
+[13.558804] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/ament_prefix_path.sh\n'}
+[13.558885] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/ament_prefix_path.dsv\n'}
+[13.558965] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/path.sh\n'}
+[13.559046] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/environment/path.dsv\n'}
+[13.559128] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.bash\n'}
+[13.559210] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.sh\n'}
+[13.559295] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.zsh\n'}
+[13.559372] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/local_setup.dsv\n'}
+[13.559457] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/package.dsv\n'}
+[13.559580] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/ament_index/resource_index/packages/traj_opt\n'}
+[13.559676] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optTargetsExport.cmake\n'}
+[13.559772] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optTargetsExport-release.cmake\n'}
+[13.559862] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.559952] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.560046] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.560143] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.560234] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optConfig.cmake\n'}
+[13.560308] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake/traj_optConfig-version.cmake\n'}
+[13.560389] (traj_opt) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/package.xml\n'}
+[13.561098] (traj_opt) CommandEnded: {'returncode': 0}
+[13.571379] (traj_opt) JobEnded: {'identifier': 'traj_opt', 'rc': 0}
+[13.571654] (-) EventReactorShutdown: {}

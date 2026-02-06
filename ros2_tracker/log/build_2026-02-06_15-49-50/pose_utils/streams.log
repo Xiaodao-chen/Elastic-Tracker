@@ -1,0 +1,132 @@
+[0.005s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.435s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.473s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.486s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.561s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.563s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.580s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.586s] -- Looking for pthread.h
+[0.643s] -- Looking for pthread.h - found
+[0.643s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.698s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.699s] -- Found Threads: TRUE  
+[0.762s] -- Found Armadillo: /usr/include (found version "10.8.2") 
+[0.763s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.819s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.819s] -- Configured cppcheck include dirs: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/include/pose_utils
+[0.820s] -- Configured cppcheck exclude dirs and/or files: 
+[0.820s] -- Added test 'lint_cmake' to check CMake code style
+[0.821s] -- Added test 'uncrustify' to check C / C++ code style
+[0.821s] -- Configured uncrustify additional arguments: 
+[0.821s] -- Added test 'xmllint' to check XML markup files
+[0.823s] -- Configuring done
+[0.831s] -- Generating done
+[0.834s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils
+[0.839s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils
+[0.840s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils -- -j32 -l32
+[0.877s] [ 50%] Building CXX object CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o
+[2.533s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp: In function ‘arma::mat jacobianF(const colvec&, const colvec&, double)’:
+[2.533s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:320:10: warning: unused variable ‘x’ [-Wunused-variable]
+[2.533s]   320 |   double x  = X(0);
+[2.533s]       |          ^
+[2.533s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:321:10: warning: unused variable ‘y’ [-Wunused-variable]
+[2.533s]   321 |   double y  = X(1);
+[2.533s]       |          ^
+[2.533s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:322:10: warning: unused variable ‘z’ [-Wunused-variable]
+[2.533s]   322 |   double z  = X(2);
+[2.534s]       |          ^
+[2.534s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:326:10: warning: unused variable ‘vx’ [-Wunused-variable]
+[2.534s]   326 |   double vx = X(6);
+[2.534s]       |          ^~
+[2.534s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:327:10: warning: unused variable ‘vy’ [-Wunused-variable]
+[2.534s]   327 |   double vy = X(7);
+[2.534s]       |          ^~
+[2.534s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:328:10: warning: unused variable ‘vz’ [-Wunused-variable]
+[2.534s]   328 |   double vz = X(8);
+[2.534s]       |          ^~
+[2.534s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:332:10: warning: unused variable ‘wx’ [-Wunused-variable]
+[2.534s]   332 |   double wx = U(3);
+[2.534s]       |          ^~
+[2.535s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp: In function ‘arma::mat jacobianU(const colvec&, const colvec&, double)’:
+[2.535s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:434:10: warning: unused variable ‘x’ [-Wunused-variable]
+[2.535s]   434 |   double x  = X(0);
+[2.535s]       |          ^
+[2.535s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:435:10: warning: unused variable ‘y’ [-Wunused-variable]
+[2.535s]   435 |   double y  = X(1);
+[2.535s]       |          ^
+[2.535s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:436:10: warning: unused variable ‘z’ [-Wunused-variable]
+[2.535s]   436 |   double z  = X(2);
+[2.535s]       |          ^
+[2.535s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:440:10: warning: unused variable ‘vx’ [-Wunused-variable]
+[2.535s]   440 |   double vx = X(6);
+[2.535s]       |          ^~
+[2.535s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:441:10: warning: unused variable ‘vy’ [-Wunused-variable]
+[2.535s]   441 |   double vy = X(7);
+[2.536s]       |          ^~
+[2.536s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:442:10: warning: unused variable ‘vz’ [-Wunused-variable]
+[2.536s]   442 |   double vz = X(8);
+[2.536s]       |          ^~
+[2.536s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:443:10: warning: unused variable ‘ax’ [-Wunused-variable]
+[2.536s]   443 |   double ax = U(0);
+[2.536s]       |          ^~
+[2.536s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:444:10: warning: unused variable ‘ay’ [-Wunused-variable]
+[2.536s]   444 |   double ay = U(1);
+[2.536s]       |          ^~
+[2.536s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:445:10: warning: unused variable ‘az’ [-Wunused-variable]
+[2.536s]   445 |   double az = U(2);
+[2.536s]       |          ^~
+[2.536s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:446:10: warning: unused variable ‘wx’ [-Wunused-variable]
+[2.536s]   446 |   double wx = U(3);
+[2.536s]       |          ^~
+[2.536s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:447:10: warning: unused variable ‘wy’ [-Wunused-variable]
+[2.536s]   447 |   double wy = U(4);
+[2.536s]       |          ^~
+[2.537s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:448:10: warning: unused variable ‘wz’ [-Wunused-variable]
+[2.537s]   448 |   double wz = U(5);
+[2.537s]       |          ^~
+[4.294s] [100%] Linking CXX shared library libpose_utils.so
+[4.400s] [100%] Built target pose_utils
+[4.408s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils -- -j32 -l32
+[4.421s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils
+[4.434s] -- Install configuration: ""
+[4.434s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/lib/libpose_utils.so
+[4.452s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/lib/libpose_utils.so" to ""
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/include/pose_utils
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/include/pose_utils/pose_utils.h
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/environment/library_path.sh
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/environment/library_path.dsv
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/ament_index/resource_index/package_run_dependencies/pose_utils
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/ament_index/resource_index/parent_prefix_path/pose_utils
+[4.452s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/environment/ament_prefix_path.sh
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/environment/ament_prefix_path.dsv
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/environment/path.sh
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/environment/path.dsv
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/local_setup.bash
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/local_setup.sh
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/local_setup.zsh
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/local_setup.dsv
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/package.dsv
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/ament_index/resource_index/packages/pose_utils
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.453s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[4.454s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig.cmake
+[4.454s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+[4.454s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/pose_utils/share/pose_utils/package.xml
+[4.454s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/pose_utils

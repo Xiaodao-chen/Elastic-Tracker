@@ -1,0 +1,42 @@
+Consolidate compiler generated dependencies of target traj_server
+[ 20%] Built target traj_server
+Consolidate compiler generated dependencies of target tracker_fsm_lib
+[ 30%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/occ_grid_mapper.cpp.o
+[ 40%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/target_ekf.cpp.o
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/occ_grid_mapper.h:14,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/occ_grid_mapper.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   21 |   inline const int idx2add(int x, int N) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+[ 50%] Linking CXX shared library libtracker_fsm_lib.so
+/usr/bin/ld: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.a(traj_opt.cc.o): warning: relocation against `_ZTIN6rclcpp22ParameterTypeExceptionE' in read-only section `.text.unlikely'
+/usr/bin/ld: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib/libtraj_opt.a(traj_opt.cc.o): relocation R_X86_64_PC32 against symbol `_ZSt4cout@@GLIBCXX_3.4' can not be used when making a shared object; recompile with -fPIC
+/usr/bin/ld: final link failed: bad value
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tracker_fsm_lib.dir/build.make:436：libtracker_fsm_lib.so] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/tracker_fsm_lib.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

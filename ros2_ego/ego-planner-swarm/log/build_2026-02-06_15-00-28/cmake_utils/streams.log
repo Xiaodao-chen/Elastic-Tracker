@@ -1,0 +1,41 @@
+[0.021s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/cmake_utils': /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install
+[0.037s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.037s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.037s]   CMake.
+[0.037s] 
+[0.037s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.038s]   CMake that the project does not need compatibility with older versions.
+[0.038s] 
+[0.038s] [0m
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.328s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.456s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.464s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.464s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.464s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.464s]   CMake did not find one.
+[0.464s] 
+[0.464s]   Could not find a package configuration file provided by "catkin" with any
+[0.464s]   of the following names:
+[0.464s] 
+[0.464s]     catkinConfig.cmake
+[0.464s]     catkin-config.cmake
+[0.464s] 
+[0.464s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.464s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.464s]   provides a separate development package or SDK, be sure it has been
+[0.464s]   installed.
+[0.464s] 
+[0.464s] [0m
+[0.464s] -- Configuring incomplete, errors occurred!
+[0.464s] See also "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/cmake_utils/CMakeFiles/CMakeOutput.log".
+[0.466s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/cmake_utils' returned '1': /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install

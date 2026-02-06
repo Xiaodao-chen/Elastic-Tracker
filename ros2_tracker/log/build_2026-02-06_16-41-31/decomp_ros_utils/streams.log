@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils -- -j32 -l32
+[0.063s] [ 11%] Automatic MOC for target decomp_rviz_plugins
+[0.533s] [ 11%] Built target decomp_rviz_plugins_autogen
+[0.628s] Consolidate compiler generated dependencies of target decomp_rviz_plugins
+[0.663s] [ 22%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o
+[0.663s] [ 33%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o
+[0.664s] [ 44%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o
+[0.667s] [ 55%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o
+[0.669s] [ 66%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o
+[20.114s] [ 77%] Linking CXX shared library libdecomp_rviz_plugins.so
+[22.712s] [100%] Built target decomp_rviz_plugins
+[22.720s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils -- -j32 -l32
+[22.721s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils
+[22.727s] -- Install configuration: ""
+[22.727s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/plugin_description.xml
+[22.729s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib/libdecomp_rviz_plugins.so
+[22.797s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib/libdecomp_rviz_plugins.so" to ""
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_basis
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_basis/data_type.h
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_basis/data_utils.h
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/iterative_decomp.h
+[22.797s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h
+[22.798s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/line_segment.h
+[22.798s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/seed_decomp.h
+[22.798s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/ellipsoid_decomp.h
+[22.798s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_geometry
+[22.798s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_geometry/polyhedron.h
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_geometry/ellipsoid.h
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_geometry/geometric_utils.h
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_ros_utils
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_ros_utils/data_ros_utils.h
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/environment/library_path.sh
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/environment/library_path.dsv
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/ament_index/resource_index/package_run_dependencies/decomp_ros_utils
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/ament_index/resource_index/parent_prefix_path/decomp_ros_utils
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/environment/ament_prefix_path.sh
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/environment/ament_prefix_path.dsv
+[22.799s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/environment/path.sh
+[22.800s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/environment/path.dsv
+[22.800s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/local_setup.bash
+[22.800s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/local_setup.sh
+[22.800s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/local_setup.zsh
+[22.800s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/local_setup.dsv
+[22.800s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/package.dsv
+[22.800s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/ament_index/resource_index/packages/decomp_ros_utils
+[22.801s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/ament_index/resource_index/rviz_common__pluginlib__plugin/decomp_ros_utils
+[22.801s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.801s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[22.801s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig.cmake
+[22.801s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/cmake/decomp_ros_utilsConfig-version.cmake
+[22.802s] -- Up-to-date: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/package.xml
+[22.802s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils

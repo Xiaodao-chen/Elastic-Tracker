@@ -1,1 +1,0 @@
-/home/cxd/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup/launch/fake_sim.launch.py

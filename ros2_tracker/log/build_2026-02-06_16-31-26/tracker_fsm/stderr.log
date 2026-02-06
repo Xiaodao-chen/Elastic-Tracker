@@ -1,0 +1,64 @@
+CMake Warning (dev) at CMakeLists.txt:32 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:10,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracker_node.cpp:2:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   21 |   inline const int idx2add(int x, int N) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {
+      |          ^~~~~
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {
+      |          ^~~~~
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/line_segment.h:8,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/ellipsoid_decomp.h:9,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/env.hpp:3,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:14,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracker_node.cpp:2:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h: In instantiation of ‘void DecompBase<Dim>::shrink(double) [with int Dim = 3]’:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:18:   required from here
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:32: warning: unused parameter ‘shrink_distance’ [-Wunused-parameter]
+   59 |     virtual void shrink(double shrink_distance) {}
+      |                         ~~~~~~~^~~~~~~~~~~~~~~
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_pointcloud<std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >, char [8]>(std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, char const (&) [8])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_path<std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >, char [6]>(std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, char const (&) [6])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_path<std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >, char [18]>(std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, char const (&) [18])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_traj<Trajectory, char [5]>(Trajectory const&, char const (&) [5])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_fan_shape_meshes<char [15]>(std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, std::vector<double, std::allocator<double> > const&, char const (&) [15])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_pointcloud<std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >, char [11]>(std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, char const (&) [11])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_pairline<std::vector<std::pair<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, std::allocator<std::pair<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > >, char [7]>(std::vector<std::pair<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> >, std::allocator<std::pair<Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> > > > const&, char const (&) [7])'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_arrow<char [4]>(Eigen::Matrix<double, 3, 1, 0, 3, 1>, Eigen::Matrix<double, 3, 1, 0, 3, 1> const&, char const (&) [4], visualization::Color const&)'
+/usr/bin/ld: libtracker_fsm_lib.so: undefined reference to `void visualization::Visualization::visualize_path<std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > >, char [12]>(std::vector<Eigen::Matrix<double, 3, 1, 0, 3, 1>, std::allocator<Eigen::Matrix<double, 3, 1, 0, 3, 1> > > const&, char const (&) [12])'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tracker_node.dir/build.make:411：tracker_node] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/tracker_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

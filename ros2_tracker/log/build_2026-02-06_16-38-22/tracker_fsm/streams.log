@@ -1,0 +1,216 @@
+[0.014s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm -- -j32 -l32
+[0.042s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.188s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.194s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.249s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.309s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.333s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.347s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.361s] -- Found quadrotor_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[0.382s] -- Found object_detection_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/share/object_detection_msgs/cmake)
+[0.393s] -- Found decomp_ros_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake)
+[0.406s] -- Found decomp_ros_utils: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/cmake)
+[0.407s] -- Found traj_opt: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake)
+[0.410s] -- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)
+[0.413s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.420s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.447s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.477s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.728s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.733s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.850s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.855s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.859s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.965s] -- Found Qhull version 8.0.2
+[1.076s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.188s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.255s] CMake Warning (dev) at CMakeLists.txt:32 (find_package):
+[1.255s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.255s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.256s]   command to set the policy and suppress this warning.
+[1.256s] 
+[1.256s]   CMake variable PCL_ROOT is set to:
+[1.256s] 
+[1.256s]     /usr
+[1.256s] 
+[1.256s]   For compatibility, CMake is ignoring the variable.
+[1.256s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.256s] 
+[1.261s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.350s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.350s] -- Configured cppcheck include dirs: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include
+[1.350s] -- Configured cppcheck exclude dirs and/or files: 
+[1.350s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.351s] -- Added test 'lint_cmake' to check CMake code style
+[1.351s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.352s] -- Added test 'uncrustify' to check C / C++ code style
+[1.352s] -- Configured uncrustify additional arguments: 
+[1.352s] -- Added test 'xmllint' to check XML markup files
+[1.353s] -- Configuring done
+[1.715s] -- Generating done
+[1.730s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm
+[1.767s] Consolidate compiler generated dependencies of target traj_server
+[1.779s] [ 22%] Built target traj_server
+[1.783s] Consolidate compiler generated dependencies of target tracker_fsm_lib
+[1.801s] [ 33%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/occ_grid_mapper.cpp.o
+[1.801s] [ 44%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/target_ekf.cpp.o
+[1.802s] [ 55%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/tracking_fsm.cpp.o
+[4.653s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:10,
+[4.654s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracking_fsm.cpp:1:
+[4.654s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.654s]    21 |   inline const int idx2add(int x, int N) const {
+[4.654s]       |          ^~~~~
+[4.667s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.667s]   124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {
+[4.667s]       |          ^~~~~
+[4.667s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.667s]   129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {
+[4.667s]       |          ^~~~~
+[4.667s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.667s]   132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {
+[4.667s]       |          ^~~~~
+[4.667s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.668s]   137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {
+[4.668s]       |          ^~~~~
+[4.669s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.669s]   241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {
+[4.669s]       |          ^~~~~
+[4.669s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.669s]   244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {
+[4.669s]       |          ^~~~~
+[4.669s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.669s]   247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {
+[4.669s]       |          ^~~~~
+[4.669s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[4.669s]   250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {
+[4.669s]       |          ^~~~~
+[5.324s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/occ_grid_mapper.h:14,
+[5.324s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/occ_grid_mapper.cpp:1:
+[5.324s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.324s]    21 |   inline const int idx2add(int x, int N) const {
+[5.325s]       |          ^~~~~
+[5.328s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.328s]   124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {
+[5.328s]       |          ^~~~~
+[5.328s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.328s]   129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {
+[5.328s]       |          ^~~~~
+[5.328s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.328s]   132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {
+[5.329s]       |          ^~~~~
+[5.329s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.329s]   137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {
+[5.329s]       |          ^~~~~
+[5.330s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.330s]   241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {
+[5.330s]       |          ^~~~~
+[5.330s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.330s]   244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {
+[5.330s]       |          ^~~~~
+[5.330s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.330s]   247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {
+[5.330s]       |          ^~~~~
+[5.330s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[5.330s]   250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {
+[5.330s]       |          ^~~~~
+[27.061s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/line_segment.h:8,
+[27.061s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/ellipsoid_decomp.h:9,
+[27.061s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/env.hpp:3,
+[27.061s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:14,
+[27.061s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracking_fsm.cpp:1:
+[27.061s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h: In instantiation of ‘void DecompBase<Dim>::shrink(double) [with int Dim = 3]’:
+[27.061s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:18:   required from here
+[27.061s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:32: warning: unused parameter ‘shrink_distance’ [-Wunused-parameter]
+[27.061s]    59 |     virtual void shrink(double shrink_distance) {}
+[27.061s]       |                         ~~~~~~~^~~~~~~~~~~~~~~
+[55.398s] [ 66%] Linking CXX shared library libtracker_fsm_lib.so
+[57.316s] [ 77%] Built target tracker_fsm_lib
+[57.336s] Consolidate compiler generated dependencies of target tracker_node
+[57.351s] [ 88%] Building CXX object CMakeFiles/tracker_node.dir/src/tracker_node.cpp.o
+[60.146s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:10,
+[60.146s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracker_node.cpp:2:
+[60.146s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.146s]    21 |   inline const int idx2add(int x, int N) const {
+[60.146s]       |          ^~~~~
+[60.159s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.159s]   124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {
+[60.160s]       |          ^~~~~
+[60.160s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.160s]   129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {
+[60.160s]       |          ^~~~~
+[60.160s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.160s]   132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {
+[60.160s]       |          ^~~~~
+[60.160s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.160s]   137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {
+[60.160s]       |          ^~~~~
+[60.161s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.161s]   241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {
+[60.161s]       |          ^~~~~
+[60.161s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.161s]   244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {
+[60.161s]       |          ^~~~~
+[60.162s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.162s]   247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {
+[60.162s]       |          ^~~~~
+[60.162s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+[60.162s]   250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {
+[60.162s]       |          ^~~~~
+[76.702s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/line_segment.h:8,
+[76.702s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/ellipsoid_decomp.h:9,
+[76.702s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/env.hpp:3,
+[76.702s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:14,
+[76.702s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracker_node.cpp:2:
+[76.702s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h: In instantiation of ‘void DecompBase<Dim>::shrink(double) [with int Dim = 3]’:
+[76.702s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:18:   required from here
+[76.702s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:32: warning: unused parameter ‘shrink_distance’ [-Wunused-parameter]
+[76.702s]    59 |     virtual void shrink(double shrink_distance) {}
+[76.702s]       |                         ~~~~~~~^~~~~~~~~~~~~~~
+[80.097s] [100%] Linking CXX executable tracker_node
+[80.983s] [100%] Built target tracker_node
+[80.990s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm -- -j32 -l32
+[80.996s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm
+[81.002s] -- Install configuration: "Release"
+[81.002s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/libtracker_fsm_lib.so
+[81.332s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/libtracker_fsm_lib.so" to ""
+[81.332s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/tracker_node
+[81.412s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/tracker_node" to ""
+[81.412s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/traj_server
+[81.505s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/traj_server" to ""
+[81.505s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/launch
+[81.505s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/launch/tracking_sim.launch.py
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/launch/rviz.launch.py
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/config
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/config/nav_sim.yaml
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/config/tracker_sim.yaml
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/env.hpp
+[81.506s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/mapping.h
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/tracking_visualization.h
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/target_ekf.h
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/occ_grid_mapper.h
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/tracking_fsm.h
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/prediction.hpp
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/ament_index/resource_index/package_run_dependencies/tracker_fsm
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/ament_index/resource_index/parent_prefix_path/tracker_fsm
+[81.507s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/ament_prefix_path.sh
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/ament_prefix_path.dsv
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/path.sh
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/path.dsv
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.bash
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.sh
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.zsh
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.dsv
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/package.dsv
+[81.508s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/ament_index/resource_index/packages/tracker_fsm
+[81.509s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/cmake/tracker_fsmConfig.cmake
+[81.509s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/cmake/tracker_fsmConfig-version.cmake
+[81.509s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/package.xml
+[81.510s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm

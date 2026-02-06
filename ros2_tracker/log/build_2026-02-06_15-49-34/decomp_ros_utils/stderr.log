@@ -1,0 +1,54 @@
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/bound_visual.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/bound_visual.h:4:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+    4 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:4,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/polyhedron.h:9:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+    9 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:90：CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:104：CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o] 错误 1
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/vector_visual.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/vector_visual.h:4:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+    4 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:118：CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o] 错误 1
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:5,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/ellipsoid.h:10:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+   10 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:132：CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o] 错误 1
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:4,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:15,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/polyhedron.h:9:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+    9 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:160：CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o] 错误 1
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:5,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:10,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/ellipsoid.h:10:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+   10 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_visual.h:5,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:12,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/decomp_geometry/ellipsoid.h:10:10: fatal error: decomp_basis/data_type.h: 没有那个文件或目录
+   10 | #include <decomp_basis/data_type.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:76：CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:146：CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/decomp_rviz_plugins.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

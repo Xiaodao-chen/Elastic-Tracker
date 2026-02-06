@@ -1,0 +1,72 @@
+[ 11%] Automatic MOC for target decomp_rviz_plugins
+[ 11%] Built target decomp_rviz_plugins_autogen
+[ 22%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o
+[ 33%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o
+[ 44%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o
+[ 55%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o
+[ 66%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o
+[ 77%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o
+[ 88%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10: fatal error: rviz_rendering/objects/mesh_shape.hpp: 没有那个文件或目录
+   11 | #include <rviz_rendering/objects/mesh_shape.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:104：CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:15,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_polyhedron_array_display.cpp:10,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:3:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10: fatal error: rviz_rendering/objects/mesh_shape.hpp: 没有那个文件或目录
+   11 | #include <rviz_rendering/objects/mesh_shape.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:76：CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o] 错误 1
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:42:69: error: macro "RVIZ_COMMON_LOG_DEBUG" passed 3 arguments, but takes just 1
+   42 |               msg->header.frame_id.c_str(), qPrintable(fixed_frame_));
+      |                                                                     ^
+In file included from /opt/ros/humble/include/rviz_common/rviz_common/factory/pluginlib_factory.hpp:48,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/transformation/transformation_manager.hpp:44,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:47,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+/opt/ros/humble/include/rviz_common/rviz_common/logging.hpp:62: note: macro "RVIZ_COMMON_LOG_DEBUG" defined here
+   62 | #define RVIZ_COMMON_LOG_DEBUG(msg) do { \
+      | 
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:15,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/mesh_visual.h:11:10: fatal error: rviz_rendering/objects/mesh_shape.hpp: 没有那个文件或目录
+   11 | #include <rviz_rendering/objects/mesh_shape.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:160：CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o] 错误 1
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp: In member function ‘void decomp_rviz_plugins::EllipsoidArrayDisplay::processMessage(const ConstSharedPtr&)’:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:41:5: error: ‘RVIZ_COMMON_LOG_DEBUG’ was not declared in this scope
+   41 |     RVIZ_COMMON_LOG_DEBUG("Error transforming from frame '%s' to frame '%s'",
+      |     ^~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57,
+                 from /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55,
+                 from /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52,
+                 from /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/factory/pluginlib_factory.hpp:42,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/transformation/transformation_manager.hpp:44,
+                 from /opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp:47,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘B* class_loader::impl::MetaObject<C, B>::create() const [with C = decomp_rviz_plugins::EllipsoidArrayDisplay; B = rviz_common::Display]’:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:   required from here
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12: error: invalid new-expression of abstract class type ‘decomp_rviz_plugins::EllipsoidArrayDisplay’
+  218 |     return new C;
+      |            ^~~~~
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:18:7: note:   because the following virtual functions are pure within ‘decomp_rviz_plugins::EllipsoidArrayDisplay’:
+   18 | class EllipsoidArrayDisplay
+      |       ^~~~~~~~~~~~~~~~~~~~~
+In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:11,
+                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1:
+/opt/ros/humble/include/rviz_common/rviz_common/message_filter_display.hpp:232:16: note:     ‘void rviz_common::MessageFilterDisplay<MessageType>::processMessage(typename MessageType::ConstSharedPtr) [with MessageType = decomp_ros_msgs::msg::EllipsoidArray_<std::allocator<void> >; typename MessageType::ConstSharedPtr = std::shared_ptr<const decomp_ros_msgs::msg::EllipsoidArray_<std::allocator<void> > >]’
+  232 |   virtual void processMessage(typename MessageType::ConstSharedPtr msg) = 0;
+      |                ^~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/decomp_rviz_plugins.dir/build.make:146：CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:138：CMakeFiles/decomp_rviz_plugins.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

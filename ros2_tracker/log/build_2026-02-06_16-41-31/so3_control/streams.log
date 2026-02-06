@@ -1,0 +1,163 @@
+[0.020s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.249s] -- The CXX compiler identification is GNU 11.4.0
+[0.279s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.437s] -- Detecting C compile features
+[0.438s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.619s] -- Detecting CXX compiler ABI info - done
+[0.626s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.626s] -- Detecting CXX compile features
+[0.627s] -- Detecting CXX compile features - done
+[0.629s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.790s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.906s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.998s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.006s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.026s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.049s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.166s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.172s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.214s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.228s] -- Looking for pthread.h
+[1.341s] -- Looking for pthread.h - found
+[1.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.434s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.436s] -- Found Threads: TRUE  
+[1.517s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.572s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.600s] -- Found quadrotor_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[1.628s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[1.642s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.660s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.664s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.664s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.852s] -- Found cmake_utils: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils/share/cmake_utils/cmake)
+[1.856s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.978s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.978s] -- Configured cppcheck include dirs: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/include
+[1.978s] -- Configured cppcheck exclude dirs and/or files: 
+[1.980s] -- Added test 'lint_cmake' to check CMake code style
+[1.982s] -- Added test 'uncrustify' to check C / C++ code style
+[1.982s] -- Configured uncrustify additional arguments: 
+[1.982s] -- Added test 'xmllint' to check XML markup files
+[1.986s] -- Configuring done
+[2.067s] -- Generating done
+[2.077s] -- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control
+[2.084s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control -DCMAKE_INSTALL_PREFIX=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control
+[2.086s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control -- -j32 -l32
+[2.154s] [ 12%] Building CXX object CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o
+[2.155s] [ 37%] Building CXX object CMakeFiles/so3_control_component_node.dir/rclcpp_components/node_main_so3_control_component_node.cpp.o
+[2.155s] [ 37%] Building CXX object CMakeFiles/control_example.dir/src/control_example.cpp.o
+[5.578s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/SO3Control.cpp: In member function ‘void SO3Control::calculateControl(const Vector3d&, const Vector3d&, const Vector3d&, double, double, const Vector3d&, const Vector3d&)’:
+[5.578s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/SO3Control.cpp:38:70: warning: unused parameter ‘des_yaw_dot’ [-Wunused-parameter]
+[5.578s]    38 |                                   const double des_yaw, const double des_yaw_dot,
+[5.578s]       |                                                         ~~~~~~~~~~~~~^~~~~~~~~~~
+[6.187s] [ 50%] Linking CXX executable so3_control_component_node
+[6.423s] [ 50%] Built target so3_control_component_node
+[6.752s] [ 62%] Linking CXX static library libSO3Control.a
+[6.859s] [ 62%] Built target SO3Control
+[6.883s] [ 75%] Building CXX object CMakeFiles/so3_control_component.dir/src/so3_control_component.cpp.o
+[10.152s] [ 87%] Linking CXX executable control_example
+[10.440s] [ 87%] Built target control_example
+[10.726s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:30:89: warning: ‘quadrotor_msgs::msg::PositionCommand_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[10.726s]    30 |     void position_cmd_callback(const quadrotor_msgs::msg::PositionCommand::ConstPtr &cmd);
+[10.727s]       |                                                                                         ^
+[10.727s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.hpp:7,
+[10.727s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:5:
+[10.727s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.hpp:229:5: note: declared here
+[10.727s]   229 |     ConstPtr;
+[10.727s]       |     ^~~~~~~~
+[10.727s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:31:69: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[10.727s]    31 |     void odom_callback(const nav_msgs::msg::Odometry::ConstPtr &odom);
+[10.727s]       |                                                                     ^
+[10.727s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[10.727s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:2:
+[10.727s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5: note: declared here
+[10.727s]   147 |     ConstPtr;
+[10.727s]       |     ^~~~~~~~
+[10.727s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:32:73: warning: ‘std_msgs::msg::Bool_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[10.727s]    32 |     void enable_motors_callback(const std_msgs::msg::Bool::ConstPtr &msg);
+[10.728s]       |                                                                         ^
+[10.728s] In file included from /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:7,
+[10.728s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:10:
+[10.728s] /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:106:5: note: declared here
+[10.728s]   106 |     ConstPtr;
+[10.728s]       |     ^~~~~~~~
+[10.728s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:33:84: warning: ‘quadrotor_msgs::msg::Corrections_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[10.728s]    33 |     void corrections_callback(const quadrotor_msgs::msg::Corrections::ConstPtr &msg);
+[10.728s]       |                                                                                    ^
+[10.728s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.hpp:7,
+[10.728s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:4:
+[10.728s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.hpp:117:5: note: declared here
+[10.728s]   117 |     ConstPtr;
+[10.728s]       |     ^~~~~~~~
+[10.994s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:97:106: warning: ‘quadrotor_msgs::msg::PositionCommand_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[10.994s]    97 | void SO3ControlComponent::position_cmd_callback(const quadrotor_msgs::msg::PositionCommand::ConstPtr &cmd)
+[10.994s]       |                                                                                                          ^
+[10.994s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.hpp:7,
+[10.994s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:5:
+[10.994s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.hpp:229:5: note: declared here
+[10.994s]   229 |     ConstPtr;
+[10.994s]       |     ^~~~~~~~
+[10.997s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:121:86: warning: ‘nav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[10.997s]   121 | void SO3ControlComponent::odom_callback(const nav_msgs::msg::Odometry::ConstPtr &odom)
+[10.997s]       |                                                                                      ^
+[10.998s] In file included from /opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7,
+[10.998s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:2:
+[10.998s] /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5: note: declared here
+[10.998s]   147 |     ConstPtr;
+[10.998s]       |     ^~~~~~~~
+[11.000s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:172:90: warning: ‘std_msgs::msg::Bool_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[11.000s]   172 | void SO3ControlComponent::enable_motors_callback(const std_msgs::msg::Bool::ConstPtr &msg)
+[11.000s]       |                                                                                          ^
+[11.000s] In file included from /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp:7,
+[11.000s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:10:
+[11.000s] /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp:106:5: note: declared here
+[11.000s]   106 |     ConstPtr;
+[11.000s]       |     ^~~~~~~~
+[11.003s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:183:58: warning: ‘quadrotor_msgs::msg::Corrections_<std::allocator<void> >::ConstPtr’ is deprecated [-Wdeprecated-declarations]
+[11.003s]   183 |     const quadrotor_msgs::msg::Corrections::ConstPtr &msg)
+[11.003s]       |                                                          ^
+[11.003s] In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.hpp:7,
+[11.003s]                  from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/src/so3_control_component.cpp:4:
+[11.003s] /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.hpp:117:5: note: declared here
+[11.003s]   117 |     ConstPtr;
+[11.003s]       |     ^~~~~~~~
+[35.590s] [100%] Linking CXX shared library libso3_control_component.so
+[36.262s] [100%] Built target so3_control_component
+[36.270s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control -- -j32 -l32
+[36.271s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control
+[36.276s] -- Install configuration: "Release"
+[36.276s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/lib/so3_control/so3_control_component_node
+[36.283s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/lib/so3_control/so3_control_component_node" to ""
+[36.283s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/lib/so3_control/control_example
+[36.296s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/lib/so3_control/control_example" to ""
+[36.296s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/lib/libso3_control_component.so
+[36.415s] -- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/lib/libso3_control_component.so" to ""
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/config
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/config/gains.yaml
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/config/gains_hummingbird.yaml
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/config/corrections_pelican.yaml
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/config/corrections_hummingbird.yaml
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/config/gains_pelican.yaml
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/ament_index/resource_index/package_run_dependencies/so3_control
+[36.416s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/ament_index/resource_index/parent_prefix_path/so3_control
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/environment/ament_prefix_path.sh
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/environment/ament_prefix_path.dsv
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/environment/path.sh
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/environment/path.dsv
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/local_setup.bash
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/local_setup.sh
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/local_setup.zsh
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/local_setup.dsv
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/package.dsv
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/ament_index/resource_index/packages/so3_control
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/ament_index/resource_index/rclcpp_components/so3_control
+[36.417s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/cmake/so3_controlConfig.cmake
+[36.418s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake
+[36.418s] -- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/so3_control/share/so3_control/package.xml
+[36.419s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control' returned '0': AMENT_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/cmake_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control

@@ -1,0 +1,1054 @@
+[0.000000] (-) TimerEvent: {}
+[0.000068] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000147] (-) JobUnselected: {'identifier': 'decomp_ros_msgs'}
+[0.000278] (-) JobUnselected: {'identifier': 'decomp_ros_utils'}
+[0.000345] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000415] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000441] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000465] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000497] (-) JobUnselected: {'identifier': 'object_detection_msgs'}
+[0.000506] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000575] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.000585] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.000602] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.000611] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.000619] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.000627] (-) JobUnselected: {'identifier': 'traj_opt'}
+[0.000635] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.000643] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.000653] (tracker_fsm) JobQueued: {'identifier': 'tracker_fsm', 'dependencies': OrderedDict([('decomp_ros_msgs', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs'), ('object_detection_msgs', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs'), ('quadrotor_msgs', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs'), ('traj_opt', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt'), ('decomp_ros_utils', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils')])}
+[0.000670] (tracker_fsm) JobStarted: {'identifier': 'tracker_fsm'}
+[0.012872] (tracker_fsm) JobProgress: {'identifier': 'tracker_fsm', 'progress': 'cmake'}
+[0.013540] (tracker_fsm) JobProgress: {'identifier': 'tracker_fsm', 'progress': 'build'}
+[0.014116] (tracker_fsm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm', '--', '-j32', '-l32'], 'cwd': '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/light-sz02-liangpan'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'light-sz02-liangpan'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CI', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('CHROME_DESKTOP', 'cursor.desktop'), ('HOME', '/home/light-sz02-liangpan'), ('LESS', '-R'), ('OLDPWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('LSCOLORS', 'exfxcxdxbxbxbxbxbxbxbx'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e8989475-2.4.-main.sock'), ('ZSH', '/home/light-sz02-liangpan/.oh-my-zsh'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3377'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '4393'), ('NO_COLOR', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'light-sz02-liangpan'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:21779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'light-sz02-liangpan'), ('EVERYSPHERE_RIPGREP_PATH', '/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('TERM', 'dumb'), ('FC_FONTATIONS', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin'), ('INVOCATION_ID', 'c6ddd75bb2714341ab396edc26517749'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lenovo-ThinkStation-P3-Tower:@/tmp/.ICE-unix/4368,unix/lenovo-ThinkStation-P3-Tower:/tmp/.ICE-unix/4368'), ('GDK_BACKEND', 'x11'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CURSOR_AGENT', '1'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CURSOR_TRACE_ID', '4e6fb605996342ef892fd6e0ca6a45aa'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=31;40:cd=31;40:su=31;40:sg=31;40:tw=31;40:ow=31;40:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('AMENT_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm'), ('CLUTTER_IM_MODULE', 'fcitx'), ('VSCODE_CODE_CACHE_PATH', '/home/light-sz02-liangpan/.config/Cursor/CachedData/618c607a249dd7fd2ffc662c6531143833bebd40'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('_ZO_DOCTOR', '0'), ('VSCODE_PID', '7452'), ('CMAKE_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.042414] (tracker_fsm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099895] (-) TimerEvent: {}
+[0.156275] (tracker_fsm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.185827] (tracker_fsm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.188193] (tracker_fsm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.194992] (tracker_fsm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199977] (-) TimerEvent: {}
+[0.205643] (tracker_fsm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.217572] (tracker_fsm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.249659] (tracker_fsm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.251224] (tracker_fsm) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.267969] (tracker_fsm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.300088] (-) TimerEvent: {}
+[0.309977] (tracker_fsm) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.333779] (tracker_fsm) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.347530] (tracker_fsm) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.361948] (tracker_fsm) StdoutLine: {'line': b'-- Found quadrotor_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/share/quadrotor_msgs/cmake)\n'}
+[0.382441] (tracker_fsm) StdoutLine: {'line': b'-- Found object_detection_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/share/object_detection_msgs/cmake)\n'}
+[0.393285] (tracker_fsm) StdoutLine: {'line': b'-- Found decomp_ros_msgs: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/share/decomp_ros_msgs/cmake)\n'}
+[0.400197] (-) TimerEvent: {}
+[0.406504] (tracker_fsm) StdoutLine: {'line': b'-- Found decomp_ros_utils: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/share/decomp_ros_utils/cmake)\n'}
+[0.407619] (tracker_fsm) StdoutLine: {'line': b'-- Found traj_opt: 0.0.0 (/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/share/traj_opt/cmake)\n'}
+[0.410918] (tracker_fsm) StdoutLine: {'line': b'-- Found message_filters: 4.3.11 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.413456] (tracker_fsm) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.420741] (tracker_fsm) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.447206] (tracker_fsm) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.477532] (tracker_fsm) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.500277] (-) TimerEvent: {}
+[0.600444] (-) TimerEvent: {}
+[0.700596] (-) TimerEvent: {}
+[0.728922] (tracker_fsm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.733192] (tracker_fsm) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.800681] (-) TimerEvent: {}
+[0.851012] (tracker_fsm) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.855546] (tracker_fsm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.859927] (tracker_fsm) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.900781] (-) TimerEvent: {}
+[0.965322] (tracker_fsm) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.000852] (-) TimerEvent: {}
+[1.076198] (tracker_fsm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.100966] (-) TimerEvent: {}
+[1.188967] (tracker_fsm) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.201048] (-) TimerEvent: {}
+[1.256009] (tracker_fsm) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:32 (find_package):\n'}
+[1.256085] (tracker_fsm) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[1.256123] (tracker_fsm) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[1.256156] (tracker_fsm) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.256188] (tracker_fsm) StderrLine: {'line': b'\n'}
+[1.256220] (tracker_fsm) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[1.256253] (tracker_fsm) StderrLine: {'line': b'\n'}
+[1.256284] (tracker_fsm) StderrLine: {'line': b'    /usr\n'}
+[1.256314] (tracker_fsm) StderrLine: {'line': b'\n'}
+[1.256344] (tracker_fsm) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[1.256376] (tracker_fsm) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.256408] (tracker_fsm) StderrLine: {'line': b'\n'}
+[1.261624] (tracker_fsm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301124] (-) TimerEvent: {}
+[1.350350] (tracker_fsm) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.350671] (tracker_fsm) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include\n'}
+[1.350717] (tracker_fsm) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.351044] (tracker_fsm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.351378] (tracker_fsm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.351662] (tracker_fsm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.352333] (tracker_fsm) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.352370] (tracker_fsm) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.352600] (tracker_fsm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.353225] (tracker_fsm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.401245] (-) TimerEvent: {}
+[1.501415] (-) TimerEvent: {}
+[1.601662] (-) TimerEvent: {}
+[1.701822] (-) TimerEvent: {}
+[1.716033] (tracker_fsm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.730955] (tracker_fsm) StdoutLine: {'line': b'-- Build files have been written to: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm\n'}
+[1.767416] (tracker_fsm) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target traj_server\n'}
+[1.779154] (tracker_fsm) StdoutLine: {'line': b'[ 22%] Built target traj_server\n'}
+[1.783137] (tracker_fsm) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target tracker_fsm_lib\n'}
+[1.801661] (tracker_fsm) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/occ_grid_mapper.cpp.o\n'}
+[1.801876] (-) TimerEvent: {}
+[1.802086] (tracker_fsm) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/target_ekf.cpp.o\n'}
+[1.803064] (tracker_fsm) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/tracker_fsm_lib.dir/src/tracking_fsm.cpp.o\n'}
+[1.901975] (-) TimerEvent: {}
+[2.002148] (-) TimerEvent: {}
+[2.102305] (-) TimerEvent: {}
+[2.202459] (-) TimerEvent: {}
+[2.302603] (-) TimerEvent: {}
+[2.402776] (-) TimerEvent: {}
+[2.502941] (-) TimerEvent: {}
+[2.603188] (-) TimerEvent: {}
+[2.703469] (-) TimerEvent: {}
+[2.803671] (-) TimerEvent: {}
+[2.903874] (-) TimerEvent: {}
+[3.004067] (-) TimerEvent: {}
+[3.104262] (-) TimerEvent: {}
+[3.204470] (-) TimerEvent: {}
+[3.305030] (-) TimerEvent: {}
+[3.405323] (-) TimerEvent: {}
+[3.505566] (-) TimerEvent: {}
+[3.605769] (-) TimerEvent: {}
+[3.705952] (-) TimerEvent: {}
+[3.806131] (-) TimerEvent: {}
+[3.906303] (-) TimerEvent: {}
+[4.006479] (-) TimerEvent: {}
+[4.106701] (-) TimerEvent: {}
+[4.207056] (-) TimerEvent: {}
+[4.307295] (-) TimerEvent: {}
+[4.407529] (-) TimerEvent: {}
+[4.507717] (-) TimerEvent: {}
+[4.607908] (-) TimerEvent: {}
+[4.653937] (tracker_fsm) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:10,\n'}
+[4.654134] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracking_fsm.cpp:1:\n'}
+[4.654207] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.654273] (tracker_fsm) StderrLine: {'line': b'   21 |   inline const int idx2add(int x, int N) const {\n'}
+[4.654334] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.667544] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.667646] (tracker_fsm) StderrLine: {'line': b'  124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {\n'}
+[4.667713] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.667769] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.667825] (tracker_fsm) StderrLine: {'line': b'  129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {\n'}
+[4.667880] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.667935] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.667990] (tracker_fsm) StderrLine: {'line': b'  132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {\n'}
+[4.668045] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.668099] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.668154] (tracker_fsm) StderrLine: {'line': b'  137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {\n'}
+[4.668207] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.669267] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.669333] (tracker_fsm) StderrLine: {'line': b'  241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {\n'}
+[4.669388] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.669441] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.669496] (tracker_fsm) StderrLine: {'line': b'  244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {\n'}
+[4.669556] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.669612] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.669668] (tracker_fsm) StderrLine: {'line': b'  247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {\n'}
+[4.669723] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.669778] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[4.669833] (tracker_fsm) StderrLine: {'line': b'  250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {\n'}
+[4.669887] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[4.708003] (-) TimerEvent: {}
+[4.808160] (-) TimerEvent: {}
+[4.908358] (-) TimerEvent: {}
+[5.008547] (-) TimerEvent: {}
+[5.108818] (-) TimerEvent: {}
+[5.209035] (-) TimerEvent: {}
+[5.309253] (-) TimerEvent: {}
+[5.324778] (tracker_fsm) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/occ_grid_mapper.h:14,\n'}
+[5.324948] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/occ_grid_mapper.cpp:1:\n'}
+[5.325022] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.325091] (tracker_fsm) StderrLine: {'line': b'   21 |   inline const int idx2add(int x, int N) const {\n'}
+[5.325166] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.328657] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.328758] (tracker_fsm) StderrLine: {'line': b'  124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {\n'}
+[5.328823] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.328882] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.328941] (tracker_fsm) StderrLine: {'line': b'  129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {\n'}
+[5.328998] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.329053] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.329110] (tracker_fsm) StderrLine: {'line': b'  132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {\n'}
+[5.329165] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.329225] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.329285] (tracker_fsm) StderrLine: {'line': b'  137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {\n'}
+[5.329341] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.330307] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.330397] (tracker_fsm) StderrLine: {'line': b'  241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {\n'}
+[5.330458] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.330514] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.330569] (tracker_fsm) StderrLine: {'line': b'  244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {\n'}
+[5.330623] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.330677] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.330732] (tracker_fsm) StderrLine: {'line': b'  247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {\n'}
+[5.330786] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.330838] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[5.330892] (tracker_fsm) StderrLine: {'line': b'  250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {\n'}
+[5.330946] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[5.409388] (-) TimerEvent: {}
+[5.509612] (-) TimerEvent: {}
+[5.609808] (-) TimerEvent: {}
+[5.710001] (-) TimerEvent: {}
+[5.810198] (-) TimerEvent: {}
+[5.910388] (-) TimerEvent: {}
+[6.010616] (-) TimerEvent: {}
+[6.110799] (-) TimerEvent: {}
+[6.211023] (-) TimerEvent: {}
+[6.311265] (-) TimerEvent: {}
+[6.411536] (-) TimerEvent: {}
+[6.511722] (-) TimerEvent: {}
+[6.611909] (-) TimerEvent: {}
+[6.712099] (-) TimerEvent: {}
+[6.812292] (-) TimerEvent: {}
+[6.912588] (-) TimerEvent: {}
+[7.012781] (-) TimerEvent: {}
+[7.113013] (-) TimerEvent: {}
+[7.213202] (-) TimerEvent: {}
+[7.313434] (-) TimerEvent: {}
+[7.413735] (-) TimerEvent: {}
+[7.514023] (-) TimerEvent: {}
+[7.614266] (-) TimerEvent: {}
+[7.714552] (-) TimerEvent: {}
+[7.814780] (-) TimerEvent: {}
+[7.914959] (-) TimerEvent: {}
+[8.015126] (-) TimerEvent: {}
+[8.115260] (-) TimerEvent: {}
+[8.215448] (-) TimerEvent: {}
+[8.315633] (-) TimerEvent: {}
+[8.415823] (-) TimerEvent: {}
+[8.516041] (-) TimerEvent: {}
+[8.616219] (-) TimerEvent: {}
+[8.716432] (-) TimerEvent: {}
+[8.816611] (-) TimerEvent: {}
+[8.916837] (-) TimerEvent: {}
+[9.017082] (-) TimerEvent: {}
+[9.117354] (-) TimerEvent: {}
+[9.217592] (-) TimerEvent: {}
+[9.317801] (-) TimerEvent: {}
+[9.418071] (-) TimerEvent: {}
+[9.518313] (-) TimerEvent: {}
+[9.618665] (-) TimerEvent: {}
+[9.718930] (-) TimerEvent: {}
+[9.819165] (-) TimerEvent: {}
+[9.919385] (-) TimerEvent: {}
+[10.019573] (-) TimerEvent: {}
+[10.119759] (-) TimerEvent: {}
+[10.219980] (-) TimerEvent: {}
+[10.320168] (-) TimerEvent: {}
+[10.420346] (-) TimerEvent: {}
+[10.520521] (-) TimerEvent: {}
+[10.620743] (-) TimerEvent: {}
+[10.721004] (-) TimerEvent: {}
+[10.821186] (-) TimerEvent: {}
+[10.921363] (-) TimerEvent: {}
+[11.021547] (-) TimerEvent: {}
+[11.121741] (-) TimerEvent: {}
+[11.221928] (-) TimerEvent: {}
+[11.322180] (-) TimerEvent: {}
+[11.422417] (-) TimerEvent: {}
+[11.522702] (-) TimerEvent: {}
+[11.622938] (-) TimerEvent: {}
+[11.723198] (-) TimerEvent: {}
+[11.823425] (-) TimerEvent: {}
+[11.923620] (-) TimerEvent: {}
+[12.023850] (-) TimerEvent: {}
+[12.124070] (-) TimerEvent: {}
+[12.224332] (-) TimerEvent: {}
+[12.324519] (-) TimerEvent: {}
+[12.424695] (-) TimerEvent: {}
+[12.524866] (-) TimerEvent: {}
+[12.625036] (-) TimerEvent: {}
+[12.725207] (-) TimerEvent: {}
+[12.825460] (-) TimerEvent: {}
+[12.925657] (-) TimerEvent: {}
+[13.025840] (-) TimerEvent: {}
+[13.126011] (-) TimerEvent: {}
+[13.226264] (-) TimerEvent: {}
+[13.326544] (-) TimerEvent: {}
+[13.426757] (-) TimerEvent: {}
+[13.527052] (-) TimerEvent: {}
+[13.627341] (-) TimerEvent: {}
+[13.727560] (-) TimerEvent: {}
+[13.827800] (-) TimerEvent: {}
+[13.928008] (-) TimerEvent: {}
+[14.028307] (-) TimerEvent: {}
+[14.128596] (-) TimerEvent: {}
+[14.228866] (-) TimerEvent: {}
+[14.329146] (-) TimerEvent: {}
+[14.429339] (-) TimerEvent: {}
+[14.529696] (-) TimerEvent: {}
+[14.629889] (-) TimerEvent: {}
+[14.730078] (-) TimerEvent: {}
+[14.830295] (-) TimerEvent: {}
+[14.930512] (-) TimerEvent: {}
+[15.030694] (-) TimerEvent: {}
+[15.130865] (-) TimerEvent: {}
+[15.231066] (-) TimerEvent: {}
+[15.331271] (-) TimerEvent: {}
+[15.431448] (-) TimerEvent: {}
+[15.531642] (-) TimerEvent: {}
+[15.631888] (-) TimerEvent: {}
+[15.732083] (-) TimerEvent: {}
+[15.832249] (-) TimerEvent: {}
+[15.932459] (-) TimerEvent: {}
+[16.032629] (-) TimerEvent: {}
+[16.132783] (-) TimerEvent: {}
+[16.232945] (-) TimerEvent: {}
+[16.333094] (-) TimerEvent: {}
+[16.433249] (-) TimerEvent: {}
+[16.533452] (-) TimerEvent: {}
+[16.633588] (-) TimerEvent: {}
+[16.733783] (-) TimerEvent: {}
+[16.833968] (-) TimerEvent: {}
+[16.934150] (-) TimerEvent: {}
+[17.034343] (-) TimerEvent: {}
+[17.134700] (-) TimerEvent: {}
+[17.234887] (-) TimerEvent: {}
+[17.335117] (-) TimerEvent: {}
+[17.435305] (-) TimerEvent: {}
+[17.535523] (-) TimerEvent: {}
+[17.635809] (-) TimerEvent: {}
+[17.736104] (-) TimerEvent: {}
+[17.836293] (-) TimerEvent: {}
+[17.936518] (-) TimerEvent: {}
+[18.036703] (-) TimerEvent: {}
+[18.136993] (-) TimerEvent: {}
+[18.237246] (-) TimerEvent: {}
+[18.337669] (-) TimerEvent: {}
+[18.437931] (-) TimerEvent: {}
+[18.538199] (-) TimerEvent: {}
+[18.638418] (-) TimerEvent: {}
+[18.738677] (-) TimerEvent: {}
+[18.838899] (-) TimerEvent: {}
+[18.939084] (-) TimerEvent: {}
+[19.039274] (-) TimerEvent: {}
+[19.139503] (-) TimerEvent: {}
+[19.239697] (-) TimerEvent: {}
+[19.339880] (-) TimerEvent: {}
+[19.440059] (-) TimerEvent: {}
+[19.540239] (-) TimerEvent: {}
+[19.640425] (-) TimerEvent: {}
+[19.740615] (-) TimerEvent: {}
+[19.840802] (-) TimerEvent: {}
+[19.941057] (-) TimerEvent: {}
+[20.041305] (-) TimerEvent: {}
+[20.141501] (-) TimerEvent: {}
+[20.241742] (-) TimerEvent: {}
+[20.341922] (-) TimerEvent: {}
+[20.442097] (-) TimerEvent: {}
+[20.542266] (-) TimerEvent: {}
+[20.642436] (-) TimerEvent: {}
+[20.742581] (-) TimerEvent: {}
+[20.842839] (-) TimerEvent: {}
+[20.943085] (-) TimerEvent: {}
+[21.043275] (-) TimerEvent: {}
+[21.143521] (-) TimerEvent: {}
+[21.243720] (-) TimerEvent: {}
+[21.343879] (-) TimerEvent: {}
+[21.444076] (-) TimerEvent: {}
+[21.544273] (-) TimerEvent: {}
+[21.644486] (-) TimerEvent: {}
+[21.744670] (-) TimerEvent: {}
+[21.844930] (-) TimerEvent: {}
+[21.945194] (-) TimerEvent: {}
+[22.045458] (-) TimerEvent: {}
+[22.145637] (-) TimerEvent: {}
+[22.245785] (-) TimerEvent: {}
+[22.345924] (-) TimerEvent: {}
+[22.446083] (-) TimerEvent: {}
+[22.546255] (-) TimerEvent: {}
+[22.646419] (-) TimerEvent: {}
+[22.746673] (-) TimerEvent: {}
+[22.846948] (-) TimerEvent: {}
+[22.947145] (-) TimerEvent: {}
+[23.047308] (-) TimerEvent: {}
+[23.147466] (-) TimerEvent: {}
+[23.247638] (-) TimerEvent: {}
+[23.347802] (-) TimerEvent: {}
+[23.448006] (-) TimerEvent: {}
+[23.548193] (-) TimerEvent: {}
+[23.648454] (-) TimerEvent: {}
+[23.748667] (-) TimerEvent: {}
+[23.848859] (-) TimerEvent: {}
+[23.949029] (-) TimerEvent: {}
+[24.049280] (-) TimerEvent: {}
+[24.149539] (-) TimerEvent: {}
+[24.249717] (-) TimerEvent: {}
+[24.349896] (-) TimerEvent: {}
+[24.450064] (-) TimerEvent: {}
+[24.550238] (-) TimerEvent: {}
+[24.650426] (-) TimerEvent: {}
+[24.750637] (-) TimerEvent: {}
+[24.850915] (-) TimerEvent: {}
+[24.951105] (-) TimerEvent: {}
+[25.051311] (-) TimerEvent: {}
+[25.151504] (-) TimerEvent: {}
+[25.251728] (-) TimerEvent: {}
+[25.351917] (-) TimerEvent: {}
+[25.452097] (-) TimerEvent: {}
+[25.552346] (-) TimerEvent: {}
+[25.652542] (-) TimerEvent: {}
+[25.752729] (-) TimerEvent: {}
+[25.852928] (-) TimerEvent: {}
+[25.953174] (-) TimerEvent: {}
+[26.053441] (-) TimerEvent: {}
+[26.153584] (-) TimerEvent: {}
+[26.253778] (-) TimerEvent: {}
+[26.353975] (-) TimerEvent: {}
+[26.454168] (-) TimerEvent: {}
+[26.554394] (-) TimerEvent: {}
+[26.654655] (-) TimerEvent: {}
+[26.754871] (-) TimerEvent: {}
+[26.855054] (-) TimerEvent: {}
+[26.955217] (-) TimerEvent: {}
+[27.055380] (-) TimerEvent: {}
+[27.061427] (tracker_fsm) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/line_segment.h:8,\n'}
+[27.061574] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/ellipsoid_decomp.h:9,\n'}
+[27.061624] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/env.hpp:3,\n'}
+[27.061659] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:14,\n'}
+[27.061690] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracking_fsm.cpp:1:\n'}
+[27.061722] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h: In instantiation of \xe2\x80\x98void DecompBase<Dim>::shrink(double) [with int Dim = 3]\xe2\x80\x99:\n'}
+[27.061753] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:18:   required from here\n'}
+[27.061784] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:32: warning: unused parameter \xe2\x80\x98shrink_distance\xe2\x80\x99 [-Wunused-parameter]\n'}
+[27.061814] (tracker_fsm) StderrLine: {'line': b'   59 |     virtual void shrink(double shrink_distance) {}\n'}
+[27.061845] (tracker_fsm) StderrLine: {'line': b'      |                         ~~~~~~~^~~~~~~~~~~~~~~\n'}
+[27.155478] (-) TimerEvent: {}
+[27.255660] (-) TimerEvent: {}
+[27.355898] (-) TimerEvent: {}
+[27.456118] (-) TimerEvent: {}
+[27.556339] (-) TimerEvent: {}
+[27.656830] (-) TimerEvent: {}
+[27.757185] (-) TimerEvent: {}
+[27.857510] (-) TimerEvent: {}
+[27.957792] (-) TimerEvent: {}
+[28.057999] (-) TimerEvent: {}
+[28.158284] (-) TimerEvent: {}
+[28.258482] (-) TimerEvent: {}
+[28.358694] (-) TimerEvent: {}
+[28.458975] (-) TimerEvent: {}
+[28.559269] (-) TimerEvent: {}
+[28.659569] (-) TimerEvent: {}
+[28.759915] (-) TimerEvent: {}
+[28.860171] (-) TimerEvent: {}
+[28.960440] (-) TimerEvent: {}
+[29.060700] (-) TimerEvent: {}
+[29.160896] (-) TimerEvent: {}
+[29.261079] (-) TimerEvent: {}
+[29.361266] (-) TimerEvent: {}
+[29.461445] (-) TimerEvent: {}
+[29.561585] (-) TimerEvent: {}
+[29.661774] (-) TimerEvent: {}
+[29.761948] (-) TimerEvent: {}
+[29.862117] (-) TimerEvent: {}
+[29.962299] (-) TimerEvent: {}
+[30.062495] (-) TimerEvent: {}
+[30.162695] (-) TimerEvent: {}
+[30.262888] (-) TimerEvent: {}
+[30.363080] (-) TimerEvent: {}
+[30.463262] (-) TimerEvent: {}
+[30.563483] (-) TimerEvent: {}
+[30.663747] (-) TimerEvent: {}
+[30.763937] (-) TimerEvent: {}
+[30.864128] (-) TimerEvent: {}
+[30.964395] (-) TimerEvent: {}
+[31.064607] (-) TimerEvent: {}
+[31.164866] (-) TimerEvent: {}
+[31.265137] (-) TimerEvent: {}
+[31.365375] (-) TimerEvent: {}
+[31.465574] (-) TimerEvent: {}
+[31.565698] (-) TimerEvent: {}
+[31.665858] (-) TimerEvent: {}
+[31.766054] (-) TimerEvent: {}
+[31.866291] (-) TimerEvent: {}
+[31.966519] (-) TimerEvent: {}
+[32.066788] (-) TimerEvent: {}
+[32.167063] (-) TimerEvent: {}
+[32.267329] (-) TimerEvent: {}
+[32.367564] (-) TimerEvent: {}
+[32.467756] (-) TimerEvent: {}
+[32.567952] (-) TimerEvent: {}
+[32.668110] (-) TimerEvent: {}
+[32.768286] (-) TimerEvent: {}
+[32.868512] (-) TimerEvent: {}
+[32.968708] (-) TimerEvent: {}
+[33.068970] (-) TimerEvent: {}
+[33.169169] (-) TimerEvent: {}
+[33.269369] (-) TimerEvent: {}
+[33.369580] (-) TimerEvent: {}
+[33.469846] (-) TimerEvent: {}
+[33.570037] (-) TimerEvent: {}
+[33.670206] (-) TimerEvent: {}
+[33.770370] (-) TimerEvent: {}
+[33.870548] (-) TimerEvent: {}
+[33.970747] (-) TimerEvent: {}
+[34.070926] (-) TimerEvent: {}
+[34.171122] (-) TimerEvent: {}
+[34.271309] (-) TimerEvent: {}
+[34.371500] (-) TimerEvent: {}
+[34.471704] (-) TimerEvent: {}
+[34.571942] (-) TimerEvent: {}
+[34.672255] (-) TimerEvent: {}
+[34.772564] (-) TimerEvent: {}
+[34.872835] (-) TimerEvent: {}
+[34.973026] (-) TimerEvent: {}
+[35.073270] (-) TimerEvent: {}
+[35.173463] (-) TimerEvent: {}
+[35.273732] (-) TimerEvent: {}
+[35.373959] (-) TimerEvent: {}
+[35.474225] (-) TimerEvent: {}
+[35.574494] (-) TimerEvent: {}
+[35.674764] (-) TimerEvent: {}
+[35.775042] (-) TimerEvent: {}
+[35.875292] (-) TimerEvent: {}
+[35.975530] (-) TimerEvent: {}
+[36.075676] (-) TimerEvent: {}
+[36.175965] (-) TimerEvent: {}
+[36.276260] (-) TimerEvent: {}
+[36.376526] (-) TimerEvent: {}
+[36.476757] (-) TimerEvent: {}
+[36.577012] (-) TimerEvent: {}
+[36.677196] (-) TimerEvent: {}
+[36.777402] (-) TimerEvent: {}
+[36.877683] (-) TimerEvent: {}
+[36.977929] (-) TimerEvent: {}
+[37.078205] (-) TimerEvent: {}
+[37.178410] (-) TimerEvent: {}
+[37.278661] (-) TimerEvent: {}
+[37.378963] (-) TimerEvent: {}
+[37.479190] (-) TimerEvent: {}
+[37.579404] (-) TimerEvent: {}
+[37.679700] (-) TimerEvent: {}
+[37.779974] (-) TimerEvent: {}
+[37.880212] (-) TimerEvent: {}
+[37.980463] (-) TimerEvent: {}
+[38.080749] (-) TimerEvent: {}
+[38.181046] (-) TimerEvent: {}
+[38.281310] (-) TimerEvent: {}
+[38.381614] (-) TimerEvent: {}
+[38.481801] (-) TimerEvent: {}
+[38.582062] (-) TimerEvent: {}
+[38.682243] (-) TimerEvent: {}
+[38.782547] (-) TimerEvent: {}
+[38.882807] (-) TimerEvent: {}
+[38.983050] (-) TimerEvent: {}
+[39.083312] (-) TimerEvent: {}
+[39.183551] (-) TimerEvent: {}
+[39.283769] (-) TimerEvent: {}
+[39.384029] (-) TimerEvent: {}
+[39.484322] (-) TimerEvent: {}
+[39.584629] (-) TimerEvent: {}
+[39.684921] (-) TimerEvent: {}
+[39.785149] (-) TimerEvent: {}
+[39.885428] (-) TimerEvent: {}
+[39.985754] (-) TimerEvent: {}
+[40.085915] (-) TimerEvent: {}
+[40.186091] (-) TimerEvent: {}
+[40.286261] (-) TimerEvent: {}
+[40.386443] (-) TimerEvent: {}
+[40.486634] (-) TimerEvent: {}
+[40.586835] (-) TimerEvent: {}
+[40.687013] (-) TimerEvent: {}
+[40.787176] (-) TimerEvent: {}
+[40.887424] (-) TimerEvent: {}
+[40.987773] (-) TimerEvent: {}
+[41.088039] (-) TimerEvent: {}
+[41.188323] (-) TimerEvent: {}
+[41.288562] (-) TimerEvent: {}
+[41.388795] (-) TimerEvent: {}
+[41.489083] (-) TimerEvent: {}
+[41.589359] (-) TimerEvent: {}
+[41.689658] (-) TimerEvent: {}
+[41.789841] (-) TimerEvent: {}
+[41.890036] (-) TimerEvent: {}
+[41.990200] (-) TimerEvent: {}
+[42.090364] (-) TimerEvent: {}
+[42.190611] (-) TimerEvent: {}
+[42.290799] (-) TimerEvent: {}
+[42.390989] (-) TimerEvent: {}
+[42.491175] (-) TimerEvent: {}
+[42.591434] (-) TimerEvent: {}
+[42.691716] (-) TimerEvent: {}
+[42.791893] (-) TimerEvent: {}
+[42.892169] (-) TimerEvent: {}
+[42.992357] (-) TimerEvent: {}
+[43.092513] (-) TimerEvent: {}
+[43.192695] (-) TimerEvent: {}
+[43.292882] (-) TimerEvent: {}
+[43.393069] (-) TimerEvent: {}
+[43.493244] (-) TimerEvent: {}
+[43.593496] (-) TimerEvent: {}
+[43.693673] (-) TimerEvent: {}
+[43.793830] (-) TimerEvent: {}
+[43.893984] (-) TimerEvent: {}
+[43.994163] (-) TimerEvent: {}
+[44.094320] (-) TimerEvent: {}
+[44.194499] (-) TimerEvent: {}
+[44.294698] (-) TimerEvent: {}
+[44.394963] (-) TimerEvent: {}
+[44.495231] (-) TimerEvent: {}
+[44.595415] (-) TimerEvent: {}
+[44.695582] (-) TimerEvent: {}
+[44.795770] (-) TimerEvent: {}
+[44.896021] (-) TimerEvent: {}
+[44.996209] (-) TimerEvent: {}
+[45.096394] (-) TimerEvent: {}
+[45.196554] (-) TimerEvent: {}
+[45.296738] (-) TimerEvent: {}
+[45.396919] (-) TimerEvent: {}
+[45.497100] (-) TimerEvent: {}
+[45.597285] (-) TimerEvent: {}
+[45.697465] (-) TimerEvent: {}
+[45.797627] (-) TimerEvent: {}
+[45.897800] (-) TimerEvent: {}
+[45.997967] (-) TimerEvent: {}
+[46.098132] (-) TimerEvent: {}
+[46.198391] (-) TimerEvent: {}
+[46.298642] (-) TimerEvent: {}
+[46.398913] (-) TimerEvent: {}
+[46.499180] (-) TimerEvent: {}
+[46.599437] (-) TimerEvent: {}
+[46.699610] (-) TimerEvent: {}
+[46.799858] (-) TimerEvent: {}
+[46.900124] (-) TimerEvent: {}
+[47.000376] (-) TimerEvent: {}
+[47.100621] (-) TimerEvent: {}
+[47.200809] (-) TimerEvent: {}
+[47.301061] (-) TimerEvent: {}
+[47.401314] (-) TimerEvent: {}
+[47.501493] (-) TimerEvent: {}
+[47.601658] (-) TimerEvent: {}
+[47.701814] (-) TimerEvent: {}
+[47.801934] (-) TimerEvent: {}
+[47.902049] (-) TimerEvent: {}
+[48.002170] (-) TimerEvent: {}
+[48.102335] (-) TimerEvent: {}
+[48.202495] (-) TimerEvent: {}
+[48.302752] (-) TimerEvent: {}
+[48.403021] (-) TimerEvent: {}
+[48.503266] (-) TimerEvent: {}
+[48.603517] (-) TimerEvent: {}
+[48.703798] (-) TimerEvent: {}
+[48.804079] (-) TimerEvent: {}
+[48.904374] (-) TimerEvent: {}
+[49.004650] (-) TimerEvent: {}
+[49.104926] (-) TimerEvent: {}
+[49.205225] (-) TimerEvent: {}
+[49.305550] (-) TimerEvent: {}
+[49.405721] (-) TimerEvent: {}
+[49.505903] (-) TimerEvent: {}
+[49.606102] (-) TimerEvent: {}
+[49.706379] (-) TimerEvent: {}
+[49.806635] (-) TimerEvent: {}
+[49.906804] (-) TimerEvent: {}
+[50.006966] (-) TimerEvent: {}
+[50.107151] (-) TimerEvent: {}
+[50.207324] (-) TimerEvent: {}
+[50.307529] (-) TimerEvent: {}
+[50.407775] (-) TimerEvent: {}
+[50.508037] (-) TimerEvent: {}
+[50.608313] (-) TimerEvent: {}
+[50.708569] (-) TimerEvent: {}
+[50.808765] (-) TimerEvent: {}
+[50.909010] (-) TimerEvent: {}
+[51.009266] (-) TimerEvent: {}
+[51.109516] (-) TimerEvent: {}
+[51.209685] (-) TimerEvent: {}
+[51.309850] (-) TimerEvent: {}
+[51.410008] (-) TimerEvent: {}
+[51.510166] (-) TimerEvent: {}
+[51.610413] (-) TimerEvent: {}
+[51.710679] (-) TimerEvent: {}
+[51.810924] (-) TimerEvent: {}
+[51.911178] (-) TimerEvent: {}
+[52.011429] (-) TimerEvent: {}
+[52.111691] (-) TimerEvent: {}
+[52.211957] (-) TimerEvent: {}
+[52.312214] (-) TimerEvent: {}
+[52.412493] (-) TimerEvent: {}
+[52.512756] (-) TimerEvent: {}
+[52.613050] (-) TimerEvent: {}
+[52.713325] (-) TimerEvent: {}
+[52.813584] (-) TimerEvent: {}
+[52.913850] (-) TimerEvent: {}
+[53.014022] (-) TimerEvent: {}
+[53.114183] (-) TimerEvent: {}
+[53.214341] (-) TimerEvent: {}
+[53.314485] (-) TimerEvent: {}
+[53.414719] (-) TimerEvent: {}
+[53.514974] (-) TimerEvent: {}
+[53.615255] (-) TimerEvent: {}
+[53.715462] (-) TimerEvent: {}
+[53.815629] (-) TimerEvent: {}
+[53.915789] (-) TimerEvent: {}
+[54.015971] (-) TimerEvent: {}
+[54.116162] (-) TimerEvent: {}
+[54.216344] (-) TimerEvent: {}
+[54.316533] (-) TimerEvent: {}
+[54.416723] (-) TimerEvent: {}
+[54.516889] (-) TimerEvent: {}
+[54.617083] (-) TimerEvent: {}
+[54.717255] (-) TimerEvent: {}
+[54.817448] (-) TimerEvent: {}
+[54.917611] (-) TimerEvent: {}
+[55.017763] (-) TimerEvent: {}
+[55.117921] (-) TimerEvent: {}
+[55.218081] (-) TimerEvent: {}
+[55.318235] (-) TimerEvent: {}
+[55.398894] (tracker_fsm) StdoutLine: {'line': b'[ 66%] Linking CXX shared library libtracker_fsm_lib.so\n'}
+[55.418338] (-) TimerEvent: {}
+[55.518508] (-) TimerEvent: {}
+[55.618708] (-) TimerEvent: {}
+[55.718882] (-) TimerEvent: {}
+[55.819123] (-) TimerEvent: {}
+[55.919299] (-) TimerEvent: {}
+[56.019461] (-) TimerEvent: {}
+[56.119656] (-) TimerEvent: {}
+[56.219934] (-) TimerEvent: {}
+[56.320132] (-) TimerEvent: {}
+[56.420302] (-) TimerEvent: {}
+[56.520481] (-) TimerEvent: {}
+[56.620647] (-) TimerEvent: {}
+[56.720831] (-) TimerEvent: {}
+[56.821015] (-) TimerEvent: {}
+[56.921201] (-) TimerEvent: {}
+[57.021398] (-) TimerEvent: {}
+[57.121560] (-) TimerEvent: {}
+[57.221722] (-) TimerEvent: {}
+[57.317026] (tracker_fsm) StdoutLine: {'line': b'[ 77%] Built target tracker_fsm_lib\n'}
+[57.321789] (-) TimerEvent: {}
+[57.336206] (tracker_fsm) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target tracker_node\n'}
+[57.351472] (tracker_fsm) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/tracker_node.dir/src/tracker_node.cpp.o\n'}
+[57.421882] (-) TimerEvent: {}
+[57.522062] (-) TimerEvent: {}
+[57.622228] (-) TimerEvent: {}
+[57.722390] (-) TimerEvent: {}
+[57.822550] (-) TimerEvent: {}
+[57.922729] (-) TimerEvent: {}
+[58.022914] (-) TimerEvent: {}
+[58.123087] (-) TimerEvent: {}
+[58.223321] (-) TimerEvent: {}
+[58.323428] (-) TimerEvent: {}
+[58.423561] (-) TimerEvent: {}
+[58.523746] (-) TimerEvent: {}
+[58.623866] (-) TimerEvent: {}
+[58.723998] (-) TimerEvent: {}
+[58.824145] (-) TimerEvent: {}
+[58.924346] (-) TimerEvent: {}
+[59.024526] (-) TimerEvent: {}
+[59.124791] (-) TimerEvent: {}
+[59.225010] (-) TimerEvent: {}
+[59.325197] (-) TimerEvent: {}
+[59.425412] (-) TimerEvent: {}
+[59.525725] (-) TimerEvent: {}
+[59.625924] (-) TimerEvent: {}
+[59.726152] (-) TimerEvent: {}
+[59.826388] (-) TimerEvent: {}
+[59.926669] (-) TimerEvent: {}
+[60.026879] (-) TimerEvent: {}
+[60.127095] (-) TimerEvent: {}
+[60.146815] (tracker_fsm) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:10,\n'}
+[60.146950] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracker_node.cpp:2:\n'}
+[60.146991] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:21:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.147029] (tracker_fsm) StderrLine: {'line': b'   21 |   inline const int idx2add(int x, int N) const {\n'}
+[60.147061] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.159985] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:124:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.160121] (tracker_fsm) StderrLine: {'line': b'  124 |   inline const bool isInMap(const Eigen::Vector3i& id) const {\n'}
+[60.160162] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.160197] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:129:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.160229] (tracker_fsm) StderrLine: {'line': b'  129 |   inline const bool isInMap(const Eigen::Vector3d& p) const {\n'}
+[60.160260] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.160289] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:132:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.160320] (tracker_fsm) StderrLine: {'line': b'  132 |   inline const bool isInSmallMap(const Eigen::Vector3i& id) const {\n'}
+[60.160351] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.160380] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:137:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.160410] (tracker_fsm) StderrLine: {'line': b'  137 |   inline const bool isInSmallMap(const Eigen::Vector3d& p) const {\n'}
+[60.160444] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.161780] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:241:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.161898] (tracker_fsm) StderrLine: {'line': b'  241 |   inline const bool isOccupied(const Eigen::Vector3i& id) const {\n'}
+[60.161961] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.162017] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:244:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.162073] (tracker_fsm) StderrLine: {'line': b'  244 |   inline const bool isOccupied(const Eigen::Vector3d& p) const {\n'}
+[60.162126] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.162179] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:247:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.162234] (tracker_fsm) StderrLine: {'line': b'  247 |   inline const bool isUnKnown(const Eigen::Vector3i& id) const {\n'}
+[60.162289] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.162343] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/mapping.h:250:10: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]\n'}
+[60.162398] (tracker_fsm) StderrLine: {'line': b'  250 |   inline const bool isUnKnown(const Eigen::Vector3d& p) const {\n'}
+[60.162453] (tracker_fsm) StderrLine: {'line': b'      |          ^~~~~\n'}
+[60.227290] (-) TimerEvent: {}
+[60.327561] (-) TimerEvent: {}
+[60.427786] (-) TimerEvent: {}
+[60.528041] (-) TimerEvent: {}
+[60.628267] (-) TimerEvent: {}
+[60.728482] (-) TimerEvent: {}
+[60.828698] (-) TimerEvent: {}
+[60.928983] (-) TimerEvent: {}
+[61.029209] (-) TimerEvent: {}
+[61.129469] (-) TimerEvent: {}
+[61.229694] (-) TimerEvent: {}
+[61.329871] (-) TimerEvent: {}
+[61.430092] (-) TimerEvent: {}
+[61.530266] (-) TimerEvent: {}
+[61.630423] (-) TimerEvent: {}
+[61.730601] (-) TimerEvent: {}
+[61.830796] (-) TimerEvent: {}
+[61.930925] (-) TimerEvent: {}
+[62.031090] (-) TimerEvent: {}
+[62.131254] (-) TimerEvent: {}
+[62.231431] (-) TimerEvent: {}
+[62.331614] (-) TimerEvent: {}
+[62.431775] (-) TimerEvent: {}
+[62.531963] (-) TimerEvent: {}
+[62.632133] (-) TimerEvent: {}
+[62.732321] (-) TimerEvent: {}
+[62.832502] (-) TimerEvent: {}
+[62.932665] (-) TimerEvent: {}
+[63.032838] (-) TimerEvent: {}
+[63.133025] (-) TimerEvent: {}
+[63.233156] (-) TimerEvent: {}
+[63.333316] (-) TimerEvent: {}
+[63.433431] (-) TimerEvent: {}
+[63.533628] (-) TimerEvent: {}
+[63.633778] (-) TimerEvent: {}
+[63.733969] (-) TimerEvent: {}
+[63.834159] (-) TimerEvent: {}
+[63.934364] (-) TimerEvent: {}
+[64.034648] (-) TimerEvent: {}
+[64.134883] (-) TimerEvent: {}
+[64.235134] (-) TimerEvent: {}
+[64.335325] (-) TimerEvent: {}
+[64.435488] (-) TimerEvent: {}
+[64.535740] (-) TimerEvent: {}
+[64.636007] (-) TimerEvent: {}
+[64.736270] (-) TimerEvent: {}
+[64.836488] (-) TimerEvent: {}
+[64.936673] (-) TimerEvent: {}
+[65.036864] (-) TimerEvent: {}
+[65.137023] (-) TimerEvent: {}
+[65.237207] (-) TimerEvent: {}
+[65.337404] (-) TimerEvent: {}
+[65.437609] (-) TimerEvent: {}
+[65.537780] (-) TimerEvent: {}
+[65.637938] (-) TimerEvent: {}
+[65.738106] (-) TimerEvent: {}
+[65.838270] (-) TimerEvent: {}
+[65.938458] (-) TimerEvent: {}
+[66.038653] (-) TimerEvent: {}
+[66.138822] (-) TimerEvent: {}
+[66.239006] (-) TimerEvent: {}
+[66.339180] (-) TimerEvent: {}
+[66.439352] (-) TimerEvent: {}
+[66.539544] (-) TimerEvent: {}
+[66.639710] (-) TimerEvent: {}
+[66.739900] (-) TimerEvent: {}
+[66.840079] (-) TimerEvent: {}
+[66.940270] (-) TimerEvent: {}
+[67.040440] (-) TimerEvent: {}
+[67.140699] (-) TimerEvent: {}
+[67.240966] (-) TimerEvent: {}
+[67.341234] (-) TimerEvent: {}
+[67.441421] (-) TimerEvent: {}
+[67.541637] (-) TimerEvent: {}
+[67.641849] (-) TimerEvent: {}
+[67.742021] (-) TimerEvent: {}
+[67.842301] (-) TimerEvent: {}
+[67.942597] (-) TimerEvent: {}
+[68.042904] (-) TimerEvent: {}
+[68.143153] (-) TimerEvent: {}
+[68.243429] (-) TimerEvent: {}
+[68.343707] (-) TimerEvent: {}
+[68.443912] (-) TimerEvent: {}
+[68.544182] (-) TimerEvent: {}
+[68.644353] (-) TimerEvent: {}
+[68.744557] (-) TimerEvent: {}
+[68.844724] (-) TimerEvent: {}
+[68.944979] (-) TimerEvent: {}
+[69.045152] (-) TimerEvent: {}
+[69.145322] (-) TimerEvent: {}
+[69.245528] (-) TimerEvent: {}
+[69.345698] (-) TimerEvent: {}
+[69.445864] (-) TimerEvent: {}
+[69.546043] (-) TimerEvent: {}
+[69.646282] (-) TimerEvent: {}
+[69.746555] (-) TimerEvent: {}
+[69.846821] (-) TimerEvent: {}
+[69.947121] (-) TimerEvent: {}
+[70.047413] (-) TimerEvent: {}
+[70.147591] (-) TimerEvent: {}
+[70.247782] (-) TimerEvent: {}
+[70.347921] (-) TimerEvent: {}
+[70.448084] (-) TimerEvent: {}
+[70.548250] (-) TimerEvent: {}
+[70.648415] (-) TimerEvent: {}
+[70.748590] (-) TimerEvent: {}
+[70.848794] (-) TimerEvent: {}
+[70.948960] (-) TimerEvent: {}
+[71.049213] (-) TimerEvent: {}
+[71.149476] (-) TimerEvent: {}
+[71.249689] (-) TimerEvent: {}
+[71.349883] (-) TimerEvent: {}
+[71.450168] (-) TimerEvent: {}
+[71.550381] (-) TimerEvent: {}
+[71.650636] (-) TimerEvent: {}
+[71.750925] (-) TimerEvent: {}
+[71.851182] (-) TimerEvent: {}
+[71.951351] (-) TimerEvent: {}
+[72.051624] (-) TimerEvent: {}
+[72.151893] (-) TimerEvent: {}
+[72.252150] (-) TimerEvent: {}
+[72.352410] (-) TimerEvent: {}
+[72.452669] (-) TimerEvent: {}
+[72.552940] (-) TimerEvent: {}
+[72.653116] (-) TimerEvent: {}
+[72.753324] (-) TimerEvent: {}
+[72.853534] (-) TimerEvent: {}
+[72.953702] (-) TimerEvent: {}
+[73.053868] (-) TimerEvent: {}
+[73.154036] (-) TimerEvent: {}
+[73.254207] (-) TimerEvent: {}
+[73.354426] (-) TimerEvent: {}
+[73.454620] (-) TimerEvent: {}
+[73.554803] (-) TimerEvent: {}
+[73.654969] (-) TimerEvent: {}
+[73.755242] (-) TimerEvent: {}
+[73.855507] (-) TimerEvent: {}
+[73.955711] (-) TimerEvent: {}
+[74.055910] (-) TimerEvent: {}
+[74.156163] (-) TimerEvent: {}
+[74.256423] (-) TimerEvent: {}
+[74.356704] (-) TimerEvent: {}
+[74.456968] (-) TimerEvent: {}
+[74.557236] (-) TimerEvent: {}
+[74.657510] (-) TimerEvent: {}
+[74.757809] (-) TimerEvent: {}
+[74.857980] (-) TimerEvent: {}
+[74.958148] (-) TimerEvent: {}
+[75.058308] (-) TimerEvent: {}
+[75.158526] (-) TimerEvent: {}
+[75.258693] (-) TimerEvent: {}
+[75.358949] (-) TimerEvent: {}
+[75.459226] (-) TimerEvent: {}
+[75.559509] (-) TimerEvent: {}
+[75.659788] (-) TimerEvent: {}
+[75.760051] (-) TimerEvent: {}
+[75.860224] (-) TimerEvent: {}
+[75.960414] (-) TimerEvent: {}
+[76.060600] (-) TimerEvent: {}
+[76.160797] (-) TimerEvent: {}
+[76.260980] (-) TimerEvent: {}
+[76.361145] (-) TimerEvent: {}
+[76.461328] (-) TimerEvent: {}
+[76.561455] (-) TimerEvent: {}
+[76.661568] (-) TimerEvent: {}
+[76.702189] (tracker_fsm) StderrLine: {'line': b'In file included from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/line_segment.h:8,\n'}
+[76.702327] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/ellipsoid_decomp.h:9,\n'}
+[76.702370] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/env.hpp:3,\n'}
+[76.702405] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/tracker_fsm/tracking_fsm.h:14,\n'}
+[76.702439] (tracker_fsm) StderrLine: {'line': b'                 from /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/src/tracker_node.cpp:2:\n'}
+[76.702472] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h: In instantiation of \xe2\x80\x98void DecompBase<Dim>::shrink(double) [with int Dim = 3]\xe2\x80\x99:\n'}
+[76.702505] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:18:   required from here\n'}
+[76.702544] (tracker_fsm) StderrLine: {'line': b'/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/decomp_util/decomp_base.h:59:32: warning: unused parameter \xe2\x80\x98shrink_distance\xe2\x80\x99 [-Wunused-parameter]\n'}
+[76.702581] (tracker_fsm) StderrLine: {'line': b'   59 |     virtual void shrink(double shrink_distance) {}\n'}
+[76.702612] (tracker_fsm) StderrLine: {'line': b'      |                         ~~~~~~~^~~~~~~~~~~~~~~\n'}
+[76.761672] (-) TimerEvent: {}
+[76.861872] (-) TimerEvent: {}
+[76.962069] (-) TimerEvent: {}
+[77.062326] (-) TimerEvent: {}
+[77.162603] (-) TimerEvent: {}
+[77.262867] (-) TimerEvent: {}
+[77.363168] (-) TimerEvent: {}
+[77.463430] (-) TimerEvent: {}
+[77.563690] (-) TimerEvent: {}
+[77.663955] (-) TimerEvent: {}
+[77.764143] (-) TimerEvent: {}
+[77.864406] (-) TimerEvent: {}
+[77.964674] (-) TimerEvent: {}
+[78.064893] (-) TimerEvent: {}
+[78.165151] (-) TimerEvent: {}
+[78.265402] (-) TimerEvent: {}
+[78.365607] (-) TimerEvent: {}
+[78.465776] (-) TimerEvent: {}
+[78.565939] (-) TimerEvent: {}
+[78.666105] (-) TimerEvent: {}
+[78.766331] (-) TimerEvent: {}
+[78.866505] (-) TimerEvent: {}
+[78.966660] (-) TimerEvent: {}
+[79.066842] (-) TimerEvent: {}
+[79.167019] (-) TimerEvent: {}
+[79.267276] (-) TimerEvent: {}
+[79.367548] (-) TimerEvent: {}
+[79.467801] (-) TimerEvent: {}
+[79.568056] (-) TimerEvent: {}
+[79.668314] (-) TimerEvent: {}
+[79.768574] (-) TimerEvent: {}
+[79.868834] (-) TimerEvent: {}
+[79.968998] (-) TimerEvent: {}
+[80.069252] (-) TimerEvent: {}
+[80.097887] (tracker_fsm) StdoutLine: {'line': b'[100%] Linking CXX executable tracker_node\n'}
+[80.169465] (-) TimerEvent: {}
+[80.269785] (-) TimerEvent: {}
+[80.369948] (-) TimerEvent: {}
+[80.470115] (-) TimerEvent: {}
+[80.570343] (-) TimerEvent: {}
+[80.670539] (-) TimerEvent: {}
+[80.770701] (-) TimerEvent: {}
+[80.870952] (-) TimerEvent: {}
+[80.971207] (-) TimerEvent: {}
+[80.983194] (tracker_fsm) StdoutLine: {'line': b'[100%] Built target tracker_node\n'}
+[80.990276] (tracker_fsm) CommandEnded: {'returncode': 0}
+[80.990849] (tracker_fsm) JobProgress: {'identifier': 'tracker_fsm', 'progress': 'install'}
+[80.996371] (tracker_fsm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm'], 'cwd': '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VSCODE_CWD', '/home/light-sz02-liangpan'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'light-sz02-liangpan'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/cursor/resources/app/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('CI', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/lib:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('CHROME_DESKTOP', 'cursor.desktop'), ('HOME', '/home/light-sz02-liangpan'), ('LESS', '-R'), ('OLDPWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('LSCOLORS', 'exfxcxdxbxbxbxbxbxbxbx'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e8989475-2.4.-main.sock'), ('ZSH', '/home/light-sz02-liangpan/.oh-my-zsh'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3377'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '4393'), ('NO_COLOR', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7452'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'light-sz02-liangpan'), ('FORCE_COLOR', '0'), ('JOURNAL_STREAM', '8:21779'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'light-sz02-liangpan'), ('EVERYSPHERE_RIPGREP_PATH', '/usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg'), ('TERM', 'dumb'), ('FC_FONTATIONS', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/bin'), ('INVOCATION_ID', 'c6ddd75bb2714341ab396edc26517749'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/lenovo-ThinkStation-P3-Tower:@/tmp/.ICE-unix/4368,unix/lenovo-ThinkStation-P3-Tower:/tmp/.ICE-unix/4368'), ('GDK_BACKEND', 'x11'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('VSCODE_PROCESS_TITLE', 'extension-host  [1-1]'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CURSOR_AGENT', '1'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CURSOR_TRACE_ID', '4e6fb605996342ef892fd6e0ca6a45aa'), ('LS_COLORS', 'di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=31;40:cd=31;40:su=31;40:sg=31;40:tw=31;40:ow=31;40:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('AMENT_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/tracker_fsm'), ('CLUTTER_IM_MODULE', 'fcitx'), ('VSCODE_CODE_CACHE_PATH', '/home/light-sz02-liangpan/.config/Cursor/CachedData/618c607a249dd7fd2ffc662c6531143833bebd40'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MANPATH', ':/opt/apps/com.volcengine.feilian/files/mdm/opt/corplink-mdm/policy/share/man'), ('_ZO_DOCTOR', '0'), ('VSCODE_PID', '7452'), ('CMAKE_PREFIX_PATH', '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/traj_opt:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/object_detection_msgs:/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[81.002155] (tracker_fsm) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[81.002264] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/libtracker_fsm_lib.so\n'}
+[81.071294] (-) TimerEvent: {}
+[81.171448] (-) TimerEvent: {}
+[81.271668] (-) TimerEvent: {}
+[81.332561] (tracker_fsm) StdoutLine: {'line': b'-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/libtracker_fsm_lib.so" to ""\n'}
+[81.332689] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/tracker_node\n'}
+[81.371738] (-) TimerEvent: {}
+[81.412596] (tracker_fsm) StdoutLine: {'line': b'-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/tracker_node" to ""\n'}
+[81.412735] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/traj_server\n'}
+[81.471854] (-) TimerEvent: {}
+[81.505909] (tracker_fsm) StdoutLine: {'line': b'-- Set runtime path of "/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/lib/tracker_fsm/traj_server" to ""\n'}
+[81.506031] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/launch\n'}
+[81.506072] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/launch/tracking_sim.launch.py\n'}
+[81.506422] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/launch/rviz.launch.py\n'}
+[81.506641] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/config\n'}
+[81.506766] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/config/nav_sim.yaml\n'}
+[81.506860] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/config/tracker_sim.yaml\n'}
+[81.506922] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include\n'}
+[81.506955] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm\n'}
+[81.506989] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/env.hpp\n'}
+[81.507106] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/mapping.h\n'}
+[81.507255] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/tracking_visualization.h\n'}
+[81.507401] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/target_ekf.h\n'}
+[81.507497] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/occ_grid_mapper.h\n'}
+[81.507610] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/tracking_fsm.h\n'}
+[81.507700] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/tracker_fsm/prediction.hpp\n'}
+[81.507867] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/ament_index/resource_index/package_run_dependencies/tracker_fsm\n'}
+[81.507990] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/ament_index/resource_index/parent_prefix_path/tracker_fsm\n'}
+[81.508117] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/ament_prefix_path.sh\n'}
+[81.508234] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/ament_prefix_path.dsv\n'}
+[81.508342] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/path.sh\n'}
+[81.508450] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/environment/path.dsv\n'}
+[81.508547] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.bash\n'}
+[81.508646] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.sh\n'}
+[81.508760] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.zsh\n'}
+[81.508856] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/local_setup.dsv\n'}
+[81.508966] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/package.dsv\n'}
+[81.509101] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/ament_index/resource_index/packages/tracker_fsm\n'}
+[81.509192] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/cmake/tracker_fsmConfig.cmake\n'}
+[81.509281] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/cmake/tracker_fsmConfig-version.cmake\n'}
+[81.509390] (tracker_fsm) StdoutLine: {'line': b'-- Installing: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/install/tracker_fsm/share/tracker_fsm/package.xml\n'}
+[81.510359] (tracker_fsm) CommandEnded: {'returncode': 0}
+[81.520922] (tracker_fsm) JobEnded: {'identifier': 'tracker_fsm', 'rc': 0}
+[81.521789] (-) EventReactorShutdown: {}

@@ -1,0 +1,45 @@
+[0.025s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator -- -j32 -l32
+[0.133s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o[0m
+[4.616s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:173:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.616s]   173 |     void odom_callback(const nav_msgs::msg::Odometry::ConstPtr &msg[01;35m[K)[m[K
+[4.616s]       |                                                                    [01;35m[K^[m[K
+[4.617s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[4.617s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:4[m[K:
+[4.617s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:147:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.617s]   147 |     [01;36m[KConstPtr[m[K;
+[4.617s]       |     [01;36m[K^~~~~~~~[m[K
+[4.617s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:206:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.617s]   206 |     void goal_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K
+[4.617s]       |                                                                            [01;35m[K^[m[K
+[4.617s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[4.617s]                  from [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:5[m[K:
+[4.617s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:116:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.617s]   116 |     [01;36m[KConstPtr[m[K;
+[4.617s]       |     [01;36m[K^~~~~~~~[m[K
+[4.722s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:[m[K In member function ‘[01m[Kvoid WaypointGenerator::traj_start_trigger_callback(const PoseStamped&)[m[K’:
+[4.722s] [01m[K/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:305:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.722s]   305 |     void traj_start_trigger_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped &msg[m[K)
+[4.722s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[15.093s] [100%] [32m[1mLinking CXX executable waypoint_generator[0m
+[15.880s] [100%] Built target waypoint_generator
+[15.891s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator -- -j32 -l32
+[15.893s] Invoking command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator
+[15.900s] -- Install configuration: ""
+[15.901s] -- Execute custom install script
+[15.902s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/lib/waypoint_generator/waypoint_generator
+[15.911s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[15.919s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[15.927s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/environment/ament_prefix_path.sh
+[15.935s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/environment/ament_prefix_path.dsv
+[15.946s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/environment/path.sh
+[15.954s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/environment/path.dsv
+[15.962s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/local_setup.bash
+[15.970s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/local_setup.sh
+[15.978s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/local_setup.zsh
+[15.985s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/local_setup.dsv
+[15.993s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/package.dsv
+[16.000s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/ament_index/resource_index/packages/waypoint_generator
+[16.009s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[16.019s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[16.029s] -- Symlinking: /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/install/share/waypoint_generator/package.xml
+[16.041s] Invoked command in '/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/waypoint_generator
