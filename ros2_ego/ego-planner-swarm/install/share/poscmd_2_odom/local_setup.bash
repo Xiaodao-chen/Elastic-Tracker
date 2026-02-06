@@ -1,1 +1,0 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/poscmd_2_odom/ament_cmake_environment_hooks/local_setup.bash

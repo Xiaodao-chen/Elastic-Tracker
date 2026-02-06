@@ -1,1 +1,0 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/quadrotor_msgs/rosidl_generator_py/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_c.c

@@ -1,1 +1,0 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/path_searching/ament_cmake_environment_hooks/local_setup.zsh

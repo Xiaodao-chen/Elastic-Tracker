@@ -1,1 +1,0 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/traj_utils/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c

@@ -1,1 +1,0 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/build/so3_quadrotor_simulator/ament_cmake_core/so3_quadrotor_simulatorConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ego/ego-planner-swarm/src/planner/bspline_opt/include/bspline_opt/uniform_bspline.h
