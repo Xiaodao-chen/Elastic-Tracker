@@ -90,7 +90,7 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {'rate/odom': 100.0},
-                {'simulator/init_state_x': -15.0},
+                {'simulator/init_state_x': 0.0},
                 {'simulator/init_state_y': 0.0},
                 {'simulator/init_state_z': 0.5}
             ],
@@ -113,7 +113,7 @@ def generate_launch_description():
                     plugin='SO3ControlComponent',
                     name='so3_control_component',
                     parameters=[
-                        {'so3_control/init_state_x': -15.0},
+                        {'so3_control/init_state_x': 0.0},
                         {'so3_control/init_state_y': 0.0},
                         {'so3_control/init_state_z': 0.5},
                         {'mass': 0.98},
@@ -172,8 +172,9 @@ def generate_launch_description():
                 {'color/r': 0.0},
                 {'color/g': 0.0},
                 {'color/b': 1.0},
-                {'robot_scale': 0.05},
-                {'mesh_resource': 'package://odom_visualization/meshes/car.dae'}
+                {'robot_scale': 0.08},
+                {'mesh_resource': 'package://odom_visualization/meshes/car.dae'},
+                {'mesh_yaw_offset_deg': 180.0}
             ],
             remappings=[
                 ('odom', '/drone0/odom')
@@ -306,7 +307,7 @@ def generate_launch_description():
             ]
         ),
         
-        # Odometry Visualization (target as car DAE, matching ROS1 fake_car_target.launch)
+        # Odometry Visualization (target as drone f250.dae)
         Node(
             package='odom_visualization',
             executable='odom_visualization_car',
@@ -315,11 +316,11 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {'color/a': 1.0},
-                {'color/r': 1.0},
+                {'color/r': 0.0},
                 {'color/g': 0.0},
                 {'color/b': 0.0},
-                {'robot_scale': 0.1},
-                {'mesh_resource': 'package://odom_visualization/meshes/car.dae'}
+                {'robot_scale': 2.0},
+                {'mesh_resource': 'package://odom_visualization/meshes/f250.dae'}
             ],
             remappings=[
                 ('odom', '/target/odom')

@@ -10,16 +10,19 @@
 #include "nav_msgs/msg/path.hpp"
 #include "sensor_msgs/msg/range.hpp"
 #include "visualization_msgs/msg/marker.hpp"
+#include "visualization_msgs/msg/marker_array.hpp"
 #include "armadillo"
 #include "pose_utils/pose_utils.h"
 #include "quadrotor_msgs/msg/position_command.hpp"
 #include "std_msgs/msg/float64.hpp"
+#include <Eigen/Eigen>
 
 using namespace arma;
 using namespace std;
 
 static string mesh_resource;
 static double color_r, color_g, color_b, color_a, cov_scale, scale;
+static double mesh_yaw_offset_deg = 0.0;
 
 bool cross_config = false;
 bool tf45 = false;
@@ -39,6 +42,7 @@ rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr trajPub;
 rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr sensorPub;
 rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr meshPub;
 rclcpp::Publisher<sensor_msgs::msg::Range>::SharedPtr heightPub;
+rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr fov_pub_;
 
 // tf2_ros::TransformBroadcaster *broadcaster;
 std::shared_ptr<tf2_ros::TransformBroadcaster> broadcaster;
@@ -54,6 +58,95 @@ visualization_msgs::msg::Marker meshROS;
 sensor_msgs::msg::Range heightROS;
 string _frame_id;
 int _drone_id;
+
+// FOV visualization (camera frustum)
+double max_dis_ = 4.0;
+double x_max_dis_gain_ = 0.64;
+double y_max_dis_gain_ = 0.82;
+visualization_msgs::msg::Marker markerNode_fov;
+visualization_msgs::msg::Marker markerEdge_fov;
+std::vector<Eigen::Vector3d> fov_node;
+
+void fov_visual_init(std::string msg_frame_id) {
+  double x_max_dis = max_dis_ * x_max_dis_gain_;
+  double y_max_dis = max_dis_ * y_max_dis_gain_;
+
+  fov_node.resize(5);
+  fov_node[0] = Eigen::Vector3d(0, 0, 0);
+  fov_node[1] = Eigen::Vector3d(max_dis_, y_max_dis, x_max_dis);
+  fov_node[2] = Eigen::Vector3d(max_dis_, -y_max_dis, x_max_dis);
+  fov_node[3] = Eigen::Vector3d(max_dis_, -y_max_dis, -x_max_dis);
+  fov_node[4] = Eigen::Vector3d(max_dis_, y_max_dis, -x_max_dis);
+
+  markerNode_fov.header.frame_id = msg_frame_id;
+  markerNode_fov.action = visualization_msgs::msg::Marker::ADD;
+  markerNode_fov.type = visualization_msgs::msg::Marker::SPHERE_LIST;
+  markerNode_fov.ns = "fov_nodes";
+  markerNode_fov.pose.orientation.w = 1;
+  markerNode_fov.scale.x = 0.05;
+  markerNode_fov.scale.y = 0.05;
+  markerNode_fov.scale.z = 0.05;
+  markerNode_fov.color.r = 0;
+  markerNode_fov.color.g = 0.8;
+  markerNode_fov.color.b = 1;
+  markerNode_fov.color.a = 1;
+
+  markerEdge_fov.header.frame_id = msg_frame_id;
+  markerEdge_fov.action = visualization_msgs::msg::Marker::ADD;
+  markerEdge_fov.type = visualization_msgs::msg::Marker::LINE_LIST;
+  markerEdge_fov.ns = "fov_edges";
+  markerEdge_fov.pose.orientation.w = 1;
+  markerEdge_fov.scale.x = 0.05;
+  markerEdge_fov.color.r = 0.5f;
+  markerEdge_fov.color.g = 0.0;
+  markerEdge_fov.color.b = 0.0;
+  markerEdge_fov.color.a = 1;
+}
+
+void pub_fov_visual(Eigen::Vector3d& p, Eigen::Quaterniond& q, const builtin_interfaces::msg::Time& stamp) {
+  visualization_msgs::msg::Marker clear_previous_msg;
+  clear_previous_msg.action = visualization_msgs::msg::Marker::DELETEALL;
+
+  visualization_msgs::msg::MarkerArray markerArray_fov;
+  markerNode_fov.points.clear();
+  markerEdge_fov.points.clear();
+  markerNode_fov.header.stamp = stamp;
+  markerEdge_fov.header.stamp = stamp;
+
+  std::vector<geometry_msgs::msg::Point> fov_node_marker;
+  for (int i = 0; i < (int)fov_node.size(); i++) {
+    Eigen::Vector3d vector_temp;
+    vector_temp = q * fov_node[i] + p;
+    geometry_msgs::msg::Point point_temp;
+    point_temp.x = vector_temp[0];
+    point_temp.y = vector_temp[1];
+    point_temp.z = vector_temp[2];
+    fov_node_marker.push_back(point_temp);
+  }
+
+  for (int i = 0; i < 5; i++)
+    markerNode_fov.points.push_back(fov_node_marker[i]);
+
+  // Lines from apex to each corner
+  for (int i = 1; i <= 4; i++) {
+    markerEdge_fov.points.push_back(fov_node_marker[0]);
+    markerEdge_fov.points.push_back(fov_node_marker[i]);
+  }
+  // Bottom rectangle edges
+  markerEdge_fov.points.push_back(fov_node_marker[1]);
+  markerEdge_fov.points.push_back(fov_node_marker[2]);
+  markerEdge_fov.points.push_back(fov_node_marker[2]);
+  markerEdge_fov.points.push_back(fov_node_marker[3]);
+  markerEdge_fov.points.push_back(fov_node_marker[3]);
+  markerEdge_fov.points.push_back(fov_node_marker[4]);
+  markerEdge_fov.points.push_back(fov_node_marker[4]);
+  markerEdge_fov.points.push_back(fov_node_marker[1]);
+
+  markerArray_fov.markers.push_back(clear_previous_msg);
+  markerArray_fov.markers.push_back(markerNode_fov);
+  markerArray_fov.markers.push_back(markerEdge_fov);
+  fov_pub_->publish(markerArray_fov);
+}
 
 // debug
 rclcpp::Time debug_time = rclcpp::Clock().now();
@@ -83,6 +176,12 @@ void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     vel(0) = msg->twist.twist.linear.x;
     vel(1) = msg->twist.twist.linear.y;
     vel(2) = msg->twist.twist.linear.z;
+
+    // NOTE: FOV visualization
+    Eigen::Vector3d fov_p(msg->pose.pose.position.x, msg->pose.pose.position.y, msg->pose.pose.position.z);
+    Eigen::Quaterniond fov_q(msg->pose.pose.orientation.w, msg->pose.pose.orientation.x,
+                             msg->pose.pose.orientation.y, msg->pose.pose.orientation.z);
+    pub_fov_visual(fov_p, fov_q, msg->header.stamp);
 
     if (origin && !isOriginSet)
     {
@@ -354,10 +453,13 @@ void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
     q(1) = msg->pose.pose.orientation.x;
     q(2) = msg->pose.pose.orientation.y;
     q(3) = msg->pose.pose.orientation.z;
-    if (cross_config)
     {
         colvec ypr = R_to_ypr(quaternion_to_R(q));
-        ypr(0) += 45.0 * PI / 180.0;
+        // Apply mesh yaw offset to align model axis with odometry yaw.
+        ypr(0) += mesh_yaw_offset_deg * PI / 180.0;
+        if (cross_config) {
+            ypr(0) += 45.0 * PI / 180.0;
+        }
         q = R_to_quaternion(ypr_to_R(ypr));
     }
     meshROS.pose.orientation.w = q(0);
@@ -481,19 +583,21 @@ void cmd_callback(const quadrotor_msgs::msg::PositionCommand cmd)
     meshROS.pose.position.y = cmd.position.y;
     meshROS.pose.position.z = cmd.position.z;
 
-    if (cross_config)
     {
         colvec ypr = R_to_ypr(quaternion_to_R(q));
-        ypr(0) += 45.0 * PI / 180.0;
+        ypr(0) += mesh_yaw_offset_deg * PI / 180.0;
+        if (cross_config) {
+            ypr(0) += 45.0 * PI / 180.0;
+        }
         q = R_to_quaternion(ypr_to_R(ypr));
     }
     meshROS.pose.orientation.w = q(0);
     meshROS.pose.orientation.x = q(1);
     meshROS.pose.orientation.y = q(2);
     meshROS.pose.orientation.z = q(3);
-    meshROS.scale.x = 2.0;
-    meshROS.scale.y = 2.0;
-    meshROS.scale.z = 2.0;
+    meshROS.scale.x = scale;
+    meshROS.scale.y = scale;
+    meshROS.scale.z = scale;
     meshROS.color.a = color_a;
     meshROS.color.r = color_r;
     meshROS.color.g = color_g;
@@ -516,6 +620,7 @@ int main(int argc, char **argv)
     node->declare_parameter("robot_scale", 2.0);
     node->declare_parameter("frame_id", "world");
 
+    node->declare_parameter("mesh_yaw_offset_deg", 0.0);
     node->declare_parameter("cross_config", false);
     node->declare_parameter("tf45", false);
     node->declare_parameter("covariance_scale", 100.0);
@@ -533,6 +638,7 @@ int main(int argc, char **argv)
     node->get_parameter("robot_scale", scale);
     node->get_parameter("frame_id", _frame_id);
     
+    node->get_parameter("mesh_yaw_offset_deg", mesh_yaw_offset_deg);
     node->get_parameter("cross_config", cross_config);
     node->get_parameter("tf45", tf45);
     node->get_parameter("covariance_scale", cov_scale);
@@ -559,8 +665,10 @@ int main(int argc, char **argv)
     heightPub = node->create_publisher<sensor_msgs::msg::Range>("height", 100);
 
     timePub = node->create_publisher<std_msgs::msg::Float64>("time_gap", 100);
+    fov_pub_ = node->create_publisher<visualization_msgs::msg::MarkerArray>("fov_visual", 5);
     
     broadcaster = std::make_shared<tf2_ros::TransformBroadcaster>(node);
+    fov_visual_init("world");
 
     rclcpp::spin(node);
     rclcpp::shutdown();

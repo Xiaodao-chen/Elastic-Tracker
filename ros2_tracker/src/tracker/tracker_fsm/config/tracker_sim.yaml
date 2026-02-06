@@ -2,28 +2,28 @@
 /**:
   ros__parameters:
     # Planning parameters
-    plan_hz: 10
-    tracking_dur: 7.5
-    tracking_dist: 1.5
+    plan_hz: 20
+    tracking_dur: 3.0
+    tracking_dist: 2.5
     tolerance_d: 0.3
     fake: false
     debug: false
 
-    # Trajectory optimization parameters
-    vmax: 2.0
-    amax: 6.0
-    rhoT: 0.1
-    rhoP: 1.0
-    rhoV: 1.0
-    rhoA: 1.0
-    rhoTracking: 1.0
-    rhosVisibility: 1.0
-    theta_clearance: 0.1
-    K: 1
+    # Trajectory optimization parameters (matched to ROS1 planning.launch)
+    vmax: 1.0
+    amax: 2.0
+    rhoT: 100.0
+    rhoP: 10000.0
+    rhoV: 1000.0
+    rhoA: 1000.0
+    rhoTracking: 1000.0
+    rhosVisibility: 10000.0
+    theta_clearance: 0.8
+    K: 8
 
-    # Path planning parameters
+    # Path planning parameters (matched to ROS1)
     clearance_d: 0.2
-    tracking_dt: 0.1
+    tracking_dt: 0.2
     grid_step: 0.1
     obs_size: 0.3
 

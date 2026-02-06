@@ -237,7 +237,8 @@ void TrackingFSM::planTimerCallback() {
     target_p = target_p + target_q * land_p_;
     wait_hover_ = false;
   } else {
-    target_p.z() += 1.0;
+    // NOTE: In ROS1, target was a ground vehicle (z≈0) and drone flew above (z≈1),
+    // so target_p.z() += 1.0 was needed. Now both fly at same height, no offset needed.
     // Determine whether to replan
     Eigen::Vector3d dp = target_p - odom_p;
     double desired_yaw = std::atan2(dp.y(), dp.x());
