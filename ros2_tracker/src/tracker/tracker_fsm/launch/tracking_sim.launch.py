@@ -92,7 +92,7 @@ def generate_launch_description():
                 {'rate/odom': 100.0},
                 {'simulator/init_state_x': -15.0},
                 {'simulator/init_state_y': 0.0},
-                {'simulator/init_state_z': 0.1}
+                {'simulator/init_state_z': 0.5}
             ],
             remappings=[
                 ('odom', '/drone0/odom'),
@@ -115,7 +115,7 @@ def generate_launch_description():
                     parameters=[
                         {'so3_control/init_state_x': -15.0},
                         {'so3_control/init_state_y': 0.0},
-                        {'so3_control/init_state_z': 0.1},
+                        {'so3_control/init_state_z': 0.5},
                         {'mass': 0.98},
                         {'use_angle_corrections': False},
                         {'use_external_yaw': False},
@@ -238,7 +238,7 @@ def generate_launch_description():
                 {'rate/odom': 100.0},
                 {'simulator/init_state_x': 2.0},
                 {'simulator/init_state_y': 0.0},
-                {'simulator/init_state_z': 1.0}
+                {'simulator/init_state_z': 0.5}
             ],
             remappings=[
                 ('odom', '/target/odom'),
@@ -261,7 +261,7 @@ def generate_launch_description():
                     parameters=[
                         {'so3_control/init_state_x': 2.0},
                         {'so3_control/init_state_y': 0.0},
-                        {'so3_control/init_state_z': 1.0},
+                        {'so3_control/init_state_z': 0.5},
                         {'mass': 0.98},
                         {'use_angle_corrections': False},
                         {'use_external_yaw': False},

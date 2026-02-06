@@ -49,16 +49,16 @@ struct Predict {
     if (!node->has_parameter("tracking_dt")) {
       node->declare_parameter<double>("tracking_dt", 0.0);
     }
-    if (!node->has_parameter("prediction/rho_a")) {
-      node->declare_parameter<double>("prediction/rho_a", 0.0);
+    if (!node->has_parameter("prediction.rho_a")) {
+      node->declare_parameter<double>("prediction.rho_a", 0.0);
     }
-    if (!node->has_parameter("prediction/vmax")) {
-      node->declare_parameter<double>("prediction/vmax", 0.0);
+    if (!node->has_parameter("prediction.vmax")) {
+      node->declare_parameter<double>("prediction.vmax", 0.0);
     }
     node->get_parameter("tracking_dur", pre_dur);
     node->get_parameter("tracking_dt", dt);
-    node->get_parameter("prediction/rho_a", rho_a);
-    node->get_parameter("prediction/vmax", vmax);
+    node->get_parameter("prediction.rho_a", rho_a);
+    node->get_parameter("prediction.vmax", vmax);
     for (int i = 0; i < MAX_MEMORY; ++i) {
       data[i] = new Node;
     }

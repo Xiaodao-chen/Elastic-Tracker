@@ -27,8 +27,10 @@
     grid_step: 0.1
     obs_size: 0.3
 
-    # Prediction parameters
-    predict_time: 1.0
+    # Prediction parameters (matched to ROS1 planning.launch)
+    prediction:
+      rho_a: 1.0
+      vmax: 4.0
 
     # Camera parameters (for mapping and EKF)
     cam_width: 640
@@ -70,6 +72,9 @@
     ekf_rate: 30
     check_fov: false
 
-    # Feature flags
-    use_global_map: false
+    # Feature flags (use global map in simulation)
+    use_global_map: true
     use_mask: false
+    x_length: 42.0
+    y_length: 40.0
+    z_length: 5.0

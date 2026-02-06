@@ -419,8 +419,11 @@ class Env {
   };
 
   inline bool findVisiblePath(const Eigen::Vector3i& start_idx,
-                              const Eigen::Vector3i& end_idx,
+                              const Eigen::Vector3i& end_idx_in,
                               std::vector<Eigen::Vector3i>& idx_path) {
+    // Force end z = start z (2D search on xy plane only)
+    Eigen::Vector3i end_idx = end_idx_in;
+    end_idx.z() = start_idx.z();
     double stop_dist = desired_dist_ / mapPtr_->resolution;
     auto stopCondition = [&](const NodePtr& ptr) -> bool {
       return ptr->h < tolerance_d_ / mapPtr_->resolution && rayValid(ptr->idx, end_idx);
@@ -431,18 +434,17 @@ class Env {
       double lambda = 1 - stop_dist / dr;
       double dx = lambda * dp.x();
       double dy = lambda * dp.y();
-      double dz = dp.z();
-      ptr->h = fabs(dx) + fabs(dy) + abs(dz);
+      ptr->h = fabs(dx) + fabs(dy);
       double dx0 = (start_idx - end_idx).x();
       double dy0 = (start_idx - end_idx).y();
-      double cross = fabs(dx * dy0 - dy * dx0) + abs(dz);
+      double cross = fabs(dx * dy0 - dy * dx0);
       ptr->h += 0.001 * cross;
     };
     // initialization of datastructures
     std::priority_queue<NodePtr, std::vector<NodePtr>, NodeComparator> open_set;
     std::vector<std::pair<Eigen::Vector3i, double>> neighbors;
-    // NOTE 6-connected graph
-    for (int i = 0; i < 3; ++i) {
+    // NOTE 4-connected graph (xy plane only, z fixed)
+    for (int i = 0; i < 2; ++i) {
       Eigen::Vector3i neighbor(0, 0, 0);
       neighbor[i] = 1;
       neighbors.emplace_back(neighbor, 1);
@@ -530,7 +532,10 @@ class Env {
     std::vector<Eigen::Vector3i> idx_path;
     path.push_back(start_p);
     for (const auto& target : targets) {
-      Eigen::Vector3i end_idx = mapPtr_->pos2idx(target);
+      // Force target z = start z for 2D search
+      Eigen::Vector3d target_2d = target;
+      target_2d.z() = start_p.z();
+      Eigen::Vector3i end_idx = mapPtr_->pos2idx(target_2d);
       idx_path.clear();
       if (!findVisiblePath(start_idx, end_idx, idx_path)) {
         return false;
@@ -545,8 +550,11 @@ class Env {
   }
 
   inline bool astar_search(const Eigen::Vector3i& start_idx,
-                           const Eigen::Vector3i& end_idx,
+                           const Eigen::Vector3i& end_idx_in,
                            std::vector<Eigen::Vector3i>& idx_path) {
+    // Force end z = start z (2D search on xy plane only)
+    Eigen::Vector3i end_idx = end_idx_in;
+    end_idx.z() = start_idx.z();
     auto stopCondition = [&](const NodePtr& ptr) -> bool {
       return ptr->h < desired_dist_ / mapPtr_->resolution;
     };
@@ -554,18 +562,17 @@ class Env {
       Eigen::Vector3i dp = end_idx - ptr->idx;
       int dx = dp.x();
       int dy = dp.y();
-      int dz = dp.z();
-      ptr->h = abs(dx) + abs(dy) + abs(dz);
+      ptr->h = abs(dx) + abs(dy);
       double dx0 = (start_idx - end_idx).x();
       double dy0 = (start_idx - end_idx).y();
-      double cross = fabs(dx * dy0 - dy * dx0) + abs(dz);
+      double cross = fabs(dx * dy0 - dy * dx0);
       ptr->h += 0.001 * cross;
     };
     // initialization of datastructures
     std::priority_queue<NodePtr, std::vector<NodePtr>, NodeComparator> open_set;
     std::vector<std::pair<Eigen::Vector3i, double>> neighbors;
-    // NOTE 6-connected graph
-    for (int i = 0; i < 3; ++i) {
+    // NOTE 4-connected graph (xy plane only, z fixed)
+    for (int i = 0; i < 2; ++i) {
       Eigen::Vector3i neighbor(0, 0, 0);
       neighbor[i] = 1;
       neighbors.emplace_back(neighbor, 1);
@@ -644,7 +651,10 @@ class Env {
                            const Eigen::Vector3d& end_p,
                            std::vector<Eigen::Vector3d>& path) {
     Eigen::Vector3i start_idx = mapPtr_->pos2idx(start_p);
-    Eigen::Vector3i end_idx = mapPtr_->pos2idx(end_p);
+    // Force end z = start z for 2D search
+    Eigen::Vector3d end_p_2d = end_p;
+    end_p_2d.z() = start_p.z();
+    Eigen::Vector3i end_idx = mapPtr_->pos2idx(end_p_2d);
     std::vector<Eigen::Vector3i> idx_path;
     bool ret = astar_search(start_idx, end_idx, idx_path);
     path.clear();
@@ -728,6 +738,8 @@ class Env {
                           std::vector<Eigen::Vector3d>& path) {
     Eigen::Vector3i start_idx = mapPtr_->pos2idx(start_p);
     Eigen::Vector3i end_idx = mapPtr_->pos2idx(end_p);
+    // Force end z = start z (2D search on xy plane only)
+    end_idx.z() = start_idx.z();
     if (start_idx == end_idx) {
       path.clear();
       path.push_back(start_p);
@@ -741,18 +753,17 @@ class Env {
       Eigen::Vector3i dp = end_idx - ptr->idx;
       int dx = dp.x();
       int dy = dp.y();
-      int dz = dp.z();
-      ptr->h = abs(dx) + abs(dy) + abs(dz);
+      ptr->h = abs(dx) + abs(dy);
       double dx0 = (start_idx - end_idx).x();
       double dy0 = (start_idx - end_idx).y();
-      double cross = fabs(dx * dy0 - dy * dx0) + abs(dz);
+      double cross = fabs(dx * dy0 - dy * dx0);
       ptr->h += 0.001 * cross;
     };
     // initialization of datastructures
     std::priority_queue<NodePtr, std::vector<NodePtr>, NodeComparator> open_set;
     std::vector<std::pair<Eigen::Vector3i, double>> neighbors;
-    // NOTE 6-connected graph
-    for (int i = 0; i < 3; ++i) {
+    // NOTE 4-connected graph (xy plane only, z fixed)
+    for (int i = 0; i < 2; ++i) {
       Eigen::Vector3i neighbor(0, 0, 0);
       neighbor[i] = 1;
       neighbors.emplace_back(neighbor, 1);

@@ -8,3 +8,5 @@ bags
 *.bag.active
 ros2_ws/install/*
 ros2_ws/log/*
+ros2_tracker/log/*
+ros2_tracker/build/*
