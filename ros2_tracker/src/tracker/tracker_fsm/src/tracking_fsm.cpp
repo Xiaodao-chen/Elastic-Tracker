@@ -80,27 +80,27 @@ void TrackingFSM::init(rclcpp::Node::SharedPtr node) {
 }
 
 void TrackingFSM::odomCallback(const nav_msgs::msg::Odometry::SharedPtr msg) {
-  while (odom_lock_.test_and_set())
-    ;
-  odom_msg_ = *msg;
-  odom_received_ = true;
-  odom_lock_.clear();
+  {
+    const std::lock_guard<std::mutex> lk(odom_mutex_);
+    odom_msg_ = *msg;
+    odom_received_ = true;
+  }
 }
 
 void TrackingFSM::targetCallback(const nav_msgs::msg::Odometry::SharedPtr msg) {
-  while (target_lock_.test_and_set())
-    ;
-  target_msg_ = *msg;
-  target_received_ = true;
-  target_lock_.clear();
+  {
+    const std::lock_guard<std::mutex> lk(target_mutex_);
+    target_msg_ = *msg;
+    target_received_ = true;
+  }
 }
 
 void TrackingFSM::gridmapCallback(const quadrotor_msgs::msg::OccMap3d::SharedPtr msg) {
-  while (gridmap_lock_.test_and_set())
-    ;
-  map_msg_ = *msg;
-  map_received_ = true;
-  gridmap_lock_.clear();
+  {
+    const std::lock_guard<std::mutex> lk(gridmap_mutex_);
+    map_msg_ = *msg;
+    map_received_ = true;
+  }
 }
 
 void TrackingFSM::trigerCallback(const geometry_msgs::msg::PoseStamped::SharedPtr msg) {
@@ -180,10 +180,11 @@ void TrackingFSM::planTimerCallback() {
   }
   
   // Obtain state of odom
-  while (odom_lock_.test_and_set())
-    ;
-  auto odom_msg = odom_msg_;
-  odom_lock_.clear();
+  nav_msgs::msg::Odometry odom_msg;
+  {
+    const std::lock_guard<std::mutex> lk(odom_mutex_);
+    odom_msg = odom_msg_;
+  }
   Eigen::Vector3d odom_p(odom_msg.pose.pose.position.x,
                          odom_msg.pose.pose.position.y,
                          odom_msg.pose.pose.position.z);
@@ -203,10 +204,10 @@ void TrackingFSM::planTimerCallback() {
   }
   
   // Obtain state of target
-  while (target_lock_.test_and_set())
-    ;
-  replan_state_msg_.target = target_msg_;
-  target_lock_.clear();
+  {
+    const std::lock_guard<std::mutex> lk(target_mutex_);
+    replan_state_msg_.target = target_msg_;
+  }
   Eigen::Vector3d target_p(replan_state_msg_.target.pose.pose.position.x,
                            replan_state_msg_.target.pose.pose.position.y,
                            replan_state_msg_.target.pose.pose.position.z);
@@ -261,11 +262,11 @@ void TrackingFSM::planTimerCallback() {
   }
   
   // Obtain map
-  while (gridmap_lock_.test_and_set())
-    ;
-  gridmap_ptr_->from_msg(map_msg_);
-  replan_state_msg_.occmap = map_msg_;
-  gridmap_lock_.clear();
+  {
+    const std::lock_guard<std::mutex> lk(gridmap_mutex_);
+    gridmap_ptr_->from_msg(map_msg_);
+    replan_state_msg_.occmap = map_msg_;
+  }
   pre_ptr_->setMap(*gridmap_ptr_);
   
   // Visualize the ray from drone to target
@@ -406,7 +407,6 @@ void TrackingFSM::planTimerCallback() {
     replan_state_pub_->publish(replan_state_msg_);
     return;
   }
-  vis_ptr_->visualize_traj(traj, "traj");
 }
 
 void TrackingFSM::fakeTimerCallback() {
@@ -416,10 +416,11 @@ void TrackingFSM::fakeTimerCallback() {
   }
   
   // Obtain state of odom
-  while (odom_lock_.test_and_set())
-    ;
-  auto odom_msg = odom_msg_;
-  odom_lock_.clear();
+  nav_msgs::msg::Odometry odom_msg;
+  {
+    const std::lock_guard<std::mutex> lk(odom_mutex_);
+    odom_msg = odom_msg_;
+  }
   Eigen::Vector3d odom_p(odom_msg.pose.pose.position.x,
                          odom_msg.pose.pose.position.y,
                          odom_msg.pose.pose.position.z);
@@ -446,11 +447,11 @@ void TrackingFSM::fakeTimerCallback() {
   }
   
   // Obtain map
-  while (gridmap_lock_.test_and_set())
-    ;
-  gridmap_ptr_->from_msg(map_msg_);
-  replan_state_msg_.occmap = map_msg_;
-  gridmap_lock_.clear();
+  {
+    const std::lock_guard<std::mutex> lk(gridmap_mutex_);
+    gridmap_ptr_->from_msg(map_msg_);
+    replan_state_msg_.occmap = map_msg_;
+  }
   
   // Determine whether to replan
   bool no_need_replan = false;

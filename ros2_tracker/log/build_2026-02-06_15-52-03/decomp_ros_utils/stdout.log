@@ -1,9 +1,0 @@
-[ 11%] Automatic MOC for target decomp_rviz_plugins
-[ 11%] Built target decomp_rviz_plugins_autogen
-[ 22%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/decomp_rviz_plugins_autogen/mocs_compilation.cpp.o
-[ 33%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/bound_visual.cpp.o
-[ 44%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/vector_visual.cpp.o
-[ 55%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/mesh_visual.cpp.o
-[ 66%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/polyhedron_array_display.cpp.o
-[ 77%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_visual.cpp.o
-[ 88%] Building CXX object CMakeFiles/decomp_rviz_plugins.dir/src/ellipsoid_array_display.cpp.o

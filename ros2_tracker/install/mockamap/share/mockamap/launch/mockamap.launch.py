@@ -1,1 +1,1 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/mockamap/launch/mockamap.launch.py
+/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/mockamap/launch/mockamap.launch.py

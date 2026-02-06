@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/multi_map_server/local/lib/python3.10/dist-packages",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/drake/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/multi_map_server/local/lib/python3.10/dist-packages",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/local/lib/python3.10/dist-packages",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/local/lib/python3.10/dist-packages",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/opt/drake/lib/python3.10/site-packages"
+    ]
+}

@@ -7,6 +7,8 @@
 #include <quadrotor_msgs/msg/replan_state.hpp>
 #include <quadrotor_msgs/msg/occ_map3d.hpp>
 
+#include <mutex>
+
 #include "tracker_fsm/mapping.h"
 #include "tracker_fsm/occ_grid_mapper.h"
 #include "tracker_fsm/target_ekf.h"
@@ -51,9 +53,9 @@ private:
   bool land_triger_received_ = false;
   
   // Data (with locks)
-  std::atomic_flag odom_lock_ = ATOMIC_FLAG_INIT;
-  std::atomic_flag target_lock_ = ATOMIC_FLAG_INIT;
-  std::atomic_flag gridmap_lock_ = ATOMIC_FLAG_INIT;
+  mutable std::mutex odom_mutex_;
+  mutable std::mutex target_mutex_;
+  mutable std::mutex gridmap_mutex_;
   nav_msgs::msg::Odometry odom_msg_;
   nav_msgs::msg::Odometry target_msg_;
   quadrotor_msgs::msg::OccMap3d map_msg_;

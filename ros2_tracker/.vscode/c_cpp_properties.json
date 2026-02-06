@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/uav_utils/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/tracker_fsm/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/traj_opt/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/multi_map_server/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/quadrotor_msgs/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/pose_utils/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/object_detection_msgs/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/decomp_ros_utils/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/install/decomp_ros_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_utils/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/tracker/tracker_fsm/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/tracker/traj_opt/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/pose_utils/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/uav_utils/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/waypoint_generator/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/mockamap/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/include/**",
+        "/home/cxd/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

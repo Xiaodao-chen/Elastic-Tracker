@@ -92,7 +92,7 @@ def generate_launch_description():
                 {'rate/odom': 100.0},
                 {'simulator/init_state_x': 0.0},
                 {'simulator/init_state_y': 0.0},
-                {'simulator/init_state_z': 0.5}
+                {'simulator/init_state_z': 0.0}
             ],
             remappings=[
                 ('odom', '/drone0/odom'),
@@ -239,7 +239,7 @@ def generate_launch_description():
                 {'rate/odom': 100.0},
                 {'simulator/init_state_x': 2.0},
                 {'simulator/init_state_y': 0.0},
-                {'simulator/init_state_z': 0.5}
+                {'simulator/init_state_z': 0.0}
             ],
             remappings=[
                 ('odom', '/target/odom'),
@@ -310,8 +310,8 @@ def generate_launch_description():
         # Odometry Visualization (target as drone f250.dae)
         Node(
             package='odom_visualization',
-            executable='odom_visualization_car',
-            name='odom_visualization_car',
+            executable='odom_visualization',
+            name='odom_visualization',
             namespace='target',
             output='screen',
             parameters=[
@@ -320,7 +320,9 @@ def generate_launch_description():
                 {'color/g': 0.0},
                 {'color/b': 0.0},
                 {'robot_scale': 2.0},
-                {'mesh_resource': 'package://odom_visualization/meshes/f250.dae'}
+                {'mesh_resource': 'package://odom_visualization/meshes/f250.dae'},
+                # If yaw is not aligned when odom yaw=0, tune this (deg): common values 0 / 90 / -90 / 180.
+                {'mesh_yaw_offset_deg': 0.0},
             ],
             remappings=[
                 ('odom', '/target/odom')

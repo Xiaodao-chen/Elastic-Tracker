@@ -1,1 +1,1 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/local_sensing/ament_cmake_core/local_sensingConfig-version.cmake
+/home/cxd/Elastic-Tracker/ros2_tracker/build/local_sensing/ament_cmake_core/local_sensingConfig-version.cmake
