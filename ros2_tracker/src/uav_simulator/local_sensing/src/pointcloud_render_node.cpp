@@ -198,6 +198,9 @@ void renderSensedPoints(/*const rclcpp::TimerBase event*/) {
     // Create depth image (32FC1, in meters)
     cv::Mat depth_mat = cv::Mat::zeros(cam_height, cam_width, CV_32FC1);
 
+    // Voxel size used in downsampling (must match setLeafSize)
+    const double voxel_size = 0.1;
+
     for (size_t i = 0; i < _local_map.points.size(); ++i) {
       const auto& pt = _local_map.points[i];
       Eigen::Vector4d pw(pt.x, pt.y, pt.z, 1.0);
@@ -207,23 +210,35 @@ void renderSensedPoints(/*const rclcpp::TimerBase event*/) {
 
       // Camera frame: z forward, x right, y down
       double z = pc(2);
-      if (z <= 0.01) continue;  // Behind camera
+      if (z <= 0.1) continue;  // Behind camera or too close
 
-      // Project to image plane
+      // Project center to image plane
       double u = cam_fx * pc(0) / z + cam_cx;
       double v = cam_fy * pc(1) / z + cam_cy;
+
+      // Calculate projected pixel footprint of the voxel
+      // Each voxel is voxel_size in world space; project that to pixels
+      // Use 1.5x voxel_size to ensure overlap between adjacent voxels
+      int half_w = std::max(1, static_cast<int>(std::ceil(cam_fx * voxel_size * 1.5 / (2.0 * z))));
+      int half_h = std::max(1, static_cast<int>(std::ceil(cam_fy * voxel_size * 1.5 / (2.0 * z))));
 
       int iu = static_cast<int>(std::round(u));
       int iv = static_cast<int>(std::round(v));
 
-      if (iu < 0 || iu >= cam_width || iv < 0 || iv >= cam_height)
-        continue;
+      // Fill the projected footprint with z-buffer
+      int u_min = std::max(0, iu - half_w);
+      int u_max = std::min(cam_width - 1, iu + half_w);
+      int v_min = std::max(0, iv - half_h);
+      int v_max = std::min(cam_height - 1, iv + half_h);
 
-      // Z-buffer: keep the closest point for each pixel
-      float& cur_depth = depth_mat.at<float>(iv, iu);
       float new_depth = static_cast<float>(z);
-      if (cur_depth == 0.0f || new_depth < cur_depth) {
-        cur_depth = new_depth;
+      for (int vv = v_min; vv <= v_max; ++vv) {
+        for (int uu = u_min; uu <= u_max; ++uu) {
+          float& cur_depth = depth_mat.at<float>(vv, uu);
+          if (cur_depth == 0.0f || new_depth < cur_depth) {
+            cur_depth = new_depth;
+          }
+        }
       }
     }
 

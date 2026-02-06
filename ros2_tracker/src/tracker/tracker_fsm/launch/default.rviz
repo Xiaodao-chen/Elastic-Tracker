@@ -9,7 +9,6 @@ Panels:
         - /simulation_map1/Topic1
         - /local_cloud1
         - /drone01
-        - /drone01/Planning1
         - /drone01/Simulation1
         - /target1
         - /target1/Simulation1
@@ -114,7 +113,7 @@ Visualization Manager:
       Selectable: true
       Size (Pixels): 2
       Size (m): 0.05000000074505806
-      Style: Flat Squares
+      Style: Points
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -189,7 +188,7 @@ Visualization Manager:
               Enabled: true
               Name: ray
               Namespaces:
-                {}
+                "": true
               Topic:
                 Depth: 5
                 Durability Policy: Volatile
@@ -202,7 +201,7 @@ Visualization Manager:
               Enabled: true
               Name: visible_region
               Namespaces:
-                {}
+                "": true
               Topic:
                 Depth: 5
                 Durability Policy: Volatile
@@ -569,25 +568,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/ThirdPersonFollower
-      Distance: 18.259557723999023
+      Distance: 28.16900634765625
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.3987102508544922
-        Y: 0.5393795967102051
+        X: 1.6161890029907227
+        Y: -6.188920497894287
         Z: -3.814697265625e-06
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.9647966027259827
+      Pitch: 1.1697957515716553
       Target Frame: <Fixed Frame>
       Value: ThirdPersonFollower (rviz_default_plugins)
-      Yaw: 3.1015970706939697
+      Yaw: 4.886592388153076
     Saved: ~
 Window Geometry:
   Displays:
