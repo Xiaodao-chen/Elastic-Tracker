@@ -32,15 +32,18 @@ class TargetEkfSimNode : public rclcpp::Node {
     declare_parameter<int>("ekf_rate", 20);
 
     loadParams();
-    target_odom_pub_ = create_publisher<Odometry>("target_odom", 10);
-    yolo_odom_pub_ = create_publisher<Odometry>("yolo_odom", 10);
+    // ROS1-like interface: publish global target odom for planning.
+    // Use RELIABLE to match default message_filters subscriptions and avoid QoS mismatch.
+    target_odom_pub_ = create_publisher<Odometry>("/target_ekf_odom", rclcpp::QoS(10).reliable());
+    yolo_odom_pub_ = create_publisher<Odometry>("yolo_odom", rclcpp::QoS(10).reliable());
     last_update_stamp_ = now() - rclcpp::Duration(10, 0);
   }
 
   void start() {
     ekf_ = std::make_shared<Ekf>(1.0 / static_cast<double>(ekf_rate_));
 
-    yolo_sub_.subscribe(shared_from_this(), "yolo");
+    // Keep default QoS (RELIABLE) for message_filters subscriptions.
+    yolo_sub_.subscribe(shared_from_this(), "/target/odom");
     odom_sub_.subscribe(shared_from_this(), "odom");
     sync_ = std::make_shared<Synchronizer>(SyncPolicy(200), yolo_sub_, odom_sub_);
     sync_->registerCallback(std::bind(&TargetEkfSimNode::update_state_callback, this,

@@ -1,1 +1,1 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup/launch/fake_sim.launch.py
+/home/cxd/Elastic-Tracker/ros2_ws/src/elastic_tracker_bringup/launch/fake_sim.launch.py

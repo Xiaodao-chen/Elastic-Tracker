@@ -1,1 +1,1 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup/ament_cmake_core/elastic_tracker_bringupConfig-version.cmake
+/home/cxd/Elastic-Tracker/ros2_ws/build/elastic_tracker_bringup/ament_cmake_core/elastic_tracker_bringupConfig-version.cmake

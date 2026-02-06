@@ -1,1 +1,1 @@
-/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_ws/build/so3_controller/ament_cmake_core/so3_controllerConfig-version.cmake
+/home/cxd/Elastic-Tracker/ros2_ws/build/so3_controller/ament_cmake_core/so3_controllerConfig-version.cmake

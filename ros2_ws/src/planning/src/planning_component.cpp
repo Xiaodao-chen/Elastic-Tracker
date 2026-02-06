@@ -55,13 +55,15 @@ class PlanningComponent : public rclcpp::Node {
       "gridmap_inflate", 1, std::bind(&PlanningComponent::gridmapCb, this, std::placeholders::_1));
     odom_sub_ = create_subscription<nav_msgs::msg::Odometry>(
       "odom", rclcpp::SensorDataQoS(), std::bind(&PlanningComponent::odomCb, this, std::placeholders::_1));
+    // ROS1-like: consume global target odom (from target_ekf_sim).
     target_sub_ = create_subscription<nav_msgs::msg::Odometry>(
-      "target", rclcpp::SensorDataQoS(), std::bind(&PlanningComponent::targetCb, this, std::placeholders::_1));
+      "/target_ekf_odom", rclcpp::SensorDataQoS(),
+      std::bind(&PlanningComponent::targetCb, this, std::placeholders::_1));
     // API align: ROS1 typo'd topic names
     trigger_sub_ = create_subscription<geometry_msgs::msg::PoseStamped>(
-      "triger", 10, std::bind(&PlanningComponent::triggerCb, this, std::placeholders::_1));
+      "/triger", 10, std::bind(&PlanningComponent::triggerCb, this, std::placeholders::_1));
     land_trigger_sub_ = create_subscription<geometry_msgs::msg::PoseStamped>(
-      "land_triger", 10, std::bind(&PlanningComponent::landTriggerCb, this, std::placeholders::_1));
+      "/land_triger", 10, std::bind(&PlanningComponent::landTriggerCb, this, std::placeholders::_1));
 
     vis_ = std::make_shared<visualization_ros2::Visualization>(this, "world");
     predictor_ = std::make_shared<prediction_ros2::Predict>(tracking_dur_, tracking_dt_, rho_a_, vmax_);

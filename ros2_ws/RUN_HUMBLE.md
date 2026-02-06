@@ -88,7 +88,7 @@ source install/setup.bash
 
 # Headless run (recommended):
 ros2 launch elastic_tracker_bringup fake_sim.launch.py \
-  enable_rviz:=false enable_local_sensing:=false use_xvfb:=true
+  enable_rviz:=false enable_local_sensing:=false
 ```
 
 ## Run with RViz2 (desktop)
@@ -97,12 +97,16 @@ ros2 launch elastic_tracker_bringup fake_sim.launch.py \
 
 ```bash
 ros2 launch elastic_tracker_bringup fake_sim.launch.py \
-  enable_rviz:=true use_xvfb:=false
+  enable_rviz:=true
 ```
 
 Notes:
 
 - `--show-args` only prints launch arguments, it does **not** start RViz or nodes.
+- `use_xvfb` can be `true/false/auto` (default `auto`):
+  - `auto`: uses Xvfb only when `DISPLAY` is unset/empty (typical headless/server case)
+  - `false`: force a normal RViz window (desktop)
+  - `true`: force `xvfb-run` (useful for remote/headless testing)
 - Some RViz display plugins in `decomp_ros_utils` may be skipped on Humble if `rviz_rendering/objects/mesh_shape.hpp` is not shipped by your RViz build. This does **not** block core nodes from running.
 
 ## “Trigger” / start tracking (ROS2)

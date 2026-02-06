@@ -5,8 +5,9 @@ from launch_ros.descriptions import ComposableNode
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution
 from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
+from launch.substitutions import EnvironmentVariable, LaunchConfiguration, PythonExpression
 from launch.conditions import IfCondition, UnlessCondition
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
@@ -22,6 +23,24 @@ def generate_launch_description():
     enable_rviz = LaunchConfiguration("enable_rviz")
     rviz_config = LaunchConfiguration("rviz_config")
     use_xvfb = LaunchConfiguration("use_xvfb")
+    init_x = LaunchConfiguration("init_x")
+    init_y = LaunchConfiguration("init_y")
+    init_z = LaunchConfiguration("init_z")
+
+    # Decide whether to run RViz under Xvfb.
+    # - use_xvfb:=true  -> always use xvfb-run
+    # - use_xvfb:=false -> always run normal rviz2 (desktop)
+    # - use_xvfb:=auto  -> use xvfb-run only when DISPLAY is empty/unset
+    display_env = EnvironmentVariable("DISPLAY", default_value="")
+    use_xvfb_eval = PythonExpression([
+        "'",
+        use_xvfb,
+        "' == 'true' or ('",
+        use_xvfb,
+        "' == 'auto' and '",
+        display_env,
+        "' == '')"
+    ])
 
     # Global map publisher
     mockamap = Node(
@@ -48,7 +67,16 @@ def generate_launch_description():
                 plugin="so3_quadrotor::So3QuadrotorComponent",
                 name="so3_quadrotor",
                 namespace="drone0",
-                parameters=[so3_quadrotor_params, {"init_x": 2.0, "init_y": 0.0, "init_z": 1.0}],
+                # IMPORTANT: force numeric types; otherwise LaunchConfiguration may be injected as string
+                # and rclcpp declare_parameter<double>() will throw, causing the component to fail loading.
+                parameters=[
+                    so3_quadrotor_params,
+                    {
+                        "init_x": ParameterValue(init_x, value_type=float),
+                        "init_y": ParameterValue(init_y, value_type=float),
+                        "init_z": ParameterValue(init_z, value_type=float),
+                    },
+                ],
             ),
             ComposableNode(
                 package="so3_controller",
@@ -82,6 +110,13 @@ def generate_launch_description():
                 parameters=[planning_params],
                 # Keep trigger topics inside the drone namespace (/drone0/...), which is consistent
                 # with the rest of the bringup and avoids relying on global topics.
+                remappings=[
+                    # ROS1-compatible global trigger topics
+                    ("triger", "/triger"),
+                    ("land_triger", "/land_triger"),
+                    # ROS1-compatible global target odom produced by target_ekf_sim
+                    ("target", "/target_ekf_odom"),
+                ],
             ),
         ],
     )
@@ -148,7 +183,7 @@ def generate_launch_description():
     rviz2_xvfb = ExecuteProcess(
         cmd=["xvfb-run", "-a", "rviz2", "-d", rviz_config],
         output="screen",
-        condition=IfCondition(use_xvfb),
+        condition=IfCondition(use_xvfb_eval),
     )
     rviz2_gui = Node(
         package="rviz2",
@@ -156,7 +191,7 @@ def generate_launch_description():
         name="rviz2",
         output="screen",
         arguments=["-d", rviz_config],
-        condition=UnlessCondition(use_xvfb),
+        condition=UnlessCondition(use_xvfb_eval),
     )
 
     rviz_group = GroupAction(
@@ -167,7 +202,15 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument("enable_local_sensing", default_value="false"),
         DeclareLaunchArgument("enable_rviz", default_value="false"),
-        DeclareLaunchArgument("use_xvfb", default_value="true"),
+        # Align with ROS1 uav_simulator.launch defaults used by simulation1.launch (tracker init state).
+        DeclareLaunchArgument("init_x", default_value="0.0"),
+        DeclareLaunchArgument("init_y", default_value="0.0"),
+        DeclareLaunchArgument("init_z", default_value="0.2"),
+        DeclareLaunchArgument(
+            "use_xvfb",
+            default_value="auto",
+            description="Run RViz2 under Xvfb: true/false/auto (auto uses Xvfb when DISPLAY is unset).",
+        ),
         DeclareLaunchArgument(
             "planning_params",
             default_value=PathJoinSubstitution([bringup_share, "config", "planning_fake.yaml"]),

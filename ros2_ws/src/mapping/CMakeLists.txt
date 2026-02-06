@@ -13,7 +13,7 @@ find_package(quadrotor_msgs REQUIRED)
 find_package(mapping_core REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(pcl_conversions REQUIRED)
-find_package(pcl_ros REQUIRED)
+find_package(PCL REQUIRED COMPONENTS common io filters)
 find_package(Eigen3 REQUIRED)
 
 add_library(mapping_component SHARED
@@ -24,11 +24,12 @@ target_include_directories(mapping_component PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
   ${mapping_core_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
 )
-target_link_libraries(mapping_component Eigen3::Eigen ${mapping_core_LIBRARIES})
+target_link_libraries(mapping_component Eigen3::Eigen ${mapping_core_LIBRARIES} ${PCL_LIBRARIES})
 ament_target_dependencies(mapping_component
   rclcpp rclcpp_components message_filters sensor_msgs nav_msgs geometry_msgs quadrotor_msgs mapping_core
-  cv_bridge pcl_conversions pcl_ros
+  cv_bridge pcl_conversions
 )
 rclcpp_components_register_nodes(mapping_component "mapping::MappingComponent")
 
@@ -45,9 +46,10 @@ install(TARGETS mapping_component mapping_node
 
 add_executable(mapping_vis_node src/mapping_vis_node_ros2.cpp)
 target_compile_features(mapping_vis_node PUBLIC cxx_std_17)
-target_link_libraries(mapping_vis_node Eigen3::Eigen ${mapping_core_LIBRARIES})
+target_include_directories(mapping_vis_node PUBLIC ${PCL_INCLUDE_DIRS})
+target_link_libraries(mapping_vis_node Eigen3::Eigen ${mapping_core_LIBRARIES} ${PCL_LIBRARIES})
 ament_target_dependencies(mapping_vis_node
-  rclcpp sensor_msgs quadrotor_msgs mapping_core pcl_conversions pcl_ros
+  rclcpp sensor_msgs quadrotor_msgs mapping_core pcl_conversions
 )
 
 add_executable(visualize_history_path_node src/visualize_history_path_node_ros2.cpp)

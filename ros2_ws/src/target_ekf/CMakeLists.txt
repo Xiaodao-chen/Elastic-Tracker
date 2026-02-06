@@ -25,9 +25,16 @@ ament_target_dependencies(target_ekf_sim_node
 )
 target_link_libraries(target_ekf_sim_node Eigen3::Eigen)
 
+add_executable(fake_target_pub_node src/fake_target_pub_node.cpp)
+target_compile_features(fake_target_pub_node PUBLIC cxx_std_17)
+ament_target_dependencies(fake_target_pub_node
+  rclcpp nav_msgs
+)
+
 install(TARGETS
   target_ekf_node
   target_ekf_sim_node
+  fake_target_pub_node
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 

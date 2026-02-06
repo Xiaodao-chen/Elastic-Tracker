@@ -137,8 +137,11 @@ class MappingComponent : public rclcpp::Node {
       global_map_timer_ = create_wall_timer(std::chrono::seconds(1),
                                             std::bind(&MappingComponent::globalMapTimerCb, this));
     } else {
-      depth_sub_.subscribe(shared_from_this(), "depth");
-      odom_sub_.subscribe(shared_from_this(), "odom");
+      // message_filters::Subscriber defaults can cause QoS mismatches with sensor publishers.
+      // Make QoS explicit (SensorDataQoS) to ensure depth/odom sync works in ROS2.
+      const auto qos_profile = rclcpp::SensorDataQoS().get_rmw_qos_profile();
+      depth_sub_.subscribe(shared_from_this(), "depth", qos_profile);
+      odom_sub_.subscribe(shared_from_this(), "odom", qos_profile);
       depth_odom_sync_ = std::make_shared<ImageOdomSynchronizer>(ImageOdomSyncPolicy(100), depth_sub_, odom_sub_);
       depth_odom_sync_->registerCallback(std::bind(&MappingComponent::depthOdomCb, this,
                                                    std::placeholders::_1, std::placeholders::_2));
