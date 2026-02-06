@@ -1,4 +1,1 @@
-source;share/multi_map_server/environment/ament_prefix_path.sh
-source;share/multi_map_server/environment/library_path.sh
-source;share/multi_map_server/environment/path.sh
-source;share/multi_map_server/environment/pythonpath.sh
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/multi_map_server/ament_cmake_environment_hooks/local_setup.dsv

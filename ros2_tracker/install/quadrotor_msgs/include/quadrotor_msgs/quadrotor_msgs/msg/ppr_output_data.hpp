@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef QUADROTOR_MSGS__MSG__PPR_OUTPUT_DATA_HPP_
-#define QUADROTOR_MSGS__MSG__PPR_OUTPUT_DATA_HPP_
-
-#include "quadrotor_msgs/msg/detail/ppr_output_data__struct.hpp"
-#include "quadrotor_msgs/msg/detail/ppr_output_data__builder.hpp"
-#include "quadrotor_msgs/msg/detail/ppr_output_data__traits.hpp"
-#include "quadrotor_msgs/msg/detail/ppr_output_data__type_support.hpp"
-
-#endif  // QUADROTOR_MSGS__MSG__PPR_OUTPUT_DATA_HPP_
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/ppr_output_data.hpp

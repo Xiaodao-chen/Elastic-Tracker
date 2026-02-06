@@ -1,2 +1,1 @@
-std_msgs/Header header
-Ellipsoid[] ellipsoids
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_msgs/msg/EllipsoidArray.msg

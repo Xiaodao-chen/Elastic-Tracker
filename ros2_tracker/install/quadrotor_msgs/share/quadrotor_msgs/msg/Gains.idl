@@ -1,18 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from quadrotor_msgs/msg/Gains.msg
-// generated code does not contain a copyright notice
-
-
-module quadrotor_msgs {
-  module msg {
-    struct Gains {
-      double kp;
-
-      double kd;
-
-      double kp_yaw;
-
-      double kd_yaw;
-    };
-  };
-};
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/quadrotor_msgs/rosidl_adapter/quadrotor_msgs/msg/Gains.idl

@@ -1,6 +1,1 @@
-std_msgs/Header header
-float32 thrust
-float32 roll
-float32 pitch
-float32 yaw
-quadrotor_msgs/AuxCommand aux
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/quadrotor_msgs/msg/TRPYCommand.msg

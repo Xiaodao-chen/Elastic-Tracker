@@ -1,3 +1,1 @@
-std_msgs/Header header
-std_msgs/Header image_header
-BoundingBox[] bounding_boxes
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/object_detection_msgs/msg/BoundingBoxes.msg

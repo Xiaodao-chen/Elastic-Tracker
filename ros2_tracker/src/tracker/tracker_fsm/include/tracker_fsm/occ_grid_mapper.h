@@ -62,6 +62,10 @@ private:
   bool map_received_ = false;
   bool use_global_map_ = false;
   
+  // Debug
+  rclcpp::TimerBase::SharedPtr depth_debug_timer_;
+  bool depth_received_ = false;
+  
   // For target mask
   bool use_mask_ = false;
   rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr target_odom_sub_;

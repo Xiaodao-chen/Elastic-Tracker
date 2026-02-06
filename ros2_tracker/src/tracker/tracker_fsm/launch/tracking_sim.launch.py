@@ -339,7 +339,7 @@ def generate_launch_description():
                 # FSM subscriptions
                 ('odom', '/target/odom'),
                 ('gridmap_inflate', '/target/gridmap_inflate'),
-                ('triger', '/move_base_simple/goal'),
+                ('triger', '/move_base_simple/goal'),  # ROS2 RViz "2D Goal Pose" publishes to /goal_pose
                 # FSM publications
                 ('trajectory', '/target/trajectory'),
                 ('position_cmd', '/target/position_cmd'),

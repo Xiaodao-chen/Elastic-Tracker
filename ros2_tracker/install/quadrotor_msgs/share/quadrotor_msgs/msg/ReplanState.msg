@@ -1,12 +1,1 @@
-# all information for a replan
-
-std_msgs/Header header
-
-int16 state
-float64[] ini_state
-nav_msgs/Odometry target
-quadrotor_msgs/OccMap3d occmap
-
-# other temporal variables
-float64[] path
-builtin_interfaces/Time replan_stamp
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/quadrotor_msgs/msg/ReplanState.msg

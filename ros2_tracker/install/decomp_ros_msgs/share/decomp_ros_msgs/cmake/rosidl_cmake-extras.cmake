@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(decomp_ros_msgs_IDL_FILES "msg/Ellipsoid.idl;msg/EllipsoidArray.idl;msg/Polyhedron.idl;msg/PolyhedronArray.idl")
-set(decomp_ros_msgs_INTERFACE_FILES "msg/Ellipsoid.msg;msg/EllipsoidArray.msg;msg/Polyhedron.msg;msg/PolyhedronArray.msg")
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

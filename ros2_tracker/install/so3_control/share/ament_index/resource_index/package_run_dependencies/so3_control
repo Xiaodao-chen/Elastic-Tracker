@@ -1,1 +1,1 @@
-rclcpp;nav_msgs;sensor_msgs;quadrotor_msgs;tf2;tf2_geometry_msgs;rclcpp_components;cmake_utils;Eigen3;ament_lint_auto;ament_lint_common
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/so3_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/so3_control

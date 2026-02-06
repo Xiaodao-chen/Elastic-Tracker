@@ -1,8 +1,1 @@
-msg/MultiOccupancyGrid.idl
-msg/MultiOccupancyGrid.msg
-msg/MultiSparseMap3D.idl
-msg/MultiSparseMap3D.msg
-msg/SparseMap3D.idl
-msg/SparseMap3D.msg
-msg/VerticalOccupancyGridList.idl
-msg/VerticalOccupancyGridList.msg
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/multi_map_server/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/multi_map_server

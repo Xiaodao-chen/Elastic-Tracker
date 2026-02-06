@@ -1,2 +1,1 @@
-source;share/local_sensing/environment/ament_prefix_path.sh
-source;share/local_sensing/environment/path.sh
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/local_sensing/ament_cmake_environment_hooks/local_setup.dsv

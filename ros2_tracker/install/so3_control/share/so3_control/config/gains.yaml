@@ -1,6 +1,1 @@
-# Gains for Laser-based Pelican 
-gains:
-  pos: {x: 5.0, y: 5.0, z: 15.0}
-  vel: {x: 5.0, y: 5.0, z: 5.0}
-  rot: {x: 3.5, y: 3.5, z: 1.0}
-  ang: {x: 0.4, y: 0.4, z: 0.1}
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/so3_control/config/gains.yaml

@@ -1,6 +1,1 @@
-float32 x
-float32 y
-int32[] upper
-int32[] lower
-int32[] mass
-
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/multi_map_server/msg/VerticalOccupancyGridList.msg

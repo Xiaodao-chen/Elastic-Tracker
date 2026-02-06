@@ -1,4 +1,1 @@
-source;share/quadrotor_msgs/environment/ament_prefix_path.sh
-source;share/quadrotor_msgs/environment/library_path.sh
-source;share/quadrotor_msgs/environment/path.sh
-source;share/quadrotor_msgs/environment/pythonpath.sh
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/quadrotor_msgs/ament_cmake_environment_hooks/local_setup.dsv

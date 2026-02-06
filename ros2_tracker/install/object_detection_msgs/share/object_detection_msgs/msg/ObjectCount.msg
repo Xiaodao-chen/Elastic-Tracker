@@ -1,2 +1,1 @@
-std_msgs/Header header
-int8 count
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/object_detection_msgs/msg/ObjectCount.msg

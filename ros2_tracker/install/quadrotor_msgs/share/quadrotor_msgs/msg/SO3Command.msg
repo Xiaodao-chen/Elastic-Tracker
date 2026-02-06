@@ -1,6 +1,1 @@
-std_msgs/Header header
-geometry_msgs/Vector3 force
-geometry_msgs/Quaternion orientation
-float64[3] kr
-float64[3] kom
-quadrotor_msgs/AuxCommand aux
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/quadrotor_msgs/msg/SO3Command.msg

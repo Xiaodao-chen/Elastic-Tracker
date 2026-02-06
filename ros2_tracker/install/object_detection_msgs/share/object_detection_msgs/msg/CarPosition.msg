@@ -1,4 +1,1 @@
-std_msgs/Header header
-float64 xmean
-float64 ymean
-float64 zmean
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/object_detection_msgs/msg/CarPosition.msg

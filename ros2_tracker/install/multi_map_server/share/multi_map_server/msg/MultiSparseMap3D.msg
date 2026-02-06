@@ -1,2 +1,1 @@
-SparseMap3D[] maps
-geometry_msgs/Pose[] origins
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/multi_map_server/msg/MultiSparseMap3D.msg

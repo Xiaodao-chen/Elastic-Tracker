@@ -1,2 +1,1 @@
-geometry_msgs/Point[] points
-geometry_msgs/Point[] normals
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/planning/DecompROS/decomp_ros_msgs/msg/Polyhedron.msg

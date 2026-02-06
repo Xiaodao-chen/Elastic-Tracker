@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef MULTI_MAP_SERVER__MSG__VERTICAL_OCCUPANCY_GRID_LIST_HPP_
-#define MULTI_MAP_SERVER__MSG__VERTICAL_OCCUPANCY_GRID_LIST_HPP_
-
-#include "multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.hpp"
-#include "multi_map_server/msg/detail/vertical_occupancy_grid_list__builder.hpp"
-#include "multi_map_server/msg/detail/vertical_occupancy_grid_list__traits.hpp"
-#include "multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.hpp"
-
-#endif  // MULTI_MAP_SERVER__MSG__VERTICAL_OCCUPANCY_GRID_LIST_HPP_
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/vertical_occupancy_grid_list.hpp

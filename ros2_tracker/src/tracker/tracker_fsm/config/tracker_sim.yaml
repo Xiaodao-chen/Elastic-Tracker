@@ -73,7 +73,7 @@
     check_fov: false
 
     # Feature flags (use global map in simulation)
-    use_global_map: true
+    use_global_map: false
     use_mask: false
     x_length: 42.0
     y_length: 40.0

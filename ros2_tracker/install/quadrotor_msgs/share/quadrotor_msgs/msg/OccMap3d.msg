@@ -1,11 +1,1 @@
-std_msgs/Header header
-
-float32 resolution
-int16 size_x
-int16 size_y
-int16 size_z
-int16 offset_x
-int16 offset_y
-int16 offset_z
-
-int8[] data
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/quadrotor_msgs/msg/OccMap3d.msg

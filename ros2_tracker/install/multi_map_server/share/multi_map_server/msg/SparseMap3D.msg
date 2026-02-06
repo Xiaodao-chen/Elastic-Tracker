@@ -1,4 +1,1 @@
-std_msgs/Header header
-nav_msgs/MapMetaData info
-VerticalOccupancyGridList[] lists
-
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/multi_map_server/msg/SparseMap3D.msg

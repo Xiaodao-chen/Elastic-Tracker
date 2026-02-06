@@ -1,0 +1,86 @@
+# Tracker FSM Configuration for Real Deployment
+# Use depth camera (RealSense D435) for local sensing
+/**:
+  ros__parameters:
+    # Planning parameters
+    plan_hz: 20
+    tracking_dur: 3.0
+    tracking_dist: 2.5
+    tolerance_d: 0.3
+    fake: false
+    debug: false
+
+    # Trajectory optimization parameters
+    vmax: 1.0
+    amax: 2.0
+    rhoT: 100.0
+    rhoP: 10000.0
+    rhoV: 1000.0
+    rhoA: 1000.0
+    rhoTracking: 1000.0
+    rhosVisibility: 10000.0
+    theta_clearance: 0.8
+    K: 8
+
+    # Path planning parameters
+    clearance_d: 0.2
+    tracking_dt: 0.2
+    grid_step: 0.1
+    obs_size: 0.3
+
+    # Prediction parameters
+    prediction:
+      rho_a: 1.0
+      vmax: 4.0
+
+    # ============================================
+    # RealSense D435 Camera Parameters
+    # Update these to match YOUR camera's intrinsics!
+    # Use: ros2 topic echo /camera/depth/camera_info
+    # ============================================
+    cam_width: 640
+    cam_height: 480
+    cam_fx: 384.8240966796875
+    cam_fy: 384.8240966796875
+    cam_cx: 319.8231201171875
+    cam_cy: 235.25645446777344
+    depth_scaling_factor: 1000.0
+    camera_rate: 30.0
+    camera_range: 6.0
+
+    # Camera to body transformation
+    # Default: camera faces forward (x-forward, z-up body frame)
+    # Adjust for your actual camera mounting!
+    cam2body_R: [0.0, 0.0, 1.0,
+                 -1.0, 0.0, 0.0,
+                 0.0, -1.0, 0.0]
+    cam2body_p: [0.0, 0.0, 0.0]
+
+    # Mapping parameters (LOCAL SENSING - depth based)
+    use_global_map: false
+    resolution: 0.15
+    local_x: 20.0
+    local_y: 20.0
+    local_z: 5.0
+    inflate_size: 1
+    down_sample_factor: 2
+
+    # Depth filter parameters (slightly more tolerant for real world)
+    depth_filter_tolerance: 0.15
+    depth_filter_mindist: 0.2
+    depth_filter_margin: 2
+
+    # Raycasting log-odds parameters
+    p_min: -199
+    p_max: 220
+    p_hit: 62
+    p_mis: 62
+    p_occ: 139
+    p_def: -199
+
+    # EKF parameters (enable FOV check for real deployment)
+    ekf_rate: 30
+    check_fov: true
+
+    # Feature flags
+    use_mask: true

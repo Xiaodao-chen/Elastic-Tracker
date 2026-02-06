@@ -1,15 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from decomp_ros_msgs/msg/Polyhedron.msg
-// generated code does not contain a copyright notice
-
-#include "geometry_msgs/msg/Point.idl"
-
-module decomp_ros_msgs {
-  module msg {
-    struct Polyhedron {
-      sequence<geometry_msgs::msg::Point> points;
-
-      sequence<geometry_msgs::msg::Point> normals;
-    };
-  };
-};
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_msgs/rosidl_adapter/decomp_ros_msgs/msg/Polyhedron.idl

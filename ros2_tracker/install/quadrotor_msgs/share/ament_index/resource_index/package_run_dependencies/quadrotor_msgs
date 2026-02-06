@@ -1,1 +1,1 @@
-rclcpp;rosidl_default_generators;builtin_interfaces;geometry_msgs;nav_msgs;std_msgs;Eigen3;ament_lint_auto;ament_lint_common
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/quadrotor_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/quadrotor_msgs

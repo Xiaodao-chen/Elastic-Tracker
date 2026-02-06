@@ -122,6 +122,7 @@ void OccGridMapper::init(rclcpp::Node::SharedPtr node) {
   gridmap_pub_ = node_->create_publisher<quadrotor_msgs::msg::OccMap3d>("gridmap_inflate", rclcpp::QoS(10));
   
   if (use_global_map_) {
+    RCLCPP_WARN(node_->get_logger(), "[mapping] GLOBAL MAP mode enabled");
     // Global map mode: subscribe to global map pointcloud
     map_pc_sub_ = node_->create_subscription<sensor_msgs::msg::PointCloud2>(
         "global_map", rclcpp::QoS(10),
@@ -132,16 +133,32 @@ void OccGridMapper::init(rclcpp::Node::SharedPtr node) {
         std::chrono::milliseconds(1000),
         std::bind(&OccGridMapper::globalMapTimerCallback, this));
   } else {
+    RCLCPP_WARN(node_->get_logger(), "[mapping] DEPTH mode enabled, subscribing to depth + odom");
     // Depth mode: synchronize depth image and odometry
+    // Use BEST_EFFORT reliability for depth to match both:
+    //   - pcl_render_node in simulation (RELIABLE by default, but BEST_EFFORT sub can receive)
+    //   - RealSense camera driver (publishes BEST_EFFORT by default)
+    // NOTE: BEST_EFFORT subscriber is compatible with BOTH RELIABLE and BEST_EFFORT publishers
+    rmw_qos_profile_t depth_qos = rmw_qos_profile_sensor_data;
+    depth_qos.depth = 10;
     depth_sub_ = std::make_shared<message_filters::Subscriber<sensor_msgs::msg::Image>>(
-        node_.get(), "depth", rclcpp::QoS(10).get_rmw_qos_profile());
+        node_, "depth", depth_qos);
     odom_sub_ = std::make_shared<message_filters::Subscriber<nav_msgs::msg::Odometry>>(
-        node_.get(), "odom", rclcpp::QoS(50).get_rmw_qos_profile());
+        node_, "odom", rclcpp::QoS(50).get_rmw_qos_profile());
     
     sync_ = std::make_shared<message_filters::Synchronizer<ImageOdomSyncPolicy>>(
         ImageOdomSyncPolicy(100), *depth_sub_, *odom_sub_);
     sync_->registerCallback(
         std::bind(&OccGridMapper::depthOdomCallback, this, std::placeholders::_1, std::placeholders::_2));
+    
+    // Periodic timer to check if depth messages are being received (debug)
+    depth_debug_timer_ = node_->create_wall_timer(
+        std::chrono::seconds(3),
+        [this]() {
+          if (!depth_received_) {
+            RCLCPP_WARN(node_->get_logger(), "[mapping] WARNING: No depth+odom sync callback received yet! Check depth topic.");
+          }
+        });
   }
   
   if (use_mask_) {
@@ -154,6 +171,11 @@ void OccGridMapper::init(rclcpp::Node::SharedPtr node) {
 void OccGridMapper::depthOdomCallback(
     const sensor_msgs::msg::Image::ConstSharedPtr& depth_msg,
     const nav_msgs::msg::Odometry::ConstSharedPtr& odom_msg) {
+  if (!depth_received_) {
+    RCLCPP_INFO(node_->get_logger(), "[mapping] First depth+odom sync received! encoding=%s %dx%d",
+                depth_msg->encoding.c_str(), depth_msg->width, depth_msg->height);
+    depth_received_ = true;
+  }
   if (callback_lock_.test_and_set()) {
     return;
   }

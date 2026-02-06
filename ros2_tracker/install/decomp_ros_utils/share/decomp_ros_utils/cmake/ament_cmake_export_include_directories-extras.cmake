@@ -1,16 +1,1 @@
-# generated from ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
-
-set(_exported_include_dirs "${decomp_ros_utils_DIR}/../../../include")
-
-# append include directories to decomp_ros_utils_INCLUDE_DIRS
-# warn about not existing paths
-if(NOT _exported_include_dirs STREQUAL "")
-  find_package(ament_cmake_core QUIET REQUIRED)
-  foreach(_exported_include_dir ${_exported_include_dirs})
-    if(NOT IS_DIRECTORY "${_exported_include_dir}")
-      message(WARNING "Package 'decomp_ros_utils' exports the include directory '${_exported_include_dir}' which doesn't exist")
-    endif()
-    normalize_path(_exported_include_dir "${_exported_include_dir}")
-    list(APPEND decomp_ros_utils_INCLUDE_DIRS "${_exported_include_dir}")
-  endforeach()
-endif()
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/decomp_ros_utils/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

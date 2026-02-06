@@ -1,1 +1,1 @@
-rclcpp;rosidl_default_generators;geometry_msgs;nav_msgs;std_msgs;visualization_msgs;sensor_msgs;pose_utils;tf2;tf2_geometry_msgs;quadrotor_msgs;laser_geometry;Armadillo;ament_lint_auto;ament_lint_common
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/multi_map_server/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/multi_map_server

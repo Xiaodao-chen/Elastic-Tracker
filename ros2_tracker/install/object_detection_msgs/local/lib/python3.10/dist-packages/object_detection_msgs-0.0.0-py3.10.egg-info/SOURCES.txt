@@ -1,12 +1,1 @@
-setup.py
-object_detection_msgs/__init__.py
-object_detection_msgs.egg-info/PKG-INFO
-object_detection_msgs.egg-info/SOURCES.txt
-object_detection_msgs.egg-info/dependency_links.txt
-object_detection_msgs.egg-info/top_level.txt
-object_detection_msgs/msg/__init__.py
-object_detection_msgs/msg/_bounding_box.py
-object_detection_msgs/msg/_bounding_boxes.py
-object_detection_msgs/msg/_car_position.py
-object_detection_msgs/msg/_motor_angle.py
-object_detection_msgs/msg/_object_count.py
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/object_detection_msgs/ament_cmake_python/object_detection_msgs/object_detection_msgs.egg-info/SOURCES.txt

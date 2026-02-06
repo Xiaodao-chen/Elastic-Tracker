@@ -1,7 +1,1 @@
-float64 probability
-int64 xmin
-int64 ymin
-int64 xmax
-int64 ymax
-int16 id
-string class_name
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/tracker/object_detection_msgs/msg/BoundingBox.msg

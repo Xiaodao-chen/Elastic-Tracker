@@ -1,2 +1,1 @@
-source;share/cmake_utils/environment/ament_prefix_path.sh
-source;share/cmake_utils/environment/path.sh
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/build/cmake_utils/ament_cmake_environment_hooks/local_setup.dsv

@@ -104,8 +104,10 @@ else(ENABLE_CUDA)
 
   # 普通情况下的依赖
   find_package(Eigen3 REQUIRED)
+  find_package(OpenCV REQUIRED)
   find_package(ament_cmake REQUIRED)
   find_package(rclcpp REQUIRED)
+  find_package(cv_bridge REQUIRED)
   find_package(pcl_ros REQUIRED)
   find_package(sensor_msgs REQUIRED)
   find_package(geometry_msgs REQUIRED)
@@ -116,7 +118,9 @@ else(ENABLE_CUDA)
   include_directories(
     SYSTEM
     ${Eigen_INCLUDE_DIRS}
+    ${OpenCV_INCLUDE_DIRS}
     ${rclcpp_INCLUDE_DIRS}
+    ${cv_bridge_INCLUDE_DIRS}
     ${pcl_ros_INCLUDE_DIRS}
     ${sensor_msgs_INCLUDE_DIRS}
     ${geometry_msgs_INCLUDE_DIRS}
@@ -128,11 +132,13 @@ else(ENABLE_CUDA)
 
   ament_target_dependencies(pcl_render_node
     rclcpp
+    cv_bridge
     pcl_ros
     sensor_msgs
     geometry_msgs
     nav_msgs
     quadrotor_msgs
+    OpenCV
     Boost
   )
 

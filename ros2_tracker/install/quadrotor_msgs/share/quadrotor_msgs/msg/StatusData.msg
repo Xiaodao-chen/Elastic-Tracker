@@ -1,4 +1,1 @@
-std_msgs/Header header
-uint16 loop_rate
-float64 voltage
-uint8 seq
+/home/light-sz02-liangpan/catkin_ws/Elastic-Tracker/ros2_tracker/src/uav_simulator/Utils/quadrotor_msgs/msg/StatusData.msg
